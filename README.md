@@ -58,7 +58,10 @@ the verbatim, *unsplit* paragraph sequence from the source: every bio page ran
 the talk abstract straight into the biography with no reliable boundary, and
 splitting would be guessing (see `lib/speakers.ts`). Per-speaker OG images ship
 only where the headshot clears the 200×200 floor — 16 of 35 exist only at
-190×190. `SITE_URL` must be set in production for absolute OG URLs.
+190×190. Absolute OG URLs resolve from `SITE_URL`, falling back to Vercel's
+`VERCEL_PROJECT_PRODUCTION_URL` — so no manual configuration is needed on a
+standard Vercel deploy. Set `SITE_URL` only to override, e.g. for a custom
+domain fronting the site.
 
 **/institute is a snapshot port, not a live system.** All copy is verbatim from
 the 2026-07-27 crawl, typed into `lib/institute.ts` / `lib/people.ts`, with the
