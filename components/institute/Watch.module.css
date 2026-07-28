@@ -1,0 +1,26 @@
+.section {
+  border-bottom: 1px solid var(--line);
+  /* Sits directly under the mission on the same ground, so the channel reads
+     as part of the opening rather than as a separate destination. */
+  padding-bottom: var(--section-y);
+}
+
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter) 0;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.channelLink {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}

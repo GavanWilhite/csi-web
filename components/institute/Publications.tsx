@@ -13,22 +13,14 @@ export function Publications() {
       <div className={styles.inner}>
         <Kicker
           id="pubs-h"
-          index="05"
+          index="06"
           label="PUBLICATIONS"
           icon="menu_book"
           heading="Publications and the Journal"
         />
-        <p className={styles.deck}>{publications.deck}</p>
-        <div className={styles.intro}>
-          {publications.body.map((p) => (
-            <p key={p.slice(0, 32)}>{p}</p>
-          ))}
-        </div>
-
         <div className={styles.journal}>
           <div>
             <h3 className={styles.journalHead}>{publications.journal.heading}</h3>
-            <p className={styles.journalSub}>{publications.journal.sub}</p>
             {publications.journal.body.map((p) => (
               <p key={p.slice(0, 32)} className={styles.journalBody}>
                 {p}

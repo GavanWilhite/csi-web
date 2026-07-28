@@ -16,7 +16,7 @@ export function Team() {
       <div className={styles.inner}>
         <Kicker
           id="team-h"
-          index="08"
+          index="09"
           label="TEAM"
           icon="groups"
           heading="The people"

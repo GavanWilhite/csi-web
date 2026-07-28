@@ -9,9 +9,8 @@ import { Publications } from "@/components/institute/Publications";
 import { Programmes } from "@/components/institute/Programmes";
 import { InstituteEvents } from "@/components/institute/InstituteEvents";
 import { Team } from "@/components/institute/Team";
-import { Partners } from "@/components/institute/Partners";
-import { Join } from "@/components/institute/Join";
-import { Support } from "@/components/institute/Support";
+import { Watch } from "@/components/institute/Watch";
+import { GetInvolved } from "@/components/institute/GetInvolved";
 import { instituteNavLinks, mission } from "@/lib/institute";
 import { links } from "@/lib/event";
 
@@ -49,15 +48,16 @@ export default function InstitutePage() {
       />
       <main id="main">
         <Mission />
+        {/* Live content sits high: the channel is the only thing on this page
+            that changes on its own. */}
+        <Watch />
         <Focus5 />
         <Research />
         <Publications />
         <Programmes />
         <InstituteEvents />
         <Team />
-        <Partners />
-        <Join />
-        <Support />
+        <GetInvolved />
       </main>
       <Footer />
     </>

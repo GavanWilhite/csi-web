@@ -19,13 +19,6 @@ function publishedLabel(iso: string): string {
 export function VideoRow() {
   return (
     <div className={styles.wrap}>
-      <div className={styles.head}>
-        <h3 className={styles.heading}>LATEST FROM THE CHANNEL</h3>
-        <a className={styles.channelLink} href={channel.handleUrl}>
-          WATCH ON YOUTUBE →
-        </a>
-      </div>
-
       <div
         className={styles.scroller}
         role="region"

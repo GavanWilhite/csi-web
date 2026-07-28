@@ -1,5 +1,4 @@
 import { Kicker } from "../Kicker";
-import { VideoRow } from "./VideoRow";
 import { events } from "@/lib/institute";
 import styles from "./InstituteEvents.module.css";
 
@@ -10,7 +9,7 @@ export function InstituteEvents() {
       <div className={styles.inner}>
         <Kicker
           id="events-h"
-          index="07"
+          index="08"
           label="EVENTS"
           icon="event"
           heading="Events and community"
@@ -37,8 +36,6 @@ export function InstituteEvents() {
         </ul>
 
         <p className={styles.whereWeveBeen}>{events.whereWeveBeen}</p>
-
-        <VideoRow />
       </div>
     </section>
   );

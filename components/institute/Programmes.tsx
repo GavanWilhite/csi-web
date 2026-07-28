@@ -1,5 +1,5 @@
 import { Kicker } from "../Kicker";
-import { ctx, instituteLinks, phishGolf, shield } from "@/lib/institute";
+import { ctx, shield } from "@/lib/institute";
 import styles from "./Programmes.module.css";
 
 /**
@@ -13,7 +13,7 @@ export function Programmes() {
       <div className={styles.inner}>
         <Kicker
           id="programmes-h"
-          index="06"
+          index="07"
           label="PROGRAMMES"
           icon="diversity_3"
           heading="SHIELD and CTX"
@@ -55,18 +55,7 @@ export function Programmes() {
                 </li>
               ))}
             </ul>
-            <p className={styles.closing}>{ctx.closing}</p>
           </article>
-        </div>
-
-        <div className={styles.golf}>
-          <div>
-            <h3 className={styles.golfHead}>{phishGolf.heading}</h3>
-            <p className={styles.golfBlurb}>{phishGolf.blurb}</p>
-          </div>
-          <a className={styles.golfCta} href={instituteLinks.phishGolf}>
-            {phishGolf.ctaLabel} →
-          </a>
         </div>
       </div>
     </section>

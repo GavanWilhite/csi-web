@@ -4,10 +4,14 @@ import { instituteLinks, research } from "@/lib/institute";
 import styles from "./Research.module.css";
 
 /**
- * Section 04 — research and active projects. The CAT is the lead card (the
- * one active project with a live public destination); Evil Digital Twin is
- * a compact secondary link. The Research Library is deliberately absent —
- * its source button has no destination.
+ * Section 03 — active projects, as two matched blocks. CAT previously
+ * dominated as a lead card with Evil Digital Twin demoted beneath it in a
+ * different typeface and a different link style; they are peers now — same
+ * heading, same button, same weight. EDT ships no artwork, so it gets a
+ * dot-field plate rather than leaving the pair lopsided.
+ *
+ * The Research Library is deliberately absent — its source button has no
+ * destination.
  */
 export function Research() {
   return (
@@ -15,51 +19,64 @@ export function Research() {
       <div className={styles.inner}>
         <Kicker
           id="research-h"
-          index="04"
+          index="05"
           label="RESEARCH"
           icon="science"
-          heading="Research and active projects"
+          heading="Active projects"
         />
-        <p className={styles.deck}>{research.deck}</p>
-        <div className={styles.intro}>
-          {research.intro.map((p) => (
-            <p key={p.slice(0, 32)}>{p}</p>
-          ))}
-          <p>{research.activeProjectsIntro}</p>
-        </div>
 
-        <div className={styles.cat}>
-          <div className={styles.catArt}>
-            {/* Decorative abstract, not a product shot — the heading carries
-                the meaning, so the image stays out of the a11y tree. */}
-            <Image
-              src={research.cat.image}
-              alt=""
-              width={research.cat.imageWidth}
-              height={research.cat.imageHeight}
-              sizes="(max-width: 860px) 90vw, 380px"
-            />
-          </div>
-          <div className={styles.catBody}>
-            <h3 className={styles.catHead}>{research.cat.heading}</h3>
-            {research.cat.body.map((p) => (
-              <p key={p.slice(0, 32)}>{p}</p>
-            ))}
-            <a className={styles.catCta} href={instituteLinks.cat}>
-              {research.cat.ctaLabel}
-            </a>
-
-            <div className={styles.edt}>
-              <h4 className={styles.edtHead}>{research.evilDigitalTwin.heading}</h4>
-              <p className={styles.edtBlurb}>{research.evilDigitalTwin.blurb}</p>
-              <a className={styles.edtCta} href={instituteLinks.evilDigitalTwin}>
-                {research.evilDigitalTwin.ctaLabel} →
+        <ul className={styles.grid}>
+          <li className={styles.card}>
+            <div className={styles.art}>
+              {/* Decorative abstract, not a product shot — the heading
+                  carries the meaning, so it stays out of the a11y tree. */}
+              <Image
+                src={research.cat.image}
+                alt=""
+                width={research.cat.imageWidth}
+                height={research.cat.imageHeight}
+                sizes="(max-width: 860px) 90vw, 480px"
+              />
+            </div>
+            <div className={styles.body}>
+              <h3 className={styles.head}>{research.cat.heading}</h3>
+              {research.cat.body.map((p) => (
+                <p key={p.slice(0, 32)} className={styles.blurb}>
+                  {p}
+                </p>
+              ))}
+              <a className={styles.cta} href={instituteLinks.cat}>
+                {research.cat.ctaLabel}
               </a>
             </div>
-          </div>
-        </div>
+          </li>
 
-        <p className={styles.closing}>{research.closing}</p>
+          <li className={styles.card}>
+            <div className={`${styles.art} ${styles.artPlate}`} aria-hidden="true">
+              <span className={styles.plateDots} />
+            </div>
+            <div className={styles.body}>
+              <h3 className={styles.head}>{research.evilDigitalTwin.heading}</h3>
+              <p className={styles.blurb}>{research.evilDigitalTwin.blurb}</p>
+              <a className={styles.cta} href={instituteLinks.evilDigitalTwin}>
+                {research.evilDigitalTwin.ctaLabel}
+              </a>
+            </div>
+          </li>
+
+          <li className={styles.card}>
+            <div className={`${styles.art} ${styles.artPlate}`} aria-hidden="true">
+              <span className={styles.plateDots} />
+            </div>
+            <div className={styles.body}>
+              <h3 className={styles.head}>{research.phishGolf.heading}</h3>
+              <p className={styles.blurb}>{research.phishGolf.blurb}</p>
+              <a className={styles.cta} href={instituteLinks.phishGolf}>
+                {research.phishGolf.ctaLabel}
+              </a>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   );

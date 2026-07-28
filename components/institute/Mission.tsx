@@ -28,12 +28,6 @@ export function Mission() {
         </div>
 
         <div className={styles.approach}>
-          <div className={styles.approachText}>
-            {mission.approach.map((p) => (
-              <p key={p.slice(0, 32)}>{p}</p>
-            ))}
-          </div>
-
           <div id="definition" className={styles.definition}>
             {/* Keeps the section-numbering device continuous (01 → 02 → 03)
                 even though the definition shares the mission's band. */}
