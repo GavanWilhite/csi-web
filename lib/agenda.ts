@@ -68,7 +68,7 @@ const cols = (
 const brk = (time: string): BreakBlock => ({ kind: "break", time });
 
 const thursday: Block[] = [
-  main("8:00–9:00", "Check-in"),
+  main("8:00–9:00", "Check-in & coffee"),
   main("9:00–9:30", "Opening remarks", "JAMES MCQUIGGAN"),
   main(
     "9:30–10:10",
@@ -187,7 +187,7 @@ const thursday: Block[] = [
 ];
 
 const friday: Block[] = [
-  main("8:00–9:30", "Check-in"),
+  main("8:00–9:30", "Check-in & coffee"),
   main("9:30–9:40", "Opening remarks", "SUMONA BANERJI"),
   main("9:40–10:20", "KEYNOTE: Before the Decision", "BRIG. GEN. TERRI BORRAS (RET)", true),
   brk("10:20–10:45"),

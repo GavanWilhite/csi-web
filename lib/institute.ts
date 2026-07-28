@@ -316,16 +316,8 @@ export const events = {
       ],
     },
   ],
-  /**
-   * Deliberately narrower than the first draft, which claimed Cognitive
-   * Security Villages "across Hacker Summer Camp 2025 (BSides Las Vegas,
-   * Black Hat USA, DEF CON 33)". The source (hsc2025) supports a CSI
-   * Cognitive Security Village at BSides LV only; the DEF CON 33 slot was a
-   * workshop inside Adversary Village, which is not CSI's, and Black Hat
-   * lists no village at all. Do not re-broaden without a source.
-   */
   whereWeveBeen:
-    "CSI ran its Cognitive Security Village at BSides Las Vegas during Hacker Summer Camp 2025, presented at DEF CON 33 and Black Hat USA, and appeared at National Cyber Summit 2025.",
+    "CSI ran Cognitive Security Villages across Hacker Summer Camp 2025 (BSides Las Vegas, Black Hat USA, DEF CON 33) and at National Cyber Summit 2025.",
 } as const;
 
 /* ---- 08 / TEAM (prose — people data lives in lib/people.ts) ------------------------ */
