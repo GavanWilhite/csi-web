@@ -50,15 +50,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--indigo);
+  background: var(--action);
   color: var(--on-accent);
   padding: 9px 16px;
   font-weight: 600;
   white-space: nowrap;
 }
 .cta:hover {
-  background: var(--indigo-deep);
-  color: var(--inv-bg);
+  background: var(--action-hover);
+  color: var(--on-accent);
 }
 
 /* ---- Mobile trigger ------------------------------------------------------- */
@@ -108,7 +108,7 @@
   justify-content: center;
   gap: 8px;
   margin: 16px var(--gutter) 20px;
-  background: var(--indigo);
+  background: var(--action);
   color: var(--on-accent);
   padding: 14px 20px;
   font-family: var(--font-display);

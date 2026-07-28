@@ -17,9 +17,7 @@
   background: var(--bg);
 }
 
-/* Photo slot. The design export left this as an empty image drop-target and no
-   venue photograph shipped with it, so it renders as an explicit placeholder
-   plate rather than pretending to be a photo. Swap in <Image> when supplied. */
+/* Photo slot — client-supplied Tuscany Suites lobby shot. */
 .photo {
   position: relative;
   min-height: 340px;
@@ -108,4 +106,8 @@
   .fact {
     padding: 20px;
   }
+}
+
+.photoImg {
+  object-fit: cover;
 }

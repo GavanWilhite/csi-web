@@ -36,7 +36,13 @@
   --inv-muted: #b0b7cb; /* matched to --muted; 8.93:1 on --inv-bg */
   --inv-line: #2a3048;
 
-  /* Text on an indigo fill. Fixed, not theme-derived. */
+  /* Filled-button ground. --indigo at 0.62 lightness gives white text only
+     3.75:1, which fails AA — it is fine for tints, rules and dot fields but
+     not for a solid button. This is the button blue: 6.18:1 with white. */
+  --action: oklch(0.5 0.17 262);
+  --action-hover: oklch(0.42 0.16 258);
+
+  /* Text on a filled accent. Fixed, not theme-derived. */
   --on-accent: #ffffff;
 
   /* Layout */
@@ -147,6 +153,9 @@ p {
   padding-block: var(--section-y);
 }
 
+/* Removed from both pages at the client's request. Kept here because it is a
+   keyboard-accessibility affordance (visible only on focus) and restoring it
+   is a one-line change in the page components. */
 .skipLink {
   position: absolute;
   left: -9999px;

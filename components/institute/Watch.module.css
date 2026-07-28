@@ -24,3 +24,19 @@
   font-size: 13px;
   letter-spacing: 0.1em;
 }
+
+.headRight {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Explicit affordance: the row is scrollable at every width, and a
+   hover-revealed scrollbar is not a discoverable signal. */
+.scrollHint {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}

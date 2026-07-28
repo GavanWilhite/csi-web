@@ -36,8 +36,6 @@ export const links = {
   contact: "https://www.cognitivesecurityinstitute.org/contact",
   disclaimer: "https://www.cognitivesecurityinstitute.org/disclaimer",
   sitemap: "https://www.cognitivesecurityinstitute.org/sitemap",
-  prospectusMailto:
-    "mailto:info@cognitivesecurityinstitute.org?subject=I'm%20interested%20in%20the%20CSC%202026%20Prospectus",
   travelBriefHumanRisk:
     "https://www.cognitivesecurityinstitute.org/_files/ugd/6aeb2e_f74dceb6e7b34bde996850ea4c557c7f.pdf",
   travelBriefCogWar:

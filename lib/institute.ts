@@ -25,7 +25,8 @@
 export const instituteNavLinks = [
   { href: "#mission", label: "MISSION" },
   { href: "#watch", label: "WATCH" },
-  { href: "#research", label: "RESEARCH" },
+  { href: "#projects", label: "PROJECTS" },
+  { href: "#events", label: "EVENTS" },
   { href: "#team", label: "TEAM" },
   { href: "#get-involved", label: "GET INVOLVED" },
 ] as const;
@@ -33,7 +34,6 @@ export const instituteNavLinks = [
 export const instituteLinks = {
   apply: "https://www.cognitivesecurityinstitute.org/apply",
   /** Shared "get more info" destination for the programme cards. */
-  info: "mailto:info@cognitivesecurityinstitute.org",
   cat: "https://cognitiveattacktaxonomy.org/",
   evilDigitalTwin: "https://www.evildigitaltwin.ai/",
   cognectcon: "https://www.cognectcon.com/",
@@ -52,7 +52,7 @@ export const mission = {
   body: [],
 } as const;
 
-/* ---- 03 / FOCUS 5 ------------------------------------------------------------ */
+/* ---- FIVE PILLARS ------------------------------------------------------------ */
 
 /**
  * Names and blurbs from /initiatives — the only version with definitions.
@@ -62,26 +62,31 @@ export const focus5 = {
   pillars: [
     {
       name: "AI Security & Threat Analysis",
+      icon: "smart_toy",
       blurb: "Synthetic media and automated attacks.",
       image: "/assets/institute/focus5-ai-security.webp",
     },
     {
       name: "Cognitive Resilience",
+      icon: "health_and_safety",
       blurb: "Sensemaking under adversarial conditions.",
       image: "/assets/institute/focus5-cognitive-resilience.webp",
     },
     {
       name: "Cognitive Systems Security",
+      icon: "engineering",
       blurb: "Psychology and engineering in security practice.",
       image: "/assets/institute/focus5-cognitive-systems.webp",
     },
     {
       name: "Neurosecurity",
+      icon: "neurology",
       blurb: "BCIs, neural data, privacy and identity.",
       image: "/assets/institute/focus5-neurosecurity.webp",
     },
     {
       name: "Cognitive Warfare & Tradecraft",
+      icon: "radar",
       blurb: "Manipulation of beliefs, behaviors, decisions.",
       image: "/assets/institute/focus5-cognitive-warfare.webp",
     },
@@ -99,26 +104,31 @@ export const focus5 = {
 
 export interface Project {
   id: string;
+  /** Material Symbol shown beside the heading. */
+  icon: string;
   heading: string;
   blurb: string;
   ctaLabel: string;
-  href: string;
+  href?: string;
+  /** Set instead of href when the CTA is a contact address. */
+  mailSubject?: string;
   image?: string;
   imageWidth?: number;
   imageHeight?: number;
   /** Logos want contain + padding; photographic art wants cover. */
   fit?: "contain" | "cover";
+  /** Suppresses the art area entirely (no image, no placeholder). */
+  noArt?: boolean;
   /** Animated mark, if the project has one. */
   video?: string;
   /** Art with a white ground gets a light plate rather than the dark default. */
   lightPlate?: boolean;
-  /** Extra detail rendered as a labelled list under the blurb. */
-  detail?: { name: string; blurb: string }[];
 }
 
 export const projects: Project[] = [
   {
     id: "cat",
+    icon: "account_tree",
     heading: "Cognitive Attack Taxonomy (CAT)",
     blurb:
       "A shared reference framework for classifying cognitive threats across biological and artificial systems.",
@@ -131,6 +141,7 @@ export const projects: Project[] = [
   },
   {
     id: "edt",
+    icon: "smart_toy",
     heading: "Evil Digital Twin",
     blurb:
       "A talk series on human digital twins, agentic systems, and digital cognitive agents.",
@@ -150,6 +161,7 @@ export const projects: Project[] = [
   },
   {
     id: "golf",
+    icon: "golf_course",
     heading: "Phishing Golf Tournament",
     blurb:
       "Cyber pros craft nine phishing emails across nine \"holes,\" each targeting a fictional persona.",
@@ -162,30 +174,27 @@ export const projects: Project[] = [
   },
   {
     id: "shield",
+    icon: "shield_person",
     heading: "SHIELD",
     blurb:
       "Security & Human Insight for Educating Leaders on Defence. A free global community connecting academia and industry around a science-first approach to human risk. Lead: Holly-Jane Grayling.",
-    ctaLabel: "GET MORE INFO",
-    href: "mailto:info@cognitivesecurityinstitute.org",
-    detail: [
-      { name: "Monthly Meetings", blurb: "Virtual, monthly, recorded." },
-      { name: "Upskilling Sessions", blurb: "Every 3rd session is hands-on skills practice." },
-      { name: "Private Community", blurb: "An active LinkedIn community between sessions." },
-      { name: "Special Projects", blurb: "Tackling phishing simulations and AI cognitive resilience." },
-    ],
+    ctaLabel: "LEARN MORE",
+    mailSubject: "General Inquiry",
+    /* No art: these are CSI's own programmes with no mark of their own, and a
+       placeholder plate read as faked artwork. */
+    noArt: true,
   },
   {
     id: "ctx",
+    icon: "work",
     heading: "Cyber Talent eXchange (CTX)",
     blurb:
       "CTX bridges the disconnect between cyber professionals looking for work and organizations struggling to fill the roles that protect infrastructure, data, and trust.",
-    ctaLabel: "GET MORE INFO",
-    href: "mailto:info@cognitivesecurityinstitute.org",
-    detail: [
-      { name: "Recruiters & Talent Partners", blurb: "A motivated, pre-qualified pool of job seekers, from apprentices to seasoned pros." },
-      { name: "Employers & Workforce Partners", blurb: "Hire faster, reach diverse talent pools, unlock internship funding." },
-      { name: "Funders & Sponsors", blurb: "Philanthropy and public-private partnerships fund a no-cost program for job seekers." },
-    ],
+    ctaLabel: "LEARN MORE",
+    mailSubject: "General Inquiry",
+    /* No art: these are CSI's own programmes with no mark of their own, and a
+       placeholder plate read as faked artwork. */
+    noArt: true,
   },
 ];
 
@@ -231,52 +240,46 @@ export const publications = {
   ],
 } as const;
 
-/* ---- 07 / EVENTS ------------------------------------------------------------------ */
+/* ---- EVENTS ------------------------------------------------------------------
+   Reduced to the two events that actually exist and have somewhere to go. The
+   previous four-block grid mixed real events with descriptions of formats.
+   The villages line rides with CognectCon as its track record. ------------- */
 
 export const events = {
   blocks: [
     {
+      name: "Cognitive Security Conference",
+      icon: "confirmation_number",
+      body: "Two days on human risk, AI security, and cognitive warfare. August 6–7, 2026, Las Vegas.",
+      ctaLabel: "CSC 2026",
+      ctaHref: "/",
+    },
+    {
       name: "CognectCon",
-      body: [
-        "Experts, creatives, and practitioners designing actionable solutions around one high-impact theme. A high-signal, low-fluff working summit.",
-      ],
+      icon: "groups",
+      body: "Experts, creatives, and practitioners designing actionable solutions around one high-impact theme. A high-signal, low-fluff working summit.",
       ctaLabel: "COGNECTCON.COM",
       ctaHref: "https://www.cognectcon.com/",
     },
-    {
-      name: "CogSec Village",
-      body: [
-        "Part demo lab, part tactical playground, showing how easy it is to hack the human brain. The most dangerous exploit is the one inside your mind.",
-      ],
-      /** Folded in here rather than standing alone: it is this block's own
-          track record, not a separate claim. */
-      history:
-        "CSI ran Cognitive Security Villages across Hacker Summer Camp 2025 (BSides Las Vegas, Black Hat USA, DEF CON 33) and at National Cyber Summit 2025.",
-    },
-    {
-      name: "Workshops & Meetups",
-      body: [
-        "Tailored workshops for your team and pop-up CSI meetups in your area.",
-      ],
-    },
-    {
-      name: "Private Community Meetings",
-      body: [
-        "Members-only gatherings for deeper dialogue: gated, high-signal, intentionally low-profile.",
-      ],
-    },
   ],
 } as const;
-
-/* ---- 08 / TEAM (prose — people data lives in lib/people.ts) ------------------------ */
-
 
 /* ---- 08 / GET INVOLVED -----------------------------------------------------
    Merges the source's separate Partners, Join and Support pages. They asked
    the reader for three different things across three near-identical walls of
    copy; here they are three routes out of one section. -------------------- */
 
-export const getInvolved = {
+export interface Route {
+  name: string;
+  blurb: string;
+  ctaLabel: string;
+  icon: string;
+  href?: string;
+  /** Set instead of href when the CTA is a contact address. */
+  mailSubject?: string;
+}
+
+export const getInvolved: { deck: string; routes: Route[] } = {
   deck: "Cognitive security is a collective mission.",
   routes: [
     {
@@ -292,7 +295,7 @@ export const getInvolved = {
       blurb:
         "We work with companies, institutions, and non-profits who share our belief that cognitive security is critical infrastructure.",
       ctaLabel: "GET IN TOUCH",
-      href: "https://www.cognitivesecurityinstitute.org/contact",
+      mailSubject: "Partnership Proposal",
       icon: "handshake",
     },
     {
@@ -304,4 +307,4 @@ export const getInvolved = {
       icon: "volunteer_activism",
     },
   ],
-} as const;
+};

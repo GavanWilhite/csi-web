@@ -1,22 +1,44 @@
+import Image from "next/image";
+import { Icon } from "../Icon";
 import { focus5 } from "@/lib/institute";
 import styles from "./Pillars.module.css";
 
 /**
- * The five pillars as a compact strip, no descriptions, sitting directly above
- * the channel. It was a five-card grid with blurbs, which gave a taxonomy list
- * the same visual weight as the page's real content. Names are enough here —
- * the detail lives in the research the pillars organise.
+ * The five pillars: small images restored, icons added, short descriptions
+ * kept. Card grid rather than the full-width ledger strip it briefly was —
+ * that read as a system bar and there are already other bands on the page.
+ * The definition that shared this band is gone at the client's direction.
  */
 export function Pillars() {
   return (
-    <section aria-label="Research pillars" className={styles.strip}>
+    <section id="pillars" className="section" aria-labelledby="pillars-h">
       <div className={styles.inner}>
-        <span className={styles.label}>FIVE PILLARS</span>
-        <ul className={styles.list}>
+        <h2 id="pillars-h" className={styles.heading}>
+          <Icon name="hub" size={22} color="var(--cyan)" />
+          Five pillars
+        </h2>
+
+        <ul className={styles.grid}>
           {focus5.pillars.map((f, i) => (
-            <li key={f.name} className={styles.item}>
-              <span className={styles.num}>{String(i + 1).padStart(2, "0")}</span>
-              {f.name}
+            <li key={f.name} className={styles.card}>
+              <div className={styles.art}>
+                <Image
+                  src={f.image}
+                  alt=""
+                  fill
+                  sizes="(max-width: 560px) 45vw, 200px"
+                />
+              </div>
+              <div className={styles.body}>
+                <div className={styles.topRow}>
+                  <span className={styles.num}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <Icon name={f.icon} size={17} color="var(--indigo-deep)" />
+                </div>
+                <h3 className={styles.name}>{f.name}</h3>
+                <p className={styles.blurb}>{f.blurb}</p>
+              </div>
             </li>
           ))}
         </ul>

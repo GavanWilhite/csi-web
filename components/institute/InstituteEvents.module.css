@@ -1,5 +1,4 @@
-/* Inverse band — the institute's counterpart to the conference sponsor strip.
-   Same ground, same hairline lattice, same inverse type palette. */
+/* Inverse band — the institute's counterpart to the conference sponsor strip. */
 
 .section {
   background: var(--inv-bg);
@@ -12,27 +11,18 @@
   padding: 64px var(--gutter);
 }
 
-
-.kicker {
+.heading {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.2em;
-  color: var(--inv-muted);
-}
-
-.heading {
+  gap: 11px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: clamp(24px, 4.2vw, 32px);
   line-height: 1.2;
-  margin: 14px 0 0;
+  margin: 0;
   text-transform: uppercase;
   color: var(--inv-ink);
 }
-
 
 /* Single 1px lattice: cells draw right + bottom, container draws top + left. */
 .lattice {
@@ -40,7 +30,7 @@
   grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--inv-line);
   border-left: 1px solid var(--inv-line);
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 .cell {
@@ -50,10 +40,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 10px;
 }
 
 .cellHead {
+  display: flex;
+  align-items: center;
+  gap: 9px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 17px;
@@ -63,16 +56,17 @@
   color: var(--inv-ink);
 }
 
-
 .cellBody {
   font-size: 15px;
   line-height: 1.6;
   color: var(--inv-muted);
-  margin: 4px 0 0;
+  margin: 0;
+  flex: 1;
 }
 
+
 .cellCta {
-  margin-top: 8px;
+  margin-top: 4px;
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: 0.1em;
@@ -89,21 +83,7 @@
   .cell {
     padding: 22px 20px 24px;
   }
-}
-
-/* Track record for the block it belongs to, rather than a separate claim. */
-.history {
-  margin: 10px 0 0;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--inv-ink);
-}
-.historyLabel {
-  display: block;
-  font-size: 11.5px;
-  letter-spacing: 0.2em;
-  color: var(--inv-muted);
-  margin-bottom: 4px;
+  .cellBody {
+    flex: none;
+  }
 }

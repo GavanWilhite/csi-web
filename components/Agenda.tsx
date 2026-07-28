@@ -5,10 +5,10 @@ import { Icon } from "./Icon";
 import { Kicker } from "./Kicker";
 import { days, type DayId } from "@/lib/agenda";
 import { tracks } from "@/lib/content";
-import { links } from "@/lib/event";
+import Link from "next/link";
 import styles from "./Agenda.module.css";
 
-export function Agenda() {
+export function Agenda({ standalone = false }: { standalone?: boolean } = {}) {
   const [day, setDay] = useState<DayId>("thu");
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
@@ -142,12 +142,13 @@ export function Agenda() {
           </div>
         ))}
 
-        <p className={styles.footnote}>
-          FULL AGENDA →{" "}
-          <a href={links.fullAgenda}>
-            COGNITIVESECURITYINSTITUTE.ORG/CSC26-AGENDA
-          </a>
-        </p>
+        {/* Pinnable full-page version. The old outbound link pointed at the
+            Wix agenda, which this replaces. Suppressed on that page itself. */}
+        {!standalone && (
+          <p className={styles.footnote}>
+            <Link href="/csc26-agenda">OPEN THE FULL AGENDA →</Link>
+          </p>
+        )}
       </div>
     </section>
   );

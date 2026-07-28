@@ -33,13 +33,43 @@
 
 /* The track scrolls inside this container — the page never scrolls
    sideways. Focusable so keyboard users can arrow through it. */
+/* The row is wrapped so the trailing fade can sit over it without joining the
+   scroll area. */
+.scrollerWrap {
+  position: relative;
+  margin-top: 14px;
+}
+/* Trailing fade: the clearest cheap signal that content continues. Hidden once
+   the row is scrolled to the end via the scroll-driven custom property is
+   overkill here, so it is always on — the row never fits at any width. */
+.scrollerWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 10px;
+  width: 64px;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent, var(--bg));
+}
+
 .scroller {
-  margin-top: 16px;
   overflow-x: auto;
   scroll-snap-type: x proximity;
   padding-bottom: 10px;
-  /* Subtle, token-coloured scrollbar where supported. */
   scrollbar-color: var(--line) transparent;
+  overscroll-behavior-x: contain;
+}
+
+/* Explicit hint beside the heading. */
+.scrollHint {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
 }
 
 .track {

@@ -1,6 +1,7 @@
 import { Icon } from "./Icon";
 import { sponsors } from "@/lib/content";
-import { links } from "@/lib/event";
+import { MailLink } from "./MailLink";
+import { subjects } from "@/lib/contact";
 import styles from "./Sponsors.module.css";
 
 export function Sponsors() {
@@ -17,9 +18,9 @@ export function Sponsors() {
               Our sponsors
             </h2>
           </div>
-          <a className={styles.prospectus} href={links.prospectusMailto}>
+          <MailLink className={styles.prospectus} subject={subjects.prospectus}>
             REQUEST SPONSOR PROSPECTUS →
-          </a>
+          </MailLink>
         </div>
 
         <ul className={styles.grid}>

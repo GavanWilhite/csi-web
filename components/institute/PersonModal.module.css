@@ -1,0 +1,123 @@
+/* Native <dialog>, so the browser owns the top layer and focus containment. */
+
+.dialog {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: min(760px, calc(100vw - 2 * var(--gutter)));
+  width: 100%;
+  max-height: min(86vh, 900px);
+  color: var(--ink);
+}
+.dialog::backdrop {
+  /* The dot field would read as noise behind text, so the backdrop is a plain
+     wash of the page ground. */
+  background: color-mix(in oklab, #05070c 78%, transparent);
+  backdrop-filter: blur(3px);
+}
+
+.panel {
+  position: relative;
+  border: 1px solid var(--line);
+  background: var(--surface-solid);
+  padding: 32px;
+  max-height: min(86vh, 900px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1;
+}
+.close:hover {
+  border-color: var(--indigo-deep);
+  color: var(--ink);
+}
+
+.head {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding-right: 44px;
+}
+
+.portraitWrap {
+  flex-shrink: 0;
+  width: 132px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  line-height: 0;
+}
+.portrait {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(20px, 3.4vw, 27px);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.role {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 16px 0 0;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+}
+
+.bio {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hair);
+}
+.bio p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+  /* Bio prose is crawled content; guarantee it wraps whatever it contains. */
+  overflow-wrap: anywhere;
+}
+.bio p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 560px) {
+  .panel {
+    padding: 24px 20px;
+  }
+  .head {
+    flex-direction: column;
+    gap: 16px;
+    padding-right: 36px;
+  }
+  .portraitWrap {
+    width: 108px;
+  }
+}

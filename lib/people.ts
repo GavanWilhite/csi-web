@@ -104,7 +104,7 @@ export const people: Person[] = [
   {
     slug: "holly-jane-grayling",
     name: "Holly-Jane Grayling",
-    role: "Director of SHIELD (Security & Human Insight for Educating Leaders on Defence)",
+    role: "Director of SHIELD",
     group: "staff",
     portrait: "/assets/people/holly-jane-grayling.webp",
     portraitWidth: 640,

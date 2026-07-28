@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { Icon } from "../Icon";
+import { LoopVideo } from "./LoopVideo";
+import { MailLink } from "../MailLink";
 import { projects } from "@/lib/institute";
 import styles from "./Projects.module.css";
 
@@ -13,16 +16,16 @@ import styles from "./Projects.module.css";
  */
 export function Projects() {
   return (
-    <section id="research" className="section" aria-labelledby="projects-h">
+    <section id="projects" className="section" aria-labelledby="projects-h">
       <div className={styles.inner}>
         <h2 id="projects-h" className={styles.heading}>
-          Active projects
+          Projects
         </h2>
 
         <ul className={styles.grid}>
           {projects.map((pr) => (
-            <li key={pr.id} className={styles.card} data-wide={!!pr.detail}>
-              {pr.image && (
+            <li key={pr.id} className={styles.card}>
+              {pr.image && !pr.noArt ? (
                 <div
                   className={styles.art}
                   data-fit={pr.fit ?? "cover"}
@@ -37,38 +40,31 @@ export function Projects() {
                     className={pr.video ? styles.poster : undefined}
                   />
                   {pr.video && (
-                    <video
+                    <LoopVideo
                       className={styles.video}
                       src={pr.video}
                       poster={pr.image}
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      aria-hidden="true"
                     />
                   )}
                 </div>
-              )}
+              ) : null}
 
               <div className={styles.body}>
-                <h3 className={styles.head}>{pr.heading}</h3>
+                <h3 className={styles.head}>
+                  <Icon name={pr.icon} size={19} color="var(--cyan)" />
+                  {pr.heading}
+                </h3>
                 <p className={styles.blurb}>{pr.blurb}</p>
 
-                {pr.detail && (
-                  <ul className={styles.detail}>
-                    {pr.detail.map((d) => (
-                      <li key={d.name}>
-                        <span className={styles.detailName}>{d.name}</span>
-                        <span className={styles.detailBlurb}>{d.blurb}</span>
-                      </li>
-                    ))}
-                  </ul>
+                {pr.mailSubject ? (
+                  <MailLink className={styles.cta} subject={pr.mailSubject}>
+                    {pr.ctaLabel}
+                  </MailLink>
+                ) : (
+                  <a className={styles.cta} href={pr.href}>
+                    {pr.ctaLabel}
+                  </a>
                 )}
-
-                <a className={styles.cta} href={pr.href}>
-                  {pr.ctaLabel}
-                </a>
               </div>
             </li>
           ))}

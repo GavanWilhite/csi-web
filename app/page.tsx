@@ -13,9 +13,6 @@ import { Footer } from "@/components/Footer";
 export default function ConferencePage() {
   return (
     <>
-      <a className="skipLink" href="#main">
-        SKIP TO CONTENT
-      </a>
       <Nav />
       <main id="main">
         <Hero />

@@ -22,11 +22,6 @@
   list-style: none;
 }
 
-/* SHIELD and CTX carry a detail list, so they take a full row rather than
-   being crushed into a third of one. */
-.card[data-wide="true"] {
-  grid-column: span 3;
-}
 
 .card {
   display: flex;
@@ -69,15 +64,12 @@
   object-fit: cover;
 }
 
-/* The still sits under the loop as the poster; the loop covers it once it
-   starts. Under reduced motion the loop is removed and the still remains. */
+/* The loop sits above the still and shows the poster until it plays, so a
+   refused or reduced-motion autoplay simply leaves the still visible. Not
+   display:none under reduced motion — a hidden element would never load, but
+   it also would never reveal the poster underneath. */
 .video {
   z-index: 1;
-}
-@media (prefers-reduced-motion: reduce) {
-  .video {
-    display: none;
-  }
 }
 
 .body {
@@ -90,6 +82,9 @@
 }
 
 .head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 17px;
@@ -107,32 +102,9 @@
   max-width: 70ch;
 }
 
-.detail {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px 24px;
-  margin: 6px 0 0;
-  padding: 0;
-  list-style: none;
-  width: 100%;
-}
 .detail li {
   border-top: 1px solid var(--hair);
   padding-top: 10px;
-}
-.detailName {
-  display: block;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  color: var(--cyan);
-}
-.detailBlurb {
-  display: block;
-  color: var(--muted);
-  font-size: 14.5px;
-  line-height: 1.55;
-  margin-top: 4px;
 }
 
 .cta {
@@ -155,13 +127,32 @@
     grid-template-columns: 1fr;
     gap: 16px;
   }
-  .card[data-wide="true"] {
-    grid-column: auto;
-  }
   .art {
     aspect-ratio: 21 / 9;
   }
   .blurb {
     flex: none;
+  }
+}
+
+/* Art-less projects (SHIELD, CTX) get the dot plate so the row stays even. */
+.artPlate {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  overflow: hidden;
+}
+.artPlate .plateDots,
+.plateDots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 14px 14px;
+  mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, black, transparent 75%);
+}
+@media (max-width: 900px) {
+  .artPlate {
+    aspect-ratio: 21 / 9;
   }
 }

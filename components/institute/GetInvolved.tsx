@@ -1,4 +1,5 @@
 import { Icon } from "../Icon";
+import { MailLink } from "../MailLink";
 import { getInvolved } from "@/lib/institute";
 import styles from "./GetInvolved.module.css";
 
@@ -28,12 +29,21 @@ export function GetInvolved() {
               <Icon name={r.icon} size={24} color="var(--indigo-deep)" />
               <h3 className={styles.name}>{r.name}</h3>
               <p className={styles.blurb}>{r.blurb}</p>
-              <a
-                className={i === 2 ? styles.ctaPrimary : styles.ctaSecondary}
-                href={r.href}
-              >
-                {r.ctaLabel}
-              </a>
+              {"mailSubject" in r && r.mailSubject ? (
+                <MailLink
+                  className={i === 2 ? styles.ctaPrimary : styles.ctaSecondary}
+                  subject={r.mailSubject}
+                >
+                  {r.ctaLabel}
+                </MailLink>
+              ) : (
+                <a
+                  className={i === 2 ? styles.ctaPrimary : styles.ctaSecondary}
+                  href={r.href}
+                >
+                  {r.ctaLabel}
+                </a>
+              )}
             </li>
           ))}
         </ul>

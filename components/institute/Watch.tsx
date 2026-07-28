@@ -14,9 +14,14 @@ export function Watch() {
       <div className={styles.inner}>
         <div className={styles.head}>
           <h2 id="watch-h" className={styles.heading}>From the channel</h2>
-          <a className={styles.channelLink} href={instituteLinks.youtube}>
-            ALL VIDEOS →
-          </a>
+          <span className={styles.headRight}>
+            <span className={styles.scrollHint} aria-hidden="true">
+              SCROLL →
+            </span>
+            <a className={styles.channelLink} href={instituteLinks.youtube}>
+              ALL VIDEOS →
+            </a>
+          </span>
         </div>
       </div>
       <VideoRow />

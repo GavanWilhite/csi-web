@@ -5,10 +5,8 @@ import styles from "./Mission.module.css";
  * The page's hero. Deliberately spare: one statement, one lede, and the
  * conference hero's dot field and washes doing the visual work.
  *
- * Previously carried a bracketed "what is cognitive security?" plate and a
- * three-up metric strip. Both are gone at the client's direction — the
- * definition restated the headline, and the metrics measured nothing anyone
- * came here for.
+ * The definition moved out to the Foundations band below, where it sits
+ * beside the five pillars. The three-up metric strip stays gone.
  */
 export function Mission() {
   return (
@@ -17,9 +15,14 @@ export function Mission() {
       <div className={styles.wash} aria-hidden="true" />
 
       <div className={styles.inner}>
+        {/* No terminal periods: display type, and one period present with the
+            other absent read worse than none. The line break does the work
+            the full stop would. */}
         <h1 id="mission-h" className={styles.title}>
-          We need{" "}
-          <span className={styles.titleAccent}>cognitive security.</span>
+          Cybersecurity isn&rsquo;t enough,
+          <br />
+          we need{" "}
+          <span className={styles.titleAccent}>cognitive security</span>
         </h1>
         <p className={styles.lede}>{mission.deck}</p>
       </div>

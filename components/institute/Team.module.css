@@ -48,12 +48,12 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
+  /* Set per group by the component so rows come out even. */
+  grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr));
+  gap: 14px;
   margin: 18px 0 0;
   padding: 0;
   list-style: none;
-  /* <details> panels change card height; keep rows top-aligned. */
   align-items: start;
 }
 
@@ -62,24 +62,24 @@
 }
 
 .card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  font: inherit;
   border: 1px solid var(--line);
   background: var(--surface);
   transition: border-color 120ms ease;
 }
 .card:hover,
-.card[open] {
+.card:focus-visible {
   border-color: var(--indigo-deep);
 }
 
-.summary {
-  display: block;
-  cursor: pointer;
-  /* Hide the default disclosure marker; the BIO + hint carries it. */
-  list-style: none;
-}
-.summary::-webkit-details-marker {
-  display: none;
-}
+
+
 
 .portraitWrap {
   position: relative;
@@ -93,15 +93,12 @@
   object-fit: cover;
   filter: grayscale(0.35) contrast(1.05);
 }
-.card[open] .portrait,
+.card:focus-visible .portrait,
 .card:hover .portrait {
   filter: grayscale(0) contrast(1.05);
 }
 
-.summaryMeta {
-  display: block;
-  padding: 9px 10px 10px;
-}
+
 .name {
   display: block;
   font-family: var(--font-display);
@@ -119,7 +116,7 @@
   line-height: 1.45;
   color: var(--amber);
 }
-.toggleHint {
+.hint {
   display: block;
   margin-top: 9px;
   font-family: var(--font-mono);
@@ -127,23 +124,15 @@
   letter-spacing: 0.14em;
   color: var(--muted);
 }
-.card[open] .toggleHint::after {
+.card[open] .hint {
   content: " OPEN";
 }
 
-.bio {
-  padding: 0 14px 16px;
-  border-top: 1px solid var(--hair);
-}
 .bio p {
   margin: 12px 0 0;
   font-size: 13.5px;
   line-height: 1.65;
   color: var(--muted);
-}
-.links {
-  display: flex;
-  gap: 16px;
 }
 .links a {
   font-family: var(--font-mono);
@@ -163,21 +152,14 @@
   }
 }
 
-/* ---- Denser roster --------------------------------------------------------
-   22 people previously ran six tall rows and swamped the sections either
-   side. Eight across with capped portraits reads as a contact sheet; the
-   ladder steps down rather than dropping straight to one column. */
+/* ---- Responsive ------------------------------------------------------------
+   Overrides the per-group --cols as the viewport narrows. */
 @media (max-width: 1100px) {
-  .grid { grid-template-columns: repeat(6, 1fr); }
+  .grid { grid-template-columns: repeat(min(var(--cols, 5), 4), minmax(0, 1fr)); }
 }
-@media (max-width: 900px) {
-  .grid { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 860px) {
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
-@media (max-width: 700px) {
-  .grid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
-}
-@media (max-width: 480px) {
-  .grid { grid-template-columns: repeat(3, 1fr); }
-  .name { font-size: 11px; }
-  .role { font-size: 9.5px; }
+@media (max-width: 560px) {
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 }

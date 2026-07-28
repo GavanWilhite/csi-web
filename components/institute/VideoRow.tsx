@@ -19,6 +19,7 @@ function publishedLabel(iso: string): string {
 export function VideoRow() {
   return (
     <div className={styles.wrap}>
+      <div className={styles.scrollerWrap}>
       <div
         className={styles.scroller}
         role="region"
@@ -65,5 +66,6 @@ export function VideoRow() {
         </ul>
       </div>
     </div>
+      </div>
   );
 }

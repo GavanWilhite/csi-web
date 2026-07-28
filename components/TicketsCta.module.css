@@ -61,7 +61,7 @@
 .cta {
   display: inline-block;
   margin-top: 30px;
-  background: var(--indigo);
+  background: var(--action);
   color: var(--on-accent);
   padding: 17px 44px;
   font-family: var(--font-display);
@@ -70,8 +70,8 @@
   letter-spacing: 0.1em;
 }
 .cta:hover {
-  background: var(--indigo-deep);
-  color: var(--inv-bg);
+  background: var(--action-hover);
+  color: var(--on-accent);
 }
 
 .note {

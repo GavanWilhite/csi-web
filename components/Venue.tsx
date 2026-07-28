@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Icon } from "./Icon";
 import { Kicker } from "./Kicker";
 import { event, links } from "@/lib/event";
@@ -17,12 +18,13 @@ export function Venue() {
 
         <div className={styles.panel}>
           <div className={styles.photo}>
-            <div className={styles.photoDots} aria-hidden="true" />
-            <p className={styles.photoLabel}>
-              VENUE PHOTOGRAPH PENDING
-              <br />
-              TUSCANY SUITES &amp; CASINO
-            </p>
+            <Image
+              className={styles.photoImg}
+              src="/assets/institute/venue-tuscany.webp"
+              alt="The lobby of Tuscany Suites & Casino, Las Vegas"
+              fill
+              sizes="(max-width: 860px) 100vw, 620px"
+            />
           </div>
 
           <div className={styles.facts}>

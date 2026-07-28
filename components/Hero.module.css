@@ -86,7 +86,7 @@
 }
 
 .primary {
-  background: var(--indigo);
+  background: var(--action);
   color: var(--on-accent);
   padding: 15px 30px;
   font-family: var(--font-display);
@@ -95,8 +95,8 @@
   letter-spacing: 0.08em;
 }
 .primary:hover {
-  background: var(--indigo-deep);
-  color: var(--inv-bg);
+  background: var(--action-hover);
+  color: var(--on-accent);
 }
 
 .secondary {

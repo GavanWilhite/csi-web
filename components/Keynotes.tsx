@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Kicker } from "./Kicker";
-import { Roster } from "./Roster";
 import { keynotes } from "@/lib/content";
 import styles from "./Keynotes.module.css";
 
@@ -17,9 +16,9 @@ export function Keynotes() {
             icon="record_voice_over"
             heading="Keynotes"
           />
-          <a className={styles.rosterLink} href="#roster">
-            FULL SPEAKER ROSTER ↓
-          </a>
+          <Link className={styles.rosterLink} href="/csc-speakers">
+            ALL 35 SPEAKERS →
+          </Link>
         </div>
 
         <ul className={styles.grid}>
@@ -64,10 +63,6 @@ export function Keynotes() {
             </li>
           ))}
         </ul>
-
-        {/* The complete 35-speaker roster, grouped by track. Replaces the
-            old name-drop chip row — every name is now a real destination. */}
-        <Roster />
       </div>
     </section>
   );

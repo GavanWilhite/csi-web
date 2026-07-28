@@ -33,9 +33,6 @@ export const metadata: Metadata = {
 export default function InstitutePage() {
   return (
     <>
-      <a className="skipLink" href="#main">
-        SKIP TO CONTENT
-      </a>
       <ConferenceBanner />
       <Nav
         items={instituteNavLinks}
@@ -50,7 +47,6 @@ export default function InstitutePage() {
         <Mission />
         {/* Live content sits high: the channel is the only thing on this page
             that changes on its own. */}
-        {/* Pillars sit as a quiet strip immediately above the channel. */}
         <Pillars />
         <Watch />
         <Projects />
