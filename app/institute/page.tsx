@@ -3,10 +3,10 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { ConferenceBanner } from "@/components/institute/ConferenceBanner";
 import { Mission } from "@/components/institute/Mission";
-import { Focus5 } from "@/components/institute/Focus5";
-import { Research } from "@/components/institute/Research";
+import { instituteLinks } from "@/lib/institute";
+import { Pillars } from "@/components/institute/Pillars";
+import { Projects } from "@/components/institute/Projects";
 import { Publications } from "@/components/institute/Publications";
-import { Programmes } from "@/components/institute/Programmes";
 import { InstituteEvents } from "@/components/institute/InstituteEvents";
 import { Team } from "@/components/institute/Team";
 import { Watch } from "@/components/institute/Watch";
@@ -40,21 +40,21 @@ export default function InstitutePage() {
       <Nav
         items={instituteNavLinks}
         cta={{
-          href: links.donate,
-          label: "DONATE",
-          drawerLabel: "DONATE",
-          icon: "volunteer_activism",
+          href: instituteLinks.apply,
+          label: "APPLY",
+          drawerLabel: "APPLY FOR MEMBERSHIP",
+          icon: "badge",
         }}
       />
       <main id="main">
         <Mission />
         {/* Live content sits high: the channel is the only thing on this page
             that changes on its own. */}
+        {/* Pillars sit as a quiet strip immediately above the channel. */}
+        <Pillars />
         <Watch />
-        <Focus5 />
-        <Research />
+        <Projects />
         <Publications />
-        <Programmes />
         <InstituteEvents />
         <Team />
         <GetInvolved />

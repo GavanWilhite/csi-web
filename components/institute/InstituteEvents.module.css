@@ -12,12 +12,6 @@
   padding: 64px var(--gutter);
 }
 
-.head {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  align-items: end;
-}
 
 .kicker {
   display: flex;
@@ -39,12 +33,6 @@
   color: var(--inv-ink);
 }
 
-.deck {
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--inv-muted);
-  margin: 0;
-}
 
 /* Single 1px lattice: cells draw right + bottom, container draws top + left. */
 .lattice {
@@ -75,15 +63,6 @@
   color: var(--inv-ink);
 }
 
-/* Amber on the inverse ground — the sponsor strip's prospectus link already
-   proves this pairing holds. */
-.cellSub {
-  font-family: var(--font-mono);
-  font-size: 12.5px;
-  letter-spacing: 0.12em;
-  color: var(--amber);
-  margin: 0;
-}
 
 .cellBody {
   font-size: 15px;
@@ -103,39 +82,28 @@
   color: var(--magenta);
 }
 
-/* Full-width closing cell: the where-we've-been line, promoted. */
-.record {
-  grid-column: 1 / -1;
-  border-right: 1px solid var(--inv-line);
-  border-bottom: 1px solid var(--inv-line);
-  padding: 20px 24px;
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-  flex-wrap: wrap;
-  font-family: var(--font-mono);
-  font-size: 13.5px;
-  line-height: 1.6;
-  letter-spacing: 0.04em;
-  color: var(--inv-ink);
-}
-.recordLabel {
-  font-size: 12px;
-  letter-spacing: 0.2em;
-  color: var(--inv-muted);
-  flex-shrink: 0;
-}
-
 @media (max-width: 860px) {
-  .head {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    align-items: start;
-  }
   .lattice {
     grid-template-columns: 1fr;
   }
   .cell {
     padding: 22px 20px 24px;
   }
+}
+
+/* Track record for the block it belongs to, rather than a separate claim. */
+.history {
+  margin: 10px 0 0;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--inv-ink);
+}
+.historyLabel {
+  display: block;
+  font-size: 11.5px;
+  letter-spacing: 0.2em;
+  color: var(--inv-muted);
+  margin-bottom: 4px;
 }

@@ -1,11 +1,9 @@
 import Image from "next/image";
-import { Kicker } from "../Kicker";
-import { team } from "@/lib/institute";
 import { people, personGroups } from "@/lib/people";
 import styles from "./Team.module.css";
 
 /**
- * Section 08 — staff, board, and the Strategic Advisory Council. Each card
+ * Staff, board, and the Strategic Advisory Council. Each card
  * is a native <details> disclosure: all 22 bios are server-rendered and
  * indexable, keyboard-toggleable for free, and nobody gets 22 routes for
  * bios that average 170 words.
@@ -14,26 +12,11 @@ export function Team() {
   return (
     <section id="team" className="section" aria-labelledby="team-h">
       <div className={styles.inner}>
-        <Kicker
-          id="team-h"
-          index="09"
-          label="TEAM"
-          icon="groups"
-          heading="The people"
-        />
-        <p className={styles.deck}>{team.deck}</p>
+        <h2 id="team-h" className={styles.heading}>The people</h2>
 
         {personGroups.map((g) => (
           <div key={g.id} className={styles.group}>
             <h3 className={styles.groupHead}>{g.label}</h3>
-
-            {g.id === "council" && (
-              <div className={styles.sacIntro}>
-                {team.sacIntro.map((p) => (
-                  <p key={p.slice(0, 32)}>{p}</p>
-                ))}
-              </div>
-            )}
 
             <ul className={styles.grid}>
               {people

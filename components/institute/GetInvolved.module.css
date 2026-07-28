@@ -99,13 +99,16 @@
   font-size: 13px;
   letter-spacing: 0.08em;
 }
+/* Gold, at the client's direction — it is the one ask on the page and the
+   amber token is otherwise unused here, so it cannot be confused with a
+   navigation or a link. Dark ink on gold for contrast. */
 .ctaPrimary {
-  background: var(--indigo);
-  color: var(--on-accent);
+  background: var(--amber);
+  color: var(--inv-bg);
 }
 .ctaPrimary:hover {
-  background: var(--indigo-deep);
-  color: var(--inv-bg);
+  background: var(--magenta);
+  color: var(--on-accent);
 }
 .ctaSecondary {
   border: 1px solid var(--ink);
@@ -117,13 +120,6 @@
   color: var(--indigo-deep);
 }
 
-.note {
-  margin-top: 26px;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  color: var(--amber);
-}
 
 @media (max-width: 860px) {
   .grid {
@@ -142,8 +138,5 @@
   .ctaSecondary {
     align-self: stretch;
     text-align: center;
-  }
-  .note {
-    letter-spacing: 0.08em;
   }
 }

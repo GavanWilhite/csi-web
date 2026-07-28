@@ -1,6 +1,7 @@
-/* Institute hero. Deliberately mirrors components/Hero.module.css — same dot
-   pitch, same wash geometry, same bracket and stat-strip treatment — so the
-   two pages read as one site rather than two projects. */
+/* Institute hero. Reuses the conference hero's dot pitch and wash geometry so
+   the two pages read as one site. Deliberately spare — one statement, one
+   lede; the definition plate and metric strip were removed at the client's
+   direction. */
 
 .hero {
   position: relative;
@@ -37,171 +38,33 @@
   position: relative;
   max-width: var(--wrap);
   margin: 0 auto;
-  padding: 68px var(--gutter) 60px;
-  display: grid;
-  grid-template-columns: 1.35fr 1fr;
-  gap: 48px;
-  align-items: center;
-}
-
-.kicker {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.2em;
-  color: var(--muted);
+  padding: 104px var(--gutter) 92px;
 }
 
 .title {
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: clamp(32px, 5.2vw, 62px);
-  line-height: 1.06;
+  font-size: clamp(36px, 6.4vw, 76px);
+  line-height: 1.04;
   letter-spacing: 0.01em;
-  margin: 14px 0 0;
+  margin: 0;
   text-transform: uppercase;
+  max-width: 20ch;
 }
 .titleAccent {
   color: var(--indigo-deep);
 }
 
 .lede {
-  font-size: clamp(16px, 2.2vw, 19px);
+  font-size: clamp(16px, 2.2vw, 20px);
   line-height: 1.55;
   color: var(--muted);
-  max-width: 54ch;
-  margin: 22px 0 0;
+  max-width: 52ch;
+  margin: 26px 0 0;
 }
-
-/* ---- Definition plate ------------------------------------------------------
-   The page's emblem. There is no square logo to frame, and the definition is
-   the block that earns the emphasis. */
-
-.plate {
-  position: relative;
-  border: 1px solid var(--line);
-  background: var(--surface);
-}
-.plateDots {
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(
-    color-mix(in oklab, var(--indigo) 22%, transparent) 1px,
-    transparent 1px
-  );
-  background-size: 7px 7px;
-  mask-image: linear-gradient(to bottom, black, transparent 55%);
-  opacity: 0.6;
-}
-.plateBody {
-  position: relative;
-  padding: 30px 28px 32px;
-}
-.plateKicker {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.18em;
-  color: var(--muted);
-}
-.plateHead {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 1.25;
-  margin: 12px 0 0;
-  text-transform: uppercase;
-}
-.plateCopy {
-  font-size: 15px;
-  line-height: 1.65;
-  color: var(--muted);
-  margin: 12px 0 0;
-}
-
-.bracket {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-}
-.tl {
-  top: -1px;
-  left: -1px;
-  border-top: 2px solid var(--ink);
-  border-left: 2px solid var(--ink);
-}
-.tr {
-  top: -1px;
-  right: -1px;
-  border-top: 2px solid var(--ink);
-  border-right: 2px solid var(--ink);
-}
-.bl {
-  bottom: -1px;
-  left: -1px;
-  border-bottom: 2px solid var(--ink);
-  border-left: 2px solid var(--ink);
-}
-.br {
-  bottom: -1px;
-  right: -1px;
-  border-bottom: 2px solid var(--ink);
-  border-right: 2px solid var(--ink);
-}
-
-/* ---- Stat strip ------------------------------------------------------------ */
-
-.stats {
-  position: relative;
-  border-top: 1px solid var(--line);
-  background: var(--surface);
-}
-.statsInner {
-  max-width: var(--wrap);
-  margin: 0 auto;
-  padding-inline: var(--gutter);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.stat {
-  padding: 20px 24px;
-  border-right: 1px solid var(--hair);
-  text-align: center;
-}
-.stat:last-child {
-  border-right: none;
-}
-.statNum {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: clamp(20px, 3.4vw, 30px);
-}
-.statLabel {
-  font-family: var(--font-mono);
-  font-size: clamp(10px, 1.7vw, 13px);
-  letter-spacing: 0.14em;
-  color: var(--muted);
-}
-
-/* ---- Responsive ----------------------------------------------------------- */
 
 @media (max-width: 900px) {
   .inner {
-    grid-template-columns: 1fr;
-    gap: 32px;
-    padding-top: 48px;
-    padding-bottom: 44px;
-  }
-  /* Headline leads on narrow screens — unlike the conference hero, where the
-     emblem is the stronger opening asset. */
-  .plateWrap {
-    max-width: 520px;
-  }
-}
-
-@media (max-width: 560px) {
-  .stat {
-    padding: 16px 6px;
-  }
-  .plateBody {
-    padding: 24px 20px 26px;
+    padding: 68px var(--gutter) 60px;
   }
 }

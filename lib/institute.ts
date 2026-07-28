@@ -26,13 +26,14 @@ export const instituteNavLinks = [
   { href: "#mission", label: "MISSION" },
   { href: "#watch", label: "WATCH" },
   { href: "#research", label: "RESEARCH" },
-  { href: "#programmes", label: "PROGRAMMES" },
   { href: "#team", label: "TEAM" },
   { href: "#get-involved", label: "GET INVOLVED" },
 ] as const;
 
 export const instituteLinks = {
   apply: "https://www.cognitivesecurityinstitute.org/apply",
+  /** Shared "get more info" destination for the programme cards. */
+  info: "mailto:info@cognitivesecurityinstitute.org",
   cat: "https://cognitiveattacktaxonomy.org/",
   evilDigitalTwin: "https://www.evildigitaltwin.ai/",
   cognectcon: "https://www.cognectcon.com/",
@@ -47,21 +48,8 @@ export const instituteLinks = {
 /* ---- 01 / MISSION ---------------------------------------------------------- */
 
 export const mission = {
-  deck: "The Cognitive Security Institute defends cognitive security — across human, artificial, and hybrid cognitive systems.",
-  body: [
-    "Traditional cybersecurity alone isn't enough.",
-    "We need cognitive security.",
-  ],
-} as const;
-
-/* ---- 02 / DEFINITION -------------------------------------------------------- */
-
-export const definition = {
-  heading: "What is cognitive security?",
-  body: [
-    "Cognitive attacks manipulate human minds, artificial cognition, or the hybrid teams they form together. These threats combine psychological, technological, and geopolitical tactics.",
-    "CSI exists to proactively defend against them.",
-  ],
+  deck: "The Cognitive Security Institute defends cognitive security across human, artificial, and hybrid cognitive systems.",
+  body: [],
 } as const;
 
 /* ---- 03 / FOCUS 5 ------------------------------------------------------------ */
@@ -100,51 +88,116 @@ export const focus5 = {
   ],
 } as const;
 
-/* ---- 04 / RESEARCH ------------------------------------------------------------ */
+/* ---- RESEARCH / ACTIVE PROJECTS ---------------------------------------------
 
-export const research = {
-  cat: {
+   Card art is each project's own mark, fetched from its own site on
+   2026-07-27 (cognitiveattacktaxonomy.org, evildigitaltwin.ai, phish.golf)
+   and re-encoded to WebP. These are the projects' marks, not ours — if a
+   project rebrands, refetch rather than redraw. SHIELD and CTX are CSI's own
+   programmes and have no separate mark, so they carry no art.
+   -------------------------------------------------------------------------- */
+
+export interface Project {
+  id: string;
+  heading: string;
+  blurb: string;
+  ctaLabel: string;
+  href: string;
+  image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  /** Logos want contain + padding; photographic art wants cover. */
+  fit?: "contain" | "cover";
+  /** Animated mark, if the project has one. */
+  video?: string;
+  /** Art with a white ground gets a light plate rather than the dark default. */
+  lightPlate?: boolean;
+  /** Extra detail rendered as a labelled list under the blurb. */
+  detail?: { name: string; blurb: string }[];
+}
+
+export const projects: Project[] = [
+  {
+    id: "cat",
     heading: "Cognitive Attack Taxonomy (CAT)",
-    body: [
-      "A shared reference framework for classifying cognitive threats across biological and artificial systems.",
-    ],
-    ctaLabel: "VIEW THE CAT",
-    /** Re-encoded from the source's 4 MB PNG to ~106 KB WebP at 800×968. */
-    image: "/assets/institute/cat.webp",
-    imageWidth: 800,
-    imageHeight: 968,
-  },
-  /** Sits with CAT and EDT as a third active project, not under Programmes —
-      it is a thing you can go and do, like the other two. */
-  phishGolf: {
-    heading: "Phishing Golf Tournament",
     blurb:
-      "Cyber pros craft nine phishing emails across nine \"holes,\" each targeting a fictional persona.",
-    ctaLabel: "PHISH.GOLF",
+      "A shared reference framework for classifying cognitive threats across biological and artificial systems.",
+    ctaLabel: "VIEW THE CAT",
+    href: "https://cognitiveattacktaxonomy.org/",
+    image: "/assets/institute/projects/cat.webp",
+    imageWidth: 578,
+    imageHeight: 720,
+    fit: "contain",
   },
-  /** Names deliberately omitted — see module header. */
-  evilDigitalTwin: {
+  {
+    id: "edt",
     heading: "Evil Digital Twin",
     blurb:
       "A talk series on human digital twins, agentic systems, and digital cognitive agents.",
     ctaLabel: "EVILDIGITALTWIN.AI",
+    href: "https://www.evildigitaltwin.ai/",
+    image: "/assets/institute/projects/edt.webp",
+    imageWidth: 720,
+    imageHeight: 720,
+    fit: "contain",
+    /* The project's own animated mark, from its homepage. Plays muted and
+       looping as an animated icon; the still above is the poster and the
+       reduced-motion fallback. */
+    video: "/assets/institute/projects/edt-loop.mp4",
+    /* Art is on a white ground, so the plate is deliberately light — framed
+       artwork rather than a stray bright square on a dark card. */
+    lightPlate: true,
   },
-  /*
-   * The third Active Project on the source — the Cognitive Security
-   * Research Library — is deliberately NOT here: its button is a dead
-   * <button type="button"> with no destination. Add it when it exists.
-   */
-} as const;
+  {
+    id: "golf",
+    heading: "Phishing Golf Tournament",
+    blurb:
+      "Cyber pros craft nine phishing emails across nine \"holes,\" each targeting a fictional persona.",
+    ctaLabel: "PHISH.GOLF",
+    href: "https://phish.golf",
+    image: "/assets/institute/projects/golf.webp",
+    imageWidth: 720,
+    imageHeight: 220,
+    fit: "contain",
+  },
+  {
+    id: "shield",
+    heading: "SHIELD",
+    blurb:
+      "Security & Human Insight for Educating Leaders on Defence. A free global community connecting academia and industry around a science-first approach to human risk. Lead: Holly-Jane Grayling.",
+    ctaLabel: "GET MORE INFO",
+    href: "mailto:info@cognitivesecurityinstitute.org",
+    detail: [
+      { name: "Monthly Meetings", blurb: "Virtual, monthly, recorded." },
+      { name: "Upskilling Sessions", blurb: "Every 3rd session is hands-on skills practice." },
+      { name: "Private Community", blurb: "An active LinkedIn community between sessions." },
+      { name: "Special Projects", blurb: "Tackling phishing simulations and AI cognitive resilience." },
+    ],
+  },
+  {
+    id: "ctx",
+    heading: "Cyber Talent eXchange (CTX)",
+    blurb:
+      "CTX bridges the disconnect between cyber professionals looking for work and organizations struggling to fill the roles that protect infrastructure, data, and trust.",
+    ctaLabel: "GET MORE INFO",
+    href: "mailto:info@cognitivesecurityinstitute.org",
+    detail: [
+      { name: "Recruiters & Talent Partners", blurb: "A motivated, pre-qualified pool of job seekers, from apprentices to seasoned pros." },
+      { name: "Employers & Workforce Partners", blurb: "Hire faster, reach diverse talent pools, unlock internship funding." },
+      { name: "Funders & Sponsors", blurb: "Philanthropy and public-private partnerships fund a no-cost program for job seekers." },
+    ],
+  },
+];
 
 /* ---- 05 / PUBLICATIONS --------------------------------------------------------- */
 
 export const publications = {
   journal: {
-    heading: "Cognitive Security JOURNAL",
+    heading: "Cognitive Security Journal",
     body: [
       "Open-access, peer-reviewed papers, case studies, and editorials, under the leadership of Robert H. Thomson.",
     ],
-    ctaLabel: "SUBMIT YOUR INTEREST",
+    ctaLabel: "GET INVOLVED",
   },
   /**
    * Three most recent posts, linking OUT to the live blog. The full blog
@@ -178,72 +231,12 @@ export const publications = {
   ],
 } as const;
 
-/* ---- 06 / PROGRAMMES ------------------------------------------------------------ */
-
-/**
- * SHIELD keeps its British spelling ("behavioural", "Defence") — it is the
- * programme lead's own voice, against US spelling sitewide. Flagged, not
- * normalised. The source expands the acronym with both "Defence" and
- * "Defense" on different pages; "Defence" (its own page) is used.
- */
-export const shield = {
-  heading: "SHIELD",
-  expansion: "Security & Human Insight for Educating Leaders on Defence",
-  lead: "Lead: Holly-Jane Grayling",
-  tagline: "People aren't the weakest link - they're security's greatest strength.",
-  body: [
-    "A free global community connecting academia and industry around a science-first approach to human risk.",
-  ],
-  activities: [
-    { name: "Monthly Meetings", blurb: "Virtual, monthly, recorded." },
-    {
-      name: "Upskilling Sessions",
-      blurb: "Every 3rd session is hands-on skills practice.",
-    },
-    {
-      name: "Private Community",
-      blurb: "An active LinkedIn community between sessions.",
-    },
-    {
-      name: "Special Projects",
-      blurb: "Tackling phishing simulations and AI cognitive resilience.",
-    },
-  ],
-} as const;
-
-export const ctx = {
-  heading: "Cyber Talent eXchange (CTX)",
-  body: [
-    "CTX bridges the disconnect between cyber professionals looking for work and organizations struggling to fill the roles that protect infrastructure, data, and trust.",
-  ],
-  seeking: [
-    {
-      name: "Recruiters & Talent Partners",
-      blurb:
-        "A motivated, pre-qualified pool of job seekers, from apprentices to seasoned pros.",
-    },
-    {
-      name: "Employers & Workforce Partners",
-      blurb:
-        "Hire faster, reach diverse talent pools, unlock internship funding.",
-    },
-    {
-      name: "Funders & Sponsors",
-      blurb:
-        "Philanthropy and public-private partnerships fund a no-cost program for job seekers.",
-    },
-  ],
-} as const;
-
-
 /* ---- 07 / EVENTS ------------------------------------------------------------------ */
 
 export const events = {
-  deck: "Events that bring people together to learn, connect, and shape the future of cognitive security.",
   blocks: [
     {
       name: "CognectCon",
-      sub: "Cognitive Security Workshop",
       body: [
         "Experts, creatives, and practitioners designing actionable solutions around one high-impact theme. A high-signal, low-fluff working summit.",
       ],
@@ -252,38 +245,31 @@ export const events = {
     },
     {
       name: "CogSec Village",
-      sub: "Hands-On Immersive Experience",
       body: [
         "Part demo lab, part tactical playground, showing how easy it is to hack the human brain. The most dangerous exploit is the one inside your mind.",
       ],
+      /** Folded in here rather than standing alone: it is this block's own
+          track record, not a separate claim. */
+      history:
+        "CSI ran Cognitive Security Villages across Hacker Summer Camp 2025 (BSides Las Vegas, Black Hat USA, DEF CON 33) and at National Cyber Summit 2025.",
     },
     {
       name: "Workshops & Meetups",
-      sub: "Virtual, On-Demand, and In-Person",
       body: [
         "Tailored workshops for your team and pop-up CSI meetups in your area.",
       ],
     },
     {
       name: "Private Community Meetings",
-      sub: "Reflect, Connect, and Grow Together",
       body: [
-        "Members-only gatherings for deeper dialogue — gated, high-signal, intentionally low-profile.",
+        "Members-only gatherings for deeper dialogue: gated, high-signal, intentionally low-profile.",
       ],
     },
   ],
-  whereWeveBeen:
-    "CSI ran Cognitive Security Villages across Hacker Summer Camp 2025 (BSides Las Vegas, Black Hat USA, DEF CON 33) and at National Cyber Summit 2025.",
 } as const;
 
 /* ---- 08 / TEAM (prose — people data lives in lib/people.ts) ------------------------ */
 
-export const team = {
-  deck: "Trusted experts guiding our mission across technology, psychology, and human resilience.",
-  sacIntro: [
-    "A non-governing, nonpartisan council of trusted voices from cybersecurity, psychology, defense, technology, education, and ethics.",
-  ],
-} as const;
 
 /* ---- 08 / GET INVOLVED -----------------------------------------------------
    Merges the source's separate Partners, Join and Support pages. They asked
@@ -291,7 +277,7 @@ export const team = {
    copy; here they are three routes out of one section. -------------------- */
 
 export const getInvolved = {
-  deck: "Cognitive security is a collective mission, not a competitive game.",
+  deck: "Cognitive security is a collective mission.",
   routes: [
     {
       name: "Apply for membership",
@@ -318,5 +304,4 @@ export const getInvolved = {
       icon: "volunteer_activism",
     },
   ],
-  note: "501(C)(3) · EIN 92-3238363 · 100% OF DONATIONS FUND THE MISSION",
 } as const;

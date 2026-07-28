@@ -25,20 +25,6 @@
 
 /* ---- Journal plate ----------------------------------------------------------- */
 
-.journal {
-  margin-top: 32px;
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--magenta);
-  background: var(--surface);
-  padding: 26px 28px;
-}
-.journalHead {
-  margin: 0;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: clamp(17px, 2.2vw, 21px);
-  letter-spacing: 0.02em;
-}
 .journalSub {
   margin: 8px 0 0;
   font-family: var(--font-mono);
@@ -46,31 +32,9 @@
   letter-spacing: 0.08em;
   color: var(--amber);
 }
-.journalBody {
-  margin: 14px 0 0;
-  max-width: 860px;
-  font-size: 15px;
-  line-height: 1.7;
-  color: var(--muted);
-}
-.journalCta {
-  display: inline-block;
-  margin-top: 18px;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.1em;
-}
 
 /* ---- Latest posts -------------------------------------------------------------- */
 
-.latestHead {
-  margin: 40px 0 0;
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 13px;
-  letter-spacing: 0.16em;
-  color: var(--muted);
-}
 
 .posts {
   display: grid;
@@ -121,5 +85,106 @@
 @media (max-width: 860px) {
   .posts {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Posts lead the section, so they get the larger type and the grid. */
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 22px 22px 24px;
+  color: var(--ink);
+}
+.post:hover {
+  border-color: var(--indigo-deep);
+  color: var(--ink);
+}
+.postMeta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+.postTitle {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  flex: 1;
+}
+.postCats {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--cyan);
+}
+
+/* The Journal is a single quiet row beneath the posts, not a masthead. */
+.journal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--magenta);
+  background: var(--surface);
+  padding: 20px 24px;
+  margin-top: 20px;
+}
+.journalText {
+  min-width: 0;
+}
+.journalHead {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.journalBody {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 6px 0 0;
+  max-width: 74ch;
+}
+.journalCta {
+  flex-shrink: 0;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  padding: 10px 20px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+}
+.journalCta:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+
+@media (max-width: 900px) {
+  .posts {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .postTitle {
+    flex: none;
+  }
+  .journalCta {
+    align-self: stretch;
+    text-align: center;
   }
 }

@@ -1,4 +1,3 @@
-import { Kicker } from "../Kicker";
 import { VideoRow } from "./VideoRow";
 import { instituteLinks } from "@/lib/institute";
 import styles from "./Watch.module.css";
@@ -14,13 +13,7 @@ export function Watch() {
     <section id="watch" className={styles.section} aria-labelledby="watch-h">
       <div className={styles.inner}>
         <div className={styles.head}>
-          <Kicker
-            id="watch-h"
-            index="03"
-            label="WATCH"
-            icon="play_circle"
-            heading="From the channel"
-          />
+          <h2 id="watch-h" className={styles.heading}>From the channel</h2>
           <a className={styles.channelLink} href={instituteLinks.youtube}>
             ALL VIDEOS →
           </a>

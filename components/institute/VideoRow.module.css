@@ -1,5 +1,11 @@
+/* Clamped to the content column. It previously ran the full window width,
+   which read as a stray band rather than part of the section. The scroller
+   still overflows horizontally *inside* this box, which is what makes it a
+   scroller — the page itself never overflows. */
 .wrap {
-  margin-top: 40px;
+  max-width: var(--wrap);
+  margin: 24px auto 0;
+  padding-inline: var(--gutter);
 }
 
 .head {

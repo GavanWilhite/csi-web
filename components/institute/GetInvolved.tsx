@@ -17,14 +17,9 @@ export function GetInvolved() {
     <section id="get-involved" className={styles.section} aria-labelledby="gi-h">
       <div className={styles.dots} aria-hidden="true" />
       <div className={styles.inner}>
-        <div className={styles.kicker}>
-          <Icon name="group_add" size={18} color="var(--cyan)" />
-          10 / GET INVOLVED
-        </div>
         <h2 id="gi-h" className={styles.heading}>
-          Cognitive security is a collective mission,
-          <br />
-          not a <span className={styles.accent}>competitive game.</span>
+          Cognitive security is a{" "}
+          <span className={styles.accent}>collective mission.</span>
         </h2>
 
         <ul className={styles.grid}>
@@ -42,8 +37,6 @@ export function GetInvolved() {
             </li>
           ))}
         </ul>
-
-        <div className={styles.note}>{getInvolved.note}</div>
       </div>
     </section>
   );

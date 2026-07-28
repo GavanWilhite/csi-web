@@ -1,0 +1,167 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(24px, 4.2vw, 32px);
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* SHIELD and CTX carry a detail list, so they take a full row rather than
+   being crushed into a third of one. */
+.card[data-wide="true"] {
+  grid-column: span 3;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  transition: border-color 120ms ease;
+}
+.card:hover {
+  border-color: var(--indigo-deep);
+}
+
+.art {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  overflow: hidden;
+}
+/* Art with a white ground reads as framed artwork on a light plate rather
+   than a stray bright square. */
+.art[data-light="true"] {
+  background: #f4f5f8;
+}
+.art img,
+.art video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.art[data-fit="contain"] img,
+.art[data-fit="contain"] video {
+  object-fit: contain;
+  padding: 22px;
+}
+.art[data-fit="cover"] img,
+.art[data-fit="cover"] video {
+  object-fit: cover;
+}
+
+/* The still sits under the loop as the poster; the loop covers it once it
+   starts. Under reduced motion the loop is removed and the still remains. */
+.video {
+  z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .video {
+    display: none;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 22px 22px 24px;
+  flex: 1;
+}
+
+.head {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.25;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.blurb {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+  max-width: 70ch;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px 24px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+.detail li {
+  border-top: 1px solid var(--hair);
+  padding-top: 10px;
+}
+.detailName {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--cyan);
+}
+.detailBlurb {
+  display: block;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin-top: 4px;
+}
+
+.cta {
+  margin-top: 8px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  padding: 11px 22px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+.cta:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card[data-wide="true"] {
+    grid-column: auto;
+  }
+  .art {
+    aspect-ratio: 21 / 9;
+  }
+  .blurb {
+    flex: none;
+  }
+}

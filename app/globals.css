@@ -16,7 +16,7 @@
   --surface: #12162355; /* translucent plate over --bg */
   --surface-solid: #141828; /* opaque variant where translucency muddies text */
   --ink: #e9ecf6;
-  --muted: #98a0b8;
+  --muted: #b0b7cb; /* lifted from #98a0b8: 7.34:1 -> 9.55:1 on --bg */
 
   /* Rules. --line is structural, --hair is the lighter internal divider. */
   --line: #293049;
@@ -33,7 +33,7 @@
   /* Inverse band: nav, sponsor strip, footer. */
   --inv-bg: #12162a;
   --inv-ink: #edeff8;
-  --inv-muted: #9aa1ba;
+  --inv-muted: #b0b7cb; /* matched to --muted; 8.93:1 on --inv-bg */
   --inv-line: #2a3048;
 
   /* Text on an indigo fill. Fixed, not theme-derived. */
