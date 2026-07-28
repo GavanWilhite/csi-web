@@ -1,5 +1,7 @@
 /**
- * CSC 2026 agenda, ported verbatim from the design export.
+ * CSC 2026 agenda, ported verbatim from the design export, plus the 8 break
+ * rows the export dropped (restored from the source agenda — 53 rows total:
+ * 45 sessions/plenaries + 8 breaks).
  *
  * `cells` is positional and aligned to the `tracks` array in ./content —
  * index 0 = Defending Humans, 1 = Critical Cognitive Infrastructure,
@@ -29,7 +31,16 @@ export interface ColsBlock {
   cells: Session[][];
 }
 
-export type Block = MainBlock | ColsBlock;
+/**
+ * Breaks between sessions. Rendered deliberately subordinate to sessions —
+ * they are orientation (find the hallway track, plan a call), not content.
+ */
+export interface BreakBlock {
+  kind: "break";
+  time: string;
+}
+
+export type Block = MainBlock | ColsBlock | BreakBlock;
 
 export type DayId = "thu" | "fri";
 
@@ -54,6 +65,8 @@ const cols = (
   at: Session[],
 ): ColsBlock => ({ kind: "cols", time, cells: [dh, cci, at] });
 
+const brk = (time: string): BreakBlock => ({ kind: "break", time });
+
 const thursday: Block[] = [
   main("8:00–9:00", "Check-in & coffee"),
   main("9:00–9:30", "Opening remarks", "JAMES MCQUIGGAN"),
@@ -63,6 +76,7 @@ const thursday: Block[] = [
     "DR. RAND WALTZMAN",
     true,
   ),
+  brk("10:10–10:45"),
   cols(
     "10:45–11:30",
     [
@@ -115,6 +129,7 @@ const thursday: Block[] = [
     ],
     [{ title: "Autopilot Off. Awareness On.", who: "SUMONA BANERJI" }],
   ),
+  brk("2:00–2:15"),
   cols(
     "2:15–3:00",
     [
@@ -138,6 +153,7 @@ const thursday: Block[] = [
     ],
     [{ title: "From Zero to (Tabletop) Hero, Part I", who: "CHLOE TUCKER" }],
   ),
+  brk("3:00–3:20"),
   cols(
     "3:20–4:00",
     [
@@ -155,6 +171,7 @@ const thursday: Block[] = [
     ],
     [{ title: "From Zero to (Tabletop) Hero, Part II", who: "CHLOE TUCKER" }],
   ),
+  brk("4:00–4:30"),
   main(
     "4:30–5:15",
     "KEYNOTE: The Battle for Decision Autonomy, a New Front in Strategic Competition",
@@ -168,6 +185,7 @@ const friday: Block[] = [
   main("8:00–9:30", "Check-in & coffee"),
   main("9:30–9:40", "Opening remarks", "SUMONA BANERJI"),
   main("9:40–10:20", "KEYNOTE: Before the Decision", "BRIG. GEN. TERRI BORRAS (RET)", true),
+  brk("10:20–10:45"),
   cols(
     "10:45–11:30",
     [
@@ -231,6 +249,7 @@ const friday: Block[] = [
       },
     ],
   ),
+  brk("2:00–2:15"),
   cols(
     "2:15–3:00",
     [
@@ -254,6 +273,7 @@ const friday: Block[] = [
       },
     ],
   ),
+  brk("3:00–3:20"),
   cols(
     "3:20–4:00",
     [{ title: "AI and Trust", who: "BRUCE SCHNEIER" }],
@@ -277,6 +297,7 @@ const friday: Block[] = [
       },
     ],
   ),
+  brk("4:00–4:30"),
   main(
     "4:30–5:20",
     "KEYNOTE: Start With the Why, a Decision Model for AI-Native Human Risk Management",

@@ -109,6 +109,25 @@
   color: var(--muted);
 }
 
+/* ---- Break row -------------------------------------------------------------
+   Deliberately quieter than every session row: tighter padding, mono muted
+   label, no dot, no tint. Breaks orient the reader; they don't compete. */
+
+.breakRow {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 7px 16px;
+  border-bottom: 1px solid var(--hair);
+}
+.breakLabel {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
 /* ---- Parallel-track row --------------------------------------------------- */
 
 .colsRow {

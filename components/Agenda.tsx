@@ -59,9 +59,10 @@ export function Agenda() {
         {/*
           Both days are rendered server-side and the inactive one carries the
           `hidden` attribute, rather than swapping the panel on state. That
-          keeps all 53 sessions in the prerendered HTML so they are indexable.
-          (Switching still needs JS — without it the second day stays hidden,
-          which is why the full-agenda link below is not decorative.)
+          keeps all 53 agenda rows (45 sessions + 8 breaks) in the prerendered
+          HTML so they are indexable. (Switching still needs JS — without it
+          the second day stays hidden, which is why the full-agenda link below
+          is not decorative.)
         */}
         {days.map((d) => (
           <div
@@ -97,6 +98,13 @@ export function Agenda() {
                     {b.title}
                   </div>
                   <div className={styles.who}>{b.who ?? ""}</div>
+                </div>
+              ) : b.kind === "break" ? (
+                // Breaks are orientation, not content — visibly subordinate
+                // to session rows.
+                <div key={`${d.id}-b-${i}`} className={styles.breakRow}>
+                  <div className={styles.time}>{b.time}</div>
+                  <div className={styles.breakLabel}>BREAK</div>
                 </div>
               ) : (
                 <div key={`${d.id}-c-${i}`} className={styles.colsRow}>
@@ -135,7 +143,7 @@ export function Agenda() {
         ))}
 
         <p className={styles.footnote}>
-          FULL GRID INCL. BREAKS →{" "}
+          FULL AGENDA →{" "}
           <a href={links.fullAgenda}>
             COGNITIVESECURITYINSTITUTE.ORG/CSC26-AGENDA
           </a>
