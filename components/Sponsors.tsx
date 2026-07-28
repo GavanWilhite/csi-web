@@ -23,13 +23,13 @@ export function Sponsors() {
         </div>
 
         <ul className={styles.grid}>
-          {sponsors.map((s) => (
-            <li key={s.name} className={styles.cell}>
-              {/*
-                Sponsor marks are supplied white-on-transparent and are only
-                legible on the inverse band. Rendered as plain <img>: these are
-                trademarks and must not be re-encoded or recoloured.
-              */}
+          {sponsors.map((s) => {
+            // Sponsor marks are supplied white-on-transparent and are only
+            // legible on the inverse band. Rendered as plain <img>: these are
+            // trademarks and must not be re-encoded or recoloured. Marks link
+            // out where the source site links them (4 of 7) — sponsors paid
+            // for the click.
+            const logo = (
               <img
                 className={styles.logo}
                 src={s.logo}
@@ -37,8 +37,19 @@ export function Sponsors() {
                 style={{ maxHeight: s.maxHeight }}
                 loading="lazy"
               />
-            </li>
-          ))}
+            );
+            return (
+              <li key={s.name} className={styles.cell}>
+                {s.url ? (
+                  <a className={styles.logoLink} href={s.url}>
+                    {logo}
+                  </a>
+                ) : (
+                  logo
+                )}
+              </li>
+            );
+          })}
           <li className={styles.cell}>
             <span className={styles.open}>YOUR LOGO HERE</span>
           </li>

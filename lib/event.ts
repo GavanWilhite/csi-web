@@ -12,11 +12,13 @@ export const event = {
   venueRooms: "Firenze · Tuscany · Siena",
   capacity: 300,
   /**
-   * Early-bird pricing was advertised through July 16. Flip to false once that
-   * has passed — it drives the hero flag and the registration paragraph.
-   * Left true to match the design export; confirm with the client.
+   * Early-bird pricing was advertised through July 16, which has passed —
+   * flipped to false so the site stops advertising an expired offer. It
+   * drives the hero flag and the registration paragraph. CLIENT MUST CONFIRM
+   * whether a new early-bird deadline exists; if so, update earlyBirdEnds
+   * and flip this back.
    */
-  earlyBird: true,
+  earlyBird: false,
   earlyBirdEnds: "July 16",
 } as const;
 
@@ -28,7 +30,11 @@ export const links = {
   fullRoster:
     "https://www.cognitivesecurityinstitute.org/cognitive-security-conference-speakers",
   fullAgenda: "https://www.cognitivesecurityinstitute.org/csc26-agenda",
-  donate: "https://www.cognitivesecurityinstitute.org/donate",
+  /**
+   * Straight to the Zeffy donation form. The institute's /donate page is
+   * nothing but a redirect to this URL, so we skip the hop.
+   */
+  donate: "https://www.zeffy.com/en-US/donation-form/support-our-mission-28",
   contact: "https://www.cognitivesecurityinstitute.org/contact",
   disclaimer: "https://www.cognitivesecurityinstitute.org/disclaimer",
   sitemap: "https://www.cognitivesecurityinstitute.org/sitemap",
@@ -40,9 +46,14 @@ export const links = {
     "https://www.cognitivesecurityinstitute.org/_files/ugd/6aeb2e_4adf13c2a99f4f82a239c897aa139774.pdf",
 } as const;
 
+/**
+ * Conference-page nav. Hrefs carry the leading "/" so the same nav works
+ * from the speaker pages and /institute — on the home page itself the
+ * browser still treats "/#speakers" as an in-page fragment jump.
+ */
 export const navLinks = [
-  { href: "#speakers", label: "SPEAKERS" },
-  { href: "#agenda", label: "AGENDA" },
-  { href: "#venue", label: "VENUE" },
-  { href: "#sponsors", label: "SPONSORS" },
+  { href: "/#speakers", label: "SPEAKERS" },
+  { href: "/#agenda", label: "AGENDA" },
+  { href: "/#venue", label: "VENUE" },
+  { href: "/#sponsors", label: "SPONSORS" },
 ] as const;

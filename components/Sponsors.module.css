@@ -74,6 +74,20 @@
   object-fit: contain;
 }
 
+/* Linked marks: same footprint as unlinked ones, with a hover cue that does
+   not touch the trademark itself. */
+.logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  opacity: 1;
+  transition: opacity 120ms ease;
+}
+.logoLink:hover {
+  opacity: 0.75;
+}
+
 .open {
   font-family: var(--font-mono);
   font-size: 13px;

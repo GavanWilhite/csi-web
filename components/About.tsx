@@ -24,12 +24,15 @@ export function About() {
             the same rooms for two days: the people who study cognitive hacking,
             next to the people who&rsquo;ve done it.
           </p>
+          {/* Verbatim from the source site — an attributed quotation must not
+              be edited for rhythm. */}
           <blockquote className={styles.quote}>
             <p>
-              &ldquo;You can find two people here who would never normally meet,
-              and they&rsquo;ll go create a paper or a project from the
-              connection. That&rsquo;s the most important thing as everything
-              becomes more robotic and the human element goes away.&rdquo;
+              &ldquo;You can find two people who come together who would not
+              normally meet, and they are going to go create a paper or a
+              project from the connections made here. That is the most
+              important thing as everything becomes more robotic and the human
+              element goes away.&rdquo;
             </p>
             <footer className={styles.attribution}>
               WEB BEGOLE, CO-FOUNDER &amp; CTO, MARKETREADER
