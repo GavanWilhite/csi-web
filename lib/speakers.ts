@@ -51,7 +51,16 @@ export interface SpeakerSession {
 export interface Speaker {
   /** Matches the source Wix /csc-speakers/<slug> URL — route param. */
   slug: string;
+  /** Display name, as the source roster sets it — usually all caps. */
   name: string;
+  /**
+   * The same name in ordinary casing. `name` is a typographic choice, and
+   * shouting it at a search engine or an assistant is not what it means —
+   * so structured data (lib/schema.ts) and the markdown surfaces
+   * (lib/llms.ts) use this instead. Cased by hand, not by algorithm:
+   * "MCQUIGGAN" title-cases to "Mcquiggan", and FC is not "Fc".
+   */
+  properName: string;
   tagline: string;
   track: SpeakerTrackId;
   trackLabel: string;
@@ -75,6 +84,7 @@ export const speakers: Speaker[] = [
   {
     slug: "ashley_rose",
     name: "ASHLEY ROSE",
+    properName: "Ashley Rose",
     tagline: "The Pioneer of Human Risk Management",
     track: "keynote",
     trackLabel: "Keynote Speakers",
@@ -109,6 +119,7 @@ export const speakers: Speaker[] = [
   {
     slug: "terri-borras",
     name: "BRIG. GEN. TERRI BORRAS (Ret)",
+    properName: "Brig. Gen. Terri Borras (Ret)",
     tagline: "Defending the Moment Before Decision",
     track: "keynote",
     trackLabel: "Keynote Speakers",
@@ -143,6 +154,7 @@ export const speakers: Speaker[] = [
   {
     slug: "dave-pitts",
     name: "DAVE PITTS",
+    properName: "Dave Pitts",
     tagline: "The Battle for Decision Autonomy",
     track: "keynote",
     trackLabel: "Keynote Speakers",
@@ -176,6 +188,7 @@ export const speakers: Speaker[] = [
   {
     slug: "rand-waltzman",
     name: "DR. RAND WALTZMAN",
+    properName: "Dr. Rand Waltzman",
     tagline: "The Godfather of Cognitive Security",
     track: "keynote",
     trackLabel: "Keynote Speakers",
@@ -210,6 +223,7 @@ export const speakers: Speaker[] = [
   {
     slug: "bruce-schneier",
     name: "BRUCE SCHNEIER",
+    properName: "Bruce Schneier",
     tagline: "\"Amateurs hack systems; professionals hack people\"",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -242,6 +256,7 @@ export const speakers: Speaker[] = [
   {
     slug: "sanny-liao",
     name: "DR. SANNY LIAO",
+    properName: "Dr. Sanny Liao",
     tagline: "The Behavioral Exonomist Moving Security Beyond the Weakest Link",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -282,6 +297,7 @@ export const speakers: Speaker[] = [
   {
     slug: "perry-carpenter",
     name: "PERRY CARPENTER",
+    properName: "Perry Carpenter",
     tagline: "Chief Deceptionologist",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -315,6 +331,7 @@ export const speakers: Speaker[] = [
   {
     slug: "clifford-stoll",
     name: "CLIFFORD STOLL",
+    properName: "Clifford Stoll",
     tagline: "Cybersecurity Legend, Longtime Skeptic of Computers in Class",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -350,6 +367,7 @@ export const speakers: Speaker[] = [
   {
     slug: "fc",
     name: "FC (FREAKY CLOWN)",
+    properName: "FC (Freaky Clown)",
     tagline: "The Ethical Hacker Who Robs Banks for a Living",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -382,6 +400,7 @@ export const speakers: Speaker[] = [
   {
     slug: "tomm-larson",
     name: "TOMM LARSON",
+    properName: "Tomm Larson",
     tagline: "Protecting the Nation's Most Sensitive Research from Cognitive Attacks",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -414,6 +433,7 @@ export const speakers: Speaker[] = [
   {
     slug: "fred-heiding",
     name: "DR. FRED HEIDING",
+    properName: "Dr. Fred Heiding",
     tagline: "Hacked The King of Sweden",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -449,6 +469,7 @@ export const speakers: Speaker[] = [
   {
     slug: "jeff-jockisch",
     name: "JEFF JOCKISCH",
+    properName: "Jeff Jockisch",
     tagline: "The Privacy Strategist",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -486,6 +507,7 @@ export const speakers: Speaker[] = [
   {
     slug: "winn-schwartau",
     name: "WINN SCHWARTAU",
+    properName: "Winn Schwartau",
     tagline: "The Grandfather Of Security Awareness",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -559,6 +581,7 @@ export const speakers: Speaker[] = [
   {
     slug: "jessica-barker",
     name: "DR. JESSICA BARKER",
+    properName: "Dr. Jessica Barker",
     tagline: "The Human Side of Cyber Security",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -593,6 +616,7 @@ export const speakers: Speaker[] = [
   {
     slug: "peggy-yin",
     name: "PEGGY YIN",
+    properName: "Peggy Yin",
     tagline: "The Next Generation of Cognitive Security",
     track: "defending-humans",
     trackLabel: "Defending Humans",
@@ -625,6 +649,7 @@ export const speakers: Speaker[] = [
   {
     slug: "ben-voce-gardner",
     name: "BEN VOCE-GARDNER",
+    properName: "Ben Voce-Gardner",
     tagline: "New York's Point Man for Cyber, Terror, and Critical Infrastructure",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -661,6 +686,7 @@ export const speakers: Speaker[] = [
   {
     slug: "constantine",
     name: "CONSTANTINE",
+    properName: "Constantine",
     tagline: "The Forrest Gump of Grand Strategy",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -695,6 +721,7 @@ export const speakers: Speaker[] = [
   {
     slug: "mariah-maury",
     name: "MARIAH MAURY",
+    properName: "Mariah Maury",
     tagline: "Securing Humanity's Next Frontier: Outer Space",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -729,6 +756,7 @@ export const speakers: Speaker[] = [
   {
     slug: "bonnie-rushing",
     name: "SMSGT BONNIE RUSHING",
+    properName: "SMSgt Bonnie Rushing",
     tagline: "The CogWar Trailblazer",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -764,6 +792,7 @@ export const speakers: Speaker[] = [
   {
     slug: "dave-acosta",
     name: "DAVE ACOSTA",
+    properName: "Dave Acosta",
     tagline: "The Colonel Who Wrote the Book on Deception",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -799,6 +828,7 @@ export const speakers: Speaker[] = [
   {
     slug: "stephen-damianos",
     name: "DR. STEPHEN DAMIANOS",
+    properName: "Dr. Stephen Damianos",
     tagline: "From Oxford to the White House: Defending your Right to Think Freely",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -832,6 +862,7 @@ export const speakers: Speaker[] = [
   {
     slug: "brian-steed",
     name: "DR. BRIAN L. STEED",
+    properName: "Dr. Brian L. Steed",
     tagline: "The Cavalry Officer Turned Narrative Warrior",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -868,6 +899,7 @@ export const speakers: Speaker[] = [
   {
     slug: "greg-carpenter",
     name: "DR. GREGORY CARPENTER",
+    properName: "Dr. Gregory Carpenter",
     tagline: "Cognitive Warfare's Epidemiologist",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -902,6 +934,7 @@ export const speakers: Speaker[] = [
   {
     slug: "tamara-schwartz",
     name: "DR. TAMARA SCHWARTZ",
+    properName: "Dr. Tamara Schwartz",
     tagline: "Conquering Mount VUCA",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -940,6 +973,7 @@ export const speakers: Speaker[] = [
   {
     slug: "bryce-allen",
     name: "DR. BRYCE-ALLEN BAGLEY",
+    properName: "Dr. Bryce-Allen Bagley",
     tagline: "The Triple Threat",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -972,6 +1006,7 @@ export const speakers: Speaker[] = [
   {
     slug: "len-noe",
     name: "LEN NOE",
+    properName: "Len Noe",
     tagline: "The Human Cyborg",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -1007,6 +1042,7 @@ export const speakers: Speaker[] = [
   {
     slug: "web-begole",
     name: "WEB BEGOLE",
+    properName: "Web Begole",
     tagline: "From Brecht to Basis Points",
     track: "cognitive-infra",
     trackLabel: "Critical Cognitive Infrastructure",
@@ -1042,6 +1078,7 @@ export const speakers: Speaker[] = [
   {
     slug: "brian-brushwood",
     name: "BRIAN BRUSHWOOD",
+    properName: "Brian Brushwood",
     tagline: "First He Scams You, Then He Shows You How He Did It",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1075,6 +1112,7 @@ export const speakers: Speaker[] = [
   {
     slug: "sara-rabinovitch",
     name: "DR. SARA RABINOVITCH",
+    properName: "Dr. Sara Rabinovitch",
     tagline: "Stress Neurobiology Researcher & Intervention Developer",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1134,6 +1172,7 @@ export const speakers: Speaker[] = [
   {
     slug: "chloe-tucker",
     name: "CHLOE TUCKER",
+    properName: "Chloe Tucker",
     tagline: "Storytelling for Human-Centered Defense",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1179,6 +1218,7 @@ export const speakers: Speaker[] = [
   {
     slug: "sara-russo",
     name: "SARA RUSSO",
+    properName: "Sara Russo",
     tagline: "Building the Map of Cognitive Warfare Research",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1212,6 +1252,7 @@ export const speakers: Speaker[] = [
   {
     slug: "dustin-sachs",
     name: "DR. DUSTIN SACHS",
+    properName: "Dr. Dustin Sachs",
     tagline: "DO NOT accept QR codes from this man!",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1244,6 +1285,7 @@ export const speakers: Speaker[] = [
   {
     slug: "lucas-pralle",
     name: "LUCAS PRALLE",
+    properName: "Lucas Pralle",
     tagline: "Making Tools to Maximize Human Creativity",
     track: "applied-training",
     trackLabel: "Applied Training",
@@ -1275,6 +1317,7 @@ export const speakers: Speaker[] = [
   {
     slug: "james-mcquiggan",
     name: "JAMES MCQUIGGAN",
+    properName: "James McQuiggan",
     tagline: "The Groan-Up in the Room",
     track: "mc",
     trackLabel: "Master of Ceremonies",
@@ -1317,6 +1360,7 @@ export const speakers: Speaker[] = [
   {
     slug: "sumona-banerji",
     name: "SUMONA BANERJI",
+    properName: "Sumona Banerji",
     tagline: "“Know Your Mind”",
     track: "mc",
     trackLabel: "Master of Ceremonies",

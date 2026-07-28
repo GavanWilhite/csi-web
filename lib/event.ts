@@ -12,6 +12,21 @@ export const event = {
   venueRooms: "Firenze · Tuscany · Siena",
   capacity: 300,
   /**
+   * The same facts as `dates` and `venueAddress`, in the shapes machines
+   * need: ISO-8601 for schema.org, split fields for PostalAddress. Kept
+   * beside the display strings so the two cannot drift — if the date or
+   * venue changes, both forms are on screen together.
+   */
+  startDate: "2026-08-06",
+  endDate: "2026-08-07",
+  venueAddressParts: {
+    streetAddress: "255 E Flamingo Rd",
+    addressLocality: "Las Vegas",
+    addressRegion: "NV",
+    postalCode: "89169",
+    addressCountry: "US",
+  },
+  /**
    * Early-bird pricing was advertised through July 16, which has passed —
    * flipped to false so the site stops advertising an expired offer. It
    * drives the hero flag and the registration paragraph. CLIENT MUST CONFIRM

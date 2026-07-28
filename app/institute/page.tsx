@@ -13,6 +13,9 @@ import { Watch } from "@/components/institute/Watch";
 import { GetInvolved } from "@/components/institute/GetInvolved";
 import { instituteNavLinks, mission } from "@/lib/institute";
 import { links } from "@/lib/event";
+import { JsonLd } from "@/components/JsonLd";
+import { organizationSchema, graph } from "@/lib/schema";
+import { resolveSiteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Cognitive Security Institute",
@@ -31,8 +34,10 @@ export const metadata: Metadata = {
  * rest sit immediately after the item that covers them.
  */
 export default function InstitutePage() {
+  const base = resolveSiteUrl();
   return (
     <>
+      <JsonLd data={graph(base, [organizationSchema(base)])} />
       <ConferenceBanner />
       <Nav
         items={instituteNavLinks}

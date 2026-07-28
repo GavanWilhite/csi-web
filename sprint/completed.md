@@ -102,3 +102,32 @@ its own, and the domain would have served none after the cutover. Both read
 - `/sitemap` was missing from its own XML.
 - `resolveSiteUrl()` was private to `app/layout.tsx`; extracted to `lib/site.ts`
   so the sitemap and robots share one resolver instead of copying it.
+
+## Machine-readable surfaces — shipped
+
+Made the site legible to crawlers and assistants, on the same principle as
+everything else here: generated from `lib/`, never hand-maintained.
+
+- **schema.org JSON-LD** on `/`, `/institute` and all 35 speaker pages —
+  `Event` (dates, venue as a `PostalAddress`, capacity, Zeffy offer, 35
+  performers), `NGO` (registration facts already in the footer), and `Person`
+  per speaker, cross-linked by `@id` so a speaker resolves to the event they
+  perform in. Offer carries a URL but no price: pricing lives on Zeffy and
+  would go stale here.
+- **`/llms.txt`** (index) and **`/llms-full.txt`** (~106kB, the whole site as
+  markdown), per llmstxt.org.
+- **`/robots.txt`** now names the AI crawlers explicitly. A wildcard already
+  allowed them; the named groups document the decision so nobody later reads
+  silence as an oversight.
+
+**Honest assessment:** llms.txt is published by roughly one site in ten as of
+mid-2026 and the major crawlers largely skip it in favour of fetching HTML.
+It costs a few kB and no maintenance. The JSON-LD is the surface with actual
+consumers today, and is where the value is.
+
+**Found while doing it:** speaker names are stored all-caps for display, so
+structured data would have shouted every name at Google. Added
+`speaker.properName` — cased by hand across all 35, because "MCQUIGGAN"
+title-cases to "Mcquiggan" and FC is not "Fc". Also caught `/llms.txt`
+reporting "30 agenda rows"; that counted grid rows, not sessions, against the
+53 the site advertises.

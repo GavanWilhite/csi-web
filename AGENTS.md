@@ -79,6 +79,26 @@ replaces it. Two rules follow:
   at it. The full check — all 133 crawled URLs against a running server — is
   in `sprint/completed.md`.
 
+## Machine-readable surfaces
+
+`/sitemap.xml`, `/robots.txt`, `/llms.txt`, `/llms-full.txt` and the
+schema.org JSON-LD on `/`, `/institute` and the speaker pages are all
+**generated from `lib/`** — never hand-written. A machine surface that
+disagrees with the page a human sees is worse than not having one, so if you
+change content, they follow automatically. Check they still do.
+
+Two hard rules:
+
+- **No contact address in any of them.** They are plain text served to
+  anything that asks. An `email` property in JSON-LD or a contact line in
+  `llms-full.txt` hands the address to every harvester going and undoes
+  `lib/contact.ts`.
+- **Use `speaker.properName`, not `speaker.name`,** in anything a machine
+  reads. `name` is the roster's all-caps display form.
+
+Route Handlers need `export const dynamic = "force-static"` or the site stops
+being fully static.
+
 ## Things that are intentional
 
 - No linter, no light mode, no ticket price, no `<noscript>` email fallback.

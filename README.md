@@ -24,6 +24,10 @@ pnpm build && pnpm start
 | `/disclaimer` | Legal notice, verbatim from the old site |
 | `/sitemap` | Human-readable index (`/sitemap.xml` is generated separately) |
 
+Machine surfaces, all generated from the same `lib/` content the pages
+render — `/sitemap.xml`, `/robots.txt`, `/llms.txt`, `/llms-full.txt`, plus
+schema.org JSON-LD on `/`, `/institute` and the 35 speaker pages.
+
 **This site no longer depends on the old one.** Every outbound link to
 `cognitivesecurityinstitute.org` is gone except three blog-post URLs, the
 travel-brief PDFs are self-hosted, and the last five routes above replace
@@ -63,6 +67,8 @@ sponsor, edit `lib/` — not a component:
 | `lib/sitemap.ts` | Site index, drives `/sitemap` and `/sitemap.xml` |
 | `lib/redirects.ts` | Old Wix URL → new route |
 | `lib/site.ts` | Base URL resolution for absolute links |
+| `lib/schema.ts` | schema.org JSON-LD (Event, NGO, Person) |
+| `lib/llms.ts` | `/llms.txt` and `/llms-full.txt` |
 
 Design rules are in [DESIGN.md](./DESIGN.md). Conventions for agents and
 contributors are in [AGENTS.md](./AGENTS.md). Where the work stands is in
@@ -91,6 +97,17 @@ DESIGN.md. Nothing address-shaped may appear in the served HTML — not the raw
 address and not an `[at]`/`[dot]` rendering of it, which harvesters normalise
 as a matter of course. `<MailLink>` with no children renders a neutral
 placeholder until hydration.
+
+**Never put the address in a machine surface.** JSON-LD and the `llms.txt`
+files are plain text served to anything that asks — an `email` property or a
+contact line there would undo `lib/contact.ts` completely. Both modules carry
+a warning to that effect; heed it.
+
+**Speaker names exist twice.** `speaker.name` is the all-caps display form the
+roster uses; `speaker.properName` is ordinary casing, and is what structured
+data and the markdown surfaces emit. Shouting a name at a search engine is not
+what the typography meant. Cased by hand — "MCQUIGGAN" title-cases wrong and
+FC is not "Fc".
 
 **Redirects need a Node deploy.** `lib/redirects.ts` keeps ~50 old Wix URLs
 alive. Vercel handles this; a static export (`output: 'export'`) would drop

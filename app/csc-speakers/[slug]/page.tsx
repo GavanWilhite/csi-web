@@ -4,6 +4,9 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { SpeakerProfile } from "@/components/SpeakerProfile";
 import { speakerBySlug, speakers } from "@/lib/speakers";
+import { JsonLd } from "@/components/JsonLd";
+import { speakerPageSchema } from "@/lib/schema";
+import { resolveSiteUrl } from "@/lib/site";
 
 /**
  * Per-speaker pages at the same URL shape as the source site
@@ -65,6 +68,8 @@ export default async function SpeakerPage({
 
   return (
     <>
+      {/* Person, linked by @id to the event they perform in. */}
+      <JsonLd data={speakerPageSchema(resolveSiteUrl(), speaker)} />
       <a className="skipLink" href="#main">
         SKIP TO CONTENT
       </a>
