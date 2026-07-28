@@ -27,8 +27,6 @@ export const links = {
   roomBlock:
     "https://res.windsurfercrs.com/ibe/details.aspx?propertyid=16539&nights=1&checkin=8/5/2026&group=0826CSIRB&lang=en-us",
   institute: "https://www.cognitivesecurityinstitute.org",
-  fullRoster:
-    "https://www.cognitivesecurityinstitute.org/cognitive-security-conference-speakers",
   fullAgenda: "https://www.cognitivesecurityinstitute.org/csc26-agenda",
   /**
    * Straight to the Zeffy donation form. The institute's /donate page is

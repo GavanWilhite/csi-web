@@ -99,21 +99,6 @@ export const keynotes: Keynote[] = [
   },
 ];
 
-/** Named-drop chips under the keynote grid. */
-export const speakerChips = [
-  "BRUCE SCHNEIER",
-  "CLIFFORD STOLL",
-  "PERRY CARPENTER",
-  "DR. JESSICA BARKER",
-  "WINN SCHWARTAU",
-  "FC (FREAKY CLOWN)",
-  "BRIAN BRUSHWOOD",
-] as const;
-
-/** 35 on the roster − 4 keynotes shown − 7 chips. (Was 28, which implied a
-    39-speaker roster.) */
-export const moreSpeakersCount = 24;
-
 export interface Sponsor {
   name: string;
   logo: string;

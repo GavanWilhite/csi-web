@@ -24,6 +24,12 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  /**
+   * Base for absolute OG/social URLs (the speaker pages set per-speaker OG
+   * images). Set SITE_URL in the production environment — the fallback only
+   * keeps local builds warning-free.
+   */
+  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
   title: "Cognitive Security Conference 2026",
   description:
     "Two days on human risk, AI security, and cognitive warfare with the people defining the field. August 6–7, 2026, Tuscany Suites & Casino, Las Vegas. Limited to 300 attendees.",

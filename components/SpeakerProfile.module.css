@@ -1,0 +1,231 @@
+.page {
+  border-bottom: 1px solid var(--line);
+}
+
+.inner {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px var(--gutter) var(--section-y);
+}
+
+.back {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+/* ---- Header ---------------------------------------------------------------- */
+
+.header {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin-top: 28px;
+}
+
+.portraitWrap {
+  position: relative;
+  flex-shrink: 0;
+  /* Sized inline per speaker — low-res headshots render at native 190px. */
+  max-width: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.portrait {
+  object-fit: cover;
+  filter: grayscale(0.35) contrast(1.05);
+}
+.rule {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 1;
+}
+
+.headMeta {
+  min-width: 0;
+}
+
+.track {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.name {
+  margin: 12px 0 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(22px, 4.2vw, 34px);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.tagline {
+  margin: 10px 0 0;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  color: var(--amber);
+}
+
+.linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.linkedin:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+.liMark {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* ---- Session plate(s) ------------------------------------------------------ */
+
+.sessions {
+  display: grid;
+  gap: 10px;
+  margin-top: 32px;
+}
+
+.session {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+  padding: 14px 18px;
+}
+.sessionWhen {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.sessionTitle {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ---- Prose + credentials ---------------------------------------------------- */
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 40px;
+  margin-top: 36px;
+}
+
+.prose p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.aside {
+  min-width: 0;
+}
+.asideHead {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.credentials {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.credentials li {
+  position: relative;
+  padding: 10px 0 10px 18px;
+  border-top: 1px solid var(--hair);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.credentials li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 7px;
+  height: 7px;
+  background: var(--accent);
+}
+
+/* ---- Register CTA ------------------------------------------------------------ */
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 44px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 22px;
+  background: var(--indigo);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+}
+.ctaButton:hover {
+  background: var(--indigo-deep);
+  color: var(--on-accent);
+}
+
+.ctaSecondary {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+/* ---- Responsive ---------------------------------------------------------------- */
+
+@media (max-width: 860px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    gap: 22px;
+  }
+}

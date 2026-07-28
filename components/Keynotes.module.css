@@ -36,8 +36,13 @@
   border-color: var(--indigo-deep);
 }
 
+.portraitLink {
+  display: block;
+}
+
 .portraitWrap {
   position: relative;
+  display: block;
   /* Reserves the square before the image decodes, so the grid never jumps. */
   aspect-ratio: 1;
 }
@@ -73,6 +78,13 @@
   letter-spacing: 0.03em;
   line-height: 1.25;
 }
+/* The name links to the speaker page without changing the card's look. */
+.nameLink {
+  color: inherit;
+}
+.nameLink:hover {
+  color: var(--indigo-deep);
+}
 .epithet {
   font-family: var(--font-mono);
   font-size: 13px;
@@ -100,21 +112,6 @@
   color: var(--indigo-deep);
 }
 
-.chips {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 28px;
-  font-family: var(--font-mono);
-  font-size: 13.5px;
-  letter-spacing: 0.05em;
-  color: var(--muted);
-}
-.chip {
-  border: 1px dashed var(--line);
-  padding: 8px 13px;
-}
-
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -138,12 +135,5 @@
   .epithet {
     font-size: 11.5px;
     letter-spacing: 0.04em;
-  }
-  .chips {
-    font-size: 12.5px;
-    gap: 8px;
-  }
-  .chip {
-    padding: 7px 10px;
   }
 }
