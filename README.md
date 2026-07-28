@@ -124,6 +124,22 @@ every rule silently.
 **`SITE_URL` is optional.** Absolute OG URLs resolve from `SITE_URL`, falling
 back to Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, so a standard Vercel deploy
 needs no configuration. Set `SITE_URL` only to override for a custom domain.
+Whichever is used, it is read **at build time** — setting it only at runtime
+does nothing.
+
+## Deployment
+
+**Connected to Vercel via the GitHub integration. Every push to `main`
+deploys to production.** No staging step, no manual promote — see the warning
+at the top of [AGENTS.md](./AGENTS.md) before pushing. Other branches get
+preview deployments.
+
+No environment variables are required. There is no `.vercel/` directory in
+the repo and there does not need to be; the project link lives on Vercel's
+side.
+
+The ~50 redirects in `lib/redirects.ts` depend on this being a Node deploy.
+`output: 'export'` would drop every one of them silently.
 
 ## Supply chain
 

@@ -6,6 +6,31 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # Working in this repo
 
+## ⚠️ This repo is live — pushing publishes
+
+It is connected to Vercel through the GitHub integration and **every push to
+`main` deploys straight to production**, at the Cognitive Security Institute's
+public domain. There is no staging step and no manual promote.
+
+So `git push` here is not "saving work" — it is putting it in front of the
+public, a conference audience and the institute's own members. Treat it as an
+outward-facing action:
+
+- **Do not push unless you were asked to.** Commit freely; pushing is a
+  separate decision that belongs to the user.
+- `pnpm build` must be clean first — it runs `scripts/check-content.mjs`, and
+  that gate exists precisely because a broken generated surface is invisible
+  locally.
+- If you need to see something deployed without publishing it, push a branch
+  rather than `main`; Vercel builds a preview for it. Only `main` is
+  production.
+
+Note there is no `.vercel/` directory in the checkout. That is normal — the
+project link lives on Vercel's side. Its absence is not evidence that nothing
+is connected, and has misled at least one session already.
+
+## Orientation
+
 Read [DESIGN.md](./DESIGN.md) before touching anything visual, and
 [README.md](./README.md) for where content lives. Start a session with
 [sprint/current.md](./sprint/current.md); `docs/research/` holds the specs and

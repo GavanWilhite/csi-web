@@ -4,8 +4,12 @@
 Nothing is in flight.
 
 The site is now a standalone replacement: it no longer links to the Wix site
-for anything, and it catches the old site's URLs. What is left is a deploy
-decision and two client answers.
+for anything, and it catches the old site's URLs. What is left is three
+client answers.
+
+> **This repo is live.** It is connected to Vercel and **auto-deploys on
+> every push to `main`**. See the deployment note in [AGENTS.md](../AGENTS.md)
+> before you push.
 
 ## Blocked on the client
 
@@ -22,18 +26,19 @@ decision and two client answers.
   Reproduced verbatim rather than silently corrected — editing published
   legal wording is the client's call. See `lib/legal.ts`.
 
-## Blocked on a decision, not on work
+## Deployment
 
-- **Deploy.** The repo is on GitHub and needs no environment variables — OG URLs
-  and `sitemap.xml` fall back to Vercel's `VERCEL_PROJECT_PRODUCTION_URL`. It is
-  unclear whether a Vercel project is connected; there is no `.vercel/` in this
-  checkout. If the GitHub integration is connected on the dashboard, every push
-  has been deploying already.
+Connected to Vercel through the GitHub integration: **a push to `main` is a
+production deploy.** No environment variables are needed — OG URLs and
+`sitemap.xml` resolve from `VERCEL_PROJECT_PRODUCTION_URL`, which Vercel
+injects at build. There is no `.vercel/` in the checkout because the link
+lives on the Vercel side, not in the repo; its absence does not mean
+unconnected.
 
-  **Redirects need a Vercel/Node deploy.** `next.config.ts` now carries ~50
-  redirects for old Wix URLs. A static export (`output: 'export'`) would drop
-  them silently — if hosting ever moves to plain static files, those rules
-  must be reimplemented at the CDN.
+**Redirects need this Node deploy.** `next.config.ts` carries ~50 redirects
+for old Wix URLs. A static export (`output: 'export'`) would drop them
+silently — if hosting ever moves to plain static files, those rules must be
+reimplemented at the CDN.
 
 ## Known dead ends, deliberate
 
