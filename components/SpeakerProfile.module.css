@@ -140,6 +140,10 @@
   font-size: 16px;
   line-height: 1.7;
   color: var(--ink);
+  /* Bio prose is crawled content, so an unbreakable token can always appear
+     in it. A stray CDN URL once forced 1356px of layout at a 390px viewport;
+     this guarantees the text wraps no matter what the data contains. */
+  overflow-wrap: anywhere;
 }
 .prose p:last-child {
   margin-bottom: 0;
