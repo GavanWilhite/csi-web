@@ -131,3 +131,23 @@ structured data would have shouted every name at Google. Added
 title-cases to "Mcquiggan" and FC is not "Fc". Also caught `/llms.txt`
 reporting "30 agenda rows"; that counted grid rows, not sessions, against the
 53 the site advertises.
+
+## Build-time content gate — shipped
+
+The generated surfaces stay current on their own for *content* edits, but two
+kinds of drift are silent and neither is fixable by documentation:
+
+- **A new route** does not add itself to `lib/sitemap.ts` or `llmsIndex()`.
+  Verified empirically: a throwaway `app/drift-test/page.tsx` built and served
+  fine while appearing in none of `sitemap.xml`, `/sitemap` or `llms.txt`.
+- **A fact stored twice** — `event.dates` vs the ISO pair, `speaker.name` vs
+  `properName`.
+
+`scripts/check-content.mjs` (no dependencies) now runs after `next build` and
+fails it on those, plus the contact address appearing in any machine surface.
+It reads the **built artifacts**, so it cannot be satisfied by source that
+looks right but generates nothing. All four checks were verified by
+deliberately breaking each one.
+
+Also removed one duplicated fact rather than checking it: `event.venueAddress`
+is now derived from `venueAddressParts` instead of being typed out twice.

@@ -3,29 +3,40 @@
  * Copy is taken from the design export's conference page.
  */
 
+/**
+ * The venue address in the split form schema.org's PostalAddress wants.
+ * This is the SOURCE: the human-readable one-liner is derived from it below,
+ * so there is only ever one address to edit.
+ */
+const venueAddressParts = {
+  streetAddress: "255 E Flamingo Rd",
+  addressLocality: "Las Vegas",
+  addressRegion: "NV",
+  postalCode: "89169",
+  addressCountry: "US",
+} as const;
+
 export const event = {
   name: "Cognitive Security Conference 2026",
   shortName: "CSC 2026",
   dates: "August 6–7, 2026",
   venue: "Tuscany Suites & Casino",
-  venueAddress: "255 E Flamingo Rd, Las Vegas, NV 89169",
+  /** Derived. Edit venueAddressParts, not this. */
+  venueAddress:
+    `${venueAddressParts.streetAddress}, ${venueAddressParts.addressLocality}, ` +
+    `${venueAddressParts.addressRegion} ${venueAddressParts.postalCode}`,
   venueRooms: "Firenze · Tuscany · Siena",
   capacity: 300,
   /**
-   * The same facts as `dates` and `venueAddress`, in the shapes machines
-   * need: ISO-8601 for schema.org, split fields for PostalAddress. Kept
-   * beside the display strings so the two cannot drift — if the date or
-   * venue changes, both forms are on screen together.
+   * ISO-8601, for schema.org. These and `dates` above are two renderings of
+   * one fact, which is a drift risk that cannot be derived away — the display
+   * string is a typographic choice ("August 6–7, 2026", en dash). So it is
+   * asserted instead: scripts/check-content.mjs fails the build if they stop
+   * agreeing.
    */
   startDate: "2026-08-06",
   endDate: "2026-08-07",
-  venueAddressParts: {
-    streetAddress: "255 E Flamingo Rd",
-    addressLocality: "Las Vegas",
-    addressRegion: "NV",
-    postalCode: "89169",
-    addressCountry: "US",
-  },
+  venueAddressParts,
   /**
    * Early-bird pricing was advertised through July 16, which has passed —
    * flipped to false so the site stops advertising an expired offer. It

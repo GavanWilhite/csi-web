@@ -8,6 +8,7 @@ at request time and no runtime data fetching.
 pnpm install
 pnpm dev            # http://localhost:3000
 pnpm build && pnpm start
+pnpm check          # content consistency (also runs as part of build)
 ```
 
 ## Routes
@@ -97,6 +98,13 @@ DESIGN.md. Nothing address-shaped may appear in the served HTML — not the raw
 address and not an `[at]`/`[dot]` rendering of it, which harvesters normalise
 as a matter of course. `<MailLink>` with no children renders a neutral
 placeholder until hydration.
+
+**Adding a page? The build will fail until you index it.**
+`scripts/check-content.mjs` runs after `next build` and rejects a route that
+is in neither `sitemap.xml` nor `llms.txt` — because a page nothing links to
+is invisible, and that failure is otherwise silent. It also catches
+`event.dates` drifting from the ISO dates, a mistyped `properName`, and the
+contact address leaking into a machine surface.
 
 **Never put the address in a machine surface.** JSON-LD and the `llms.txt`
 files are plain text served to anything that asks — an `email` property or a

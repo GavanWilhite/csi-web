@@ -99,6 +99,20 @@ Two hard rules:
 Route Handlers need `export const dynamic = "force-static"` or the site stops
 being fully static.
 
+**`pnpm build` enforces this** — `scripts/check-content.mjs` runs after
+`next build` and fails it on four things that are otherwise silent:
+
+1. A route that exists but is in neither `sitemap.xml` nor `llms.txt`. **This
+   is what will catch you when you add a page.** Add it to `lib/sitemap.ts`
+   and `llmsIndex()`, or to the exclusion set in the script if leaving it
+   unlisted is deliberate.
+2. `event.dates` disagreeing with `event.startDate`/`endDate`.
+3. A `speaker.properName` that is not the same name as `speaker.name`.
+4. The contact address appearing in any machine surface.
+
+It reads the built artifacts, not the source, so it cannot be satisfied by
+code that looks right but generates nothing. Run it alone with `pnpm check`.
+
 ## Things that are intentional
 
 - No linter, no light mode, no ticket price, no `<noscript>` email fallback.
