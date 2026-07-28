@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { links } from "@/lib/event";
 import styles from "./Footer.module.css";
 
@@ -26,15 +27,17 @@ export function Footer() {
           <a className={styles.donate} href={links.donate}>
             DONATE
           </a>
-          <a className={styles.link} href={links.contact}>
+          {/* These three used to point at the Wix site; they are pages here
+              now, at the same paths. */}
+          <Link className={styles.link} href={links.contact}>
             CONTACT
-          </a>
-          <a className={styles.link} href={links.disclaimer}>
+          </Link>
+          <Link className={styles.link} href={links.disclaimer}>
             DISCLAIMER
-          </a>
-          <a className={styles.link} href={links.sitemap}>
+          </Link>
+          <Link className={styles.link} href={links.sitemap}>
             SITEMAP
-          </a>
+          </Link>
         </nav>
       </div>
     </footer>

@@ -1,0 +1,67 @@
+.lede {
+  color: var(--muted);
+  margin: 0 0 26px;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Mirrors the travel-brief rows: same plate, same hairline, same hover. */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid var(--line);
+  padding: 16px 20px;
+  background: var(--surface);
+  color: var(--ink);
+}
+.item:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+
+/* Pre-hydration the address is not yet assembled, so MailLink renders a
+   <span> rather than an <a>. Drop the affordances that promise a click. */
+.item[data-mail-pending] {
+  cursor: default;
+  opacity: 0.75;
+}
+.item[data-mail-pending] .arrow {
+  visibility: hidden;
+}
+
+.text {
+  flex: 1;
+}
+
+.subject {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blurb {
+  display: block;
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 3px;
+  line-height: 1.5;
+}
+
+.arrow {
+  font-family: var(--font-mono);
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .item {
+    gap: 12px;
+    padding: 14px 16px;
+  }
+}

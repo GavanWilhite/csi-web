@@ -19,9 +19,21 @@ pnpm build && pnpm start
 | `/csc-speakers/[slug]` | 35 speaker pages, one per speaker |
 | `/csc26-agenda` | Full two-day agenda, pinnable |
 | `/institute` | The Institute: mission, pillars, channel, projects, publications, events, people, get involved |
+| `/apply` | Membership application |
+| `/contact` | Contact, by pre-addressed mail |
+| `/disclaimer` | Legal notice, verbatim from the old site |
+| `/sitemap` | Human-readable index (`/sitemap.xml` is generated separately) |
 
-Speaker URLs match the old Wix site's shape, so links already shared keep
-resolving.
+**This site no longer depends on the old one.** Every outbound link to
+`cognitivesecurityinstitute.org` is gone except three blog-post URLs, the
+travel-brief PDFs are self-hosted, and the last five routes above replace
+pages that died with the Wix site.
+
+URLs match the old site's shape wherever one existed — speakers, agenda,
+contact, disclaimer, sitemap, apply — and `lib/redirects.ts` catches the ~50
+that had no equivalent, so shared links and search results keep resolving
+after the domain moves. `pnpm build` then a run of the check in
+`sprint/completed.md` covers all 133 crawled URLs.
 
 ## Where things live
 
@@ -45,7 +57,12 @@ sponsor, edit `lib/` — not a component:
 | `lib/institute.ts` | Institute copy, pillars, projects, publications, events |
 | `lib/people.ts` | 22 staff, board and council members |
 | `lib/videos.ts` | YouTube snapshot for the channel row |
-| `lib/contact.ts` | Encoded contact address |
+| `lib/contact.ts` | Encoded contact address, contact subjects |
+| `lib/apply.ts` | Membership application copy |
+| `lib/legal.ts` | Disclaimer text — verbatim, do not edit |
+| `lib/sitemap.ts` | Site index, drives `/sitemap` and `/sitemap.xml` |
+| `lib/redirects.ts` | Old Wix URL → new route |
+| `lib/site.ts` | Base URL resolution for absolute links |
 
 Design rules are in [DESIGN.md](./DESIGN.md). Conventions for agents and
 contributors are in [AGENTS.md](./AGENTS.md). Where the work stands is in
@@ -70,7 +87,14 @@ the intended follow-up; there is deliberately no runtime API call, because that
 would break the static prerender.
 
 **Contact addresses are never written literally.** Use `<MailLink>`; see
-DESIGN.md.
+DESIGN.md. Nothing address-shaped may appear in the served HTML — not the raw
+address and not an `[at]`/`[dot]` rendering of it, which harvesters normalise
+as a matter of course. `<MailLink>` with no children renders a neutral
+placeholder until hydration.
+
+**Redirects need a Node deploy.** `lib/redirects.ts` keeps ~50 old Wix URLs
+alive. Vercel handles this; a static export (`output: 'export'`) would drop
+every rule silently.
 
 **`SITE_URL` is optional.** Absolute OG URLs resolve from `SITE_URL`, falling
 back to Vercel's `VERCEL_PROJECT_PRODUCTION_URL`, so a standard Vercel deploy
@@ -99,7 +123,16 @@ applies.
   without.
 - **Low-resolution headshots** — 16 of 35 speaker portraits exist only at
   190×190. Per-speaker OG images ship only above the 200×200 floor.
-- **Blog not ported** — the three "latest" cards link out to the live Wix posts.
+- **Blog not ported** — the three "latest" cards are the only outbound links
+  left to the old site, and they die with it. The other ten posts' `/post/`
+  URLs 404 here by design (see `sprint/current.md`). All 13 posts are already
+  extracted in `docs/research/research-posts.json`, so the port is unblocked.
+- **Membership intake is an email**, not a form — the Wix form cannot be
+  ported to a static site. Point `instituteLinks.apply` at a hosted form to
+  replace it.
+- **YouTube descriptions carry dead old-site URLs** in `lib/videos.ts`. They
+  are YouTube's own text, render as plain text clamped to two lines, and are
+  never links — they will go when the channel snapshot is next regenerated.
 - **Unresolved content questions** are flagged in the module headers of
   `lib/institute.ts` and `lib/people.ts` rather than guessed: the Evil Digital
   Twin presenter credit, the partners/supporters label swap, and three roster

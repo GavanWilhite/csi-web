@@ -65,6 +65,20 @@ processes on different ports means whoever is reviewing may be looking at a
 build from twenty minutes ago, and the resulting "you didn't fix it" is
 unfalsifiable. One server, and rebuild before you restart it.
 
+## The old site is gone
+
+`cognitivesecurityinstitute.org` on Wix is being retired, and this site
+replaces it. Two rules follow:
+
+- **Never add a link to the old site.** If you need something that only exists
+  there, take it from `docs/source-content/` and host it here. The only
+  remaining references are three blog-post URLs in `lib/institute.ts`, and
+  they are a known gap, not a pattern to copy.
+- **Never break an old URL.** `lib/redirects.ts` maps ~50 retired paths onto
+  this site. If you rename or remove a route, check whether a redirect points
+  at it. The full check — all 133 crawled URLs against a running server — is
+  in `sprint/completed.md`.
+
 ## Things that are intentional
 
 - No linter, no light mode, no ticket price, no `<noscript>` email fallback.
@@ -72,3 +86,14 @@ unfalsifiable. One server, and rebuild before you restart it.
 - `lib/videos.ts` is a stale-by-design snapshot; do not add a runtime fetch,
   which would break the static prerender.
 - `event.earlyBird` is `false` because the advertised date passed.
+- The disclaimer reads "is a an independent". That typo is in the published
+  legal text and ships verbatim. Do not fix it.
+- `/post/<slug>` URLs 404 rather than redirecting to `/institute`. Sending
+  someone who wanted a specific article to a page that is not it is worse
+  than a 404.
+- **Nothing address-shaped in the HTML.** Not `info@…`, and not
+  `info [at] … [dot] org` either — the second is the pattern harvesters
+  normalise first, so shipping it in static HTML defeats the whole scheme.
+  `<MailLink>` handles this; do not hand-roll a mailto.
+- `TextPage`'s prose CSS is scoped to `:not([class])` on purpose. A bare
+  `.body p` rule outranks a child page's own class and silently overrides it.

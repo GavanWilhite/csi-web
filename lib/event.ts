@@ -26,20 +26,25 @@ export const links = {
   tickets: "https://www.zeffy.com/en-US/ticketing/cognitive-security-conference",
   roomBlock:
     "https://res.windsurfercrs.com/ibe/details.aspx?propertyid=16539&nights=1&checkin=8/5/2026&group=0826CSIRB&lang=en-us",
-  institute: "https://www.cognitivesecurityinstitute.org",
-  fullAgenda: "https://www.cognitivesecurityinstitute.org/csc26-agenda",
+  institute: "/institute",
+  fullAgenda: "/csc26-agenda",
   /**
    * Straight to the Zeffy donation form. The institute's /donate page is
    * nothing but a redirect to this URL, so we skip the hop.
    */
   donate: "https://www.zeffy.com/en-US/donation-form/support-our-mission-28",
-  contact: "https://www.cognitivesecurityinstitute.org/contact",
-  disclaimer: "https://www.cognitivesecurityinstitute.org/disclaimer",
-  sitemap: "https://www.cognitivesecurityinstitute.org/sitemap",
+  contact: "/contact",
+  disclaimer: "/disclaimer",
+  sitemap: "/sitemap",
+  /**
+   * Self-hosted. These were served from the Wix site's own file store
+   * (/_files/ugd/…), which dies with it; the PDFs are byte-identical copies
+   * of what those URLs served, captured in the 2026-07-27 crawl.
+   */
   travelBriefHumanRisk:
-    "https://www.cognitivesecurityinstitute.org/_files/ugd/6aeb2e_f74dceb6e7b34bde996850ea4c557c7f.pdf",
+    "/assets/documents/CSC-2026-Human-Risk-Travel-Justification-Brief.pdf",
   travelBriefCogWar:
-    "https://www.cognitivesecurityinstitute.org/_files/ugd/6aeb2e_4adf13c2a99f4f82a239c897aa139774.pdf",
+    "/assets/documents/CSC-2026-Cognitive-Warfare-Travel-Justification-Brief.pdf",
 } as const;
 
 /**

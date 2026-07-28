@@ -32,7 +32,19 @@ export const instituteNavLinks = [
 ] as const;
 
 export const instituteLinks = {
-  apply: "https://www.cognitivesecurityinstitute.org/apply",
+  /**
+   * The membership funnel. Points at our own /apply page, which currently
+   * hands the applicant a mail template.
+   *
+   * ⚠️ THIS IS AN INTERIM. The old site's /apply was a Wix Form with
+   * fourteen fields and two reference blocks, and it dies with that site.
+   * A static site cannot accept a POST, so there is nothing to port it to.
+   * When CSI stands up a real intake form (Tally, Google Forms, Fillout —
+   * anything with a URL), point this constant at it and delete
+   * app/apply/. Nothing else needs to change: the nav CTA, the get-involved
+   * card and the sitemap all read this one value.
+   */
+  apply: "/apply",
   /** Shared "get more info" destination for the programme cards. */
   cat: "https://cognitiveattacktaxonomy.org/",
   evilDigitalTwin: "https://www.evildigitaltwin.ai/",
@@ -287,7 +299,7 @@ export const getInvolved: { deck: string; routes: Route[] } = {
       blurb:
         "Off-the-record calls with people who know what's actually going on, private channels to compare notes in, and events before they're announced. Membership is by application.",
       ctaLabel: "APPLY",
-      href: "https://www.cognitivesecurityinstitute.org/apply",
+      href: instituteLinks.apply,
       icon: "badge",
     },
     {

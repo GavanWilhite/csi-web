@@ -55,3 +55,50 @@ publications, events, people, get involved.
 A 133-page crawl of the Wix site, a parity analysis, an independent fact-check,
 and specs for the institute port. Moved into version control because the source
 site is being retired.
+
+## Cutting the site loose from Wix — shipped
+
+The old site is being retired, so every dependency on it had to go: outbound
+links, hotlinked files, and the inbound URLs people already hold.
+
+**Links repointed.** `links.institute` → `/institute`; `contact`, `disclaimer`
+and `sitemap` → real pages here at the same paths; `instituteLinks.apply` →
+`/apply`. `links.fullAgenda` was dead and now points at `/csc26-agenda`.
+
+**Files self-hosted.** Both travel-brief PDFs were served from Wix's
+`/_files/ugd/` store and now live in `public/assets/documents/`.
+
+**Four pages built** on a shared `TextPage` shell:
+
+- `/disclaimer` — legal text verbatim, typo included (`lib/legal.ts`).
+- `/contact` — the Wix form's seven subject options as pre-addressed mail.
+  The form posted to Wix and this site is static, so there is nothing to port.
+- `/apply` — asks for an email with links to yourself and any member
+  references. Interim; see `current.md`.
+- `/sitemap` — indexes what exists rather than reproducing the old page,
+  which listed ~20 Wix pages that have no equivalent here.
+
+**Old URLs caught.** ~50 redirect rules in `lib/redirects.ts`, verified
+against all 133 URLs in the crawl: 120 resolve, and the 13 that do not are the
+blog posts, left to 404 deliberately. Includes the per-person `/staff/:slug`,
+`/staff-1/:slug` and `/council/:slug` pages, and `/donate`'s hop to Zeffy.
+
+**Also added:** `app/sitemap.ts` and `app/robots.ts` — the old site published
+its own, and the domain would have served none after the cutover. Both read
+`lib/sitemap.ts`, so the human page and the XML cannot drift.
+
+**Bugs found and fixed in the process:**
+
+- `MailLink` shipped `info [at] domain [dot] org` in the *static HTML* the
+  moment a call site omitted children — which `/apply` does. That is the most
+  widely recognised obfuscation pattern going, so it handed the address to
+  exactly the harvesters the module exists to defeat. The pre-hydration label
+  is now a neutral placeholder.
+- `TextPage`'s prose defaults (`.body p`, `.body ul`) outranked child pages'
+  own classes, so the contact list rendered with a bullet indent and lost its
+  spacing. Scoped to `:not([class])`.
+- `/staff` and `/staff-1` (the index pages) 404'd — `:slug` does not match an
+  empty segment.
+- `/sitemap` was missing from its own XML.
+- `resolveSiteUrl()` was private to `app/layout.tsx`; extracted to `lib/site.ts`
+  so the sitemap and robots share one resolver instead of copying it.

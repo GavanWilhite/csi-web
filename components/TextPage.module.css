@@ -1,0 +1,84 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 40px 0 var(--section-y);
+}
+
+.inner {
+  /* Narrower than --wrap: these are reading pages, and a 1200px measure is
+     unreadable at body size. */
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.back {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(30px, 5.4vw, 56px);
+  line-height: 1.06;
+  margin: 22px 0 0;
+  text-transform: uppercase;
+}
+
+.deck {
+  color: var(--muted);
+  font-size: clamp(16px, 2.2vw, 19px);
+  line-height: 1.55;
+  margin: 18px 0 0;
+  max-width: 60ch;
+}
+
+.body {
+  margin-top: 34px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/*
+  Prose defaults for pages that pass plain markup as children.
+
+  ":not([class])" is load-bearing, not decoration. A descendant rule like
+  ".body p" outranks a plain ".lede" class on the element itself, so without
+  it these defaults silently beat every child page's own styling — a list
+  laid out as cards still gets the bullet indent, and a deliberate margin
+  gets overwritten. Scoping to unclassed elements means "styled by its page"
+  and "styled here" are decided by whether the element carries a class,
+  which is exactly the intent.
+*/
+.body :global(p:not([class])) {
+  margin: 0 0 18px;
+  /* Long unbroken strings — URLs in particular — must not force the page
+     wide. This bit us on the speaker pages. */
+  overflow-wrap: anywhere;
+}
+
+.body :global(h2:not([class])) {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--indigo-deep);
+  margin: 38px 0 14px;
+}
+
+.body :global(ul:not([class])) {
+  margin: 0 0 18px;
+  padding-left: 20px;
+}
+
+.body :global(ul:not([class]) li) {
+  margin: 0 0 8px;
+}
