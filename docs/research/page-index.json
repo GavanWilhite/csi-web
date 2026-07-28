@@ -1,0 +1,2059 @@
+[
+  {
+    "url": "https://www.cognitivesecurityinstitute.org",
+    "slug": "index",
+    "title": "Home | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: We define and defend cognitive security \u2014 across human, artificial, and hybrid cognition.",
+      "H2: We thank our 2026Conference Sponsors!",
+      "H2: Published Research",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "H2: Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+      "H2: Join the Frontlines of the Cognitive Era",
+      "H3: What is the role of human factors in cybersecurity? Crystal Faucett, PhD CognectCon Tampa",
+      "H3: From Awareness to Accountability: Rethinking the Human Risk Practitioner's Role",
+      "H3: Cybersecurity Social Dynamics: Attitudes, Influences, Usable Security | Dr. Cori Faklaris | CSI #59",
+      "H3: Building Cognitive Defence for Organisations in the Age of AI w/ Holly-Jane Grayling & Andrew Beachy",
+      "H3: 2024: A Cyborg Odyssey | Len Noe | CSI #60",
+      "H3: Cognitive Security Institute Live Stream",
+      "H3: The Mind of the Machine: Governing the New Agentic Workforce | Josh Devon | CSI #87",
+      "H3: Beyond Click Rates: Rethinking Phishing Awareness w/ James Phillips"
+    ],
+    "text_chars": 19975
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/about",
+    "slug": "about",
+    "title": "About | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: ABOUT US",
+      "H1: A Human-Centered Approach to Security",
+      "H1: Meet Our Team",
+      "H1: Board of Directors",
+      "H2: What is Cognitive Security?"
+    ],
+    "text_chars": 7893
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/apply",
+    "slug": "apply",
+    "title": "Membership Application | Cognitive Security I",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: MEMBERSHIP APPLICATION",
+      "H1: References",
+      "H2: Reference #1",
+      "H2: Reference #2"
+    ],
+    "text_chars": 2671
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog",
+    "slug": "blog",
+    "title": "Blog | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "H2: Coupons as Cognitive Malware: Attacking Interconnected Systems",
+      "H2: What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity"
+    ],
+    "text_chars": 8623
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/ai-security",
+    "slug": "blog__categories__ai-security",
+    "title": "AI Security",
+    "description": "Understanding and mitigating the use of synthetic media and automated systems in influence ops, deepfakes, impersonation, and perception manipulation.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_d9f783e94f494cf5b35bbd269c53f366~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_d9f783e94f494cf5b35bbd269c53f366~mv2.png",
+    "headings": [
+      "H1: AI Security",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control"
+    ],
+    "text_chars": 4084
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/announcements",
+    "slug": "blog__categories__announcements",
+    "title": "Announcements",
+    "description": "News about the Cognitive Security Institute on our latest updates and offerings.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_e1447bc4331440c1b18fb1fc6a7327ae~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_e1447bc4331440c1b18fb1fc6a7327ae~mv2.png",
+    "headings": [
+      "H1: Announcements"
+    ],
+    "text_chars": 2709
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-resilience",
+    "slug": "blog__categories__cognitive-resilience",
+    "title": "Cognitive Resilience",
+    "description": "Developing strategies to strengthen cognitive resilience, emotional awareness, and mental clarity in a noisy digital world.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_e1447bc4331440c1b18fb1fc6a7327ae~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_e1447bc4331440c1b18fb1fc6a7327ae~mv2.png",
+    "headings": [
+      "H1: Cognitive Resilience",
+      "H2: What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "H2: Understanding Online Information Operations: Development of an Influence Network for Scientific Inquiry Testing Environment (INSITE)"
+    ],
+    "text_chars": 5195
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare",
+    "slug": "blog__categories__cognitive-warfare",
+    "title": "Cognitive Warfare",
+    "description": "Tracking, modeling, and preparing for adversarial manipulation techniques targeting beliefs, behaviors, and decisions.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png",
+    "headings": [
+      "H1: Cognitive Warfare",
+      "H2: Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: Developing Training Research to Improve Cyber Defense of Industrial Control Systems",
+      "H2: Socio-technical communication: The hybrid space and the OLB model for science-based cyber education"
+    ],
+    "text_chars": 7562
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber",
+    "slug": "blog__categories__human-centered-cyber",
+    "title": "Human-Centered Cyber",
+    "description": "Integrating psychology, UX, and behavioral science into security practices that work with people, not against them.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png",
+    "headings": [
+      "H1: Human-Centered Cyber",
+      "H2: What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "H2: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "H2: The Enduring Mystery of the Repeat Clickers",
+      "H2: A Computational Social Science Approach to Examine the Duality between Productivity and Cybersecurity Policy Compliance within Organizations"
+    ],
+    "text_chars": 7072
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/media",
+    "slug": "blog__categories__media",
+    "title": "Media",
+    "description": "Memorializing moments of media attention.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_c61aaeb0de7548a28d02a8774568e156~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_c61aaeb0de7548a28d02a8774568e156~mv2.png",
+    "headings": [
+      "H1: Media"
+    ],
+    "text_chars": 2662
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/neurosecurity",
+    "slug": "blog__categories__neurosecurity",
+    "title": "Neurosecurity",
+    "description": "Exploring how brain-computer interfaces, neural data, and bio-digital convergence challenge traditional concepts of privacy, security, and identity.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_c61aaeb0de7548a28d02a8774568e156~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_c61aaeb0de7548a28d02a8774568e156~mv2.png",
+    "headings": [
+      "H1: Neurosecurity",
+      "H2: Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: Neurosecurity: Human Brain Electro-Optical Signals as MASINT"
+    ],
+    "text_chars": 6379
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research",
+    "slug": "blog__categories__research",
+    "title": "Research",
+    "description": "White papers, reports, frameworks, and foundational documents from our team and contributors. Open knowledge for an open future!",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png/v1/fit/w_1000,h_1000,q_90,usm_0.66_1.00_0.01/439552_0c46c4b62c4e45beb64c2230ad94b05c~mv2.png",
+    "headings": [
+      "H1: Research",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "H2: Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+      "H2: The Enduring Mystery of the Repeat Clickers"
+    ],
+    "text_chars": 6853
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/blog/categories/resources",
+    "slug": "blog__categories__resources",
+    "title": "Resources",
+    "description": "Educational programs, webinars, and workshops to empower individuals and organizations to counter manipulation, think critically, and stay ahead of evolving threats.",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_4f4347eb74e0403cadce1d55df44be05~mv2.png/v1/fill/w_1000,h_500,al_c,q_90,usm_0.66_1.00_0.01/439552_4f4347eb74e0403cadce1d55df44be05~mv2.png",
+    "headings": [
+      "H1: Resources"
+    ],
+    "text_chars": 2790
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/board-of-directors",
+    "slug": "board-of-directors",
+    "title": "Board of Directors | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: ABOUT US",
+      "H1: Board of Directors"
+    ],
+    "text_chars": 2579
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/cognitive-security-conference",
+    "slug": "cognitive-security-conference",
+    "title": "Conference | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Your People are HERE!",
+      "H1: Venue",
+      "H2: Beat the neverending lines of Hacker Summer Campthis year and come to the premiere of theCognitive Security Conference instead!",
+      "H2: We Thank Our Conference Sponsors!",
+      "H2: Keynote Speakers",
+      "H2: Get Your Tickets Now!",
+      "H2: Aug 6-7, 2026 in Las Vegas, NV",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:",
+      "H4: \u201cYou can find two people who come together who would not normally meet, and they are going to go create a paper or a project from the connections made here. That is the most important thing as everything becomes more robotic and the human element goes away.\u201d",
+      "H4: Travel Brief: Human Risk & Security Professionals",
+      "H4: Travel Brief: Information Operations & Cognitive Warfare Professionals"
+    ],
+    "text_chars": 10531
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/cognitive-security-conference-speakers",
+    "slug": "cognitive-security-conference-speakers",
+    "title": "Speakers | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Aug 6-7, 2026 in Las Vegas, NV",
+      "H2: Keynote Speakers",
+      "H2: Defending Humans",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Applied Training",
+      "H2: Master of Ceremonies",
+      "H3: Speakers",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 14737
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/contact",
+    "slug": "contact",
+    "title": "Contact | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: CONTACT US"
+    ],
+    "text_chars": 2088
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/copy-of-application",
+    "slug": "copy-of-application",
+    "title": "Membership Application | Cognitive Security I",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: MEMBERSHIP APPLICATION",
+      "H1: References",
+      "H2: Reference #1",
+      "H2: Reference #2"
+    ],
+    "text_chars": 2998
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/copy-of-csc",
+    "slug": "copy-of-csc",
+    "title": "CSC-Blank | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 2920
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/adam-beal",
+    "slug": "council__adam-beal",
+    "title": "Adam Beal | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_59107ab761294493913276509bd5eb07~mv2.avif/v1/fill/w_980,h_922,al_c/439552_59107ab761294493913276509bd5eb07~mv2.avif",
+    "headings": [
+      "H1: Adam Beal",
+      "H4: Scientist, Entrepreneur, Venture Capitalist, Corporate Strategist"
+    ],
+    "text_chars": 2547
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/alexandra-bruce",
+    "slug": "council__alexandra-bruce",
+    "title": "Alexandra Bruce | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_8b8b46949a704edfae5a23c9119d8b85~mv2.avif/v1/fill/w_980,h_922,al_c/439552_8b8b46949a704edfae5a23c9119d8b85~mv2.avif",
+    "headings": [
+      "H1: Alexandra Bruce",
+      "H4: Assistant Vice President; Repeat Clicker Manager"
+    ],
+    "text_chars": 2760
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/candy-alexander",
+    "slug": "council__candy-alexander",
+    "title": "Candy Alexander | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_eeff3e78dde4491ca526088df7e4aabd~mv2.png/v1/fill/w_653,h_653,al_c/candy-alexander.png",
+    "headings": [
+      "H1: Candy Alexander",
+      "H4: Strategic AI Advisor; Independent Consultant"
+    ],
+    "text_chars": 2957
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/dr.-calvin-nobles",
+    "slug": "council__dr.-calvin-nobles",
+    "title": "Dr. Calvin Nobles | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_b48852f169744ca59fd1949f9ca37c3a~mv2.png/v1/fill/w_6642,h_6689,al_c/Calvin.png",
+    "headings": [
+      "H1: Dr. Calvin Nobles",
+      "H4: Dean, School of Cybersecurity & IT, UMD"
+    ],
+    "text_chars": 3080
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/dr.-gareth-doherty",
+    "slug": "council__dr.-gareth-doherty",
+    "title": "Dr. Gareth Doherty | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_ab6afd7ff3614a90b3e8c625988da294~mv2.avif/v1/fill/w_980,h_922,al_c/439552_ab6afd7ff3614a90b3e8c625988da294~mv2.avif",
+    "headings": [
+      "H1: Dr. Gareth Doherty",
+      "H4: Strategic Management Expert"
+    ],
+    "text_chars": 2676
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/dr.-rosanna-guadagno",
+    "slug": "council__dr.-rosanna-guadagno",
+    "title": "Dr. Rosanna Guadagno | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_2bef8b9348ec4d05aa91aebd4200bced~mv2.avif/v1/fill/w_980,h_922,al_c/439552_2bef8b9348ec4d05aa91aebd4200bced~mv2.avif",
+    "headings": [
+      "H1: Dr. Rosanna Guadagno",
+      "H4: Assoc. Prof. of Persuasive Information Systems, University of Oulu"
+    ],
+    "text_chars": 3353
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/dr.-sean-guillory",
+    "slug": "council__dr.-sean-guillory",
+    "title": "Dr. Sean Guillory | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_176a57af0d1544649d6b2ce64856ffdf~mv2.avif/v1/fill/w_980,h_922,al_c/439552_176a57af0d1544649d6b2ce64856ffdf~mv2.avif",
+    "headings": [
+      "H1: Dr. Sean Guillory",
+      "H4: Board Member, Information Professionals Association"
+    ],
+    "text_chars": 2785
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/oz-alashe",
+    "slug": "council__oz-alashe",
+    "title": "Oz Alashe | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3e992b0467694e1f9af5a6c7bf8ce0b6~mv2.avif/v1/fill/w_980,h_922,al_c/439552_3e992b0467694e1f9af5a6c7bf8ce0b6~mv2.avif",
+    "headings": [
+      "H1: Oz Alashe",
+      "H4: CEO and Founder, CybSafe"
+    ],
+    "text_chars": 3177
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/perry-carpenter",
+    "slug": "council__perry-carpenter",
+    "title": "Perry Carpenter | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_47e0220a3305493e8790c99a78d5ffc6~mv2.avif/v1/fill/w_980,h_922,al_c/439552_47e0220a3305493e8790c99a78d5ffc6~mv2.avif",
+    "headings": [
+      "H1: Perry Carpenter",
+      "H4: Chief Human Risk Management Strategist, KnowBe4"
+    ],
+    "text_chars": 4242
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/council/sumona-banerji",
+    "slug": "council__sumona-banerji",
+    "title": "Sumona Banerji | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_6fc40b1bed7d4cdeb2cf1dcdc2da4790~mv2.avif/v1/fill/w_980,h_922,al_c/439552_6fc40b1bed7d4cdeb2cf1dcdc2da4790~mv2.avif",
+    "headings": [
+      "H1: Sumona Banerji",
+      "H4: Cyber-Psychology Researcher; Founder of MindShield"
+    ],
+    "text_chars": 3767
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/course-waitlist-form",
+    "slug": "course-waitlist-form",
+    "title": "Course-Waitlist-Form | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Couse Waitlist Request"
+    ],
+    "text_chars": 2485
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/course-waitlist-survey-thank-you",
+    "slug": "course-waitlist-survey-thank-you",
+    "title": "Thank you! | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Thank you for joining the CSI course waitlist!We will contact you when a course matching your interests becomes available."
+    ],
+    "text_chars": 1550
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers",
+    "slug": "csc-speakers",
+    "title": "CSC Speakers (List) | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: CSC26 Speakers List",
+      "H2: ASHLEY ROSE",
+      "H2: BEN VOCE-GARDNER",
+      "H2: SMSGT BONNIE RUSHING",
+      "H2: BRIAN BRUSHWOOD",
+      "H2: DR. BRIAN L. STEED",
+      "H2: BRUCE SCHNEIER",
+      "H2: DR. BRYCE-ALLEN BAGLEY",
+      "H2: CHLOE TUCKER",
+      "H2: CLIFFORD STOLL",
+      "H2: CONSTANTINE",
+      "H2: DAVE ACOSTA",
+      "H2: DAVE PITTS",
+      "H2: DR. DUSTIN SACHS",
+      "H2: FC (FREAKY CLOWN)",
+      "H2: DR. FRED HEIDING",
+      "H2: DR. GREGORY CARPENTER",
+      "H2: JAMES MCQUIGGAN",
+      "H2: JEFF JOCKISCH",
+      "H2: DR. JESSICA BARKER",
+      "H2: LEN NOE",
+      "H2: LUCAS PRALLE",
+      "H2: MARIAH MAURY",
+      "H2: PEGGY YIN",
+      "H2: PERRY CARPENTER",
+      "H2: DR. RAND WALTZMAN",
+      "H2: DR. SANNY LIAO",
+      "H2: DR. SARA RABINOVITCH",
+      "H2: SARA RUSSO",
+      "H2: DR. STEPHEN DAMIANOS",
+      "H2: SUMONA BANERJI",
+      "H2: DR. TAMARA SCHWARTZ",
+      "H2: BRIG. GEN. TERRI BORRAS (Ret)",
+      "H2: TOMM LARSON",
+      "H2: WEB BEGOLE",
+      "H2: WINN SCHWARTAU"
+    ],
+    "text_chars": 11346
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/ashley_rose",
+    "slug": "csc-speakers__ashley_rose",
+    "title": "ASHLEY ROSE | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_e40eb0a31c6241efb3b471dd6e6ecda3~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_e40eb0a31c6241efb3b471dd6e6ecda3~mv2.avif",
+    "headings": [
+      "H1: ASHLEY ROSE",
+      "H2: The Pioneer of Human Risk Management",
+      "H2: Keynote",
+      "H2: Friday",
+      "H2: 4:30 PM"
+    ],
+    "text_chars": 4115
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/ben-voce-gardner",
+    "slug": "csc-speakers__ben-voce-gardner",
+    "title": "BEN VOCE-GARDNER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_f4dfdd5b9d2649a2b1d71b715ce21eb7~mv2.jpg/v1/fill/w_300,h_300,al_c,q_80/BEN%20VOCE-GARDNER.jpg",
+    "headings": [
+      "H1: BEN VOCE-GARDNER",
+      "H2: New York's Point Man for Cyber, Terror, and Critical Infrastructure",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 10:45 AM"
+    ],
+    "text_chars": 4930
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/bonnie-rushing",
+    "slug": "csc-speakers__bonnie-rushing",
+    "title": "SMSGT BONNIE RUSHING | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_ae4bd28d606e4ef7be22afd97b367547~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_ae4bd28d606e4ef7be22afd97b367547~mv2.avif",
+    "headings": [
+      "H1: SMSGT BONNIE RUSHING",
+      "H2: The CogWar Trailblazer",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 10:45 AM"
+    ],
+    "text_chars": 5001
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/brian-brushwood",
+    "slug": "csc-speakers__brian-brushwood",
+    "title": "BRIAN BRUSHWOOD | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/3a52f7_953444741ac043498bcbc11433605d8e~mv2.jpg/v1/fill/w_1500,h_500,al_c,q_85/1500x500.jfif",
+    "headings": [
+      "H1: BRIAN BRUSHWOOD",
+      "H2: First He Scams You, Then He Shows You How He Did It",
+      "H2: Applied Training",
+      "H2: Friday",
+      "H2: 3:20 PM"
+    ],
+    "text_chars": 4724
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/brian-steed",
+    "slug": "csc-speakers__brian-steed",
+    "title": "DR. BRIAN L. STEED | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_0fef15e49f614e418d9ad8a4927537e2~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_0fef15e49f614e418d9ad8a4927537e2~mv2.avif",
+    "headings": [
+      "H1: DR. BRIAN L. STEED",
+      "H2: The Cavalry Officer Turned Narrative Warrior",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 5290
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/bruce-schneier",
+    "slug": "csc-speakers__bruce-schneier",
+    "title": "BRUCE SCHNEIER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_e484b144f8a84e0386f08de803f6ee44~mv2.jpg/v1/fill/w_1708,h_2560,al_c,q_90/Bruce-Schneier-by-Asa-Mathat-1.print_-scaled.jpg",
+    "headings": [
+      "H1: BRUCE SCHNEIER",
+      "H2: \"Amateurs hack systems; professionals hack people\"",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 3:20 PM"
+    ],
+    "text_chars": 3931
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/bryce-allen",
+    "slug": "csc-speakers__bryce-allen",
+    "title": "DR. BRYCE-ALLEN BAGLEY | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_f5455b5e01f34bd28353acab7ed0f94e~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_f5455b5e01f34bd28353acab7ed0f94e~mv2.avif",
+    "headings": [
+      "H1: DR. BRYCE-ALLEN BAGLEY",
+      "H2: The Triple Threat",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 4565
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/chloe-tucker",
+    "slug": "csc-speakers__chloe-tucker",
+    "title": "CHLOE TUCKER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_53555df2fe8b412ea720605e0a5e1103~mv2.jpg/v1/fill/w_800,h_800,al_c,q_85/Chloe%20Tucker.jpg",
+    "headings": [
+      "H1: CHLOE TUCKER",
+      "H2: Storytelling for Human-Centered Defense",
+      "H2: Applied Training",
+      "H2: Thursday",
+      "H2: 2:15 PM"
+    ],
+    "text_chars": 4233
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/clifford-stoll",
+    "slug": "csc-speakers__clifford-stoll",
+    "title": "CLIFFORD STOLL | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_e49e6fe1cf6f404da8c187abf37a09ea~mv2.jpg/v1/fill/w_637,h_850,al_c,q_85/San_Diego%2C_California%2C_USA_-_53946478090_(Clifford_Stoll_crop).jpg",
+    "headings": [
+      "H1: CLIFFORD STOLL",
+      "H2: Cybersecurity Legend, Longtime Skeptic of Computers in Class",
+      "H2: Defending Humans",
+      "H2: Thursday",
+      "H2: 3:20 PM"
+    ],
+    "text_chars": 4951
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/constantine",
+    "slug": "csc-speakers__constantine",
+    "title": "CONSTANTINE | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_4564e0d92e81403ebf21343df6c37ba0~mv2.jpg/v1/fill/w_768,h_960,al_c,q_85/CONSTANTINE.jpg",
+    "headings": [
+      "H1: CONSTANTINE",
+      "H2: The Forrest Gump of Grand Strategy",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 2:15 PM"
+    ],
+    "text_chars": 4332
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-acosta",
+    "slug": "csc-speakers__dave-acosta",
+    "title": "DAVE ACOSTA | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_93730473ad35473bbb25b24d52d3001d~mv2.jpg/v1/fill/w_1771,h_1771,al_c,q_90/Dave-Acosta-11-13-24-crop.jpg",
+    "headings": [
+      "H1: DAVE ACOSTA",
+      "H2: The Colonel Who Wrote the Book on Deception",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 3:40 PM"
+    ],
+    "text_chars": 5517
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-pitts",
+    "slug": "csc-speakers__dave-pitts",
+    "title": "DAVE PITTS | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/6aeb2e_d49adbab4fbe4f47a17a22a82f1357c8~mv2.jpeg/v1/fill/w_800,h_800,al_c,q_85/dave-pitts.jpeg",
+    "headings": [
+      "H1: DAVE PITTS",
+      "H2: The Battle for Decision Autonomy",
+      "H2: Keynote",
+      "H2: Thursday",
+      "H2: 4:30 PM"
+    ],
+    "text_chars": 4358
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/dustin-sachs",
+    "slug": "csc-speakers__dustin-sachs",
+    "title": "DR. DUSTIN SACHS | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_fe3c64eedcc24a4fadd3307caf577f1a~mv2.jpeg/v1/fill/w_400,h_400,al_c,q_80/Dustin%20Sachs.jpeg",
+    "headings": [
+      "H1: DR. DUSTIN SACHS",
+      "H2: DO NOT accept QR codes from this man!",
+      "H2: Applied Training",
+      "H2: Friday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 4263
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/fc",
+    "slug": "csc-speakers__fc",
+    "title": "FC (FREAKY CLOWN) | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_552297da06a5410b9631bce56fbef495~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_552297da06a5410b9631bce56fbef495~mv2.avif",
+    "headings": [
+      "H1: FC (FREAKY CLOWN)",
+      "H2: The Ethical Hacker Who Robs Banks for a Living",
+      "H2: Defending Humans",
+      "H2: Thursday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 4284
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/fred-heiding",
+    "slug": "csc-speakers__fred-heiding",
+    "title": "DR. FRED HEIDING | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_c19ca082e5c949a48124e7019129489f~mv2.png/v1/fill/w_800,h_800,al_c/Fred%20Heiding.png",
+    "headings": [
+      "H1: DR. FRED HEIDING",
+      "H2: Hacked The King of Sweden",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 11:50 AM"
+    ],
+    "text_chars": 5173
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/greg-carpenter",
+    "slug": "csc-speakers__greg-carpenter",
+    "title": "DR. GREGORY CARPENTER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_2cfb8277ed484798b6bc9686db66c697~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_2cfb8277ed484798b6bc9686db66c697~mv2.avif",
+    "headings": [
+      "H1: DR. GREGORY CARPENTER",
+      "H2: Cognitive Warfare's Epidemiologist",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 2:40 PM"
+    ],
+    "text_chars": 5627
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/james-mcquiggan",
+    "slug": "csc-speakers__james-mcquiggan",
+    "title": "JAMES MCQUIGGAN | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_5eca331636084caaa047848f0242580b~mv2.jpg/v1/fill/w_400,h_400,al_c,q_80/Jamse%20McQuiggan.jpg",
+    "headings": [
+      "H1: JAMES MCQUIGGAN",
+      "H2: The Groan-Up in the Room",
+      "H2: Master of Ceremonies",
+      "H2: Thursday",
+      "H2: 9:00 AM"
+    ],
+    "text_chars": 4103
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/jeff-jockisch",
+    "slug": "csc-speakers__jeff-jockisch",
+    "title": "JEFF JOCKISCH | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_a95b8c65ec3f44e886a344657a9be70d~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_a95b8c65ec3f44e886a344657a9be70d~mv2.avif",
+    "headings": [
+      "H1: JEFF JOCKISCH",
+      "H2: The Privacy Strategist",
+      "H2: Defending Humans",
+      "H2: Thursday",
+      "H2: 2:15 PM"
+    ],
+    "text_chars": 5061
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/jessica-barker",
+    "slug": "csc-speakers__jessica-barker",
+    "title": "DR. JESSICA BARKER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_a02ea0b034c244fabf78999e0b82e17e~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_a02ea0b034c244fabf78999e0b82e17e~mv2.avif",
+    "headings": [
+      "H1: DR. JESSICA BARKER",
+      "H2: The Human Side of Cyber Security",
+      "H2: Defending Humans",
+      "H2: Thursday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 4373
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/len-noe",
+    "slug": "csc-speakers__len-noe",
+    "title": "LEN NOE | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_8c5929235c80479f81fbc83627bfccb4~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_8c5929235c80479f81fbc83627bfccb4~mv2.avif",
+    "headings": [
+      "H1: LEN NOE",
+      "H2: The Human Cyborg",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 4615
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/lucas-pralle",
+    "slug": "csc-speakers__lucas-pralle",
+    "title": "LUCAS PRALLE | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_592c5accc46048b58dbd1e510f3d353b~mv2.jpeg/v1/fill/w_400,h_400,al_c,q_80/Lucas%20Pralle.jpeg",
+    "headings": [
+      "H1: LUCAS PRALLE",
+      "H2: Making Tools to Maximize Human Creativity",
+      "H2: Applied Training",
+      "H2: Thursday",
+      "H2: 10:45 AM"
+    ],
+    "text_chars": 3220
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/mariah-maury",
+    "slug": "csc-speakers__mariah-maury",
+    "title": "MARIAH MAURY | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_3e52cd63c4cb41d29c636755bebbdd64~mv2.jpeg/v1/fill/w_1170,h_760,al_c,q_85/Mariah.jpeg",
+    "headings": [
+      "H1: MARIAH MAURY",
+      "H2: Securing Humanity's Next Frontier: Outer Space",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 3:20 PM"
+    ],
+    "text_chars": 4807
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/peggy-yin",
+    "slug": "csc-speakers__peggy-yin",
+    "title": "PEGGY YIN | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_d96291900372443eac4c410470d789e3~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_d96291900372443eac4c410470d789e3~mv2.avif",
+    "headings": [
+      "H1: PEGGY YIN",
+      "H2: The Next Generation of Cognitive Security",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 4209
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/perry-carpenter",
+    "slug": "csc-speakers__perry-carpenter",
+    "title": "PERRY CARPENTER | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_cdda8ce39f5c4b43866d53aab41c2a99~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_cdda8ce39f5c4b43866d53aab41c2a99~mv2.avif",
+    "headings": [
+      "H1: PERRY CARPENTER",
+      "H2: Chief Deceptionologist",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 10:45 AM"
+    ],
+    "text_chars": 4319
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/rand-waltzman",
+    "slug": "csc-speakers__rand-waltzman",
+    "title": "DR. RAND WALTZMAN | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_a160397f4dc146f385d32bfe58a48b94~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_a160397f4dc146f385d32bfe58a48b94~mv2.avif",
+    "headings": [
+      "H1: DR. RAND WALTZMAN",
+      "H2: The Godfather of Cognitive Security",
+      "H2: Keynote",
+      "H2: Thursday",
+      "H2: 9:30 AM"
+    ],
+    "text_chars": 4836
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/sanny-liao",
+    "slug": "csc-speakers__sanny-liao",
+    "title": "DR. SANNY LIAO | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_6047cb043231419e8845d102f5d7b2d8~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_6047cb043231419e8845d102f5d7b2d8~mv2.avif",
+    "headings": [
+      "H1: DR. SANNY LIAO",
+      "H2: The Behavioral Exonomist Moving Security Beyond the Weakest Link",
+      "H2: Defending Humans",
+      "H2: Thursday",
+      "H2: 10:45 AM"
+    ],
+    "text_chars": 5245
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-rabinovitch",
+    "slug": "csc-speakers__sara-rabinovitch",
+    "title": "DR. SARA RABINOVITCH | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_60c8cf8037f4434eb9de88f8bd97f002~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_60c8cf8037f4434eb9de88f8bd97f002~mv2.avif",
+    "headings": [
+      "H1: DR. SARA RABINOVITCH",
+      "H2: Stress Neurobiology Researcher & Intervention Developer",
+      "H2: Applied Training",
+      "H2: Thursday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 4853
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-russo",
+    "slug": "csc-speakers__sara-russo",
+    "title": "SARA RUSSO | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_e5c0350065f44032ad616065903f2750~mv2.png/v1/fill/w_1049,h_1280,al_c/Sara%20Russo.png",
+    "headings": [
+      "H1: SARA RUSSO",
+      "H2: Building the Map of Cognitive Warfare Research",
+      "H2: Applied Training",
+      "H2: Friday",
+      "H2: 11:30 AM"
+    ],
+    "text_chars": 4891
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/stephen-damianos",
+    "slug": "csc-speakers__stephen-damianos",
+    "title": "DR. STEPHEN DAMIANOS | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/3a52f7_d78d6aff3c3a43df930841393acd9e39~mv2.jpg/v1/fill/w_2027,h_1981,al_c,q_90/Damianos%20headshot1%202025%20(1).jpg",
+    "headings": [
+      "H1: DR. STEPHEN DAMIANOS",
+      "H2: From Oxford to the White House: Defending your Right to Think Freely",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 2:15 PM"
+    ],
+    "text_chars": 4905
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/sumona-banerji",
+    "slug": "csc-speakers__sumona-banerji",
+    "title": "SUMONA BANERJI | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_8ad2560c18d7457ea94f9596c37caf13~mv2.jpeg/v1/fill/w_612,h_626,al_c,q_85/Sumona%20(2).jpeg",
+    "headings": [
+      "H1: SUMONA BANERJI",
+      "H2: \u201cKnow Your Mind\u201d",
+      "H2: Master of Ceremonies",
+      "H2: Thursday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 4269
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/tamara-schwartz",
+    "slug": "csc-speakers__tamara-schwartz",
+    "title": "DR. TAMARA SCHWARTZ | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_fde1656a7d014d409bdc86f622cd21c3~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_fde1656a7d014d409bdc86f622cd21c3~mv2.avif",
+    "headings": [
+      "H1: DR. TAMARA SCHWARTZ",
+      "H2: Conquering Mount VUCA",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Friday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 5736
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/terri-borras",
+    "slug": "csc-speakers__terri-borras",
+    "title": "BRIG. GEN. TERRI BORRAS (Ret) | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/6aeb2e_933a015a41ee4cda85fe1fcdac29d169~mv2.jpeg/v1/fill/w_800,h_800,al_c,q_85/terri-borras.jpeg",
+    "headings": [
+      "H1: BRIG. GEN. TERRI BORRAS (Ret)",
+      "H2: Defending the Moment Before Decision",
+      "H2: Keynote",
+      "H2: Friday",
+      "H2: 9:40 AM"
+    ],
+    "text_chars": 4256
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/tomm-larson",
+    "slug": "csc-speakers__tomm-larson",
+    "title": "TOMM LARSON | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_b7789f4a409645628100911574f2bb21~mv2.jpg/v1/fill/w_2478,h_2647,al_c,q_90/TommLarsonSmall.JPG",
+    "headings": [
+      "H1: TOMM LARSON",
+      "H2: Protecting the Nation's Most Sensitive Research from Cognitive Attacks",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 1:15 PM"
+    ],
+    "text_chars": 3439
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/web-begole",
+    "slug": "csc-speakers__web-begole",
+    "title": "WEB BEGOLE | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_bb37ba05b7364726a047ee7185ca724b~mv2.avif/v1/fill/w_190,h_190,al_c/2586a4_bb37ba05b7364726a047ee7185ca724b~mv2.avif",
+    "headings": [
+      "H1: WEB BEGOLE",
+      "H2: From Brecht to Basis Points",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Thursday",
+      "H2: 3:20 PM"
+    ],
+    "text_chars": 5337
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc-speakers/winn-schwartau",
+    "slug": "csc-speakers__winn-schwartau",
+    "title": "WINN SCHWARTAU | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/6aeb2e_1813446d9370412fb9598c05dba6116d~mv2.jpg/v1/fill/w_1134,h_1134,al_c,q_85/winn-schwartau_edited.jpg",
+    "headings": [
+      "H1: WINN SCHWARTAU",
+      "H2: The Grandfather Of Security Awareness",
+      "H2: Defending Humans",
+      "H2: Friday",
+      "H2: 2:15 PM"
+    ],
+    "text_chars": 7581
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc26-agenda",
+    "slug": "csc26-agenda",
+    "title": "Agenda | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Aug 6-7, 2026 in Las Vegas, NV",
+      "H3: Agenda",
+      "H3: August 6 - Thursday",
+      "H3: August 7 - Friday",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 9414
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc26-speakers",
+    "slug": "csc26-speakers",
+    "title": "Speakers | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Aug 6-7, 2026 in Las Vegas, NV",
+      "H2: Keynote Speakers",
+      "H2: Defending Humans",
+      "H2: Critical Cognitive Infrastructure",
+      "H2: Applied Training",
+      "H2: Master of Ceremonies",
+      "H3: Speakers",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 14737
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc26-sponsors",
+    "slug": "csc26-sponsors",
+    "title": "Sponsors | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: We would like to thank our2026 conference sponsors",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 4315
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc26-tickets",
+    "slug": "csc26-tickets",
+    "title": "Purchase Tickets | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Conference Tickets",
+      "H2: Get Your Tickets Now!",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:"
+    ],
+    "text_chars": 3211
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/csc26-venue",
+    "slug": "csc26-venue",
+    "title": "Venue | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Venue",
+      "H3: Call for Sponsors",
+      "H3: Hosted by:",
+      "H4: Travel Brief: Human Risk & Security Professionals",
+      "H4: Travel Brief: Information Operations & Cognitive Warfare Professionals"
+    ],
+    "text_chars": 4218
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/ctx",
+    "slug": "ctx",
+    "title": "CTX | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: CYBER TALENT EXCHANGE (CTX)",
+      "H2: We're Currently Seeking:",
+      "H2: Interested in Learning More or Getting Involved?",
+      "H3: Join now to become an early-stage collaborator on this important cyber readiness initiative!",
+      "H4: 1",
+      "H4: Recruiters &Talent Partners",
+      "H4: Employers &Workforce Partners",
+      "H4: Funders &Sponsors"
+    ],
+    "text_chars": 4675
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/disclaimer",
+    "slug": "disclaimer",
+    "title": "Disclaimer | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: DISCLAIMER"
+    ],
+    "text_chars": 2204
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/donate",
+    "slug": "donate",
+    "title": "Support Our Mission",
+    "description": "Help Cognitive Security Institute raise funds for Support Our Mission. Make a donation on Zeffy, and ensure 100% of your donation goes to fund Cognitive Security Institute\u2019s mission.",
+    "status": 200,
+    "og_image": "https://res.cloudinary.com/hxn9dbuhd/image/upload/c_fill,g_auto,f_jpg,q_auto,w_1200,h_630/v1752730096/organizations/5/7/2/9/5729eaa1-ac5a-411e-8f83-a2dc4d94921b/2d3cacdc-d7c3-4c36-a3b0-13edd610f47b.jpg",
+    "headings": [
+      "H4: Support Our Mission"
+    ],
+    "text_chars": 816
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/edu",
+    "slug": "edu",
+    "title": "Academy | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H2: Interested in Getting Involved?",
+      "H3: We're in the final stages of announcing our first live course on cognitive security."
+    ],
+    "text_chars": 2413
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/events",
+    "slug": "events",
+    "title": "Events | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: EVENTS",
+      "H1: CognectCon",
+      "H1: CogSec Village",
+      "H1: Workshops & Meetups",
+      "H1: Private Community Meetings",
+      "H4: Cognitive Security Workshop",
+      "H4: Hands-On Immersive Experience",
+      "H4: Virtual, On-Demand, and In-Person",
+      "H4: Reflect, Connect, and Grow Together"
+    ],
+    "text_chars": 6404
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/hsc2025",
+    "slug": "hsc2025",
+    "title": "HSC 2025 | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: HACKER SUMMER CAMP 2025",
+      "H1: Speaking Events",
+      "H1: CSI Meetups",
+      "H2: MON-WED: BSides Las Vegas",
+      "H2: THU: Black Hat USA",
+      "H2: FRI-SUN: DEF CON 33",
+      "H2: Join us to help protect what makes us human: our ability to think for ourselves.",
+      "H2: THU: BarCode 3 - Syncity Soundtrack",
+      "H2: FRI: I AM MACHINE",
+      "H2: How to Get Involved",
+      "H3: MON @ 1500:",
+      "H3: MON-TUE:",
+      "H3: THU @ 1020:",
+      "H3: SAT @ 1300, Adversary Village:",
+      "H3: THU @ 1800-2200:",
+      "H3: THU @ 1800-2200:",
+      "H4: Human Attack Surfaces in Agentic Web: How I Learned to Stop Worrying and Love the AI Apocalypse",
+      "H4: (Ground Truth track)",
+      "H4: Dr. Matthew Canham\u200b\u200b\u200b",
+      "H4: Cognitive Security Village(Middle Ground)",
+      "H4: Evil Digital Twin, Too: The First 30 Months of Psychological Manipulation of Humans by AI",
+      "H4: (South Seas A & B, Level 3)",
+      "H4: Dr. Ben D. Sawyer;Dr. Matthew Canham\u200b\u200b\u200b",
+      "H4: Using Evil Digital Twins for Fun and Profit",
+      "H4: (Adversary Village, Workshop Stage)",
+      "H4: Dr. Ben D. Sawyer;Dr. Matthew Canham\u200b\u200b\u200b",
+      "H4: CSI Meetup at BarCode v3(Barcode Burger Bar)\u200b\u200b\u200b",
+      "H4: I AM MACHINE Premiere(StarBase Las Vegas)\u200b\u200b\u200b"
+    ],
+    "text_chars": 7742
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/initiatives",
+    "slug": "initiatives",
+    "title": "Initiatives | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: STRATEGIC INITIATIVES",
+      "H1: Scaling Impact, Shaping the Field, & Strengthening Minds",
+      "H1: Active Initiatives",
+      "H2: \"Focus 5\" Pillars",
+      "H2: How to Get Involved",
+      "H3: AI Security & Threat Analysis",
+      "H3: Cognitive Resilience",
+      "H3: Cognitive Systems Security",
+      "H3: Neurosecurity",
+      "H3: Cognitive Warfare & Tradecraft",
+      "H4: Phishing Golf Tournament",
+      "H4: Cyber Talent eXchange",
+      "H4: CSI Academy"
+    ],
+    "text_chars": 6469
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/join",
+    "slug": "join",
+    "title": "Community | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: JOIN THE MOVEMENT!",
+      "H1: Join us to defend cognitive systems against the threats that target how we think, decide, and act.",
+      "H2: Why Join Our Community?",
+      "H2: Volunteer to Support Our Mission",
+      "H2: For Organizations & Partners",
+      "H3: Professional Tier",
+      "H4: Access to Exclusive Gatherings",
+      "H4: Cognitive Resilience",
+      "H4: Early Access to Resources & Recordings",
+      "H4: Direct Access to an Expert Community",
+      "H4: Invitations to Cohorts & Program Pilots",
+      "H4: Open Pathways to Contribution"
+    ],
+    "text_chars": 6219
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/journal",
+    "slug": "journal",
+    "title": "Journal | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Cognitive SecurityJOURNAL",
+      "H1: Cognitive Security",
+      "H1: Interested in submitting, joining, or reviewing? Let us know!"
+    ],
+    "text_chars": 4258
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/media",
+    "slug": "media",
+    "title": "Media | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: MEDIA"
+    ],
+    "text_chars": 1858
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/meet-our-team",
+    "slug": "meet-our-team",
+    "title": "Meet Our Team | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: ABOUT US",
+      "H1: The CSI Team"
+    ],
+    "text_chars": 4470
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/ncs2025",
+    "slug": "ncs2025",
+    "title": "NCS 2025 | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: NATIONAL CYBER SUMMIT 2025",
+      "H1: Speaking Events",
+      "H2: Applying Cybersecurity to Cognitive Defense\u200b",
+      "H2: Join us to help protect what makes us human: our ability to think for ourselves.",
+      "H2: How to Get Involved",
+      "H3: TUE-THU:",
+      "H3: Winn Schwartau",
+      "H4: Cognitive Security Village"
+    ],
+    "text_chars": 3554
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/partners",
+    "slug": "partners",
+    "title": "Sponsors | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: PARTNERSHIP",
+      "H1: Thank You to Our Partners!",
+      "H2: Why Become a Partner?",
+      "H2: CSI is Different",
+      "H4: Brand Leadership",
+      "H4: Talent Access",
+      "H4: Thought Leadership",
+      "H4: Measurable Returns",
+      "H4: Policy & Standards",
+      "H4: Field Stewardship"
+    ],
+    "text_chars": 7565
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit",
+    "slug": "post__a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit",
+    "title": "A Computational Social Science Approach to Examine the Duality between Productivity and Cybersecurity Policy Compliance within Organizations",
+    "description": "Employees often face a conflict between productivity and adhering to cybersecurity policies, which can lead to decreased performance and increased stress. The emphasis an organization places on productivity versus cybersecurity influences how employees balance these responsibilities, with decisions often driven by habitual behavior rather than rational cost-benefit analyses. This research explores how varying workloads, organizational culture, and the friction between compliance and productivity",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0f3b683add35419aa43b23b0de866fee~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_0f3b683add35419aa43b23b0de866fee~mv2.avif",
+    "headings": [
+      "H1: A Computational Social Science Approach to Examine the Duality between Productivity and Cybersecurity Policy Compliance within Organizations",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4814
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/coupons-as-cognitive-malware-attacking-interconnected-systems",
+    "slug": "post__coupons-as-cognitive-malware-attacking-interconnected-systems",
+    "title": "Coupons as Cognitive Malware: Attacking Interconnected Systems",
+    "description": "Dr. Matthew Canham Imagine that you receive an email from your electricity provider offering a 50% discount on electricity for using power during certain times of the day. The message explains that rising demand for electricity costs caused by increased data center usage is stressing the power grid and the electricity provider is exploring ways to encourage users to increase usage during prescribed times to reduce straining the power grid. The message appears legitimate and there are no indicati",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/2586a4_75c0fc3a81eb458893e6534cebcc9b50~mv2.png/v1/fill/w_416,h_301,al_c,lg_1,q_85/2586a4_75c0fc3a81eb458893e6534cebcc9b50~mv2.png",
+    "headings": [
+      "H1: Coupons as Cognitive Malware: Attacking Interconnected Systems",
+      "H2: Related Posts"
+    ],
+    "text_chars": 22308
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control",
+    "slug": "post__darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control",
+    "title": "Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+    "description": "Elise AnnettJames Giordano\u00a0The Darwin Monkey\u00a0System: A Paradigm Shift from AI to Synthetic CognitionFully integrated neuromorphic computing represents an important \u2013 and provocative \u2013 developmental iteration of artificial intelligence (AI). To date, most AI system operations have been based upon symbolic reasoning and/or statistical inference derived from large data sets. However, Darwin Monkey, a large-scale neuromorphic computing system newly developed by Chinese researchers, was explicitly en",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3b2d5da567e4403b8ce85626b168c77f~mv2.png/v1/fill/w_1000,h_666,al_c,q_90,usm_0.66_1.00_0.01/439552_3b2d5da567e4403b8ce85626b168c77f~mv2.png",
+    "headings": [
+      "H1: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: Related Posts",
+      "H3: The Darwin Monkey\u00a0System: A Paradigm Shift from AI to Synthetic Cognition",
+      "H3: Dual-Use and Strategic Leverage",
+      "H3: A New Operational Domain and the Ethics of Cognitive Control",
+      "H3: Toward a Responsible Framework",
+      "H3: Conclusion",
+      "H3: Authors",
+      "H4: References",
+      "H4: Disclaimer"
+    ],
+    "text_chars": 20166
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar",
+    "slug": "post__developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar",
+    "title": "Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+    "description": "Matthew CanhamThe capture of Nicol\u00e1s Maduro by US special operations forces without enduring the loss of a single operator marks one of the most overwhelmingly successful operations in the (acknowledged) history of special operations. A recent account by one of the Venezuelan security guards loyal to Maduro suggests that some advanced weaponry\u00a0may have been involved. Their account describes hearing a loud and intense sound which caused the guards to experience extreme pain in their heads and fal",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_03c64f7d0958451baef2ccbfd8f5824b~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/439552_03c64f7d0958451baef2ccbfd8f5824b~mv2.jpg",
+    "headings": [
+      "H1: Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "H2: \u201cReading\u201d from and \u201cWriting\u201d to the Brain",
+      "H2: Developing a Neurosecurity Framework",
+      "H2: Mapping Neurosecurity Attack Surfaces",
+      "H2: Related Posts",
+      "H3: Reading from the Brain",
+      "H3: Writing to the Brain",
+      "H4: Examples of Neurosecurity Attacks Within the Proposed Framework"
+    ],
+    "text_chars": 18313
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/developing-training-research-to-improve-cyber-defense-of-industrial-control-systems",
+    "slug": "post__developing-training-research-to-improve-cyber-defense-of-industrial-control-systems",
+    "title": "Developing Training Research to Improve Cyber Defense of Industrial Control Systems",
+    "description": "Cyber-attacks on Industrial Control Systems (ICS) can be particularly severe, as they may manipulate sensor and control data to cause significant damage, as exemplified by the Stuxnet worm. Given the advanced nature of these attacks, current automated detection systems are insufficient, necessitating continued human involvement in ICS protection. We propose several training-based solutions to enhance the defense of these systems by better preparing human operators to identify and respond to such",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_f8d86be904624ab39329c3d3daae5085~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_f8d86be904624ab39329c3d3daae5085~mv2.avif",
+    "headings": [
+      "H1: Developing Training Research to Improve Cyber Defense of Industrial Control Systems",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4685
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/exploring-the-hybrid-space",
+    "slug": "post__exploring-the-hybrid-space",
+    "title": "Exploring the Hybrid Space",
+    "description": "As cyberspace becomes integral to military operations, terms like cyber power and cyber deterrence highlight its growing importance. Future military personnel will face increased complexity in joint operations where cyberspace is a key enabler. This paper proposes the Hybrid Space framework to better understand the interplay between cyberspace and the physical domain, addressing cognitive challenges and informing the development of effective education and training programs.Authors: \u00d8yvind J\u00f8sok,",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_50ab2bf7c0a44190a4479372d3afbdb7~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_50ab2bf7c0a44190a4479372d3afbdb7~mv2.avif",
+    "headings": [
+      "H1: Exploring the Hybrid Space",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4656
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera",
+    "slug": "post__macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera",
+    "title": "Macrocognition Applied to the Hybrid Space: Team Environment, Functions and Processes in Cyber Operations",
+    "description": "As military cyber operations become more integrated, effective team coordination is crucial. This paper expands on a macrocognitive model by introducing the Hybrid Space framework, which maps cognitive processes across cyber-physical and tactical-strategic dimensions. This framework aims to enhance understanding of environmental complexity and improve team performance in cyber contexts. The paper also discusses insights from cyber network defense exercises at the Norwegian Defence Cyber Academy",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_f6e3ea4dc01c428aa94ccf15dcac8bc9~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_f6e3ea4dc01c428aa94ccf15dcac8bc9~mv2.avif",
+    "headings": [
+      "H1: Macrocognition Applied to the Hybrid Space: Team Environment, Functions and Processes in Cyber Operations",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4844
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/neurosecurity-human-brain-electro-optical-signals-as-masint",
+    "slug": "post__neurosecurity-human-brain-electro-optical-signals-as-masint",
+    "title": "Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+    "description": "Advances in neuroimaging and data analysis are making it increasingly possible to probe and gather intelligence from individual minds without their cooperation. This shift suggests we are moving towards a reality where human thought may no longer be considered entirely private. The ability to read, write to, and analyze brain activity aligns with Measurement and Signals Intelligence (MASINT) practices, highlighting the need for discussions on the ethical and practical implications of neurosecuri",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_033d768e77fc44b3a150f3e834371e44~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_033d768e77fc44b3a150f3e834371e44~mv2.avif",
+    "headings": [
+      "H1: Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4728
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity",
+    "slug": "post__nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity",
+    "title": "NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+    "description": "In August 2024, the National Institute of Standards and Technology (NIST) co-sponsored ConnectCon, an interactive workshop that facilitated meaningful conversations and connections between researchers and practitioners on the topic of human-centered cybersecurity. During the workshop, cybersecurity and human factors experts came to consensus on what they saw as the most pressing human-centered cybersecurity challenges today and potential solutions to address those challenges. This report provide",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_cb22c295d2894d2d928c3f532839769d~mv2.png/v1/fill/w_1000,h_753,al_c,q_90,usm_0.66_1.00_0.01/439552_cb22c295d2894d2d928c3f532839769d~mv2.png",
+    "headings": [
+      "H1: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4687
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education",
+    "slug": "post__socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education",
+    "title": "Socio-technical communication: The hybrid space and the OLB model for science-based cyber education",
+    "description": "Lessons from safety-critical sociotechnical systems, such as aviation and acute medical care, underscore the vital role of human factors and effective communication between human agents. Failures in communication have been linked to many fatal incidents in aviation, highlighting the need for cognitive engineering to enhance performance in both civilian and military domains. The Hybrid Space framework provides a blueprint for addressing cognitive and behavioral challenges in military cyber operat",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_05c78a8e41814e8a91f6c790f667222d~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_05c78a8e41814e8a91f6c790f667222d~mv2.avif",
+    "headings": [
+      "H1: Socio-technical communication: The hybrid space and the OLB model for science-based cyber education",
+      "H2: Related Posts"
+    ],
+    "text_chars": 5060
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/the-enduring-mystery-of-the-repeat-clickers",
+    "slug": "post__the-enduring-mystery-of-the-repeat-clickers",
+    "title": "The Enduring Mystery of the Repeat Clickers",
+    "description": "Repeat Clickers\u2014individuals within an organization who consistently fall for phishing emails\u2014pose a significant security risk. This behavior, affecting a persistent minority, may be driven by individual traits or an interaction between these traits and external factors such as culture or social engineering tactics. Understanding the causes behind repeat clicking is crucial for developing effective mitigations, which could significantly enhance organizational security. This paper presents pilot d",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_ec8d2615441b45ef8a9785ae542bd765~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_ec8d2615441b45ef8a9785ae542bd765~mv2.avif",
+    "headings": [
+      "H1: The Enduring Mystery of the Repeat Clickers",
+      "H2: Related Posts"
+    ],
+    "text_chars": 4707
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu",
+    "slug": "post__understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu",
+    "title": "Understanding Online Information Operations: Development of an Influence Network for Scientific Inquiry Testing Environment (INSITE)",
+    "description": "Influence operations that spread propaganda, disinformation, and social hysteria pose a critical threat to U.S. national security. Effective countermeasures must be developed to respond quickly and anticipate future threats. A major challenge in creating these countermeasures is the lack of a sophisticated testing environment for evaluating detection tools and algorithms. By integrating social sciences with applied mathematics, researchers can better understand social influence and response beha",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_4a763e23891b4368b9879325fe7a1096~mv2.avif/v1/fill/w_988,h_678,al_c,q_85/439552_4a763e23891b4368b9879325fe7a1096~mv2.avif",
+    "headings": [
+      "H1: Understanding Online Information Operations: Development of an Influence Network for Scientific Inquiry Testing Environment (INSITE)",
+      "H2: Related Posts"
+    ],
+    "text_chars": 5093
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/post/what-can-cognitive-security-learn-from-the-b-17-flying-fortress",
+    "slug": "post__what-can-cognitive-security-learn-from-the-b-17-flying-fortress",
+    "title": "What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+    "description": "When are people the most vulnerable to a social engineering attack?\u00a0When are they most likely to make a mistake?\u00a0If we pause to contemplate these two questions, we will likely come to a very similar list of conclusions; when they are tired, distracted, or they confuse one thing for another.\u00a0In the first few years of World War II, the U.S. Army Air Corps lost over 400 aircraft in less than two years, not from enemy engagements, but due to \u201cpilot error\u201d. Pilot error included incidents such as land",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_b6942f2004fc46a280c3a8e7b1bbb833~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/439552_b6942f2004fc46a280c3a8e7b1bbb833~mv2.png",
+    "headings": [
+      "H1: What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "H2: Related Posts"
+    ],
+    "text_chars": 11508
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/publications",
+    "slug": "publications",
+    "title": "Publications | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: RESEARCH PUBLICATIONS",
+      "H2: Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "H2: Coupons as Cognitive Malware: Attacking Interconnected Systems",
+      "H2: What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "H2: Join us to help protect what makes us human: our ability to think for ourselves."
+    ],
+    "text_chars": 6110
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/research",
+    "slug": "research",
+    "title": "Research | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: RESEARCH",
+      "H1: Active Projects",
+      "H1: Publications",
+      "H2: CSI's Focus 5 Areas",
+      "H2: Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "H2: NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "H2: Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+      "H2: Contribute to Our Research",
+      "H3: Cognitive Attack Taxonomy (CAT)",
+      "H3: Evil Digital Twin",
+      "H3: Cognitive Security Research Library"
+    ],
+    "text_chars": 9548
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/resources",
+    "slug": "resources",
+    "title": "Resources | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: RESOURCES",
+      "H1: Meetings",
+      "H1: Workshops & Events",
+      "H2: Programs",
+      "H3: Meetings",
+      "H3: Workshops & Events",
+      "H3: Programs",
+      "H4: Private, Practitioner-Focused Conversations on Cognitive Security",
+      "H4: Applied Learning & Innovation with Real-World Impact",
+      "H4: Cognitive Security Foundations & Up-Skilling Training"
+    ],
+    "text_chars": 6118
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/shield",
+    "slug": "shield",
+    "title": "Human Risk (SHIELD) | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Welcome to SHIELD",
+      "H2: People aren\u2019t the weakest link - they\u2019re security\u2019s greatest strength.",
+      "H2: What is SHIELD?",
+      "H2: Why Join SHIELD?",
+      "H2: SHIELD Activities",
+      "H2: Want to Collaborate?"
+    ],
+    "text_chars": 3367
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/sitemap",
+    "slug": "sitemap",
+    "title": "Sitemap | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: SITEMAP"
+    ],
+    "text_chars": 2947
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff",
+    "slug": "staff",
+    "title": "Staff2 (List) | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Staff List",
+      "H2: Dr. Matthew Canham",
+      "H2: K. Melton",
+      "H2: Anna Varfolomeeva",
+      "H2: Winn Schwartau",
+      "H2: Holly-Jane Grayling",
+      "H2: Sarah Fuller",
+      "H2: Leah Von Kreman",
+      "H2: Royce J. Porter",
+      "H2: Natilie McCallick",
+      "H2: Dr. Ben D. Sawyer",
+      "H2: Dr. Tamara Schwartz",
+      "H2: Dr. Robert Thomson"
+    ],
+    "text_chars": 5186
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/anna-varfolomeeva",
+    "slug": "staff-1__anna-varfolomeeva",
+    "title": "Anna Varfolomeeva | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3ebcfb977fb2497eac72515c4e794c7a~mv2.png/v1/fill/w_2048,h_2048,al_c/Anna-Varfolomeeva.png",
+    "headings": [
+      "H1: Anna Varfolomeeva"
+    ],
+    "text_chars": 1676
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/dr.-ben-d.-sawyer",
+    "slug": "staff-1__dr.-ben-d.-sawyer",
+    "title": "Dr. Ben D. Sawyer | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_1a736966811444d8a163f07d8e40a1bd~mv2.png/v1/fill/w_2048,h_2048,al_c/Ben-D-Sawyer.png",
+    "headings": [
+      "H1: Dr. Ben D. Sawyer"
+    ],
+    "text_chars": 1661
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/dr.-matthew-canham",
+    "slug": "staff-1__dr.-matthew-canham",
+    "title": "Dr. Matthew Canham | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_7ee63c20250f40c58666a75213a80a2f~mv2.png/v1/fill/w_2048,h_2048,al_c/Matthew-Canham.png",
+    "headings": [
+      "H1: Dr. Matthew Canham"
+    ],
+    "text_chars": 1668
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/dr.-robert-thomson",
+    "slug": "staff-1__dr.-robert-thomson",
+    "title": "Dr. Robert Thomson | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_bff9b0aac8164767a807dd14c270f305~mv2.png/v1/fill/w_2048,h_2048,al_c/Robert-Thomson.png",
+    "headings": [
+      "H1: Dr. Robert Thomson"
+    ],
+    "text_chars": 1663
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/dr.-tamara-schwartz",
+    "slug": "staff-1__dr.-tamara-schwartz",
+    "title": "Dr. Tamara Schwartz | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3dc7a8a724f7477ebb07dd885c748f55~mv2.png/v1/fill/w_2048,h_2048,al_c/Tamara-Schwartz.png",
+    "headings": [
+      "H1: Dr. Tamara Schwartz"
+    ],
+    "text_chars": 1663
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/holly-jane-grayling",
+    "slug": "staff-1__holly-jane-grayling",
+    "title": "Holly-Jane Grayling | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0c8ea7234eee4c8089578c8add35fb7c~mv2.png/v1/fill/w_2048,h_2048,al_c/Holly-Jane-Grayling.png",
+    "headings": [
+      "H1: Holly-Jane Grayling"
+    ],
+    "text_chars": 1730
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/k.-melton",
+    "slug": "staff-1__k.-melton",
+    "title": "K. Melton | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_5f6b62984dd84b8eace595aadb7f922e~mv2.png/v1/fill/w_2048,h_2048,al_c/K-Melton.png",
+    "headings": [
+      "H1: K. Melton"
+    ],
+    "text_chars": 1681
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/leah-von-kreman",
+    "slug": "staff-1__leah-von-kreman",
+    "title": "Leah Von Kreman | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_53bc90c513bb4a5cb0eccfbc41577823~mv2.png/v1/fill/w_2048,h_2048,al_c/Leah-von-Kreman.png",
+    "headings": [
+      "H1: Leah Von Kreman"
+    ],
+    "text_chars": 1670
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/natilie-mccallick",
+    "slug": "staff-1__natilie-mccallick",
+    "title": "Natilie McCallick | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_504a92fd2dad4c418ec75d24eeb01467~mv2.avif/v1/fill/w_426,h_488,al_c/439552_504a92fd2dad4c418ec75d24eeb01467~mv2.avif",
+    "headings": [
+      "H1: Natilie McCallick"
+    ],
+    "text_chars": 1663
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/royce-j.-porter",
+    "slug": "staff-1__royce-j.-porter",
+    "title": "Royce J. Porter | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_d663c604fd4a4d2dbbeddd632c4676e6~mv2.png/v1/fill/w_2048,h_2048,al_c/Royce-Porter.png",
+    "headings": [
+      "H1: Royce J. Porter"
+    ],
+    "text_chars": 1668
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/sarah-fuller",
+    "slug": "staff-1__sarah-fuller",
+    "title": "Sarah Fuller | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3a2f8a749f394c68842692712f0cfc4b~mv2.png/v1/fill/w_2048,h_2048,al_c/Sarah-Fuller.png",
+    "headings": [
+      "H1: Sarah Fuller"
+    ],
+    "text_chars": 1670
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff-1/winn-schwartau",
+    "slug": "staff-1__winn-schwartau",
+    "title": "Winn Schwartau | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_1157cd94629347c19aaa4710fa5df856~mv2.png/v1/fill/w_2048,h_2048,al_c/Winn-Schwartau.png",
+    "headings": [
+      "H1: Winn Schwartau"
+    ],
+    "text_chars": 1675
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/anna-varfolomeeva",
+    "slug": "staff__anna-varfolomeeva",
+    "title": "Anna Varfolomeeva | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3ebcfb977fb2497eac72515c4e794c7a~mv2.png/v1/fill/w_2048,h_2048,al_c/Anna-Varfolomeeva.png",
+    "headings": [
+      "H1: Anna Varfolomeeva",
+      "H4: Director of Communications"
+    ],
+    "text_chars": 2802
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/dr.-ben-d.-sawyer",
+    "slug": "staff__dr.-ben-d.-sawyer",
+    "title": "Dr. Ben D. Sawyer | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_1a736966811444d8a163f07d8e40a1bd~mv2.png/v1/fill/w_2048,h_2048,al_c/Ben-D-Sawyer.png",
+    "headings": [
+      "H1: Dr. Ben D. Sawyer",
+      "H4: Board Chair"
+    ],
+    "text_chars": 2339
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/dr.-matthew-canham",
+    "slug": "staff__dr.-matthew-canham",
+    "title": "Dr. Matthew Canham | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_7ee63c20250f40c58666a75213a80a2f~mv2.png/v1/fill/w_2048,h_2048,al_c/Matthew-Canham.png",
+    "headings": [
+      "H1: Dr. Matthew Canham",
+      "H4: Executive Director"
+    ],
+    "text_chars": 3109
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/dr.-robert-thomson",
+    "slug": "staff__dr.-robert-thomson",
+    "title": "Dr. Robert Thomson | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_bff9b0aac8164767a807dd14c270f305~mv2.png/v1/fill/w_2048,h_2048,al_c/Robert-Thomson.png",
+    "headings": [
+      "H1: Dr. Robert Thomson",
+      "H4: Board Member"
+    ],
+    "text_chars": 2244
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/dr.-tamara-schwartz",
+    "slug": "staff__dr.-tamara-schwartz",
+    "title": "Dr. Tamara Schwartz | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3dc7a8a724f7477ebb07dd885c748f55~mv2.png/v1/fill/w_2048,h_2048,al_c/Tamara-Schwartz.png",
+    "headings": [
+      "H1: Dr. Tamara Schwartz",
+      "H4: Board Member"
+    ],
+    "text_chars": 3001
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/holly-jane-grayling",
+    "slug": "staff__holly-jane-grayling",
+    "title": "Holly-Jane Grayling | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_0c8ea7234eee4c8089578c8add35fb7c~mv2.png/v1/fill/w_2048,h_2048,al_c/Holly-Jane-Grayling.png",
+    "headings": [
+      "H1: Holly-Jane Grayling",
+      "H4: Director of SHIELD (Security & Human Insight for Educating Leaders on Defence)"
+    ],
+    "text_chars": 3235
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/k.-melton",
+    "slug": "staff__k.-melton",
+    "title": "K. Melton | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_5f6b62984dd84b8eace595aadb7f922e~mv2.png/v1/fill/w_2048,h_2048,al_c/K-Melton.png",
+    "headings": [
+      "H1: K. Melton",
+      "H4: Director of Community Events & Programs"
+    ],
+    "text_chars": 4452
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/leah-von-kreman",
+    "slug": "staff__leah-von-kreman",
+    "title": "Leah Von Kreman | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_53bc90c513bb4a5cb0eccfbc41577823~mv2.png/v1/fill/w_2048,h_2048,al_c/Leah-von-Kreman.png",
+    "headings": [
+      "H1: Leah Von Kreman",
+      "H4: Volunteer Coordinator"
+    ],
+    "text_chars": 2452
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/natilie-mccallick",
+    "slug": "staff__natilie-mccallick",
+    "title": "Natilie McCallick | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_504a92fd2dad4c418ec75d24eeb01467~mv2.avif/v1/fill/w_426,h_488,al_c/439552_504a92fd2dad4c418ec75d24eeb01467~mv2.avif",
+    "headings": [
+      "H1: Natilie McCallick",
+      "H4: Administrative Assistant"
+    ],
+    "text_chars": 2753
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/royce-j.-porter",
+    "slug": "staff__royce-j.-porter",
+    "title": "Royce J. Porter | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_d663c604fd4a4d2dbbeddd632c4676e6~mv2.png/v1/fill/w_2048,h_2048,al_c/Royce-Porter.png",
+    "headings": [
+      "H1: Royce J. Porter",
+      "H4: Security Researcher"
+    ],
+    "text_chars": 2900
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/sarah-fuller",
+    "slug": "staff__sarah-fuller",
+    "title": "Sarah Fuller | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_3a2f8a749f394c68842692712f0cfc4b~mv2.png/v1/fill/w_2048,h_2048,al_c/Sarah-Fuller.png",
+    "headings": [
+      "H1: Sarah Fuller",
+      "H4: Senior Advisor - Strategy"
+    ],
+    "text_chars": 2774
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/staff/winn-schwartau",
+    "slug": "staff__winn-schwartau",
+    "title": "Winn Schwartau | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "https://static.wixstatic.com/media/439552_1157cd94629347c19aaa4710fa5df856~mv2.png/v1/fill/w_2048,h_2048,al_c/Winn-Schwartau.png",
+    "headings": [
+      "H1: Winn Schwartau",
+      "H4: Director of Special Projects"
+    ],
+    "text_chars": 4450
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/strategic-advisory-council",
+    "slug": "strategic-advisory-council",
+    "title": "Advisory Council | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: ADVISORY COUNCIL",
+      "H1: Trusted Voices Shaping the Future",
+      "H2: Advisory Council",
+      "H4: Adam Beal",
+      "H4: Dr. Calvin Nobles",
+      "H4: Dr. Sean Guillory",
+      "H4: Sumona Banerji",
+      "H4: Alexandra Bruce",
+      "H4: Dr. Gareth Doherty",
+      "H4: Oz Alashe",
+      "H4: Candy Alexander",
+      "H4: Dr. Rosanna Guadagno",
+      "H4: Perry Carpenter"
+    ],
+    "text_chars": 6776
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/supporters",
+    "slug": "supporters",
+    "title": "Speakers | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: SUPPORTERS",
+      "H1: Thank You to Our Amazing Supporters!",
+      "H1: Let's join forces to protect what makes us human: our ability to think for ourselves.",
+      "H2: Why Partner with CSI?",
+      "H2: Partnership Benefits",
+      "H4: Ways to Partner",
+      "H4: Strategic Visibility",
+      "H4: Network Integration",
+      "H4: Subject Matter Experts",
+      "H4: Speaking & Co-Promotion",
+      "H4: Exclusive Opportunities",
+      "H4: Collaborative Dev"
+    ],
+    "text_chars": 4943
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/thank-you-for-completing",
+    "slug": "thank-you-for-completing",
+    "title": "Survey Thank you! | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Thank you for submitting your survey!Your feedback helps us serve the CSI community more effectively!"
+    ],
+    "text_chars": 1526
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/thankyou",
+    "slug": "thankyou",
+    "title": "Thank you! | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: Thank you for submitting your application!We will review your submission and notify you if you have been accepted."
+    ],
+    "text_chars": 1539
+  },
+  {
+    "url": "https://www.cognitivesecurityinstitute.org/waitlistquestionnaire",
+    "slug": "waitlistquestionnaire",
+    "title": "EmailedWaitlistQuestionnaire | Cognitive Security Institute",
+    "description": "",
+    "status": 200,
+    "og_image": "",
+    "headings": [
+      "H1: CSI Course Waitlist Questionnaire"
+    ],
+    "text_chars": 3862
+  }
+]

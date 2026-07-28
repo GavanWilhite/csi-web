@@ -1,0 +1,426 @@
+[
+  {
+    "Day": "Thursday",
+    "Start Time": "8:00 AM",
+    "End Time": "9:00 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Check-In",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "9:00 AM",
+    "End Time": "9:30 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Opening Remarks",
+    "Name": "JAMES MCQUIGGAN"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "9:30 AM",
+    "End Time": "10:10 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Keynote | The Decision Environment - An Operational Theory of Cognitive Conflict",
+    "Name": "DR. RAND WALTZMAN"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "10:10 AM",
+    "End Time": "10:45 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Defending Humans",
+    "Title": "From Educator to Enabler: The New Mandate for Human Risk Practitioners",
+    "Name": "DR. SANNY LIAO"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Understanding the Pathway to Violence",
+    "Name": "BEN VOCE-GARDNER"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Applied Training",
+    "Title": "Engineering For Human Cognition and Creativity - Building a Future We Actually Want",
+    "Name": "LUCAS PRALLE"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "11:30 AM",
+    "End Time": "12:15 PM",
+    "Track": "Defending Humans",
+    "Title": "Building Security Cultures that Last",
+    "Name": "DR. JESSICA BARKER"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "11:30 AM",
+    "End Time": "12:15 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "COGNITIVE JAILBREAK: I wasn\u2019t hacked. I volunteered.",
+    "Name": "LEN NOE"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "11:30 AM",
+    "End Time": "12:15 PM",
+    "Track": "Applied Training",
+    "Title": "Practical Skills for Sustaining Performance, Recovery & Team Effectiveness",
+    "Name": "DR. SARA RABINOVITCH"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "12:15 PM",
+    "End Time": "1:15 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Lunch",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Defending Humans",
+    "Title": "Gaining Physical Access: The Techniques, Disguises, and Social Engineering Tactics",
+    "Name": "FC (FREAKY CLOWN)"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Neurosecurity: the State of the Art and Critical Gaps in Defense for Neurotechnology",
+    "Name": "DR. BRYCE-ALLEN BAGLEY"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Applied Training",
+    "Title": "Autopilot Off. Awareness On.",
+    "Name": "SUMONA BANERJI"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "2:00 PM",
+    "End Time": "2:15 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "2:15 PM",
+    "End Time": "3:00 PM",
+    "Track": "Defending Humans",
+    "Title": "Synthetic Certainty: How Misidentification Turns Weak Signals into Believed Truth",
+    "Name": "JEFF JOCKISCH"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "2:15 PM",
+    "End Time": "2:35 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "From Clinic to Consumer: Neurosecurity Risks in Everyday Life.",
+    "Name": "DR. STEPHEN DAMIANOS"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "2:40 PM",
+    "End Time": "3:00 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Pathogenic Vectors: An Emerging Threat to Neurosecurity",
+    "Name": "DR. GREGORY CARPENTER"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "2:15 PM",
+    "End Time": "3:00 PM",
+    "Track": "Applied Training",
+    "Title": "Part I: From Zero to (Tabletop) Hero: Building Tabletop Exercises for Human-Centered Defense",
+    "Name": "CHLOE TUCKER"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "3:00 PM",
+    "End Time": "3:20 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "3:20 PM",
+    "End Time": "4:00 PM",
+    "Track": "Defending Humans",
+    "Title": "AI Education Without Effort: What Do Students Lose?",
+    "Name": "CLIFFORD STOLL"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "3:20 PM",
+    "End Time": "3:40 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "\"Truth\" Machines: When Market Authority Becomes Systemic Vulnerability",
+    "Name": "WEB BEGOLE"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "3:20 PM",
+    "End Time": "4:00 PM",
+    "Track": "Applied Training",
+    "Title": "Part II: From Zero to (Tabletop) Hero: Building Tabletop Exercises for Human-Centered Defense",
+    "Name": "CHLOE TUCKER"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "4:00 PM",
+    "End Time": "4:30 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "4:30 PM",
+    "End Time": "5:15 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Keynote | The Battle for Decision Autonomy: A New Front in Strategic Competition",
+    "Name": "DAVE PITTS"
+  },
+  {
+    "Day": "Thursday",
+    "Start Time": "5:15 PM",
+    "End Time": "5:30 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Closing Remarks",
+    "Name": "JAMES MCQUIGGAN"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "8:00 AM",
+    "End Time": "9:30 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Check-In",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "9:30 AM",
+    "End Time": "9:40 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Opening Remarks",
+    "Name": "SUMONA BANERJI"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "9:40 AM",
+    "End Time": "10:20 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Keynote | Before the Decision",
+    "Name": "BRIG. GEN. TERRI BORRAS (Ret)"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "10:20 AM",
+    "End Time": "10:45 AM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Defending Humans",
+    "Title": "Build the Con. Break the Con: Exploring the Science of Deception -- Live",
+    "Name": "PERRY CARPENTER"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Measuring the Unmeasurable: Quantifying Cognitive Warfare and Security",
+    "Name": "SMSGT BONNIE RUSHING"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "10:45 AM",
+    "End Time": "11:30 AM",
+    "Track": "Applied Training",
+    "Title": "TBA",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "11:30 AM",
+    "End Time": "11:50 AM",
+    "Track": "Defending Humans",
+    "Title": "Operationalizing Cognitive Security in Human-AI Systems",
+    "Name": "PEGGY YIN"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "11:50 AM",
+    "End Time": "12:10 PM",
+    "Track": "Defending Humans",
+    "Title": "ScamBench: Measuring Real-World Risk of AI-Generated Social Engineering",
+    "Name": "DR. FRED HEIDING"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "11:30 AM",
+    "End Time": "12:15 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Narrative War: The Philosophy of Social Conflict",
+    "Name": "DR. BRIAN L. STEED"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "11:30 AM",
+    "End Time": "12:15 PM",
+    "Track": "Applied Training",
+    "Title": "Knowledge Mapping as an Analytical Capability for Cognitive Security",
+    "Name": "SARA RUSSO"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "12:15 PM",
+    "End Time": "1:15 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Lunch",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Defending Humans",
+    "Title": "Raptor v. Raven, How\u2019s Your Oversight?",
+    "Name": "TOMM LARSON"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Polycrisis and Cognitive Warfare: Competing Narratives in an Age of Wicked Problems",
+    "Name": "DR. TAMARA SCHWARTZ"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "1:15 PM",
+    "End Time": "2:00 PM",
+    "Track": "Applied Training",
+    "Title": "What Five Minutes Under Pressure Teach Us About Decision Ecosystems",
+    "Name": "DR. DUSTIN SACHS"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "2:00 PM",
+    "End Time": "2:15 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "2:15 PM",
+    "End Time": "3:00 PM",
+    "Track": "Defending Humans",
+    "Title": "Critical Ignoring TMI & Cognitive Pearl Harbors",
+    "Name": "WINN SCHWARTAU"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "2:15 PM",
+    "End Time": "3:00 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "The \u201cInteresting Times\u201d Have arrived: Existential Vulnerability & \u201cConventional Wisdom\u201d",
+    "Name": "CONSTANTINE"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "2:15 PM",
+    "End Time": "3:00 PM",
+    "Track": "Applied Training",
+    "Title": "Practical Skills for Sustaining Performance, Recovery & Team Effectiveness",
+    "Name": "DR. SARA RABINOVITCH"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "3:00 PM",
+    "End Time": "3:20 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "3:20 PM",
+    "End Time": "4:00 PM",
+    "Track": "Defending Humans",
+    "Title": "AI and Trust",
+    "Name": "BRUCE SCHNEIER"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "3:20 PM",
+    "End Time": "3:40 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Cognitive War in Space: Human Perception and Infrastructure in a Contested Domain",
+    "Name": "MARIAH MAURY"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "3:20 PM",
+    "End Time": "4:00 PM",
+    "Track": "Applied Training",
+    "Title": "The solution to the scampocalypse is more scams",
+    "Name": "BRIAN BRUSHWOOD"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "3:40 PM",
+    "End Time": "4:00 PM",
+    "Track": "Critical Cognitive Infrastructure",
+    "Title": "Mind Shifts: The Challenge of Cognitive Security",
+    "Name": "DAVE ACOSTA"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "4:00 PM",
+    "End Time": "4:30 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Break",
+    "Name": ""
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "4:30 PM",
+    "End Time": "5:20 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Keynote | Start With the Why: A Decision Model for AI-Native Human Risk Management",
+    "Name": "ASHLEY ROSE"
+  },
+  {
+    "Day": "Friday",
+    "Start Time": "5:20 PM",
+    "End Time": "5:30 PM",
+    "Track": "Main Stage / All Tracks",
+    "Title": "Closing Remarks",
+    "Name": "SUMONA BANERJI"
+  }
+]

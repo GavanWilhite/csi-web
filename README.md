@@ -48,7 +48,10 @@ sponsor, edit `lib/` — not a component:
 | `lib/contact.ts` | Encoded contact address |
 
 Design rules are in [DESIGN.md](./DESIGN.md). Conventions for agents and
-contributors are in [AGENTS.md](./AGENTS.md).
+contributors are in [AGENTS.md](./AGENTS.md). Where the work stands is in
+[sprint/](./sprint/current.md). Research, specs and the preserved crawl of the
+old site are in [docs/](./docs/README.md) — that crawl is the only record of a
+site being retired.
 
 ## Things that will bite you
 

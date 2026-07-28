@@ -1,0 +1,205 @@
+[
+  {
+    "name": "ASHLEY ROSE",
+    "tagline": "The Pioneer of Human Risk Management",
+    "track": "Keynote Speakers"
+  },
+  {
+    "name": "BRIG. GEN. TERRI BORRAS (Ret)",
+    "tagline": "Defending the Moment Before Decision",
+    "track": "Keynote Speakers"
+  },
+  {
+    "name": "DAVE PITTS",
+    "tagline": "The Battle for Decision Autonomy",
+    "track": "Keynote Speakers",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-pitts"
+  },
+  {
+    "name": "DR. RAND WALTZMAN",
+    "tagline": "The Godfather of Cognitive Security",
+    "track": "Keynote Speakers",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/rand-waltzman"
+  },
+  {
+    "name": "BRUCE SCHNEIER",
+    "tagline": "\"Amateurs hack systems; professionals hack people\"",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/bruce-schneier"
+  },
+  {
+    "name": "DR. SANNY LIAO",
+    "tagline": "The Behavioral Exonomist Moving Security Beyond the Weakest Link",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/sanny-liao"
+  },
+  {
+    "name": "PERRY CARPENTER",
+    "tagline": "Chief Deceptionologist",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/perry-carpenter"
+  },
+  {
+    "name": "CLIFFORD STOLL",
+    "tagline": "Cybersecurity Legend, Longtime Skeptic of Computers in Class",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/clifford-stoll"
+  },
+  {
+    "name": "FC (FREAKY CLOWN)",
+    "tagline": "The Ethical Hacker Who Robs Banks for a Living",
+    "track": "Defending Humans"
+  },
+  {
+    "name": "TOMM LARSON",
+    "tagline": "Protecting the Nation's Most Sensitive Research from Cognitive Attacks",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/tomm-larson"
+  },
+  {
+    "name": "DR. FRED HEIDING",
+    "tagline": "Hacked The King of Sweden",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/fred-heiding"
+  },
+  {
+    "name": "JEFF JOCKISCH",
+    "tagline": "The Privacy Strategist",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/jeff-jockisch"
+  },
+  {
+    "name": "WINN SCHWARTAU",
+    "tagline": "The Grandfather Of Security Awareness",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/winn-schwartau"
+  },
+  {
+    "name": "DR. JESSICA BARKER",
+    "tagline": "The Human Side of Cyber Security",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/jessica-barker"
+  },
+  {
+    "name": "PEGGY YIN",
+    "tagline": "The Next Generation of Cognitive Security",
+    "track": "Defending Humans",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/peggy-yin"
+  },
+  {
+    "name": "BEN VOCE-GARDNER",
+    "tagline": "New York's Point Man for Cyber, Terror, and Critical Infrastructure",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/ben-voce-gardner"
+  },
+  {
+    "name": "CONSTANTINE",
+    "tagline": "The Forrest Gump of Grand Strategy",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/constantine"
+  },
+  {
+    "name": "MARIAH MAURY",
+    "tagline": "Securing Humanity's Next Frontier: Outer Space",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/mariah-maury"
+  },
+  {
+    "name": "SMSGT BONNIE RUSHING",
+    "tagline": "The CogWar Trailblazer",
+    "track": "Critical Cognitive Infrastructure"
+  },
+  {
+    "name": "DAVE ACOSTA",
+    "tagline": "The Colonel Who Wrote the Book on Deception",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-acosta"
+  },
+  {
+    "name": "DR. STEPHEN DAMIANOS",
+    "tagline": "From Oxford to the White House: Defending your Right to Think Freely",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/stephen-damianos"
+  },
+  {
+    "name": "DR. BRIAN L. STEED",
+    "tagline": "The Cavalry Officer Turned Narrative Warrior",
+    "track": "Critical Cognitive Infrastructure"
+  },
+  {
+    "name": "DR. GREGORY CARPENTER",
+    "tagline": "Cognitive Warfare's Epidemiologist",
+    "track": "Critical Cognitive Infrastructure"
+  },
+  {
+    "name": "DR. TAMARA SCHWARTZ",
+    "tagline": "Conquering Mount VUCA",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/tamara-schwartz"
+  },
+  {
+    "name": "DR. BRYCE-ALLEN BAGLEY",
+    "tagline": "The Triple Threat",
+    "track": "Critical Cognitive Infrastructure"
+  },
+  {
+    "name": "LEN NOE",
+    "tagline": "The Human Cyborg",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/len-noe"
+  },
+  {
+    "name": "WEB BEGOLE",
+    "tagline": "From Brecht to Basis Points",
+    "track": "Critical Cognitive Infrastructure",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/web-begole"
+  },
+  {
+    "name": "BRIAN BRUSHWOOD",
+    "tagline": "First He Scams You, Then He Shows You How He Did It",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/brian-brushwood"
+  },
+  {
+    "name": "DR. SARA RABINOVITCH",
+    "tagline": "Stress Neurobiology Researcher & Intervention Developer",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-rabinovitch"
+  },
+  {
+    "name": "CHLOE TUCKER",
+    "tagline": "Storytelling for Human-Centered Defense",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/chloe-tucker"
+  },
+  {
+    "name": "SARA RUSSO",
+    "tagline": "Building the Map of Cognitive Warfare Research",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-russo"
+  },
+  {
+    "name": "DR. DUSTIN SACHS",
+    "tagline": "DO NOT accept QR codes from this man!",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/dustin-sachs"
+  },
+  {
+    "name": "LUCAS PRALLE",
+    "tagline": "Making Tools to Maximize Human Creativity",
+    "track": "Applied Training",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/lucas-pralle"
+  },
+  {
+    "name": "JAMES MCQUIGGAN",
+    "tagline": "The Groan-Up in the Room",
+    "track": "Master of Ceremonies",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/james-mcquiggan"
+  },
+  {
+    "name": "SUMONA BANERJI",
+    "tagline": "\u201cKnow Your Mind\u201d",
+    "track": "Master of Ceremonies",
+    "bio_page": "https://www.cognitivesecurityinstitute.org/csc-speakers/sumona-banerji"
+  }
+]

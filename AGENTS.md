@@ -7,7 +7,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 # Working in this repo
 
 Read [DESIGN.md](./DESIGN.md) before touching anything visual, and
-[README.md](./README.md) for where content lives. The rules below are the ones
+[README.md](./README.md) for where content lives. Start a session with
+[sprint/current.md](./sprint/current.md); `docs/research/` holds the specs and
+audits behind decisions already made, and `docs/source-content/` is the
+extracted text of the old Wix site — the authority for "what did it actually
+say?", and the only record now that the site is being retired. The rules below are the ones
 most often broken by someone arriving cold.
 
 ## Before you start

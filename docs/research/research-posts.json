@@ -1,0 +1,708 @@
+{
+  "$comment": "All 13 published Wix Blog posts on cognitivesecurityinstitute.org, extracted from appsWarmupData across raw-html/blog.html, blog__categories__*.html, research.html and index.html. The homepage 'Published Research' row is a live query: category=Research, sort=firstPublishedDate desc, limit 3 — see shownOnHomepageAtCapture.",
+  "capturedAt": "2026-07-27",
+  "source": {
+    "kind": "wix-blog-post-list-widget",
+    "wixAppDefinitionId": "14bcded7-0066-7c35-14d7-466cb3f09103",
+    "wixAppName": "Wix Blog",
+    "homepageComponentId": "comp-md40oyz7",
+    "homepageWarmupKey": "post-list-comp-md40oyz7-undefined-95b8acfa-5ad4-48cd-9f5f-530e6212d92f-undefined-en-3",
+    "researchPageComponentId": "comp-mdsb4kn4",
+    "researchPageWarmupKey": "post-list-comp-mdsb4kn4-false-95b8acfa-5ad4-48cd-9f5f-530e6212d92f-undefined-en-3"
+  },
+  "homepageWidget": {
+    "heading": "Published Research",
+    "filterCategoryId": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+    "filterCategoryLabel": "Research",
+    "limit": 3,
+    "sort": "firstPublishedDate desc, pinned first",
+    "totalMatchingPosts": 10,
+    "ctaLabel": "View More",
+    "ctaHref": "https://www.cognitivesecurityinstitute.org/research"
+  },
+  "categories": [
+    {
+      "id": "228a1b12-c928-49d8-8476-25b3af8eb3b1",
+      "label": "Announcements",
+      "slug": "announcements",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/announcements"
+    },
+    {
+      "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+      "label": "Research",
+      "slug": "research",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+    },
+    {
+      "id": "5890fa34-f8b2-4b87-b94f-6d65acf2465b",
+      "label": "Media",
+      "slug": "media",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/media"
+    },
+    {
+      "id": "15c25b42-88d7-49c8-bde7-d35fe91ac40e",
+      "label": "Resources",
+      "slug": "resources",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/resources"
+    },
+    {
+      "id": "62c27782-49ea-4da9-86b0-a973e99940a2",
+      "label": "AI Security",
+      "slug": "ai-security",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/ai-security"
+    },
+    {
+      "id": "a45db1d2-57d4-4c28-b693-b7d761ef06d3",
+      "label": "Human-Centered Cyber",
+      "slug": "human-centered-cyber",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber"
+    },
+    {
+      "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+      "label": "Cognitive Warfare",
+      "slug": "cognitive-warfare",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+    },
+    {
+      "id": "95a0f09d-6b48-4ae0-9b60-340e5bd22a54",
+      "label": "Cognitive Resilience",
+      "slug": "cognitive-resilience",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-resilience"
+    },
+    {
+      "id": "27fd8559-ac57-45e2-b021-3e3cdef6afda",
+      "label": "Neurosecurity",
+      "slug": "neurosecurity",
+      "url": "https://www.cognitivesecurityinstitute.org/blog/categories/neurosecurity"
+    }
+  ],
+  "totalPosts": 13,
+  "posts": [
+    {
+      "id": "1bdcbb9e-6d62-4726-91d0-b044f306f3aa",
+      "slug": "developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar",
+      "title": "Developing a Neurosecurity Framework to Defend Against the Coming Neurowar",
+      "url": "https://www.cognitivesecurityinstitute.org/post/developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar",
+      "path": "/post/developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar",
+      "primaryCategory": {
+        "label": "Neurosecurity",
+        "slug": "neurosecurity"
+      },
+      "categories": [
+        {
+          "id": "27fd8559-ac57-45e2-b021-3e3cdef6afda",
+          "label": "Neurosecurity",
+          "slug": "neurosecurity",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/neurosecurity"
+        },
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        }
+      ],
+      "firstPublishedDate": "2026-01-12T21:46:02.590Z",
+      "lastPublishedDate": "2026-01-12T21:46:02.590Z",
+      "excerpt": "Matthew Canham The capture of Nicolás Maduro by US special operations forces without enduring the loss of a single operator marks one of the most overwhelmingly successful operations in the (acknowledged) history of special operations. A recent account by one of the Venezuelan security guards loyal to Maduro suggests that some advanced weaponry  may have been involved. Their account describes hearing a loud and intense sound which caused the guards to experience extreme pain in their heads...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 7,
+      "author": "mcanham",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_03c64f7d0958451baef2ccbfd8f5824b~mv2.jpg",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_03c64f7d0958451baef2ccbfd8f5824b~mv2.jpg",
+        "localAsset": "assets/other/439552_03c64f7d0958451baef2ccbfd8f5824b~mv2.jpg",
+        "width": 2000,
+        "height": 1333,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar.md",
+        "rawHtml": "handoff/raw-html/post__developing-a-neurosecurity-framework-to-defend-against-the-coming-neurowar.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "706a5c74-1efa-4e71-82ba-95f515d5dfbe",
+      "slug": "coupons-as-cognitive-malware-attacking-interconnected-systems",
+      "title": "Coupons as Cognitive Malware: Attacking Interconnected Systems",
+      "url": "https://www.cognitivesecurityinstitute.org/post/coupons-as-cognitive-malware-attacking-interconnected-systems",
+      "path": "/post/coupons-as-cognitive-malware-attacking-interconnected-systems",
+      "primaryCategory": null,
+      "categories": [],
+      "firstPublishedDate": "2025-12-09T20:28:35.351Z",
+      "lastPublishedDate": "2025-12-09T20:28:35.351Z",
+      "excerpt": "Dr. Matthew Canham Imagine that you receive an email from your electricity provider offering a 50% discount on electricity for using power during certain times of the day. The message explains that rising demand for electricity costs caused by increased data center usage is stressing the power grid and the electricity provider is exploring ways to encourage users to increase usage during prescribed times to reduce straining the power grid. The message appears legitimate and there are no...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 9,
+      "author": "mcanham",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "2586a4_75c0fc3a81eb458893e6534cebcc9b50~mv2.png",
+        "sourceUrl": "https://static.wixstatic.com/media/2586a4_75c0fc3a81eb458893e6534cebcc9b50~mv2.png",
+        "localAsset": "assets/other/2586a4_75c0fc3a81eb458893e6534cebcc9b50~mv2.png",
+        "width": 297,
+        "height": 215,
+        "altText": null,
+        "originalFilename": "image.png",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__coupons-as-cognitive-malware-attacking-interconnected-systems.md",
+        "rawHtml": "handoff/raw-html/post__coupons-as-cognitive-malware-attacking-interconnected-systems.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "e076ef1d-8ad6-4ba2-b605-ae3cc5bef270",
+      "slug": "what-can-cognitive-security-learn-from-the-b-17-flying-fortress",
+      "title": "What Can Cognitive Security Learn From The B-17 Flying Fortress?",
+      "url": "https://www.cognitivesecurityinstitute.org/post/what-can-cognitive-security-learn-from-the-b-17-flying-fortress",
+      "path": "/post/what-can-cognitive-security-learn-from-the-b-17-flying-fortress",
+      "primaryCategory": {
+        "label": "Cognitive Resilience",
+        "slug": "cognitive-resilience"
+      },
+      "categories": [
+        {
+          "id": "95a0f09d-6b48-4ae0-9b60-340e5bd22a54",
+          "label": "Cognitive Resilience",
+          "slug": "cognitive-resilience",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-resilience"
+        },
+        {
+          "id": "a45db1d2-57d4-4c28-b693-b7d761ef06d3",
+          "label": "Human-Centered Cyber",
+          "slug": "human-centered-cyber",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber"
+        }
+      ],
+      "firstPublishedDate": "2025-11-18T23:01:20.447Z",
+      "lastPublishedDate": "2025-11-18T23:01:20.447Z",
+      "excerpt": "When are people the most vulnerable to a social engineering attack?  When are they most likely to make a mistake?  If we pause to contemplate these two questions, we will likely come to a very similar list of conclusions; when they are tired, distracted, or they confuse one thing for another.  In the first few years of World War II, the U.S. Army Air Corps lost over 400 aircraft in less than two years, not from enemy engagements, but due to “pilot error”. Pilot error included incidents such...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 3,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_b6942f2004fc46a280c3a8e7b1bbb833~mv2.png",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_b6942f2004fc46a280c3a8e7b1bbb833~mv2.png",
+        "localAsset": "assets/other/439552_b6942f2004fc46a280c3a8e7b1bbb833~mv2.png",
+        "width": 1024,
+        "height": 576,
+        "altText": null,
+        "originalFilename": "cog-sec-b17-flying-fortress.png",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__what-can-cognitive-security-learn-from-the-b-17-flying-fortress.md",
+        "rawHtml": "handoff/raw-html/post__what-can-cognitive-security-learn-from-the-b-17-flying-fortress.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "3d40e0ed-10ff-428f-98bf-ed9ec4e739fe",
+      "slug": "darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control",
+      "title": "Darwin Monkey: Next Generation Neuromorphic Computing and Competition for Cognitive Capability and Control",
+      "url": "https://www.cognitivesecurityinstitute.org/post/darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control",
+      "path": "/post/darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "62c27782-49ea-4da9-86b0-a973e99940a2",
+          "label": "AI Security",
+          "slug": "ai-security",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/ai-security"
+        },
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        },
+        {
+          "id": "27fd8559-ac57-45e2-b021-3e3cdef6afda",
+          "label": "Neurosecurity",
+          "slug": "neurosecurity",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/neurosecurity"
+        }
+      ],
+      "firstPublishedDate": "2025-11-11T06:00:00.000Z",
+      "lastPublishedDate": "2025-11-11T06:00:00.000Z",
+      "excerpt": "Elise Annett James Giordano   The Darwin Monkey System: A Paradigm Shift from AI to Synthetic Cognition Fully integrated neuromorphic computing represents an important – and provocative – developmental iteration of artificial intelligence (AI). To date, most AI system operations have been based upon symbolic reasoning and/or statistical inference derived from large data sets. However,  Darwin Monkey , a large-scale neuromorphic computing system newly developed by Chinese researchers, was...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 6,
+      "author": "Deft9 Solutions",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_3b2d5da567e4403b8ce85626b168c77f~mv2.png",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_3b2d5da567e4403b8ce85626b168c77f~mv2.png",
+        "localAsset": "assets/other/439552_3b2d5da567e4403b8ce85626b168c77f~mv2.png",
+        "width": 1280,
+        "height": 853,
+        "altText": "Silhouette of human head in profile overlaid with computer chip",
+        "originalFilename": "Next Generation Neuromorphic Computing   and Competition for Cognitive Capability and Control.png",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control.md",
+        "rawHtml": "handoff/raw-html/post__darwin-monkey-next-gen-neuromorphic-computing-and-competition-for-cognitive-capability-control.html"
+      },
+      "shownOnHomepageAtCapture": true
+    },
+    {
+      "id": "e60bb223-1beb-47d4-b9b3-3639bd51624c",
+      "slug": "nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity",
+      "title": "NIST Special Publication: Minding the Gaps in Human-Centered Cybersecurity",
+      "url": "https://www.cognitivesecurityinstitute.org/post/nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity",
+      "path": "/post/nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "a45db1d2-57d4-4c28-b693-b7d761ef06d3",
+          "label": "Human-Centered Cyber",
+          "slug": "human-centered-cyber",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber"
+        }
+      ],
+      "firstPublishedDate": "2025-04-02T05:00:00.000Z",
+      "lastPublishedDate": "2025-04-02T05:00:00.000Z",
+      "excerpt": "In August 2024, the National Institute of Standards and Technology (NIST) co-sponsored ConnectCon , an interactive workshop that...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": true,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_cb22c295d2894d2d928c3f532839769d~mv2.png",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_cb22c295d2894d2d928c3f532839769d~mv2.png",
+        "localAsset": "assets/other/439552_cb22c295d2894d2d928c3f532839769d~mv2.png",
+        "width": 1232,
+        "height": 928,
+        "altText": null,
+        "originalFilename": "diverse-group-experts-contemplating-digital-human-cybersecurity.png",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity.md",
+        "rawHtml": "handoff/raw-html/post__nist-special-publication-minding-the-gaps-in-human-centered-cybersecurity.html"
+      },
+      "shownOnHomepageAtCapture": true
+    },
+    {
+      "id": "0eb370ad-5383-46b7-a14b-105b3cdfa0e8",
+      "slug": "neurosecurity-human-brain-electro-optical-signals-as-masint",
+      "title": "Neurosecurity: Human Brain Electro-Optical Signals as MASINT",
+      "url": "https://www.cognitivesecurityinstitute.org/post/neurosecurity-human-brain-electro-optical-signals-as-masint",
+      "path": "/post/neurosecurity-human-brain-electro-optical-signals-as-masint",
+      "primaryCategory": {
+        "label": "Neurosecurity",
+        "slug": "neurosecurity"
+      },
+      "categories": [
+        {
+          "id": "27fd8559-ac57-45e2-b021-3e3cdef6afda",
+          "label": "Neurosecurity",
+          "slug": "neurosecurity",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/neurosecurity"
+        },
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        }
+      ],
+      "firstPublishedDate": "2020-03-01T06:00:00.000Z",
+      "lastPublishedDate": "2020-03-01T06:00:00.000Z",
+      "excerpt": "Advances in neuroimaging and data analysis are making it increasingly possible to probe and gather intelligence from individual minds...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_033d768e77fc44b3a150f3e834371e44~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_033d768e77fc44b3a150f3e834371e44~mv2.avif",
+        "localAsset": "assets/home/439552_033d768e77fc44b3a150f3e834371e44~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": "Untitled-18.avif",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__neurosecurity-human-brain-electro-optical-signals-as-masint.md",
+        "rawHtml": "handoff/raw-html/post__neurosecurity-human-brain-electro-optical-signals-as-masint.html"
+      },
+      "shownOnHomepageAtCapture": true
+    },
+    {
+      "id": "252d50e9-3ad3-449b-83e5-a5908ccb6c37",
+      "slug": "the-enduring-mystery-of-the-repeat-clickers",
+      "title": "The Enduring Mystery of the Repeat Clickers",
+      "url": "https://www.cognitivesecurityinstitute.org/post/the-enduring-mystery-of-the-repeat-clickers",
+      "path": "/post/the-enduring-mystery-of-the-repeat-clickers",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "a45db1d2-57d4-4c28-b693-b7d761ef06d3",
+          "label": "Human-Centered Cyber",
+          "slug": "human-centered-cyber",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber"
+        }
+      ],
+      "firstPublishedDate": "2019-08-01T05:00:00.000Z",
+      "lastPublishedDate": "2019-08-01T05:00:00.000Z",
+      "excerpt": "Repeat Clickers—individuals within an organization who consistently fall for phishing emails—pose a significant security risk. This...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_ec8d2615441b45ef8a9785ae542bd765~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_ec8d2615441b45ef8a9785ae542bd765~mv2.avif",
+        "localAsset": "assets/other/439552_ec8d2615441b45ef8a9785ae542bd765~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__the-enduring-mystery-of-the-repeat-clickers.md",
+        "rawHtml": "handoff/raw-html/post__the-enduring-mystery-of-the-repeat-clickers.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "223e6fc8-5e2c-4242-9bab-ced9d8eddff0",
+      "slug": "developing-training-research-to-improve-cyber-defense-of-industrial-control-systems",
+      "title": "Developing Training Research to Improve Cyber Defense of Industrial Control Systems",
+      "url": "https://www.cognitivesecurityinstitute.org/post/developing-training-research-to-improve-cyber-defense-of-industrial-control-systems",
+      "path": "/post/developing-training-research-to-improve-cyber-defense-of-industrial-control-systems",
+      "primaryCategory": {
+        "label": "Cognitive Warfare",
+        "slug": "cognitive-warfare"
+      },
+      "categories": [
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        },
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        }
+      ],
+      "firstPublishedDate": "2018-09-01T05:00:00.000Z",
+      "lastPublishedDate": "2018-09-01T05:00:00.000Z",
+      "excerpt": "Cyber-attacks on Industrial Control Systems (ICS) can be particularly severe, as they may manipulate sensor and control data to cause...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_f8d86be904624ab39329c3d3daae5085~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_f8d86be904624ab39329c3d3daae5085~mv2.avif",
+        "localAsset": "assets/other/439552_f8d86be904624ab39329c3d3daae5085~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__developing-training-research-to-improve-cyber-defense-of-industrial-control-systems.md",
+        "rawHtml": "handoff/raw-html/post__developing-training-research-to-improve-cyber-defense-of-industrial-control-systems.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "3a03dab8-68b4-49e6-9b62-c0c9d4b80c78",
+      "slug": "understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu",
+      "title": "Understanding Online Information Operations: Development of an Influence Network for Scientific Inquiry Testing Environment (INSITE)",
+      "url": "https://www.cognitivesecurityinstitute.org/post/understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu",
+      "path": "/post/understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        },
+        {
+          "id": "95a0f09d-6b48-4ae0-9b60-340e5bd22a54",
+          "label": "Cognitive Resilience",
+          "slug": "cognitive-resilience",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-resilience"
+        }
+      ],
+      "firstPublishedDate": "2018-07-03T05:00:00.000Z",
+      "lastPublishedDate": "2018-07-03T05:00:00.000Z",
+      "excerpt": "Influence operations that spread propaganda, disinformation, and social hysteria pose a critical threat to U.S. national security....",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_4a763e23891b4368b9879325fe7a1096~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_4a763e23891b4368b9879325fe7a1096~mv2.avif",
+        "localAsset": "assets/other/439552_4a763e23891b4368b9879325fe7a1096~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu.md",
+        "rawHtml": "handoff/raw-html/post__understanding-online-information-operations-development-of-an-influence-network-for-scientific-inqu.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "5f635b4d-f209-49c2-be2f-de5e1cef4baa",
+      "slug": "socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education",
+      "title": "Socio-technical communication: The hybrid space and the OLB model for science-based cyber education",
+      "url": "https://www.cognitivesecurityinstitute.org/post/socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education",
+      "path": "/post/socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education",
+      "primaryCategory": {
+        "label": "Cognitive Warfare",
+        "slug": "cognitive-warfare"
+      },
+      "categories": [
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        },
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        }
+      ],
+      "firstPublishedDate": "2018-07-03T05:00:00.000Z",
+      "lastPublishedDate": "2018-07-03T05:00:00.000Z",
+      "excerpt": "Lessons from safety-critical sociotechnical systems, such as aviation and acute medical care, underscore the vital role of human factors...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_05c78a8e41814e8a91f6c790f667222d~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_05c78a8e41814e8a91f6c790f667222d~mv2.avif",
+        "localAsset": "assets/other/439552_05c78a8e41814e8a91f6c790f667222d~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education.md",
+        "rawHtml": "handoff/raw-html/post__socio-technical-communication-the-hybrid-space-and-the-olb-model-for-science-based-cyber-education.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "a92b3449-1798-43a3-9007-f885af8c538c",
+      "slug": "a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit",
+      "title": "A Computational Social Science Approach to Examine the Duality between Productivity and Cybersecurity Policy Compliance within Organizations",
+      "url": "https://www.cognitivesecurityinstitute.org/post/a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit",
+      "path": "/post/a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "a45db1d2-57d4-4c28-b693-b7d761ef06d3",
+          "label": "Human-Centered Cyber",
+          "slug": "human-centered-cyber",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/human-centered-cyber"
+        }
+      ],
+      "firstPublishedDate": "2018-01-01T06:00:00.000Z",
+      "lastPublishedDate": "2018-01-01T06:00:00.000Z",
+      "excerpt": "Employees often face a conflict between productivity and adhering to cybersecurity policies, which can lead to decreased performance and...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_0f3b683add35419aa43b23b0de866fee~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_0f3b683add35419aa43b23b0de866fee~mv2.avif",
+        "localAsset": "assets/other/439552_0f3b683add35419aa43b23b0de866fee~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit.md",
+        "rawHtml": "handoff/raw-html/post__a-computational-social-science-approach-to-examine-the-duality-between-productivity-and-cybersecurit.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "348b1ec1-65fb-445e-b8a2-9d1ab70faace",
+      "slug": "macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera",
+      "title": "Macrocognition Applied to the Hybrid Space: Team Environment, Functions and Processes in Cyber Operations",
+      "url": "https://www.cognitivesecurityinstitute.org/post/macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera",
+      "path": "/post/macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera",
+      "primaryCategory": {
+        "label": "Cognitive Warfare",
+        "slug": "cognitive-warfare"
+      },
+      "categories": [
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        },
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        }
+      ],
+      "firstPublishedDate": "2017-05-28T05:00:00.000Z",
+      "lastPublishedDate": "2017-05-28T05:00:00.000Z",
+      "excerpt": "As military cyber operations become more integrated, effective team coordination is crucial. This paper expands on a macrocognitive model...",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_f6e3ea4dc01c428aa94ccf15dcac8bc9~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_f6e3ea4dc01c428aa94ccf15dcac8bc9~mv2.avif",
+        "localAsset": "assets/other/439552_f6e3ea4dc01c428aa94ccf15dcac8bc9~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": null,
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera.md",
+        "rawHtml": "handoff/raw-html/post__macrocognition-applied-to-the-hybrid-space-team-environment-functions-and-processes-in-cyber-opera.html"
+      },
+      "shownOnHomepageAtCapture": false
+    },
+    {
+      "id": "8ee2266c-781c-452c-a33e-9358c03fe46e",
+      "slug": "exploring-the-hybrid-space",
+      "title": "Exploring the Hybrid Space",
+      "url": "https://www.cognitivesecurityinstitute.org/post/exploring-the-hybrid-space",
+      "path": "/post/exploring-the-hybrid-space",
+      "primaryCategory": {
+        "label": "Research",
+        "slug": "research"
+      },
+      "categories": [
+        {
+          "id": "95b8acfa-5ad4-48cd-9f5f-530e6212d92f",
+          "label": "Research",
+          "slug": "research",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/research"
+        },
+        {
+          "id": "41150588-924a-4606-b5de-cabbcfb2cd60",
+          "label": "Cognitive Warfare",
+          "slug": "cognitive-warfare",
+          "url": "https://www.cognitivesecurityinstitute.org/blog/categories/cognitive-warfare"
+        }
+      ],
+      "firstPublishedDate": "2016-06-21T05:00:00.000Z",
+      "lastPublishedDate": "2016-06-21T05:00:00.000Z",
+      "excerpt": "As cyberspace becomes integral to military operations, terms like cyber power and cyber deterrence highlight its growing importance....",
+      "hasCustomExcerpt": false,
+      "minutesToRead": 1,
+      "author": "CSI",
+      "featured": false,
+      "pinned": false,
+      "heroImage": {
+        "wixMediaId": "439552_50ab2bf7c0a44190a4479372d3afbdb7~mv2.avif",
+        "sourceUrl": "https://static.wixstatic.com/media/439552_50ab2bf7c0a44190a4479372d3afbdb7~mv2.avif",
+        "localAsset": "assets/other/439552_50ab2bf7c0a44190a4479372d3afbdb7~mv2.avif",
+        "width": 988,
+        "height": 678,
+        "altText": null,
+        "originalFilename": "Untitled-22.avif",
+        "displayed": true
+      },
+      "localContent": {
+        "markdown": "handoff/content/post__exploring-the-hybrid-space.md",
+        "rawHtml": "handoff/raw-html/post__exploring-the-hybrid-space.html"
+      },
+      "shownOnHomepageAtCapture": false
+    }
+  ]
+}

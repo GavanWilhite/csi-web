@@ -1,0 +1,1515 @@
+[
+  {
+    "slug": "ashley_rose",
+    "name": "ASHLEY ROSE",
+    "tagline": "The Pioneer of Human Risk Management",
+    "taglineConference": "Human Risk Management",
+    "track": "keynote",
+    "trackLabel": "Keynote Speakers",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/ashley_rose",
+    "headshot": "/assets/speakers/ashley_rose.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/ashley-m-rose/",
+    "credentials": [
+      "CEO and Co-Founder, Living Security",
+      "Raised over $20 million in funding since founding the company in 2017",
+      "Austin Technology Council First-Time Founder Award (2024)",
+      "Board Member and Chief Advisor, Women in CyberSecurity (WiCyS) Austin",
+      "Contributor, Forbes Technology Council"
+    ],
+    "sessionTitle": "Keynote | Start With the Why: A Decision Model for AI-Native Human Risk Management",
+    "bio": [
+      "Most security programs start with tools, training, and reporting. This session argues for a different starting point: the breach your organization refuses to accept.",
+      "Ashley Rose introduces a practical decision model for AI-native Human Risk Management built around four steps: name the risk, identify the small group driving it, take targeted action, and prove the outcome. Attendees will learn how to uncover early warning signals already present across identity, behavioral, and security data, build stronger internal buy-in, and shift the conversation from activity metrics to measurable risk reduction.",
+      "The session offers a new way to prioritize human risk across a workforce that now includes both people and AI agents.",
+      "As the CEO and Co-founder of Living Security, Ashley Rose is the driving force behind Living Security\u2019s push to lead the Human Risk Management industry. She has successfully raised more than $25 million in funding to scale the business, pivoted the company from solely in-person training to a fully digital platform, and has led the company to be named an industry leader in the Forrester Wave. She is a serial entrepreneur with experience designing and managing product lines. She co-founded Living Security based on the philosophy that empowering people is the best approach to lasting security behavior changes and breach prevention. She is an industry thought leader, sharing her unique perspective on the evolution of cybersecurity with various publications including Forbes, TechRepublic, Darkreading, Security Magazine, CyberWire and Cybersecurity Ventures."
+    ],
+    "bioWordCount": 238,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "4:30 PM",
+        "end": "5:20 PM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Keynote | Start With the Why: A Decision Model for AI-Native Human Risk Management"
+      }
+    ]
+  },
+  {
+    "slug": "terri-borras",
+    "name": "BRIG. GEN. TERRI BORRAS (Ret)",
+    "tagline": "Defending the Moment Before Decision",
+    "taglineConference": "Cognitive Warfare & the Information Environment",
+    "track": "keynote",
+    "trackLabel": "Keynote Speakers",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/terri-borras",
+    "headshot": "/assets/speakers/terri-borras.jpeg",
+    "headshotWidth": 800,
+    "headshotHeight": 800,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/aidatborras/",
+    "credentials": [
+      "Brigadier General (Ret.), US Army Reserve; rose from Private to General Officer",
+      "Former Assistant Deputy Chief of Staff, G-2, Headquarters, Department of the Army",
+      "Nearly four decades in military intelligence, security, cyber, and information operations",
+      "Former Director, G-39 Cyber and Information Operations Directorate, Office of the Chief, Army Reserve",
+      "Award-winning contributor, US Army's \"Mad Scientist\" future warfare fiction series"
+    ],
+    "sessionTitle": "Keynote | Before the Decision",
+    "bio": [
+      "Before an institution decides what to do, it has already decided what it believes is happening. Cognitive warfare now lives in that space.",
+      "In this keynote, Brigadier General Terri Borras examines how cognitive warfare targets the human and machine sensemaking that occurs before decisions become action. Drawing on nearly four decades of experience in military intelligence, security, cyber, information operations, and senior leadership, she explores how adversaries exploit seams between analysts, commanders, AI systems, operational teams, legal advisors, communications professionals, and senior decision-makers.",
+      "The keynote challenges practitioners to look beyond content, deepfakes, and influence campaigns alone, and to examine the decision cycle itself as contested terrain. Topics include human risk management, AI confidence, false convergence, cognitive threat modeling, institutional seams, decision integrity, and the need to protect how humans and machines make sense of reality together.",
+      "Brigadier General Terri Borras, U.S. Army Reserve, Retired, served nearly four decades in intelligence, security, cyber, information operations, and senior enterprise leadership roles. She most recently served as Assistant Deputy Chief of Staff, G-2, Headquarters, Department of the Army, where she helped guide intelligence, security, protection, and information advantage efforts across the Army enterprise. She focuses on cognitive warfare, decision integrity, human-machine judgment, institutional resilience, and the seams where adversaries exploit organizational decision-making."
+    ],
+    "bioWordCount": 209,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "9:40 AM",
+        "end": "10:20 AM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Keynote | Before the Decision"
+      }
+    ]
+  },
+  {
+    "slug": "dave-pitts",
+    "name": "DAVE PITTS",
+    "tagline": "The Battle for Decision Autonomy",
+    "taglineConference": "Cognitive Warfare",
+    "track": "keynote",
+    "trackLabel": "Keynote Speakers",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-pitts",
+    "headshot": "/assets/speakers/dave-pitts.jpeg",
+    "headshotWidth": 800,
+    "headshotHeight": 800,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/1davepitts/",
+    "credentials": [
+      "President, Information Professionals Association",
+      "Former Assistant Director of CIA; ex-Chief, National Resources Division and two of CIA's largest field stations",
+      "40+ years in national security, intelligence, strategic competition, and special operations",
+      "Co-Founder, The Cipher Brief's Gray Zone Group; Cipher Brief Expert",
+      "Leading voice on decision autonomy, cognitive warfare, and great power competition"
+    ],
+    "sessionTitle": "Keynote | The Battle for Decision Autonomy -A New Front in Strategic Competition",
+    "bio": [
+      "Decision-making is one of humanity's greatest attributes\u2014and one of its greatest vulnerabilities. As strategic competition increasingly shifts into the cognitive domain, preserving decision autonomy has become a national security imperative. This presentation examines how decision autonomy is challenged and why it is emerging as a foundational concept in cognitive security.",
+      "Dave Pitts is President of the Information Professionals Association, a former CIA senior executive, and a veteran with more than four decades of experience operating at the intersection of national security, intelligence, strategic competition, and special operations. His government career culminated as Assistant Director of CIA, following assignments as chief of the Agency's National Resources Division, chief of two of CIA's largest field stations, and numerous senior leadership positions directing intelligence operations, counterterrorism efforts, and strategic partnerships in some of the world's most challenging environments.",
+      "Today, Dave's work focuses on advancing the emerging field of cognitive security through research, writing, and speaking on decision autonomy, cognitive warfare, the gray zone, and great power competition. As President of the Information Professionals Association, co-founder of The Cipher Brief's Gray Zone Group, and a Cipher Brief Expert, he helps government, industry, and academic leaders understand how influence over human judgment is reshaping conflict, competition, and resilience. His work emphasizes strengthening Cognitive Security and preserving decision autonomy so leaders and institutions can make better decisions in an increasingly contested information environment."
+    ],
+    "bioWordCount": 227,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "4:30 PM",
+        "end": "5:15 PM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Keynote | The Battle for Decision Autonomy: A New Front in Strategic Competition"
+      }
+    ]
+  },
+  {
+    "slug": "rand-waltzman",
+    "name": "DR. RAND WALTZMAN",
+    "tagline": "The Godfather of Cognitive Security",
+    "taglineConference": "The Evolution of Cognitive Security",
+    "track": "keynote",
+    "trackLabel": "Keynote Speakers",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/rand-waltzman",
+    "headshot": "/assets/speakers/rand-waltzman.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/randwaltzman/",
+    "credentials": [
+      "Adjunct Senior Information Scientist, RAND Corporation (Ret)",
+      "Founding Board Member, Information Professionals Association",
+      "Former DARPA Program Manager, Social Media in Strategic Communications (SMISC)",
+      "Author of the 2017 Senate testimony that named and defined the field: \"The Weaponization of Information: The Need for Cognitive Security\"",
+      "40 years of AI research applied to social media and the information environment"
+    ],
+    "sessionTitle": "Keynote | The Decision Environment: An Operational Theory of Cognitive Conflict",
+    "bio": [
+      "Modern influence operations are typically analyzed through communications, narratives, and information. This talk argues that these are not the operational object of cognitive conflict, but mechanisms through which a deeper object, the decision environment, is modified. The talk introduces a concept of the decision environment, explains how competing adversarial and defensive processes continually modify it, examines how artificial intelligence fundamentally changes the balance between those processes, and describes the implications for a discipline of Cognitive Security Operations. The resulting perspective provides not only a way of understanding cognitive conflict, but also a foundation for future research, operational methods, and decision-support technologies.",
+      "Rand Waltzman is widely credited with coining the term \"cognitive security\" in his April 2017 testimony before the Senate Armed Services Committee's Subcommittee on Cybersecurity, \"The Weaponization of Information: The Need for Cognitive Security.\" That testimony named the psycho-social threats emerging from the information environment (social media manipulation, disinformation, and information operations by state and non-state actors) as a distinct security discipline in its own right, and called for a national center dedicated to studying it.",
+      "With 40 years of experience applying artificial intelligence to social media and the information environment, Waltzman has held senior roles across government, industry, and academia: Senior Information Scientist at the RAND Corporation, acting Chief Technology Officer at Carnegie Mellon's Software Engineering Institute, and Program Manager at DARPA, where he created and led the Social Media in Strategic Communications (SMISC) program. He is a founding board member of the Information Professionals Association, a nonprofit dedicated to bridging cognitive security research, operations, and policy.",
+      "He remains one of the field's most sought-after voices on disinformation and influence operations, frequently comparing the information threat to a chronic disease \u2014 not something to be cured once, but managed continuously."
+    ],
+    "bioWordCount": 292,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "9:30 AM",
+        "end": "10:10 AM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Keynote | The Decision Environment - An Operational Theory of Cognitive Conflict"
+      }
+    ]
+  },
+  {
+    "slug": "bruce-schneier",
+    "name": "BRUCE SCHNEIER",
+    "tagline": "\"Amateurs hack systems; professionals hack people\"",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/bruce-schneier",
+    "headshot": "/assets/speakers/bruce-schneier.jpg",
+    "headshotWidth": 1708,
+    "headshotHeight": 2560,
+    "headshotLowRes": false,
+    "linkedin": null,
+    "credentials": [
+      "Author of over a dozen books, including \"Applied Cryptography\" (1994), the book that first made real cryptography broadly accessible, and his newest, \"Rewiring Democracy\" (2025)",
+      "Titled the \"security guru\" by The Economist",
+      "Fellow, Berkman Klein Center for Internet & Society, Harvard University; Board Member, Electronic Frontier Foundation",
+      "Coined the terms \"security theater\" and \"movie-plot threat\"",
+      "Publisher of the newsletter Crypto-Gram and blog \"Schneier on Security,\" read by over 250,000 people"
+    ],
+    "sessionTitle": null,
+    "bio": [
+      "Trusting a friend and trusting a service are fundamentally different. The former is personal and intimate, while the latter is impersonal and can scale to all of human society. The companies behind the current generative AI systems are poised to exploit that difference. Their intimate conversational nature will cause us to think of them as friends when they are actually services, and trusted confidants when they will actually be working against us. Moreover, any serious AI application requires us to be sure that the models are secure. The second is a matter of technology. The first is a matter of policy. Both will require government regulation of the industry, which is how we create social trust in our society.",
+      "Bruce Schneier is an internationally renowned security technologist, called a \u201csecurity guru\u201d by The Economist. He is the author of over one dozen books\u2014including his latest, Rewiring Democracy\u2014as well as hundreds of articles and essays, and many more academic papers. His influential newsletter Crypto-Gram and his blog Schneier on Security are read by over 250,000 people. He has testified before Congress, is a frequent guest on television and radio, served on several government technical committees, and is regularly quoted in the press."
+    ],
+    "bioWordCount": 205,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "3:20 PM",
+        "end": "4:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "AI and Trust"
+      }
+    ]
+  },
+  {
+    "slug": "sanny-liao",
+    "name": "DR. SANNY LIAO",
+    "tagline": "The Behavioral Exonomist Moving Security Beyond the Weakest Link",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/sanny-liao",
+    "headshot": "/assets/speakers/sanny-liao.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/sannyliao/",
+    "credentials": [
+      "Co-Founder and Chief Product Officer, Fable Security",
+      "PhD, University of California, Berkeley",
+      "Former Head of Data Science, Abnormal Security",
+      "Former Data Science Lead, TellApart (acquired by X, formerly Twitter) and IFTTT",
+      "Fable Security has raised $31 million from Greylock Partners and Redpoint Ventures, named to the 2026 Cyber 150 list",
+      "A map of how AI has changed the human risk surface, and which parts of the old model still hold up",
+      "A behind the curtains look at what other security teams are doing to enable secure AI adoption",
+      "Specific ways to position human risk management as the function that enables safe AI adoption, inside the security org and with the broader business"
+    ],
+    "sessionTitle": "From Educator to Enabler: The New Mandate for Human Risk Practitioners",
+    "bio": [
+      "Human risk managers built their careers on a clear premise: teach people to recognize threats, measure whether the training worked, and repeat. The technology moved slowly enough that the program could keep up. That's over.",
+      "Now every employee is making unsanctioned AI decisions in real time, and the business has decided adoption is happening with or without security's blessing. Human risk practitioners are being handed a new mandate: stop documenting what people are doing wrong and start designing how they do it securely. This is a new remit, and it requires a new way of thinking.",
+      "Dr. Sanny Liao examines what that shift actually requires, and how human risk practitioners can lead it without abandoning what made them effective in the first place.",
+      "Attendees will leave with:",
+      "Dr. Sanny Liao is co-founder and Chief Product Officer of Fable Security, a human risk management platform she built alongside co-founder Nicole Jiang. Fable applies targeting, timing, and measurement principles borrowed from ad tech to human risk, aiming to understand how employees actually behave and to deliver precise, timely interventions rather than static, one size fits all training. The company has raised $31 million from investors including Greylock Partners and Redpoint Ventures, counts clients such as Fidelity Investments, Stifel Financial, and Vertex Pharmaceuticals, and was named to the 2026 Cyber 150 list.",
+      "Before founding Fable, Liao led the Data Science team at Abnormal Security and previously led data science at TellApart (acquired by X, formerly Twitter) and IFTTT. She holds a PhD from the University of California, Berkeley, following an academic path that began in pure mathematics and economic policy, an unconventional route into cybersecurity that shapes how she approaches human risk today.",
+      "Liao is a vocal critic of the industry's long standing \"weakest link\" framing of employees, arguing that security programs work better when people are treated as part of the system to support, not a problem to blame. That philosophy sits at the center of her work: using data and behavioral insight not to catch people failing, but to help them succeed securely, especially as AI adoption accelerates faster than most security teams can govern it."
+    ],
+    "bioWordCount": 355,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "10:45 AM",
+        "end": "11:30 AM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "From Educator to Enabler: The New Mandate for Human Risk Practitioners"
+      }
+    ]
+  },
+  {
+    "slug": "perry-carpenter",
+    "name": "PERRY CARPENTER",
+    "tagline": "Chief Deceptionologist",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/perry-carpenter",
+    "headshot": "/assets/speakers/perry-carpenter.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/perrycarpenter/",
+    "credentials": [
+      "Chief Deception Strategist, KnowBe4",
+      "Bestselling author of \"FAIK,\" \"Transformational Security Awareness,\" and \"The Security Culture Playbook\"",
+      "Creator & host, \"8th Layer Insights\" and \"Digital Folklore\" podcasts",
+      "20+ years in cybersecurity; multi-award-winning speaker"
+    ],
+    "sessionTitle": "Build the Con. Break the Con.: Exploring the Science of Deception -- Live",
+    "bio": [
+      "Here's the thing: you are predictable...we all are. Not because we're careless, but because we are human. And that predictability is the single biggest vulnerability in your organization. In this session, Perry Carpenter will prove it -- using live cognitive experiments drawn from professional mentalism and cognitive science research. You will watch your own decisions get predicted in real time, experience false choice architecture and proof theater firsthand, and discover why the same mechanics that power a stage mentalist's \"impossible\" prediction also drive BEC attacks, deepfake fraud, and narrative manipulation. And you will learn to see the structure behind all of it.",
+      "Perry Carpenter has over two decades of experience in cybersecurity focused on one central question: how do bad actors exploit human behavior, and how do we defend against it? That question has made him one of the field's most recognized voices in human risk management; a multi-award-winning author, podcaster, and speaker whose work blends neuroscience, behavioral science, and security practice.",
+      "As Chief Deception Strategist at KnowBe4, Perry helps organizations build human-centered defenses against social engineering and deception-based threats. He's the author of several widely read books in the field, including \"Transformational Security Awareness,\" \"The Security Culture Playbook\", and his newest release, \"FAIK: A Practical Guide to Living in a World of Deepfakes, Disinformation, and AI-Generated Deceptions\" (Wiley, 2024) \u2014 a deep dive into how generative AI is reshaping the landscape of deception.",
+      "He's also the creator and host of two award-winning podcasts, \"8th Layer Insights\" and \"Digital Folklore,\" where he explores the intersection of human behavior, security, and the strange evolution of online culture."
+    ],
+    "bioWordCount": 266,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "10:45 AM",
+        "end": "11:30 AM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Build the Con. Break the Con: Exploring the Science of Deception -- Live"
+      }
+    ]
+  },
+  {
+    "slug": "clifford-stoll",
+    "name": "CLIFFORD STOLL",
+    "tagline": "Cybersecurity Legend, Longtime Skeptic of Computers in Class",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/clifford-stoll",
+    "headshot": "/assets/speakers/clifford-stoll.jpg",
+    "headshotWidth": 637,
+    "headshotHeight": 850,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/cliff-stoll-843a6513/",
+    "credentials": [
+      "PhD in Astronomy; uncovered one of the first publicly disclosed KGB cyber espionage operations in the late 1980s while working as a systems administrator at Lawrence Berkeley National Laboratory",
+      "Author of \"The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage\" (1989), a foundational work in the history of digital forensics",
+      "Author of \"High-Tech Heretic: Why Computers Don't Belong in the Classroom\" (1999), a prescient critique of technology hype in education",
+      "Also wrote \"Silicon Snake Oil,\" an early and influential critique of internet hype",
+      "Longtime science educator and self-described \"computer contrarian\" known for pairing rigorous skepticism with hands-on curiosity"
+    ],
+    "sessionTitle": "AI Education Without Effort: What Do Students Lose?",
+    "bio": [
+      "This talk asks a simple question: how many educational goals does AI actually help with, and how many does it quietly damage?",
+      "Dr. Clifford Stoll is an astronomer, author, and self-described \"computer contrarian\" best known for uncovering one of the first publicly documented instances of state-sponsored cyber espionage. In 1986, while working as a systems administrator at Lawrence Berkeley National Laboratory, Stoll noticed a 75-cent accounting discrepancy in the lab's computer usage logs. Pulling on that thread, he spent months tracking down Markus Hess, a KGB-recruited hacker breaching US military and research networks, using little more than patience, curiosity, and a homemade honeypot. The investigation, and Stoll's meticulous documentation of it, is widely regarded as one of the earliest examples of digital forensics.",
+      "Stoll recounted the chase in \"The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage\" (1989), a New York Times bestseller that introduced a generation of readers to the idea of cyber espionage years before the term was common.",
+      "Stoll went on to become one of technology's most notable skeptics. In \"Silicon Snake Oil\" (1995), he questioned the sweeping promises being made about the internet, and in \"High-Tech Heretic: Why Computers Don't Belong in the Classroom\" (1999), he challenged the education industry's rush to put computers in every classroom, arguing that a good teacher needed no multimedia support and that most \"computer literacy\" initiatives were driven more by hype than by real learning outcomes.",
+      "Trained as an astronomer, Stoll has spent much of his career working in astrophysics and optics research, and is known for pairing rigorous scientific skepticism with a hands-on, curiosity-driven approach to teaching. Outside his writing and lecturing, he is also known for a more whimsical pursuit: handblowing and selling Klein bottles, a one-sided mathematical object, through his company, Acme Klein Bottle."
+    ],
+    "bioWordCount": 300,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "3:20 PM",
+        "end": "4:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "AI Education Without Effort: What Do Students Lose?"
+      }
+    ]
+  },
+  {
+    "slug": "fc",
+    "name": "FC (FREAKY CLOWN)",
+    "tagline": "The Ethical Hacker Who Robs Banks for a Living",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/fc",
+    "headshot": "/assets/speakers/fc.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/freakyclown/",
+    "credentials": [
+      "Co-Founder and Co-CEO, Cygenta",
+      "Bestselling author of \"How I Rob Banks: And Other Such Places\"",
+      "Former Head of Offensive Cyber Research, Raytheon Missile Systems",
+      "30 years as an ethical hacker and social engineer, assessing physical security for banks, governments, and organizations worldwide",
+      "Featured on the BBC, ITV, and Darknet Diaries (Episode 66)"
+    ],
+    "sessionTitle": "Gaining Physical Access: The Techniques, Disguises, and Social Engineering Tactics",
+    "bio": [
+      "In this talk, FC pulls back the curtain on the physical side of security testing: the techniques, disguises, and social engineering tactics real attackers use to walk straight through doors organizations think are locked tight. Drawing on stories from his bestselling book, \"How I Rob Banks,\" and decades spent inside some of the most secure buildings on earth, FC makes the case that no amount of digital defense matters if the front door is still wide open.",
+      "FC is a renowned ethical hacker and social engineer, as well as global keynote speaker and author. He has been working in the cyber security field for over 25 years and has helped thousands of banks, governments and other organisations advance their security. FC is Co-Founder of the cyber security company Cygenta, where he tests weaknesses in physical, personnel and digital controls to help organisations be more secure. When he is not legally breaking into companies, FC takes audiences on an eye-opening journey into the hacker\u2019s mindset. He has delivered over 50 keynotes including CPX360, CERN and Intersec. He has shared his expertise in mainstream media, including the BBC and ITV, as well as popular industry podcasts such as Darknet Diaries (EP66). He has also been featured in printed media around the world educating people about cyber security from a hacker\u2019s perspective. FC demystifies security with his expertise, humour, and passion. His bestselling book \u2018How I rob banks\u2019 was published in June 2023. An avid reader and polymath, FC enjoys trying out new hobbies such as woodworking, pottery, and homespun science experiments. All whilst lacking musical talent, despite his best efforts."
+    ],
+    "bioWordCount": 268,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Gaining Physical Access: The Techniques, Disguises, and Social Engineering Tactics"
+      }
+    ]
+  },
+  {
+    "slug": "tomm-larson",
+    "name": "TOMM LARSON",
+    "tagline": "Protecting the Nation's Most Sensitive Research from Cognitive Attacks",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/tomm-larson",
+    "headshot": "/assets/speakers/tomm-larson.jpg",
+    "headshotWidth": 2478,
+    "headshotHeight": 2647,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/tommlarson/",
+    "credentials": [
+      "Cyber Security Awareness Manager, Idaho National Laboratory",
+      "20+ years in cybersecurity, spanning corporate, nonprofit, and government organizations",
+      "Former Cyber Security Awareness Manager, Las Vegas Sands Corporation",
+      "BA in Communications, Brigham Young University; MBA, University of Texas at San Antonio",
+      "Unless you have plenty of free time, don't ask him about Texas, Glacier National Park, or Scotland."
+    ],
+    "sessionTitle": "Raptor v. Raven, How\u2019s Your Oversight?",
+    "bio": [
+      "Tomm Larson will share the costs and benefits of running a cybersecurity awareness program for a Federal Contractor.",
+      "Tomm Larson currently serves as the Cyber Security Awareness Manager for the Idaho National Laboratory. He has been working in cybersecurity since 2002. He has worked in corporate, not-for-profit, and government organizations. He developed his passion for Cyber Security at a large antivirus vendor, and then honed his instruction skills while working at the Center for Infrastructure Assurance and Security. Just before joining Idaho National Laboratory, he served as the Cyber Security Awareness Manager at Las Vegas Sands Corporation. He holds a B.A. in Communications from Brigham Young University and an M.B.A from the University of Texas at San Antonio."
+    ],
+    "bioWordCount": 118,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Raptor v. Raven, How\u2019s Your Oversight?"
+      }
+    ]
+  },
+  {
+    "slug": "fred-heiding",
+    "name": "DR. FRED HEIDING",
+    "tagline": "Hacked The King of Sweden",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/fred-heiding",
+    "headshot": "/assets/speakers/fred-heiding.png",
+    "headshotWidth": 800,
+    "headshotHeight": 800,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/fheiding/",
+    "credentials": [
+      "Postdoctoral Research Fellow, Belfer Center for Science and International Affairs, Harvard Kennedy School",
+      "PhD in Computer Science, KTH Royal Institute of Technology",
+      "Briefed the US Congress on the rising dangers of AI-powered cyberattacks",
+      "Discovered more than 45 critical computer vulnerabilities (CVEs); hacked the King of Sweden and the Swedish EU Commissioner in 2022",
+      "Featured in The Economist, Reuters, Time, and Harvard Business Review"
+    ],
+    "sessionTitle": "ScamBench: Measuring Real-World Risk of AI-Generated Social Engineering",
+    "bio": [
+      "AI systems are rapidly lowering the cost and increasing the scale of phishing and social engineering attacks. After studying AI-enabled deception and fraud for over half a decade, we have compiled our knowledge into ScamBench (<https://scambench.com/),> a benchmark designed to systematically evaluate AI-enabled social engineering across email, voice, and multi-step attack scenarios, such as pig butchering.",
+      "This presentation describes how we model personalized attacks and measure their effectiveness against three datasets: human participants via real-world phishing simulations, synthetic users, and human participants via large-scale survey assessments. Each dataset measures three types of social engineering: personalized (based on information such as affiliations and collaborators), semi-personalized (based on information such as the user\u2019s ZIP code), and generic. We present the methodology and results from each data stream, including our approaches to OSINT collection, email personalization, and the construction of individual vulnerability profiles. We also describe how we design synthetic users to closely mirror real-world behavior and demographics.",
+      "We then outline a range of defensive measures, including policy interventions such as strengthened KYC requirements for domain registrars, and practical guidance for individual users on data minimization (specifying which personal information to remove or retain based on its relative value to the user versus its utility to an attacker, as informed by our vulnerability profile analysis).",
+      "Finally, we discuss our ongoing collaboration with Frontier AI labs and how ScamBench could be used in pre-deployment security assessments to inform safer, more responsible model releases.",
+      "Fred is a researcher at the Harvard Kennedy School working on cybersecurity and AI at the intersection of computer science and political science. He is a member of the World Economic Forum's Cybercrime Center and the Geneva Centre for Security Policy, and has taught several AI and cybersecurity classes at Harvard. Fred has been repeatedly briefed the US Congress on the rising dangers of AI-powered cyberattacks, and has been featured as a leading expert in outlets like Reuters, Harvard Business Review, and The Economist. He has assisted in the discovery of more than 45 critical computer vulnerabilities (CVEs). In early 2022, Fred got media attention for hacking the King of Sweden and the Swedish European Commissioner."
+    ],
+    "bioWordCount": 355,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "11:50 AM",
+        "end": "12:10 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "ScamBench: Measuring Real-World Risk of AI-Generated Social Engineering"
+      }
+    ]
+  },
+  {
+    "slug": "jeff-jockisch",
+    "name": "JEFF JOCKISCH",
+    "tagline": "The Privacy Strategist",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/jeff-jockisch",
+    "headshot": "/assets/speakers/jeff-jockisch.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/jozian/",
+    "credentials": [
+      "Managing Partner and Co-Founder, ObscureIQ",
+      "Built CODEX, one of the largest known databases of commercial data broker entities",
+      "Specialist in data brokers, commercial surveillance, and digital identity risk",
+      "Publisher, \"Tactical Privacy Wire\"",
+      "Frequent media source, including Recorded Future News and the Easy Prey podcast"
+    ],
+    "sessionTitle": "Synthetic Certainty: How Misidentification Turns Weak Signals into Believed Truth",
+    "bio": [
+      "Modern misidentification is not just a bad data problem. It is a cognitive security failure. Across facial recognition, ALPR systems, geofence warrants, background checks, watchlists, synthetic identity fraud, voice cloning, and generative AI outputs, weak identity signals are increasingly converted into institutional certainty. A low confidence match becomes a suspect. A stale record becomes a risk flag. A synthetic voice becomes an executive. A hallucinated claim becomes a reputational fact.",
+      "This talk introduces the MisID Cascade: a cross domain model for how bad evidence to person bindings corrupt perception, reasoning, decision making, and action. The central failure is not one algorithm or database. It is the laundering of uncertainty into believed truth.",
+      "Using documented cases and field research, Jockisch examines four recurring failure modes: misidentification, misclassification, misattribution, and impersonation, and shows how these errors propagate through human, artificial, and hybrid decision systems, often faster than correction can occur.",
+      "Attendees will leave with a practical framework for identifying identity based cognitive attack surfaces, preserving uncertainty, interrupting false certainty, and designing systems that treat identity signals as evidence, not truth.",
+      "Jeff Jockisch is Managing Partner and co-founder of ObscureIQ, a data broker expert and privacy researcher whose expertise spans data science, digital identity, and commercial surveillance. He built CODEX, one of the largest known databases of commercial data broker entities, giving him and his team the ability to track down and remove client data from corners of the internet most privacy services never reach.",
+      "Jockisch has spent much of his career studying the mechanics behind search, trust, and reputation online, and how weak or corrupted data can quietly reshape how people are perceived, tracked, and judged. His work spans four core areas: data privacy and data breaches, cognitive computing and knowledge graphs, content strategy and viral curation, and trust systems including digital identity, reputation, and disinformation. That combination gives him a rare vantage point: he does not just study why privacy fails, he studies how bad data becomes believed truth.",
+      "He publishes \"Tactical Privacy Wire,\" a newsletter covering the data broker and digital footprint industry, and is a frequent voice in outlets including Recorded Future News and the Easy Prey podcast."
+    ],
+    "bioWordCount": 359,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "2:15 PM",
+        "end": "3:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Synthetic Certainty: How Misidentification Turns Weak Signals into Believed Truth"
+      }
+    ]
+  },
+  {
+    "slug": "winn-schwartau",
+    "name": "WINN SCHWARTAU",
+    "tagline": "The Grandfather Of Security Awareness",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/winn-schwartau",
+    "headshot": "/assets/speakers/winn-schwartau.jpg",
+    "headshotWidth": 1134,
+    "headshotHeight": 1134,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/winnschwartau/",
+    "credentials": [
+      "Director of Special Projects, Cognitive Security Institute",
+      "DEF CON XXXI Lifetime Achievement Award",
+      "International Security Hall of Fame (ISSA)",
+      "Fellow of the Royal Society of the Arts"
+    ],
+    "sessionTitle": "Critical Ignoring: TMI & Cognitive Pearl Harbors",
+    "bio": [
+      "In 1991, Winn coined \"Electronic Pearl Harbor\" while testifying before Congress, now he's warning about the coming Cognitive Pearl Harbor. Their response? \u201cWhy would the bad guys ever want to use the Internet?\u201d",
+      "Today, that question sounds absurd. But we are making the exact same mistake again.",
+      "The next great security battlefield is not our networks, devices, or critical infrastructure. It is the human mind.",
+      "Every day, billions of people interact with systems specifically designed to influence attention, shape perception, modify behavior, and reinforce belief. AI, social media, recommendation engines, behavioral algorithms, immersive media, and information overload have created an entirely new attack surface\u2014human cognition itself.",
+      "This talk introduces Cognitive Security through the lens cybersecurity professionals already understand. We will explore how attackers exploit the same vulnerabilities that humans evolved for survival over tens of thousands of years and why traditional approaches to security are no longer enough.",
+      "Participants will discover:",
+      "- Why information overload is becoming a weapon",
+      "- How \u201cToo Much Information\u201d degrades decision-making",
+      "- Why behavioral manipulation is more scalable than technical exploitation",
+      "- How AI accelerates influence operations",
+      "- The concept of MetaWAR: the systematic shaping of beliefs and behaviors",
+      "- Why Critical Ignoring may become the most important defensive skill of the next decade",
+      "- How cybersecurity principles can be adapted to defend human cognition",
+      "Drawing on neuroscience, psychology, information warfare, cybersecurity, and emerging cognitive defense research from around the world, this session connects disciplines that rarely speak the same language but increasingly face the same threat.",
+      "Most security professionals focus on protecting systems. The next challenge is protecting the people who use them.",
+      "Attendees will leave with a new framework for understanding influence, manipulation, cognitive resilience, and the future of security itself.",
+      "Cybersecurity gave us firewalls, intrusion detection, and threat intelligence.",
+      "What comes next when the target is not the machine\u2014but the mind?",
+      "If cyber warfare defined the last thirty years, cognitive warfare may define the next thirty.",
+      "The organizations that recognize this first will have a decisive advantage.",
+      "\"The Civilian Architect of Information Warfare\" - Commodore Pat Tyrrell OBE Royal Navy, 1996",
+      "The \u201cCivilian Architect of Information Warfare\u201d",
+      "\u201cElectronic Pearl Harbor Prophet\u201d",
+      "\u201cNational Security Imperative for Cognitive Defense: We are defenseless.\u201d",
+      "Winn has lived cybersecurity and warping minds since 1983. His creative and original thinking has inspired decades of predictions about the internet, technology, privacy, & security, which have been scarily spot on. He coined the term \u201cElectronic Pearl Harbor\u201d in 1991 and has authored a wide array of publications, including the seminal book, \u201cInformation Warfare.\u201d",
+      "Now he takes on Cognitive Security in his new book, \"The Art & Science of Metawar\u201d. He examines how humans must strengthen our cognitive defenses against AI-driven reality distortion, TMI/disinformation, manipulation, and algorithmic addictions.",
+      "He currently spends much of his time as Director of Special Projects for the Cognitive Security Institute. He is especially interested in the intersection of cybersecurity and cognitive security. The vast similarities between silicon and carbon systems offer cognitive defenders an existing framework for strengthening our mental immunity systems against information pathogens at the national, enterprise, and personal levels. The security, privacy, ethics, and global policy implications are staggering.",
+      "His last book, \u201cAnalogue Network Security\u201d is a time-based approach to justifiable security. \u201cIt will twist your mind.\u201d \u201cThe Best Cybersecurity Book of All Time,\u201d Cyber Defense Magazine.",
+      "\u2022 Distinguished Fellow: Ponemon Institute",
+      "\u2022 Top-20 industry pioneers: SC Magazine.",
+      "\u2022 Top 25 Most Influential: Security Magazine",
+      "\u2022 Top 5 Security Thinkers: SC Magazine.",
+      "\u2022 Power Thinker and one of the 50 most powerful people: Network World.",
+      "\u2022 30 Year DefCon Goon (Ret.)",
+      "\u2022 Top Rated (4.85/5) RSA Speaker",
+      "\u2022 Top Rated Webinar: 4.56 (ISC2)",
+      "\u2022 .001% Top Influencer RSAC",
+      "\u2022 Global Power Speaker",
+      "\u2022 US Patent: 11,438,369 (Time-Based Security)",
+      "Author: \u201cTime-Based Security,\u201d \u201cPearl Harbor Dot Com\u201d (Die Hard IV), the world's first novel-on-the-net 1993, Project Gutenberg), 3 volumes of \u201cInformation Warfare\u201d, \u201cCyberShock\u201d, \u201cInternet and Computer Ethics for Kids\u201d (The Best Security Book Ever Written, Dr. Fred Cohen) and a few more.",
+      "Publisher: Weapons of Mass Destruction Terrorism (1995), James K. Campbell ISBN: 0-962-8700-3-X, 1977; The Mind of the Hacker, Dr. Nick Chandler (Maj. Australian military intelligence) 1999",
+      "Executive Producer: \u201cHackers Are People Too\u201d, \u201cVR Babies in the Metaverse\u201d",
+      "Founder: The Security Awareness Company, Hacker Jeopardy, Security Experts, Security Insider Report, InfowarCon.",
+      "Former recording engineer and producer."
+    ],
+    "bioWordCount": 722,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "2:15 PM",
+        "end": "3:00 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Critical Ignoring TMI & Cognitive Pearl Harbors"
+      }
+    ]
+  },
+  {
+    "slug": "jessica-barker",
+    "name": "DR. JESSICA BARKER",
+    "tagline": "The Human Side of Cyber Security",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/jessica-barker",
+    "headshot": "/assets/speakers/jessica-barker.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/jessica-barker/",
+    "credentials": [
+      "Co-Founder and Co-CEO, Cygenta",
+      "MBE for services to cyber security (2024)",
+      "Author of the bestselling books \"Confident Cyber Security\" and \"Hacked: The Secrets Behind Cyber Attacks\"",
+      "Delivered 90+ keynotes globally, including NATO, the World Government Summit, and RSA Conference",
+      "Member, UK Government Cyber Security Advisory Board. Chair, ClubCISO"
+    ],
+    "sessionTitle": "Building Security Cultures that Last",
+    "bio": [
+      "In this talk, Jessica explores what actually builds a lasting security culture inside an organization: not more training slides, but trust, communication, and leadership buy in. Drawing on her work advising governments, NATO, and some of the world's largest companies, Barker offers a practical framework for embedding security into how people already think and behave, instead of fighting against it.",
+      "Dr Jessica Barker MBE is a best-selling author and international keynote speaker. An award-winning leader in the human nature of cyber security, she has delivered face-to-face awareness sessions to over 90,000 people. Jessica is the go-to cyber expert for media including the BBC, Sky News and Wired magazine and she has delivered over 80 keynotes, including NATO, the World Government Summit, Arm, and RSAC San Francisco.",
+      "Jessica is Co-Founder of the cyber security company Cygenta, where she focuses on her purpose to advance cyber security awareness, behaviour, and culture in organisations around the world. She serves on numerous industry boards and spent 2.5 years serving on the UK Government Cyber Security Advisory Board. The author of best-selling books 'Hacked' and \u2018Confident Cyber Security\u2019, she helps audiences around the world understand why people are the heart of cyber security. In June 2023, Jessica was awarded an MBE for services to cyber security by King Charles III in his first Birthday Honours.",
+      "When Jessica is not working, she loves learning and so over the years she has taken classes in everything from horse riding to singing to circus skills. Born in the UK, she now lives in Las Vegas with her husband and business partner FC and their cat Bubble."
+    ],
+    "bioWordCount": 268,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "11:30 AM",
+        "end": "12:15 PM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Building Security Cultures that Last"
+      }
+    ]
+  },
+  {
+    "slug": "peggy-yin",
+    "name": "PEGGY YIN",
+    "tagline": "The Next Generation of Cognitive Security",
+    "taglineConference": null,
+    "track": "defending-humans",
+    "trackLabel": "Defending Humans",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/peggy-yin",
+    "headshot": "/assets/speakers/peggy-yin.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/peggy-yin/",
+    "credentials": [
+      "PhD student in Social Psychology, Stanford University; Knight-Hennessy Scholar",
+      "Director, Cognitive Security Task Force, Stanford Institute for Human-Centered AI (HAI)",
+      "Board Member, LearnerStudio",
+      "Former social impact technologist, MIT Media Lab, Teach for America, and Ars Electronica",
+      "Featured in FastCompany's World Changing Ideas, the Wall Street Journal, SXSW, and the United Nations"
+    ],
+    "sessionTitle": "Operationalizing Cognitive Security in Human-AI Systems",
+    "bio": [
+      "As AI systems grow more capable and more deeply embedded in daily life, their capacity to reshape human cognition is among the least understood vulnerabilities in human-centered AI. This talk identifies emerging cognitive security threats and proposes criteria for evaluating and coordinating scientific study of cognitive factors in the design of human-AI systems. Drawing on recent case studies, we show how generative AI enables personalized stimulus design and interactive, scalable experimental paradigms\u2014and briefly consider the dual-use nature of such study. We then synthesize literature and methods across national security, privacy, computer security, cognitive science, and human-computer interaction to operationalize cognitive security concepts across disciplines and sectors, enabling sustained research and development collaborations among citizens, scientists, public interest groups, governments, and industry.",
+      "Peggy Yin is a PhD student and Knight-Hennessy Scholar at Stanford, director of the Cognitive Security Task Force, and a board member at LearnerStudio. She designs and studies transformative experiences, particularly in the areas of education and workforce development. She has led the development of social impact technologies at MIT Media Lab, Teach for America, and Ars Electronica, and has been featured in FastCompany\u2019s World Changing Ideas, the Wall Street Journal, SXSW, Carnegie Hall, BBC radio, MIT Museum, and the United Nations. She graduated Phi Beta Kappa and cum laude from Harvard University, where she studied computational neuroscience and art history."
+    ],
+    "bioWordCount": 222,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "11:30 AM",
+        "end": "11:50 AM",
+        "track": "defending-humans",
+        "trackLabel": "Defending Humans",
+        "title": "Operationalizing Cognitive Security in Human-AI Systems"
+      }
+    ]
+  },
+  {
+    "slug": "ben-voce-gardner",
+    "name": "BEN VOCE-GARDNER",
+    "tagline": "New York's Point Man for Cyber, Terror, and Critical Infrastructure",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/ben-voce-gardner",
+    "headshot": "/assets/speakers/ben-voce-gardner.jpg",
+    "headshotWidth": 300,
+    "headshotHeight": 300,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/benjamin-voce-gardner-4802a340/",
+    "credentials": [
+      "Director, Office of Counter Terrorism, New York State Division of Homeland Security and Emergency Services",
+      "Oversees the Division's Cyber Incident Response Team, Critical Infrastructure Protection Unit, Public Safety Unit, and Domestic Terrorism Prevention Unit",
+      "Former Director of Cybersecurity Policy, New York State Division of Homeland Security and Emergency Services",
+      "Former Assistant Secretary to the Governor for Public Safety, overseeing Homeland Security, State Police, and Corrections",
+      "Speaker, Eradicate Hate Global Summit, on preventing hate-motivated and extremist violence"
+    ],
+    "sessionTitle": "Understanding the Pathway to Violence",
+    "bio": [
+      "The cyber domain provides hostile actors with unprecedented opportunities to identify vulnerable individuals, exploit grievances, and influence or mobilize them toward harmful action. This presentation examines how adversaries use online platforms to recruit, manipulate, and coerce susceptible audiences\u2014and the tools available to detect, disrupt, and counter those efforts.",
+      "Director, Office of Counterterrorism",
+      "New York State",
+      "Ben Voce-Gardner serves as Director of the Office of Counter Terrorism for the New York State Division of Homeland Security and Emergency Services, where he oversees four distinct units spanning cyber incident response, critical infrastructure protection, public safety, and domestic terrorism prevention, giving him a rare, unified view of how digital and physical threats increasingly intersect.",
+      "Before leading the Office of Counter Terrorism, Voce-Gardner served as the Division's Director of Cybersecurity Policy, managing the state's cybersecurity assets and developing policy to address emerging threats to state and local government systems. Earlier in his career, he served as Assistant Secretary to the Governor for Public Safety, a role that placed the Division of Homeland Security and Emergency Services, the Division of Military and Naval Affairs, the State Police, the Cyber Security Advisory Board, the Division of Criminal Justice Services, and the Department of Corrections and Community Supervision all within his portfolio.",
+      "That progression, from statewide public safety policy to cybersecurity policy to counterterrorism operations, has positioned Voce-Gardner at the intersection of fields that rarely share the same table: cyber defense, critical infrastructure resilience, and domestic terrorism prevention. He has spoken publicly on that intersection at forums including the Eradicate Hate Global Summit, where discussions center on preventing hate-motivated and extremist violence, a threat increasingly shaped by online radicalization and disinformation as much as by physical danger."
+    ],
+    "bioWordCount": 280,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "10:45 AM",
+        "end": "11:30 AM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Understanding the Pathway to Violence"
+      }
+    ]
+  },
+  {
+    "slug": "constantine",
+    "name": "CONSTANTINE",
+    "tagline": "The Forrest Gump of Grand Strategy",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/constantine",
+    "headshot": "/assets/speakers/constantine.jpg",
+    "headshotWidth": 768,
+    "headshotHeight": 960,
+    "headshotLowRes": false,
+    "linkedin": null,
+    "credentials": [
+      "Leads a Risk Management practice securing privately owned US critical infrastructure",
+      "25+ years in cybersecurity and data-driven product development",
+      "Spent the past decade developing a proprietary geopolitical modeling system for tracking large-scale crisis morphology"
+    ],
+    "sessionTitle": null,
+    "bio": [
+      "The global security landscape is rushing toward a structural threshold of extreme volatility \u2014 a geopolitical superstorm driven by five compounding feedback loops, with a peak volatility window only 1 to 2 years away. This session maps out the key morphological elements of the once-in-a-lifetime crisis we are experiencing, using this structural framing to more clearly understand hybrid and cognitive warfare. By challenging entrenched conventional wisdom, we will examine the actual vectors of systemic risk:",
+      "Top-Down Radicalization: Why mass polarization is an elite-driven operation weaponizing the populace, rather than a grassroots phenomenon.",
+      "The Vulnerable Establishment: How authoritarian cognitive warfare exploits the epistemic bubbles of elites in opposing political factions by weaponizing institutional ghosts and imaginary tipping points.",
+      "Weaponized Interdependency: How global commerce has morphed from a peace-keeping tool into an active economic weapon.",
+      "The Hidden Countermeasure: A demographic and behavioral look at why a maligned generational demographic is actually our ultimate strategic asset for survival.",
+      "Constantine leads a Risk Management practice dedicated to securing privately owned U.S. critical infrastructure. Drawing on more than 25 years of experience in cybersecurity and data-driven product development, he creates advanced tools that enhance situational awareness for security professionals. Notably, Constantine spent the last decade developing a novel geopolitical modeling system designed to track and decode large crisis morphology. He advises national security leaders on the rapidly evolving character of modern multi-domain warfare. His work uses Grand Strategy as a context for understanding hybrid warfare, with a specific emphasis on the cyber and cognitive domains."
+    ],
+    "bioWordCount": 261,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "2:15 PM",
+        "end": "3:00 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "The \u201cInteresting Times\u201d Have arrived: Existential Vulnerability & \u201cConventional Wisdom\u201d"
+      }
+    ]
+  },
+  {
+    "slug": "mariah-maury",
+    "name": "MARIAH MAURY",
+    "tagline": "Securing Humanity's Next Frontier: Outer Space",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/mariah-maury",
+    "headshot": "/assets/speakers/mariah-maury.jpeg",
+    "headshotWidth": 1170,
+    "headshotHeight": 760,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/mariahmaury4empathy/",
+    "credentials": [
+      "Organizing Contributor, The Interplanetary Initiative's Preventing Space War Forum, Arizona State University",
+      "Independent Consultant and Researcher, specializing in space domain awareness and risk analysis",
+      "ASU Online Undergraduate Research Scholar (OURS Program), researching space security, conflict risk, and governance gaps",
+      "Contributor to multiple academic research initiatives on global security and space operations",
+      "Degree in Political Science, Arizona State University"
+    ],
+    "sessionTitle": "Cognitive War in Space: Human Perception and Infrastructure in a Contested Domain",
+    "bio": [
+      "Space security is increasingly about protecting the infrastructure that enables governments, organizations, and societies to perceive reality, establish trust, and make informed decisions. The data generated, transmitted, and analyzed through that infrastructure supports strategic awareness, informs policy, enables military and commercial operations, and facilitates international cooperation. As reliance on space-enabled infrastructure grows, so does the importance of protecting the availability, integrity, and trustworthiness of the information it provides. For cybersecurity professionals, this represents an evolution from protecting",
+      "networks to safeguarding the Critical Cognitive Infrastructure that underpins trusted decision-making, national resilience, and decision superiority.",
+      "Mariah Maury is an independent consultant and researcher focused on space domain awareness, risk analysis, and global security trends. Her work is aimed at supporting safe, sustainable, and scalable space operations. She entered the field after years of coaching individuals, families, and professionals, including several clients in criminal investigation, whose encouragement led her to apply her analytical and pattern recognition skills to research and operational analysis. While earning her Bachelor of Science in Political Science at Arizona State University, Mariah participated in the ASU Online Undergraduate Research Scholars Program, producing research on space security, conflict risk, and governance gaps. That work led to her role as an organizing contributor for the Interplanetary Initiative's Preventing Space War Forum, which brings together global experts to address risk mitigation and international coordination in space. She earned her Master of Arts in Global Affairs and Management and a Space Leadership Certificate from the Thunderbird School of Global Management.",
+      "Her interests extend to quantum computing, AI, data processing, systems thinking, and the roles they play in space, cyber, and cognitive security."
+    ],
+    "bioWordCount": 269,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "3:20 PM",
+        "end": "3:40 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Cognitive War in Space: Human Perception and Infrastructure in a Contested Domain"
+      }
+    ]
+  },
+  {
+    "slug": "bonnie-rushing",
+    "name": "SMSGT BONNIE RUSHING",
+    "tagline": "The CogWar Trailblazer",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/bonnie-rushing",
+    "headshot": "/assets/speakers/bonnie-rushing.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/bonnie-rushing-a91951215/",
+    "credentials": [
+      "SMSgt, United States Air Force. First enlisted member ever assigned to a doctoral program",
+      "PhD Candidate, Cybersecurity, Laboratory for Cybersecurity Dynamics, University of Colorado Colorado Springs (via the Air Force Institute of Technology)",
+      "Senior Faculty Member, Department of Military and Strategic Studies, US Air Force Academy",
+      "Special Operations airborne linguist and signals intelligence team lead. 700+ flight hours aboard four C-130 variants",
+      "Defense Meritorious Service Medal.",
+      "Named to the \"40 Under 40\" list in STEM"
+    ],
+    "sessionTitle": "Measuring the Unmeasurable: Quantifying Cognitive Warfare and Security",
+    "bio": [
+      "When Bonnie Rushing began researching cognitive attacks, she found more than 100 competing definitions of what a \"cognitive attack\" actually is, and almost no agreement on how to measure one. So she built her own. Drawing on her doctoral research in cybersecurity and years teaching wargaming and strategy at the US Air Force Academy, Rushing introduces a working framework for defining, measuring, and defending against cognitive warfare, including her Cognitive Influence Calculator, a tool that estimates a population's susceptibility to cognitive attacks using press freedom and media trust data. She'll also share findings from a live wargame exercise in which the majority of participants admitted disinformation shaped their real decisions, sometimes dangerously so. For a field still arguing about definitions, Rushing offers something rarer: a way to actually measure the problem.",
+      "Bonnie Rushing is a doctoral researcher specializing in cognitive warfare, information influence, and human decision-making. She is a Cybersecurity Ph.D. Candidate at the University of Colorado Colorado Springs. Her experience as a U.S. Air Force intelligence professional, special operations aviator, and Air Force Academy senior instructor informs her research on understanding how information environments shape perception, behavior, and operational decisions.",
+      "Her work examines susceptibility to information influence, media influence on decision-making, the effectiveness of cognitive attacks, online engagement patterns, and the relationship between media sentiment and financial markets. She is also developing cognitive wargames and the Cognitive Superiority Index, a framework for measuring which actor is gaining decision advantage during a contested cognitive campaign.",
+      "Rushing\u2019s research has been accepted into Joint Force Quarterly, the International Journal of Critical Infrastructure Protection, RUSI, and other cybersecurity and social science outlets. She was named in WOC Magazine's 40 under 40 STEM leaders in 2024 and has received multiple international research awards. More information at www.thebonnierusing.com."
+    ],
+    "bioWordCount": 293,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "10:45 AM",
+        "end": "11:30 AM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Measuring the Unmeasurable: Quantifying Cognitive Warfare and Security"
+      }
+    ]
+  },
+  {
+    "slug": "dave-acosta",
+    "name": "DAVE ACOSTA",
+    "tagline": "The Colonel Who Wrote the Book on Deception",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/dave-acosta",
+    "headshot": "/assets/speakers/dave-acosta.jpg",
+    "headshotWidth": 1771,
+    "headshotHeight": 1771,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/david-acosta-a4a00a4/",
+    "credentials": [
+      "Colonel, US Army Reserve; Professor of Practice, Naval Postgraduate School",
+      "PhD Student in International Studies, Old Dominion University, researching cognitive warfare and cognitive security",
+      "Author of \"The Makara of Hizballah: Deception in the 2006 Summer War\"",
+      "Board Member, Information Professionals Association; Conference Director, APEX 2026",
+      "Deployed to Iraq, Bosnia, and Kosovo; commanded the 303rd Information Operations Battalion"
+    ],
+    "sessionTitle": "Mind Shifts: The Challenge of Cognitive Security",
+    "bio": [
+      "The world is slipping into chaos. Trust is being shattered. Disinformation is rampant. The foundations that once held norms, societies, and institutions together are being eroded by malign and subversive efforts waged against truth. People are increasingly confused, disoriented, and unsure of who or what to believe.",
+      "In an era of gray-zone competition among great powers, the human mind has become both a target and a battlefield. Cognitive warfare, foreign influence, artificial intelligence, and the subversion of truth increasingly seek to shape not only what people know, but how individuals, societies, and institutions perceive reality, make decisions, and exercise agency.",
+      "This presentation examines these challenges from a holistic security perspective and asks a fundamental question: Are our existing security frameworks adequate for an age in which cognition itself is under attack? Drawing upon international relations, human security, cognitive warfare, and contemporary influence activities, this presentation explores the emerging concept of cognitive security and its importance in protecting individuals, societies, states, and the international order from manipulation and subversion.",
+      "Finally, the presentation looks at how the Information Professionals Association (IPA) is approaching this challenge by fostering interdisciplinary education, research, and professional collaboration, including through events such as our upcoming APEX 2026, inaugural educational forum. We endeavor to bring together educators, researchers, practitioners, government, industry, and civil society in collaboration to advance cognitive security and confront one of the defining security challenges of our age.",
+      "David Acosta is a U.S. Army Reserve information operations officer, educator, and researcher whose work focuses on operations in the information environment, cognitive warfare, strategic influence, and military deception. He currently serves as a Professor of Practice in Technical Operations in the Information Environment at the Naval Postgraduate School in Monterey, California. He is also a Ph.D. student in International Studies at Old Dominion University, where his research examines cognitive warfare, cognitive security, and the adequacy of existing security frameworks for addressing threats to human cognition and decision-making. David previously served tours in Iraq, Bosnia, and Kosovo, as well as on the Joint Staff and Army Staff. He is also the producer of the Ghost Post, a weekly information operations newsletter. He is a Board Member of the Information Professionals Association and the Conference Director for APEX 2026, an educational forum dedicated to advancing research, education, and professional collaboration in cognitive security. He lives in Norfolk, Virginia."
+    ],
+    "bioWordCount": 390,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "3:40 PM",
+        "end": "4:00 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Mind Shifts: The Challenge of Cognitive Security"
+      }
+    ]
+  },
+  {
+    "slug": "stephen-damianos",
+    "name": "DR. STEPHEN DAMIANOS",
+    "tagline": "From Oxford to the White House: Defending your Right to Think Freely",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/stephen-damianos",
+    "headshot": "/assets/speakers/stephen-damianos.jpg",
+    "headshotWidth": 2027,
+    "headshotHeight": 1981,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/stephen-damianos-9a5382148/",
+    "credentials": [
+      "Executive Director, Neurorights Foundation",
+      "Lecturer in Ethics and Public Policy, Cornell University; Fellow in Technology and Human Rights, Harvard University's Carr-Ryan Center",
+      "Author of \"Safeguarding Brain Data,\" the first-ever analysis of consumer neurotechnology privacy practices",
+      "Research briefed at the White House, the National Security Council, and the US State Department; featured on the front page of the New York Times",
+      "Rhodes Scholar and Truman Scholar; PhD (DPhil), University of Oxford"
+    ],
+    "sessionTitle": "From Clinic to Consumer: Neurosecurity Risks in Everyday Life.",
+    "bio": [
+      "Neurotechnology is quickly moving from regulated clinical settings into the unregulated consumer market. In the coming years, brain-monitoring and modulating technologies will become deeply embedded in homes, workplaces, schools, and everyday society. This talk argues that the consumer market, not the clinic or the battlefield, is where neurosecurity risks will first reach the public at scale. Drawing on the Neurorights Foundation's work advising legislators and international bodies, Dr. Damianos examines the widening gap between the pace of consumer neurotech adoption and the state of privacy, security, and rights protections, and what it will take to close it before harms are irreversible.",
+      "Stephen Damianos is a scholar and practitioner working at the intersection of public policy, ethics, and technology governance. He is Executive Director of the Neurorights Foundation, where he leads global efforts to harness neurotechnologies for social good and protect against their misuse. His work spans research, policy development, and advocacy, in close collaboration with governments, multilateral institutions, industry leaders, and policymakers around the world. His research has been featured on the front page of the New York Times, and led to briefings at the White House, the National Security Council, and the U.S. State Department.",
+      "He is also a Lecturer in Ethics and Public Policy at Cornell University and a Fellow in Technology and Human Rights at Harvard University's Carr-Ryan Center. In addition to his work in the emerging technology space, Damianos conducts research on borders, migration, and digitalization. He is the author of the forthcoming book, \"Asylum Is Unavailable: Absence and Absurdity at the Digital Border,\" which will be published by University of California Press in 2026. Damianos holds a PhD (DPhil) in International Development from the University of Oxford, an MPhil in Development Studies from the University of Cambridge, and a B.A. in Political Science from the University of Pennsylvania. He is a Truman Scholar and a Rhodes Scholar."
+    ],
+    "bioWordCount": 312,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "2:15 PM",
+        "end": "2:35 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "From Clinic to Consumer: Neurosecurity Risks in Everyday Life."
+      }
+    ]
+  },
+  {
+    "slug": "brian-steed",
+    "name": "DR. BRIAN L. STEED",
+    "tagline": "The Cavalry Officer Turned Narrative Warrior",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/brian-steed",
+    "headshot": "/assets/speakers/brian-steed.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/brian-l-steed/",
+    "credentials": [
+      "Lieutenant Colonel (Ret), US Army, 28 years of service",
+      "Associate Professor of Military History, US Army Command and General Staff College, Fort Leavenworth",
+      "Senior Fellow, Narrative Strategies",
+      "Middle East Foreign Area Officer, 8.5 years living and working in the region, including a posting with the Jordanian Armed Forces and as liaison officer to the Israel Defense Forces",
+      "Author or editor of ten books on cross-cultural influence and Middle East conflict, including \"Narrative War: The Philosophy of Social Conflict\"",
+      "PhD, Political Science and History, University of Missouri-Kansas City",
+      "2018 Military Educator of the Year, US Army Command and General Staff College"
+    ],
+    "sessionTitle": "Narrative War: The Philosophy of Social Conflict",
+    "bio": [
+      "Brian Steed spent his career at the sharp end of American military power: nearly 29 years in uniform, including deployments to Iraq and a posting embedded directly within the Jordanian Armed Forces. But it was 9/11, and later his role helping plan the Battle of Mosul against ISIS, that convinced him the wars that matter most today aren't won with tanks or artillery. They're won with narrative.",
+      "In this talk, Steed unpacks the six central ideas behind narrative war, the strategy and critical questions required to actually understand, conduct, and win it. He draws a sharp distinction from the military's own vocabulary: what defense officials call \"cognitive warfare,\" Steed calls \"narrative war,\" and argues the difference is not semantic but strategic. He'll bring the framework into the present, connecting it to live and recent events, including the Iran conflict and political campaigns, and will make the case that platforms like TikTok function as deliberate instruments of narrative warfare, not neutral technology caught in the crossfire.",
+      "For a room full of security and defense professionals fluent in cognitive warfare as a technical or psychological problem, Steed offers something rarer: the view from three decades on the ground, where narrative isn't a battlefield metaphor, but the battlefield itself.",
+      "Lieutenant Colonel (Retired) Brian L. Steed served more than twenty-eight years in a military uniform in artillery and cavalry units and as a Middle East foreign area officer. As a foreign area officer, he served in the Jordanian Armed Forces and as a liaison officer with the Israel Defense Forces giving him immersed cultural experiences on both banks of the Jordan River. He served repeatedly in Iraq, worked in Embassy Abu Dhabi, and traveled extensively throughout the Middle East and North Africa. He has authored and edited ten books and numerous articles and chapters dealing with cross-cultural influence and Middle East conflict and history. He earned his PhD in Political Science and History from the University of Missouri-Kansas City and is an associate professor of military history at the US Army Command and General Staff College at Fort Leavenworth, Kansas. His latest just released book is the inspiration for this presentation and bears its same title: Narrative War: The Philosophy of Social Conflict."
+    ],
+    "bioWordCount": 369,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "11:30 AM",
+        "end": "12:15 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Narrative War: The Philosophy of Social Conflict"
+      }
+    ]
+  },
+  {
+    "slug": "greg-carpenter",
+    "name": "DR. GREGORY CARPENTER",
+    "tagline": "Cognitive Warfare's Epidemiologist",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/greg-carpenter",
+    "headshot": "/assets/speakers/greg-carpenter.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/gcarpenter-cw-pensec/",
+    "credentials": [
+      "Principal Partner, CW PENSEC, specializing in cyber operations and medical device security",
+      "27-year US Army veteran, spanning cyber, medical service, and counterintelligence roles",
+      "Doctorate in Public Health (DrPH); former Counterintelligence Division Chief, Army Research Labs",
+      "Co-author of \"Reverse Deception: Organized Cyber Threat Counter-Exploitation\"",
+      "Fellow, Royal Society of the Arts"
+    ],
+    "sessionTitle": "Pathogenic Vectors: An Emerging Threat to Neurosecurity",
+    "bio": [
+      "Pathogenic neurosecurity vectors represent an emerging cognitive security problem in which biological, ecological, clinical, or engineered pathways compromise nervous-system function and degrade the reliability of cognition, behavior, autonomy, and decision-making. We introduce a general pathogenic neurosecurity framework, then use Eastern Equine Encephalitis virus as a high-fidelity biological case study to illuminate the anatomical, physiological, operational, and surveillance dimensions of the model.",
+      "EEEV is a rare but severe mosquito-borne alphavirus maintained in an enzootic cycle involving Culiseta melanura mosquitoes and passerine birds as amplifying hosts, with spillover to humans and horses through bridge vectors. Humans and horses are dead-end hosts, but severe human disease can produce neuroinvasive consequences including encephalitis, seizures, altered mental status, coma, death, and long-term neurological impairment. Within a cognitive security frame, the relevance of EEEV is not case volume; it is the way a small ecological vector can compromise the biological substrate of cognition and expose weaknesses in detection, attribution, clinical response, risk communication, and cross-sector coordination.",
+      "We then examine cognitive and behavioral reliability as protected functions. We evaluate how neuroinvasive disease can degrade orientation, attention, judgment, executive control, behavioral stability, functional autonomy, and evidentiary reliability. We then present mitigation strategies across five domains: ecological surveillance, clinical recognition, neurocognitive assessment, continuity-of-function planning, and integrated One Health response. The central argument is that cognitive security cannot be limited to information systems, influence operations, or neurotechnology. The nervous system itself must be treated as a protected surface, and pathogenic neurosecurity vectors require an architecture that detects upstream ecological signals before neurological casualties accumulate.",
+      "Dr. Gregory Carpenter is a cybersecurity and biomedical systems strategist who spent 27 years in the US Army across infantry, logistics, medical service, and military intelligence roles, experience that now shapes his focus on how threats propagate across technical, biological, and cognitive systems. He holds a Doctorate in Public Health and currently serves as Principal Partner at CW PENSEC, leading initiatives spanning cyber operations, medical device security, and global health systems. Carpenter is a co-author of \"Reverse Deception: Organized Cyber Threat Counter-Exploitation\" (McGraw-Hill, 2012), a widely cited guide to counterintelligence tactics against advanced persistent threats. His background spanning military intelligence and public health gives him a rare vantage point: he treats cognitive and information threats the way an epidemiologist treats disease, tracking how they spread rather than just how they intrude."
+    ],
+    "bioWordCount": 385,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "2:40 PM",
+        "end": "3:00 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Pathogenic Vectors: An Emerging Threat to Neurosecurity"
+      }
+    ]
+  },
+  {
+    "slug": "tamara-schwartz",
+    "name": "DR. TAMARA SCHWARTZ",
+    "tagline": "Conquering Mount VUCA",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/tamara-schwartz",
+    "headshot": "/assets/speakers/tamara-schwartz.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/tamara-schwartz-a8b27412/",
+    "credentials": [
+      "Board Member, Cognitive Security Institute",
+      "Associate Professor of Cybersecurity and Strategy, York College of Pennsylvania",
+      "Affiliate Researcher, MIT Sloan Interdisciplinary Consortium for Improving Critical Infrastructure Cybersecurity",
+      "USAF (Ret.), 2011 Information Operations Officer of the Year, US Embassy Amman, Jordan",
+      "Member, 2020 Defense Threat Reduction Agency \"Dr. Evil\" task force on emerging technology threats",
+      "Creator and Host, \"Weapons of Mass Disruption\" podcast (109 episodes, Feedspot Top 10 Globalization Podcast)"
+    ],
+    "sessionTitle": "Polycrisis and Cognitive Warfare: Competing Narratives in an Age of Wicked Problems",
+    "bio": [
+      "Societies are increasingly confronting a polycrisis characterized by volatility, uncertainty, complexity, and ambiguity (VUCA), where interconnected wicked problems generate cascading disruptions across political, economic, social, technological, legal, and environmental systems. Unlike isolated crises, polycrises create reinforcing feedback loops that amplify instability, blur cause and effect relationships, and challenge traditional approaches to decision making and governance.",
+      "At the same time, these disruptions unfold within a contested information environment where competing narratives shape how individuals, organizations, and societies interpret events, assign responsibility, and construct meaning. In this environment, narratives become powerful instruments of cognitive warfare, influencing perception, eroding trust, and shaping collective behavior.",
+      "This presentation examines the relationship between polycrisis, wicked problems, and information warfare, exploring how state and non-state actors exploit the VUCA environment to gain strategic advantage in the cognitive domain. Drawing on systems thinking, cognitive security, and information warfare, Schwartz explores how narratives function as strategic tools in complex environments, and how organizations can strengthen resilience when the battle for influence increasingly centers on human cognition itself.",
+      "Dr. Tamara Schwartz, USAF (Ret.), is a Board Member of the Cognitive Security Institute and an Associate Professor of Cybersecurity and Strategy at York College of Pennsylvania. She is also an affiliate researcher with the MIT Sloan Interdisciplinary Consortium for Improving Critical Infrastructure Cybersecurity, an international cybersecurity think tank.",
+      "While on active duty, Schwartz's thought leadership informed the standup of Cyber Command and the design of command centers supporting Joint Space, Cyber, and Global Strategic Operations. Her work at the US Embassy in Amman, Jordan earned her the 2011 Information Operations Officer of the Year award. More recently, she served on the Defense Threat Reduction Agency's 2020 \"Dr. Evil task force,\" identifying future threats to inform Department of Defense investments in emerging technology.",
+      "She holds a BS in Industrial Engineering from Rensselaer Polytechnic Institute, an MS in Engineering Management from the University of Dayton, and a Doctorate of Business Administration from the Fox School of Business at Temple University. Her research spans artificial intelligence, cybersecurity as a strategic competitive advantage, and information warfare.",
+      "Schwartz is also the creator and host of \"Weapons of Mass Disruption,\" a podcast now in its fifth season with over 100 episodes, recognized by Feedspot as a Top 10 Globalization Podcast, exploring the intersection of globalization, technology, business, ethics, and social change in what she calls a VUCA world."
+    ],
+    "bioWordCount": 391,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Polycrisis and Cognitive Warfare: Competing Narratives in an Age of Wicked Problems"
+      }
+    ]
+  },
+  {
+    "slug": "bryce-allen",
+    "name": "DR. BRYCE-ALLEN BAGLEY",
+    "tagline": "The Triple Threat",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/bryce-allen",
+    "headshot": "/assets/speakers/bryce-allen.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/bryce-allen-bagley/",
+    "credentials": [
+      "Director, Cerberus Neurosecurity Research Institute, a nonprofit developing technical defenses for neurotechnology and the human mind",
+      "MD, MS; interdisciplinary training spanning computer science, physics, systems engineering, and medicine",
+      "Former Lecturer and Research Group Leader in AI, Machine Learning, and Applied Mathematics, Stanford University Department of Neurosurgery",
+      "Co-author of \"Threat Vectors and the State of the Art in Defense Methods for Security in Neurotechnology\" (arXiv, July 2026), a comprehensive survey of brain-computer interface security threats",
+      "Developer of \"cogits,\" a mathematical framework extending information theory to human cognition"
+    ],
+    "sessionTitle": "Neurosecurity: the State of the Art and Critical Gaps in Defense for Neurotechnology",
+    "bio": [
+      "Recent years have seen rapid progress in technologies for brain-computer interfaces (BCIs), bringing neurotechnology from the realm of science fiction to the cusp of becoming an everyday reality for millions of medical patients and consumer users alike. The potential of this technology cannot be overstated, and if executed correctly it offers routes to profound augmentation of human capabilities as well as mitigation of many of the threats posed by AI systems. Yet as with any computing technology, security threats abound, and currently the field lags far behind the urgent need for methods of defending against many of these threats. This talk will provide an introduction to neurosecurity, survey the landscape of attack surfaces, threat vectors, and existing defense methods, and discuss areas of need for new methods to ensure BCIs preserve the privacy, dignity, and autonomy of users in the emerging age of neurotechnology.",
+      "Bryce-Allen Bagley, MD, MS is an interdisciplinary physician-scientist whose expertise and formal training span computer science, physics, systems engineering, and medicine, with particular specialties in applied mathematics and defense-relevant research on neurotechnology, AI, and other emerging technologies. Previously a lecturer and research group leader in AI, machine learning, and applied mathematics at Stanford University in the Department of Neurosurgery, he then co-founded and serves as the Director of the Cerberus Neurosecurity Research Institute, a nonprofit focused on developing technical methods for defending brains and minds in the emerging age of AI and neurotechnology."
+    ],
+    "bioWordCount": 237,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "Neurosecurity: the State of the Art and Critical Gaps in Defense for Neurotechnology"
+      }
+    ]
+  },
+  {
+    "slug": "len-noe",
+    "name": "LEN NOE",
+    "tagline": "The Human Cyborg",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/len-noe",
+    "headshot": "/assets/speakers/len-noe.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/len-noe/",
+    "credentials": [
+      "Solutions Architect, BeyondTrust",
+      "Biohacker with 11 implanted microchips",
+      "Former blackhat with 30+ years in technology",
+      "International speaker, presented in over 70 countries",
+      "Subject of the documentary \"I Am Machine\" (premiered at DEF CON 2025)"
+    ],
+    "sessionTitle": "COGNITIVE JAILBREAK: I wasn\u2019t hacked. I volunteered.",
+    "bio": [
+      "Len Noe spent a decade fully radicalized inside an outlaw motorcycle gang, a transformation he insists nobody forced on him. In this keynote, he traces the invisible, step-by-step process that turns an ordinary person into an extremist long before belief ever enters the picture, and draws a direct line from his own radicalization to the same mechanisms now operating at scale across today's information environment. It's a firsthand account of how belonging, not persuasion, is the real engine of radicalization, and what that means for anyone trying to counter it.",
+      "Len Noe is a Solutions Architect with BeyondTrust, specializing in offensive cybersecurity, biohacking, and the convergence of human cognition and machine interfaces. He is the bridge between human and machine identity in a single entity, known for pushing the boundaries of human-augmentation technologies while exploring the evolving intersection of cybersecurity, human-technology integration, and transhuman performance.",
+      "Len is the subject of the documentary film \u201cI AM MACHINE,\u201d which premiered at DefCon 2025, offering a groundbreaking look into human-machine evolution and cyber-bio identity.",
+      "A leading voice in the future of human-technology evolution and emerging threat landscapes, Len co-hosts The Cyber Cognition with Justin Hutch Hutchens, a podcast focused on futurism with an emphasis on AI, and co-hosts KillChain Radio with Bryon Hochkins-Noe, focused on attack methodology and current cyber threats. He hosts The Borg Radio Hour, which explores the integration of technology into the human condition and the human evolutionary path.",
+      "Len is a global speaker who has presented in over 75 countries, with his research featured in major publications around the world. He is also the author of Human Hacked: My Life and Lessons as the World\u2019s First Augmented Ethical Hacker. His expertise spans offensive security research, red-team operations, and global technical demonstrations. He is known for his visionary perspective, insight-driven approach, and immersive, high-impact presentations on the future of cyber-physical evolution and ethical security innovation."
+    ],
+    "bioWordCount": 315,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "11:30 AM",
+        "end": "12:15 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "COGNITIVE JAILBREAK: I wasn\u2019t hacked. I volunteered."
+      }
+    ]
+  },
+  {
+    "slug": "web-begole",
+    "name": "WEB BEGOLE",
+    "tagline": "From Brecht to Basis Points",
+    "taglineConference": null,
+    "track": "cognitive-infra",
+    "trackLabel": "Critical Cognitive Infrastructure",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/web-begole",
+    "headshot": "/assets/speakers/web-begole.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/webbegole/",
+    "credentials": [
+      "Co-Founder and Chief Technology Officer, MarketReader",
+      "Founding CTO, Exante Data (2016 to 2021)",
+      "Chartered Market Technician (CMT) and Chartered Financial Technician (CFTe)",
+      "Creator of MarketWebs, a technical analysis indicator used by traders since 2015",
+      "BS in Computer Science, Rochester Institute of Technology. MFA in Theater Directing",
+      "Board Member, RIT School of Performing Arts Advisory Board"
+    ],
+    "sessionTitle": "\"Truth\" Machines: When Market Authority Becomes Systemic Vulnerability",
+    "bio": [
+      "A price move can tell you that something happened, but it cannot tell you whether the market discovered truth or manufactured it. This talk examines financial markets as \u201ctruth\u201d machines: authoritative signals that increasingly shape the beliefs, policies, headlines, and economic pressures they appear merely to measure. From bank runs and meme stocks to oil shocks and prediction markets, it shows how prices can become instruments of influence when the target is not profit but belief. The result is a systemic vulnerability hiding inside ordinary finance: whoever can move the signal may be able to move the story. This is cognitive warfare waged through markets. The target is not a mind or a machine, it is collective belief, and the battlefield is the exact place where expectation meets price.",
+      "Web Begole is co-founder and Chief Technology Officer of MarketReader, a real-time market intelligence platform he launched in 2021 alongside Jens Nordvig and Evan Schnidman. MarketReader uses a proprietary data engine and generative AI to explain, in real time, why markets are moving, an approach built to replace the kind of lengthy, subjective analysis that has traditionally lagged behind fast moving markets.",
+      "Before MarketReader, Begole served as founding Chief Technology Officer of Exante Data from 2016 to 2021, building the technology infrastructure behind macro research trusted by many of the world's largest institutional investors. He holds the Chartered Market Technician (CMT) and Chartered Financial Technician (CFTe) designations, credentials he pursued deliberately, believing that anyone building technology for a domain should understand that domain at a practitioner's level, not just the technology behind it. He is also the creator of MarketWebs, a technical analysis indicator built on Auction Market Theory that has been used by traders since 2015.",
+      "Begole's path into fintech runs through the theater. He holds a BS in Computer Science from the Rochester Institute of Technology and an MFA in theater directing, and spent years working professionally in theater, including with Ensemble Studio Theatre and Theatre for a New Audience, before moving into finance and technology. He now serves on RIT's School of Performing Arts Advisory Board. His study of Brecht and Benjamin shaped a philosophy he still applies today: the most powerful systems, whether a play or a market model, are the ones that make their audience think, rather than asking them to simply trust what they're told. A model that cannot explain what changed in the world to produce its output, in his view, is not offering intelligence. It is offering a guess with a confidence score."
+    ],
+    "bioWordCount": 420,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "3:20 PM",
+        "end": "3:40 PM",
+        "track": "cognitive-infra",
+        "trackLabel": "Critical Cognitive Infrastructure",
+        "title": "\"Truth\" Machines: When Market Authority Becomes Systemic Vulnerability"
+      }
+    ]
+  },
+  {
+    "slug": "brian-brushwood",
+    "name": "BRIAN BRUSHWOOD",
+    "tagline": "First He Scams You, Then He Shows You How He Did It",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/brian-brushwood",
+    "headshot": "/assets/speakers/brian-brushwood.jpg",
+    "headshotWidth": 1500,
+    "headshotHeight": 500,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/brian-brushwood/",
+    "credentials": [
+      "Creator and host of \"Scam School,\" teaching bar tricks, street cons, and social engineering to over 1.8 million YouTube subscribers",
+      "Professional magician and entertainer for over 20 years; author of six books on magic, deception, and persuasion",
+      "Host of \"The Modern Rogue\" and \"World's Greatest Con,\" a podcast exploring history's most notorious scams and the people who pulled them off",
+      "Became fascinated with deception after being scammed himself as a teenager by a pair of grifters running the classic short-change con",
+      "Once described by Texas Monthly as \"an unapologetic master of corruption, illusion, and deception\""
+    ],
+    "sessionTitle": "The Solution to the Scampocalypse Is More Scams. (Seriously)",
+    "bio": [
+      "Traditional awareness training teaches people what to look for. Cognitive defense requires teaching them how adversaries think. In this highly interactive workshop, Brian Brushwood demonstrates Wolfmasking\u2014a supervised deceptive role-play methodology that transforms your highest-risk \"always-clicking\" employees into people who can think like social engineers, without becoming them.",
+      "Built around the deceptively simple R.E.A.D. teaching method and validated in a Clemson University pilot now expanding to additional cohorts, attendees won't just hear the theory\u2014they'll experience the same intervention themselves and leave with a practical framework for building genuine cognitive resilience in hours, not weeks.",
+      "Brian Brushwood is an American magician, author, podcaster, and social engineering educator who has spent 25 years making a career out of understanding \u2014 and demonstrating \u2014 exactly how human beings are fooled. He performed 100\u2013200 live shows per year on college campuses for two decades, combining fire-eating, mind reading, and dangerous stunts with a deeply practical education in deception and cognitive vulnerability. He is the creator of Scam Nation , the self-described \"only show dedicated to social engineering at the bar and on the street,\" which has accumulated over 1.8 million YouTube subscribers. He co-created The Modern Rogue and hosts World's Greatest Con , a critically acclaimed podcast deconstructing history's greatest deceptions \u2014 from street hustles to Operation Mincemeat. He has appeared twice on The Tonight Show with Jay Leno , on Anderson Cooper 360\u00b0 , and starred in Hacking the System on the National Geographic Channel. He holds a Plan II honors degree from the University of Texas at Austin and before becoming a full-time performer, designed high-end computer systems at Dell."
+    ],
+    "bioWordCount": 267,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "3:20 PM",
+        "end": "4:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "The solution to the scampocalypse is more scams"
+      }
+    ]
+  },
+  {
+    "slug": "sara-rabinovitch",
+    "name": "DR. SARA RABINOVITCH",
+    "tagline": "Stress Neurobiology Researcher & Intervention Developer",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-rabinovitch",
+    "headshot": "/assets/speakers/sara-rabinovitch.avif",
+    "headshotWidth": 190,
+    "headshotHeight": 190,
+    "headshotLowRes": true,
+    "linkedin": "https://www.linkedin.com/in/dr-sara-rabinovitch-phd-3a98ba1a6/",
+    "credentials": [
+      "Co-Founder & Chief Science Officer, Ansera Health",
+      "Clinical Psychologist",
+      "AI-Driven Workforce Resilience",
+      "Cybersecurity Mental Health Researcher"
+    ],
+    "sessionTitle": "Practical Skills for Sustaining Performance, Recovery & Team Effectiveness",
+    "bio": [
+      "Cyber professionals are trained to manage threats, incidents, and operational risk\u2014but",
+      "rarely receive training on managing the human effects of sustained vigilance, alert overload,",
+      "interruptions, and high-pressure decision-making. This interactive workshop provides a practical introduction to the neurobiology of stress in cyber operations and teaches evidence-based recovery tools that can be integrated directly into daily workflows.",
+      "Participants Will Learn:",
+      "\u2022 How chronic vigilance and cognitive load affect attention, decision-making, & communication",
+      "\u2022 The difference between acute stress responses and alert fatigue",
+      "\u2022 Little-known signs that stress may be impacting decision quality, focus, and recovery",
+      "\u2022 Evidence-based 2-minute recovery tools that fit naturally into cyber workflows",
+      "\u2022 Practical strategies for supporting teammates during high-demand periods",
+      "Participants Will Leave With:",
+      "\u2022 A toolkit of rapid, evidence-based recovery practices",
+      "\u2022 Practical techniques for managing cognitive load and alert fatigue",
+      "\u2022 Simple methods for improving focus, recovery, and readiness",
+      "\u2022 Actionable strategies to help sustain team performance under pressure",
+      "Format: Single 45-Minute Workshop",
+      "\u2022 Understanding Stress in Cyber Operations",
+      "\u2022 Alert Fatigue vs. Stress Spikes",
+      "\u2022 Applied Recovery Skills Lab",
+      "\u2022 Q&A",
+      "Intended Audience:",
+      "SOC Analysts | Incident Responders | Threat Hunters | Security Engineers | Security Leaders",
+      "Dr. Sara Rabinovitch, PhD is a Workplace Psychologist in Technology and Cybersecurity, Clinical Psychologist, and Behavior Scientist dedicated to advancing sustainable performance in high-stress industries. She is the Co-Founder and Chief Clinical Officer of CyberReset & Pacific Mindful Wellbeing @ Work, where she designs and leads science-based tools and micro-interventions that translate the neurobiology of stress recovery into practical, measurable, and engaging workplace solutions.",
+      "Her work focuses primarily on cybersecurity, technology, and STEM environments, where chronic stress, alert fatigue, and burnout often remain under-recognized operational risks. Dr. Rabinovitch develops nervous-system-informed skills and rapid stress-recovery activations that help professionals regulate physiological stress responses, strengthen cognitive performance, and build long-term resilience in environments requiring sustained vigilance."
+    ],
+    "bioWordCount": 308,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "11:30 AM",
+        "end": "12:15 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Practical Skills for Sustaining Performance, Recovery & Team Effectiveness"
+      },
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "2:15 PM",
+        "end": "3:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Practical Skills for Sustaining Performance, Recovery & Team Effectiveness"
+      }
+    ]
+  },
+  {
+    "slug": "chloe-tucker",
+    "name": "CHLOE TUCKER",
+    "tagline": "Storytelling for Human-Centered Defense",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/chloe-tucker",
+    "headshot": "/assets/speakers/chloe-tucker.jpg",
+    "headshotWidth": 800,
+    "headshotHeight": 800,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/chloetucker/",
+    "credentials": [
+      "Intelligence-driven information security professional specializing in learning experience design",
+      "Hybrid human risk and threat intelligence specialist",
+      "Designs and facilitates tabletop exercises for audiences ranging from high schoolers to SOCs to federal agencies",
+      "Frequent speaker at BSides conferences and cybersecurity events nationwide",
+      "Incorporates MITRE ATT&CK Navigator and real-world adversary tradecraft into scenario design"
+    ],
+    "sessionTitle": "From Zero to (Tabletop) Hero: Building Tabletop Exercises for Human-Centered Defense",
+    "bio": [
+      "In this hands-on experience, you'll learn to design intelligence-driven tabletop exercises using the Hero's Journey storytelling format. We'll move from generic \"bad thing happened, now what?\" scenarios into compelling stories that meet your players where they are, and make incident response feel more achievable.",
+      "You'll walk away with:",
+      "\u2022 A draft tabletop scenario outline tailored to your organization",
+      "\u2022 Practical techniques for incorporating adversary tradecraft into your scenario, using tools like MITRE ATT&CK Navigator",
+      "\u2022 Facilitation tips grounded in group dynamics, for helping people do their best collaborative thinking under pressure",
+      "\u2022 A list of the publicly available threat reports I most often reach for during scenario design",
+      "No prior exercise experience required - just bring your organization's context and a willingness to think like an adversary.",
+      "Chloe Tucker is an intelligence-driven information security professional with a focus on learning experience design. As a hybrid human risk and threat intelligence specialist, she spends most of her time trying to understand who's doing what, when, why, and how. Chloe has designed and facilitated tabletop and functional exercises for audiences ranging from high schoolers to SOCs to federal agencies and regulators. She's been a speaker at multiple BSides conferences and cybersecurity events. She's passionate about meeting people where they're at, facilitating conversations, and drinking tea."
+    ],
+    "bioWordCount": 213,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "2:15 PM",
+        "end": "3:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Part I: From Zero to (Tabletop) Hero: Building Tabletop Exercises for Human-Centered Defense"
+      },
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "3:20 PM",
+        "end": "4:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Part II: From Zero to (Tabletop) Hero: Building Tabletop Exercises for Human-Centered Defense"
+      }
+    ]
+  },
+  {
+    "slug": "sara-russo",
+    "name": "SARA RUSSO",
+    "tagline": "Building the Map of Cognitive Warfare Research",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/sara-russo",
+    "headshot": "/assets/speakers/sara-russo.png",
+    "headshotWidth": 1049,
+    "headshotHeight": 1280,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/sarajrusso/",
+    "credentials": [
+      "PhD Candidate in Defence and Security Studies, Centre for Higher Defence Studies (CASD) and University of Turin",
+      "Researcher specialising in cognitive warfare, cognitive security, strategic communication, and influence operations",
+      "Co-founder of the Cognitive Warfare Literature Database (CWDB), an open research infrastructure for mapping the cognitive domain",
+      "Contributor to NATO-related research activities, multinational defence exercises, and international collaborations on cognitive warfare",
+      "Lecturer and speaker on cognitive warfare, strategic influence, and cognitive security for defence, government, and academic audiences"
+    ],
+    "sessionTitle": "Knowledge Mapping as an Analytical Capability for Cognitive Security",
+    "bio": [
+      "Understanding cognitive warfare requires more than following individual publications or emerging technologies. It requires the ability to systematically identify patterns, relationships, and evolving trends across a rapidly expanding body of knowledge.",
+      "This presentation introduces an evidence-based approach using the Cognitive Warfare Literature Database (CWDB) to map the global research landscape and extract actionable insights. Through practical examples, it demonstrates how knowledge mapping supports capability analysis, identification of emerging topics, comparison of national research ecosystems, and detection of conceptual blind spots. The session highlights how structured research infrastructures can strengthen situational awareness and support more robust analysis of the cognitive domain.",
+      "Sara Russo is a PhD candidate in Leadership and Organisational Development in the Defence and Security Studies PhD Programme, jointly offered by the Centre for Higher Defence Studies (CASD), Rome, and the University of Turin. Her research focuses on cognitive warfare, strategic communication, and the influence dimension of contemporary conflict, drawing on organisational studies and social network analysis to examine communication, decision-making, and influence dynamics. She has participated in field-based research within multinational exercises such as Mare Aperto and collaborates with European academic institutions, NATO-related research activities, and international partners on emerging security challenges. Alongside her research, she contributes to professional military education and international training activities through lectures, workshops, and courses on cognitive warfare, strategic influence, and cognitive security for defence and security audiences. She is also co-founder of the Cognitive Warfare Literature Database (CWDB), an open initiative supporting interdisciplinary research and evidence-based understanding of the cognitive dimension of contemporary conflict."
+    ],
+    "bioWordCount": 252,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "11:30 AM",
+        "end": "12:15 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Knowledge Mapping as an Analytical Capability for Cognitive Security"
+      }
+    ]
+  },
+  {
+    "slug": "dustin-sachs",
+    "name": "DR. DUSTIN SACHS",
+    "tagline": "DO NOT accept QR codes from this man!",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/dustin-sachs",
+    "headshot": "/assets/speakers/dustin-sachs.jpeg",
+    "headshotWidth": 400,
+    "headshotHeight": 400,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/dustinsachs/",
+    "credentials": [
+      "Founder and CEO, PsyberCog Labs; graduate, Founder Institute Silicon Valley",
+      "Chief Technologist and Senior Director of Programs, CyberRisk Collaborative",
+      "Doctorate in Computer Science (DCS), specializing in Cybersecurity and Information Assurance; CISSP, C|CISO",
+      "Author of \"Behavioral Insights in Cybersecurity: A Guide to Digital Human Factors\" (Routledge/CRC Press)",
+      "Over two decades of experience securing critical infrastructure and advising global enterprises"
+    ],
+    "sessionTitle": "What Five Minutes Under Pressure Teach Us About Decision Ecosystems",
+    "bio": [
+      "Five minutes under pressure can reveal more about an organization than hours of normal operation. As time contracts and consequences rise, people rely less on deliberate reasoning and more on the conditions surrounding the decision. What appears to be individual success or failure is often the visible outcome of an entire decision ecosystem. The lesson for leaders is practical. Resilience cannot be built through motivation, awareness, or training alone. Organizations must examine how their culture, workflows, technology, governance, and performance expectations interact when pressure is greatest. Decision Ecosystem Optimization begins there: redesigning the conditions around consequential decisions, so the safer action becomes easier, more likely, and, wherever possible, the default.",
+      "Dr. Dustin S. Sachs is a cybersecurity executive and behavioral scientist who helps organizations convert security strategy into everyday secure behavior. He is the Founder & CEO of PsyberCog Labs, LLC and serves as Chief Technologist & Senior Director of Programs at CyberRisk Collaborative. He focuses on decision quality, culture change, and friction-aware control design. An adjunct professor and frequent speaker, he publishes thought leadership and research on human factors, cognitive security, and decision ecosystem optimization. He is the author of the #1 Best-Selling Security Design book \u201cInsights in Cybersecurity: A Guide to Digital Human Factors\u201d, which provides tools, nudges, and decision frameworks to embed secure behavior at scale."
+    ],
+    "bioWordCount": 219,
+    "sessions": [
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "What Five Minutes Under Pressure Teach Us About Decision Ecosystems"
+      }
+    ]
+  },
+  {
+    "slug": "lucas-pralle",
+    "name": "LUCAS PRALLE",
+    "tagline": "Making Tools to Maximize Human Creativity",
+    "taglineConference": null,
+    "track": "applied-training",
+    "trackLabel": "Applied Training",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/lucas-pralle",
+    "headshot": "/assets/speakers/lucas-pralle.jpeg",
+    "headshotWidth": 400,
+    "headshotHeight": 400,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/lucaspralle/",
+    "credentials": [
+      "Founder, Void Cognitive Systems",
+      "Senior Information Security Risk Specialist, Marshfield Clinic Health System",
+      "Co-Creator, the Endless Beautiful Creativity Method, ranked Player FM's Top Creativity Podcast (2017)",
+      "MEd in Adult Education"
+    ],
+    "sessionTitle": "Engineering For Human Cognition and Creativity - Building a Future We Actually Want",
+    "bio": [
+      "Learn how to leverage AI and repeatable design patterns to promote human cognition and creativity. Lucas Pralle will lay out a repeatable design framework for this task, show how it has been implemented in his latest app, and lead a workshop that shows how to put these design patterns into action.",
+      "Lucas Pralle is the Founder of Void Cognitive Systems as well as a Senior Information Security Risk Specialist for the largest rural healthcare provider in the United States. He has a background in adult education and co-created the Endless Beautiful Creativity Method a decade ago, which utilizes curated randomized audio sessions as a creativity prompt. His work focuses on enhancing human cognition and creativity."
+    ],
+    "bioWordCount": 115,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "10:45 AM",
+        "end": "11:30 AM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Engineering For Human Cognition and Creativity - Building a Future We Actually Want"
+      }
+    ]
+  },
+  {
+    "slug": "james-mcquiggan",
+    "name": "JAMES MCQUIGGAN",
+    "tagline": "The Groan-Up in the Room",
+    "taglineConference": null,
+    "track": "mc",
+    "trackLabel": "Master of Ceremonies",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/james-mcquiggan",
+    "headshot": "/assets/speakers/james-mcquiggan.jpg",
+    "headshotWidth": 400,
+    "headshotHeight": 400,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/jmcquiggan/",
+    "credentials": [
+      "CISSP; 25+ years in cybersecurity, human risk management, and social engineering",
+      "Part-time faculty, Full Sail University, teaching Cyber Threat Intelligence",
+      "Board of Trustees Member, Center for Cyber Safety and Education; taught cybersecurity safety to 7,000+ students, parents, and educators through ISC2's Safe and Secure Online program",
+      "CISSP; 25+ years in cybersecurity, human risk management, and social engineering",
+      "Part-time faculty, Full Sail University, teaching Cyber Threat Intelligence",
+      "Board of Trustees Member, Center for Cyber Safety and Education; taught cybersecurity safety to 7,000+ students, parents, and educators through ISC2's Safe and Secure Online program",
+      "Co-Chair, ISC2 North American Region Advisory Council; 8-year President, ISC2 Central Florida Chapter"
+    ],
+    "sessionTitle": "Master of Ceremonies: Day 1",
+    "bio": [
+      "James McQuiggan brings over 25 years of experience to the cybersecurity field, specializing in Human Risk Management, Artificial Intelligence, and social engineering. As a former CISO Advisor at KnowBe4, he delivered thought leadership on critical issues ranging from ransomware to the evolving AI threat landscape. Through global conferences, webinars, and media engagements, James excels at translating complex security concepts into actionable insights for diverse audiences.",
+      "His extensive background includes senior cybersecurity roles at Siemens (Energy and Wind Divisions), where he developed expertise in industry standards, incident response, and industrial control system (ICS) security. In addition to his corporate work, James serves as part-time faculty at Full Sail University, teaching Cyber Threat Intelligence.",
+      "A dedicated community leader, he currently volunteers with ISC2 as Co-chair of the North American Region Advisory Council and Chair of the Southeast Chapter Regional Management Committee, following an eight-year tenure as President of the ISC2 Central Florida Chapter."
+    ],
+    "bioWordCount": 151,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "9:00 AM",
+        "end": "9:30 AM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Opening Remarks"
+      },
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "5:15 PM",
+        "end": "5:30 PM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Closing Remarks"
+      }
+    ]
+  },
+  {
+    "slug": "sumona-banerji",
+    "name": "SUMONA BANERJI",
+    "tagline": "\u201cKnow Your Mind\u201d",
+    "taglineConference": null,
+    "track": "mc",
+    "trackLabel": "Master of Ceremonies",
+    "bioPage": "https://www.cognitivesecurityinstitute.org/csc-speakers/sumona-banerji",
+    "headshot": "/assets/speakers/sumona-banerji.jpeg",
+    "headshotWidth": 612,
+    "headshotHeight": 626,
+    "headshotLowRes": false,
+    "linkedin": "https://www.linkedin.com/in/sumona-banerji/",
+    "credentials": [
+      "Founder and CEO, MindShield",
+      "PhD Candidate in Cyberpsychology, focused on cognitive vulnerabilities and manipulation susceptibility",
+      "Master of Design (MDES) in Strategic Foresight and Innovation, OCAD University",
+      "Former documentary filmmaker turned cyberpsychology researcher and futurist",
+      "Multidisciplinary expertise spanning psychology, neuroscience, and behavioral economics"
+    ],
+    "sessionTitle": "Master of Ceremonies: Day 2 & Leading the Applied Training session on: Autopilot Off. Awareness On.",
+    "bio": [
+      "A 45-minute workshop on intuition, body awareness, and catching your own automatic mind",
+      "Most of our worst decisions, online and off, aren\u2019t made consciously. They\u2019re made on autopilot: the reflexive click, the reaction we didn\u2019t choose, the gut feeling we ignored (or blindly trusted). This session is about noticing the difference, in real time.",
+      "We\u2019ll blend body-based awareness practices (gentle movement, breath, grounding) with practical mental techniques for catching automatic thinking before it runs the show. You\u2019ll leave with simple tools you can use the same day: at your desk, in your inbox, and in conversations where your instincts are trying to tell you something.",
+      "No mat or experience required. Come curious.",
+      "Sumona Banerji is a futurist and cyber-psychology expert who founded MindShield, a firm dedicated to leveraging cognitive data to foster human resilience in the AI era.",
+      "Her work supports thoughtful AI adoption, resilient leadership, and social cohesion by equipping individuals with the tools to thrive within new digital dynamics. Utilizing a multidisciplinary approach rooted in psychology and neuroscience, she promotes sustainable digital well-being and enhances human-machine teaming.",
+      "Currently a PhD candidate in Cyberpsychology specializing in cognitive vulnerabilities and manipulation susceptibility, Sumona advocates for proactive approaches to digital integrity and responsible AI use. Her expertise helps organizations navigate complex information ecosystems, ensuring that human-centric practices remain at the core of digital strategy."
+    ],
+    "bioWordCount": 223,
+    "sessions": [
+      {
+        "day": "thu",
+        "dayLabel": "Thursday",
+        "start": "1:15 PM",
+        "end": "2:00 PM",
+        "track": "applied-training",
+        "trackLabel": "Applied Training",
+        "title": "Autopilot Off. Awareness On."
+      },
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "9:30 AM",
+        "end": "9:40 AM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Opening Remarks"
+      },
+      {
+        "day": "fri",
+        "dayLabel": "Friday",
+        "start": "5:20 PM",
+        "end": "5:30 PM",
+        "track": "main-stage",
+        "trackLabel": "Main Stage / All Tracks",
+        "title": "Closing Remarks"
+      }
+    ]
+  }
+]

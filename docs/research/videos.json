@@ -1,0 +1,199 @@
+{
+  "$comment": "Snapshot of the Wix Video (VOD) widget feed on the CSI homepage, extracted from raw-html/index.html appsWarmupData. The live widget is DYNAMIC: it renders the N most-recent uploads of the channel below. This file is a point-in-time capture, valid as of capturedAt.",
+  "capturedAt": "2026-07-27",
+  "source": {
+    "kind": "wix-video-app-youtube-feed",
+    "wixAppDefinitionId": "14409595-f076-4753-8303-9a86f9f71469",
+    "wixAppName": "Wix Video",
+    "wixComponentId": "comp-mrbx94gu",
+    "wixWarmupKey": "vodWidgetData-comp-mrbx94gu",
+    "rawHtml": "handoff/raw-html/index.html"
+  },
+  "channel": {
+    "displayTitle": "Cognitive Security Institute",
+    "youtubeChannelId": "UCcjtBmZGno8co3APMD56fuQ",
+    "youtubeHandle": "@cognitivesecurityinstitute",
+    "channelUrl": "https://www.youtube.com/channel/UCcjtBmZGno8co3APMD56fuQ",
+    "handleUrl": "https://www.youtube.com/@cognitivesecurityinstitute",
+    "uploadsPlaylistId": "UUcjtBmZGno8co3APMD56fuQ",
+    "rssFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcjtBmZGno8co3APMD56fuQ",
+    "videoCountAtCapture": 69,
+    "channelCreatedAt": "2022-10-22T01:49:59.605Z",
+    "wixChannelId": "4d98aa748a62450fb41cb0c79c9f186b"
+  },
+  "ordering": "publishedAt descending (channel uploads playlist, newest first)",
+  "pageSize": 8,
+  "hasMore": true,
+  "videos": [
+    {
+      "videoId": "XiFohPbeAlI",
+      "title": "What is the role of human factors in cybersecurity? Crystal Faucett, PhD CognectCon Tampa",
+      "description": "Dr. Crystal Faucett gives an overview of human factors as a science and describes its role in cybersecurity.",
+      "durationSec": 68,
+      "durationLabel": "01:08",
+      "publishedAt": "2026-07-14T14:00:13Z",
+      "watchUrl": "https://www.youtube.com/watch?v=XiFohPbeAlI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/XiFohPbeAlI",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/XiFohPbeAlI/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/XiFohPbeAlI/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/XiFohPbeAlI/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/XiFohPbeAlI/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/XiFohPbeAlI/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "Y9kDI35hyC4",
+      "title": "From Awareness to Accountability: Rethinking the Human Risk Practitioner's Role",
+      "description": "The job was never just \"run the phishing simulation.\" But the gap between what human risk practitioners were hired to do and what the business now needs from them has never been wider.\n\nIn this fireside chat, Holly-Jane Grayling sits down with Sanny Liao, co-founder of Fable Security and former Head of Data Science at Abnormal Security, and Jay Wilson, CISO at Insurity, to get into what that tension actually feels like from the inside. Where programs are struggling to keep up, where practitioners are finding unexpected leverage, and what it means to lead a function that the rest of the org is finally paying attention to.",
+      "durationSec": 3501,
+      "durationLabel": "58:21",
+      "publishedAt": "2026-07-14T08:28:57Z",
+      "watchUrl": "https://www.youtube.com/watch?v=Y9kDI35hyC4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Y9kDI35hyC4",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/Y9kDI35hyC4/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/Y9kDI35hyC4/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/Y9kDI35hyC4/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/Y9kDI35hyC4/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/Y9kDI35hyC4/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "skitg5xpVGY",
+      "title": "Cybersecurity Social Dynamics: Attitudes, Influences, Usable Security | Dr. Cori Faklaris | CSI #59",
+      "description": "This talk explores how attitudes and social influences shape the adoption of security practices. Drawing on insights from the SA-6 and SA-13 security attitude scales and the Security and Privacy Acceptance Framework (SPAF), we will examine the factors that drive or hinder the voluntary adoption of cybersecurity measures. By understanding the role of social influences and user attitudes, we can design more effective and user-friendly security solutions. This presentation will highlight key findings from recent studies, including the impact of perceived usefulness and ease of use on security behavior, and discuss strategies to enhance user engagement and compliance. Join us to delve into the intersection of social science and cybersecurity, and discover how to foster a culture of security awareness and proactive behavior.\n\nBIO:\nDr. Cori Faklaris is a scholar in human-computer interaction and assistant professor at the University of North Carolina at Charlotte, where she directs the Security and Privacy Experiences (SPEX) research group. Her focus is on understanding how people's security attitudes and social environments weigh in their decision to adopt - or not adopt - secure behaviors (such as sharing passwords securely or ignoring UX cues to scams and \"fake news\"). She employs a mix of qualitative and quantitative methods from social science, computer science, and design. Her work also is informed by prior experiences as a journalist, IT/UX specialist, and social media manager. Dr. Faklaris received her Ph.D. in Human-Computer Interaction from Carnegie Mellon University in 2022. She has published at venues such as the USENIX Symposium on Usable Security and Privacy (SOUPS) and the ACM Conference on Computer-Supported Collaborative Work and Social Computing (CSCW). Among other accomplishments, she received a 2024 Google Research Scholar award for an AI-informed system to connect people with advice about their security and privacy concerns. Her work is also funded by BasisLabs LLC founder Carl Hoffman, the U.S. Army Research Lab, and the U.S. National Science Foundation.\n\n----------------------\n\nWe are a not-for-profit, if you would like to sponsor a CSI video, please complete the form at:\nhttps://www.cognitivesecurityinstitute.org/sponsor-video\n\nIf you would like to be added to our membership waitlist to join us for live meetings, please submit an application at: https://www.cognitivesecurityinstitute.org/apply",
+      "durationSec": 2677,
+      "durationLabel": "44:37",
+      "publishedAt": "2026-07-07T06:00:20Z",
+      "watchUrl": "https://www.youtube.com/watch?v=skitg5xpVGY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/skitg5xpVGY",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/skitg5xpVGY/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/skitg5xpVGY/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/skitg5xpVGY/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/skitg5xpVGY/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/skitg5xpVGY/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "bIGcM7W9Gqo",
+      "title": "Building Cognitive Defence for Organisations in the Age of AI w/ Holly-Jane Grayling & Andrew Beachy",
+      "description": "As AI becomes embedded into everyday work, the challenge is no longer just governing AI systems. It's protecting human judgement.\n\nIn this episode of SHIELD, Andrew Beachy explores the emerging concept of Cognitive Defence, examining why organisations must help people engage with AI critically, transparently, and safely. Using real-world examples, including Deloitte, Air Canada, and Zillow, he discusses how AI failures can influence human decision-making and why cognitive defence is becoming an essential organisational capability.\n\nBuilding on these concepts, Holly-Jane Grayling presents the CSI AI Cognitive Defence Framework for Organisations, introducing a practical, evidence-led framework being developed through SHIELD's Special Project Portfolio. The session explores the framework's foundations, core capabilities, implementation approach, measurement model, and a practical 90-day roadmap for organisations beginning their Cognitive Defence journey.\n\nIn this session you'll learn:\n\n* Why Cognitive Defence is emerging as a critical organisational capability\n* Lessons from real-world AI failures\n* How the CSI AI Cognitive Defence Framework is structured\n* The core capabilities organisations should develop\n* Practical steps for beginning to implement Cognitive Defence\n* How the framework will continue to evolve through research and community collaboration\n\nThe SHIELD Special Project Portfolio brings together researchers, practitioners, and industry experts to collaboratively develop practical guidance for AI Safe Use, Cognitive Defence, and emerging human-centred security challenges.\n\n🔗 Learn more about the Cognitive Security Institute's SHIELD Community: https://www.cognitivesecurityinstitute.org/shield or reach out to SHIELD Lead Holly-Jane Grayling\n\n#AISecurity #CognitiveDefense #CognitiveDefence #HumanRiskManagement #CyberSecurity #ArtificialIntelligence #SecurityCulture #AIGovernance #GRC #AI  #aisecurity #aigovernance",
+      "durationSec": 1275,
+      "durationLabel": "21:15",
+      "publishedAt": "2026-07-05T07:27:54Z",
+      "watchUrl": "https://www.youtube.com/watch?v=bIGcM7W9Gqo",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/bIGcM7W9Gqo",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/bIGcM7W9Gqo/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/bIGcM7W9Gqo/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/bIGcM7W9Gqo/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/bIGcM7W9Gqo/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/bIGcM7W9Gqo/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "pcNOBv9d1g0",
+      "title": "2024: A Cyborg Odyssey | Len Noe | CSI #60",
+      "description": "Transhumans, individuals enhanced with technological augmentations, have moved beyond science fiction into reality. Historically viewed through medical or cyborg lenses, recent advancements like Brain-Computer Interfaces (BCIs) and SMART technologies are blurring the lines between physical and biological entities. This shift is significantly impacting cybersecurity, as these augmented humans can execute sophisticated cyberattacks, such as URL redirections, phishing, smishing, and man-in-the-middle (MiTM) attacks, using embedded technologies. Traditional security measures are becoming inadequate in this new landscape, requiring a fundamental reassessment of cybersecurity strategies. The presentation will explore these emerging threats through demonstrations of implant-initiated attacks and emphasize the urgent need for advanced, layered security solutions to protect against the unique risks posed by transhumans.\n\nBIOGRAPHY:\nLen Noe is a Solutions Architect with BeyondTrust, specializing in offensive cybersecurity, biohacking, and the convergence of human cognition and machine interfaces. He is the bridge between human and machine identity in a single entity, known for pushing the boundaries of human-augmentation technologies while exploring the evolving intersection of cybersecurity, human-technology integration, and transhuman performance.\n\nLen is the subject of the documentary film “I AM MACHINE,” which premiered at DefCon 2025, offering a groundbreaking look into human-machine evolution and cyber-bio identity.\n\nA leading voice in the future of human-technology evolution and emerging threat landscapes, Len co-hosts The Cyber Cognition with Justin Hutch Hutchens, a podcast focused on futurism with an emphasis on AI, and co-hosts KillChain Radio with Bryon Hochkins-Noe, focused on attack methodology and current cyber threats. He hosts The Borg Radio Hour, which explores the integration of technology into the human condition and the human evolutionary path.\n\nLen is a global speaker who has presented in over 75 countries, with his research featured in major publications around the world. He is also the author of Human Hacked: My Life and Lessons as the World’s First Augmented Ethical Hacker. His expertise spans offensive security research, red-team operations, and global technical demonstrations. He is known for his visionary perspective, insight-driven approach, and immersive, high-impact presentations on the future of cyber-physical evolution and ethical security innovation.\n\n----------------------\n\nWe are a not-for-profit, if you would like to sponsor a CSI video, please complete the form at:\nhttps://www.cognitivesecurityinstitute.org/sponsor-video\n\nIf you would like to be added to our membership waitlist to join us for live meetings, please submit an application at: https://www.cognitivesecurityinstitute.org/apply",
+      "durationSec": 2748,
+      "durationLabel": "45:48",
+      "publishedAt": "2026-06-30T07:00:26Z",
+      "watchUrl": "https://www.youtube.com/watch?v=pcNOBv9d1g0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pcNOBv9d1g0",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/pcNOBv9d1g0/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/pcNOBv9d1g0/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/pcNOBv9d1g0/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/pcNOBv9d1g0/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/pcNOBv9d1g0/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "U9axbn-GHMw",
+      "title": "Cognitive Security Institute Live Stream",
+      "description": null,
+      "durationSec": null,
+      "durationLabel": null,
+      "publishedAt": "2026-06-25T14:38:25Z",
+      "watchUrl": "https://www.youtube.com/watch?v=U9axbn-GHMw",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/U9axbn-GHMw",
+      "thumbnail": {
+        "maxres": null,
+        "sd": null,
+        "hq": "https://i.ytimg.com/vi/U9axbn-GHMw/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/U9axbn-GHMw/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/U9axbn-GHMw/sddefault_live.jpg",
+        "note": "maxresdefault.jpg and sddefault.jpg do not exist for this livestream (verified HTTP 404). Use hqdefault.jpg, or sddefault_live.jpg as Wix does."
+      },
+      "isLiveOrPremiere": true,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "RzqdVmZlMqo",
+      "title": "The Mind of the Machine: Governing the New Agentic Workforce | Josh Devon | CSI #87",
+      "description": "The enterprise is deploying a new, non-human workforce of AI agents, but our security stack is architecturally blind to their unpredictable, human-like behavior. This session deconstructs this critical governance gap, revealing how core security functions like attribution, observability, and data protection break in the agentic era. Attendees will learn a new playbook, modeled on human resource governance, for managing this autonomous workforce and ensuring its \"mind\" aligns with enterprise intent.\n\nBIOGRAPHY:\nJosh Devon is a security entrepreneur with a career built at the intersection of intelligence and technology. He began his career in counterterrorism before co-founding and serving as COO of Flashpoint, a global leader in threat intelligence. The explosion of GenAI led him to explore early applications of this new technology and see both its promise and risk. As the co-founder and CEO of Sondera, he is now building a new generation of solutions to ensure AI agents operate safely and follow the rules.\n\n----------------------\n\nWe are a not-for-profit, if you would like to sponsor a CSI video, please complete the form at:\nhttps://www.cognitivesecurityinstitute.org/sponsor-video\n\nIf you would like to be added to our membership waitlist to join us for live meetings, please submit an application at: https://www.cognitivesecurityinstitute.org/apply",
+      "durationSec": 1903,
+      "durationLabel": "31:43",
+      "publishedAt": "2026-06-23T13:30:24Z",
+      "watchUrl": "https://www.youtube.com/watch?v=RzqdVmZlMqo",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RzqdVmZlMqo",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/RzqdVmZlMqo/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/RzqdVmZlMqo/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/RzqdVmZlMqo/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/RzqdVmZlMqo/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/RzqdVmZlMqo/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    },
+    {
+      "videoId": "IBccwAI8OTI",
+      "title": "Beyond Click Rates: Rethinking Phishing Awareness w/ James Phillips",
+      "description": "James Phillips introduces his proposed measurement approach for assessing phishing awareness saturation over time.\n\nRather than treating click rates and report rates as standalone success measures, James explores how organisations can look at behavioural stabilisation, recognition patterns, reporting trends, and awareness saturation across comparable phishing scenarios.\n\nThe session also introduces the Awareness Saturation Index (ASI), a calculation designed to help assess whether phishing awareness activity is continuing to create meaningful change, or whether results are beginning to plateau.\n\nThis session is useful for security awareness, human risk, and cyber security culture professionals who want to think more critically about phishing metrics, measurement maturity, and the limits of traditional training effectiveness reporting.\n\nJOIN OUR LINKEDIN COMMUNITY!\nhttps://www.linkedin.com/groups/18699026/",
+      "durationSec": 1110,
+      "durationLabel": "18:30",
+      "publishedAt": "2026-06-20T06:31:14Z",
+      "watchUrl": "https://www.youtube.com/watch?v=IBccwAI8OTI",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/IBccwAI8OTI",
+      "thumbnail": {
+        "maxres": "https://i.ytimg.com/vi/IBccwAI8OTI/maxresdefault.jpg",
+        "sd": "https://i.ytimg.com/vi/IBccwAI8OTI/sddefault.jpg",
+        "hq": "https://i.ytimg.com/vi/IBccwAI8OTI/hqdefault.jpg",
+        "mq": "https://i.ytimg.com/vi/IBccwAI8OTI/mqdefault.jpg",
+        "renderedByWix": "https://i.ytimg.com/vi/IBccwAI8OTI/maxresdefault.jpg"
+      },
+      "isLiveOrPremiere": false,
+      "categories": [
+        "Science & Technology"
+      ]
+    }
+  ],
+  "thumbnailGuidance": "Thumbnail URLs follow https://i.ytimg.com/vi/{videoId}/{quality}.jpg. hqdefault.jpg always exists; maxresdefault.jpg does NOT exist for every video (verified 404 for the livestream U9axbn-GHMw). Always provide an hqdefault fallback, or mirror thumbnails locally at build time."
+}
