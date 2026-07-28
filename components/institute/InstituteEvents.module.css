@@ -1,71 +1,141 @@
+/* Inverse band — the institute's counterpart to the conference sponsor strip.
+   Same ground, same hairline lattice, same inverse type palette. */
+
+.section {
+  background: var(--inv-bg);
+  border-bottom: 1px solid var(--inv-line);
+}
+
 .inner {
   max-width: var(--wrap);
   margin: 0 auto;
-  padding: var(--section-y) var(--gutter);
+  padding: 64px var(--gutter);
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: end;
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--inv-muted);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(24px, 4.2vw, 32px);
+  line-height: 1.2;
+  margin: 14px 0 0;
+  text-transform: uppercase;
+  color: var(--inv-ink);
 }
 
 .deck {
-  max-width: 760px;
-  margin: 24px 0 0;
-  font-size: 17px;
-  line-height: 1.65;
-  color: var(--muted);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-  margin: 32px 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.card {
-  border: 1px solid var(--line);
-  background: var(--surface);
-  padding: 22px 24px 24px;
-}
-.cardHead {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--inv-muted);
   margin: 0;
+}
+
+/* Single 1px lattice: cells draw right + bottom, container draws top + left. */
+.lattice {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--inv-line);
+  border-left: 1px solid var(--inv-line);
+  margin-top: 32px;
+}
+
+.cell {
+  border-right: 1px solid var(--inv-line);
+  border-bottom: 1px solid var(--inv-line);
+  padding: 26px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cellHead {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 17px;
-  letter-spacing: 0.02em;
+  line-height: 1.25;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--inv-ink);
 }
-.cardSub {
-  margin: 6px 0 0;
+
+/* Amber on the inverse ground — the sponsor strip's prospectus link already
+   proves this pairing holds. */
+.cellSub {
   font-family: var(--font-mono);
   font-size: 12.5px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0.12em;
   color: var(--amber);
+  margin: 0;
 }
-.cardBody {
-  margin: 12px 0 0;
-  font-size: 14.5px;
-  line-height: 1.65;
-  color: var(--muted);
+
+.cellBody {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--inv-muted);
+  margin: 4px 0 0;
 }
-.cardCta {
-  display: inline-block;
-  margin-top: 14px;
+
+.cellCta {
+  margin-top: 8px;
   font-family: var(--font-mono);
   font-size: 13px;
   letter-spacing: 0.1em;
+  color: var(--amber);
+}
+.cellCta:hover {
+  color: var(--magenta);
 }
 
-.whereWeveBeen {
-  margin: 20px 0 0;
+/* Full-width closing cell: the where-we've-been line, promoted. */
+.record {
+  grid-column: 1 / -1;
+  border-right: 1px solid var(--inv-line);
+  border-bottom: 1px solid var(--inv-line);
+  padding: 20px 24px;
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 13.5px;
+  line-height: 1.6;
   letter-spacing: 0.04em;
-  line-height: 1.7;
-  color: var(--muted);
+  color: var(--inv-ink);
+}
+.recordLabel {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--inv-muted);
+  flex-shrink: 0;
 }
 
 @media (max-width: 860px) {
-  .grid {
+  .head {
     grid-template-columns: 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+  .lattice {
+    grid-template-columns: 1fr;
+  }
+  .cell {
+    padding: 22px 20px 24px;
   }
 }

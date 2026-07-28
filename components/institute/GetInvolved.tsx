@@ -1,34 +1,42 @@
 import { Icon } from "../Icon";
-import { Kicker } from "../Kicker";
 import { getInvolved } from "@/lib/institute";
 import styles from "./GetInvolved.module.css";
 
 /**
- * Section 08 — the single ask. Replaces the source's three separate Partners,
- * Join and Support pages, which each opened with a wall of copy before
- * arriving at the same shape of request. Three routes, one line each, one
- * button each.
+ * Section 10 — the page's one ask, closing the way the conference page does:
+ * a full-bleed masked dot field with the manifesto line set large.
+ *
+ * The deck carries the heading, so there is no separate "Get involved" title —
+ * the nav anchor label does that job. Donate is the single filled primary and
+ * the other two routes are outlined: three identical buttons was part of the
+ * monotony, and for a nonprofit the donation is the primary ask (it is
+ * already the nav CTA).
  */
 export function GetInvolved() {
   return (
     <section id="get-involved" className={styles.section} aria-labelledby="gi-h">
+      <div className={styles.dots} aria-hidden="true" />
       <div className={styles.inner}>
-        <Kicker
-          id="gi-h"
-          index="10"
-          label="GET INVOLVED"
-          icon="group_add"
-          heading="Get involved"
-        />
-        <p className={styles.deck}>{getInvolved.deck}</p>
+        <div className={styles.kicker}>
+          <Icon name="group_add" size={18} color="var(--cyan)" />
+          10 / GET INVOLVED
+        </div>
+        <h2 id="gi-h" className={styles.heading}>
+          Cognitive security is a collective mission,
+          <br />
+          not a <span className={styles.accent}>competitive game.</span>
+        </h2>
 
         <ul className={styles.grid}>
-          {getInvolved.routes.map((r) => (
+          {getInvolved.routes.map((r, i) => (
             <li key={r.name} className={styles.card}>
-              <Icon name={r.icon} size={26} color="var(--indigo-deep)" />
+              <Icon name={r.icon} size={24} color="var(--indigo-deep)" />
               <h3 className={styles.name}>{r.name}</h3>
               <p className={styles.blurb}>{r.blurb}</p>
-              <a className={styles.cta} href={r.href}>
+              <a
+                className={i === 2 ? styles.ctaPrimary : styles.ctaSecondary}
+                href={r.href}
+              >
                 {r.ctaLabel}
               </a>
             </li>
