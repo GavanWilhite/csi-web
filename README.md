@@ -105,3 +105,6 @@ applies.
   July 16 date passed. Set `earlyBirdEnds` and flip it if a new one exists.
 - **No published ticket price** — pricing lives on Zeffy so it cannot go stale
   here.
+
+All seven sponsors ship, MindShield included: it appeared on the source landing
+page though not its sponsors page, and the client confirmed it stays.

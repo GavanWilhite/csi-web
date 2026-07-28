@@ -105,13 +105,19 @@ export interface Sponsor {
   /** Cap height in px — logos have wildly different aspect ratios. */
   maxHeight: number;
   /**
-   * Sponsor site, where the source links the mark (4 of 7 — verified in the
+   * Sponsor site, where the source links the mark (4 of 7, verified in the
    * crawled landing page). MindShield, ObscureIQ and DeepTrust are unlinked
    * on the source; left without a URL rather than guessed.
    */
   url?: string;
 }
 
+/**
+ * All seven, in source order. MindShield appeared on the source landing page
+ * but not its sponsors page; the client has confirmed it stays — safer to
+ * include a sponsor the site already displayed than to drop one. Resolved,
+ * do not re-raise.
+ */
 export const sponsors: Sponsor[] = [
   {
     name: "Living Security",
