@@ -27,7 +27,12 @@ export function TicketsCta() {
           GET TICKETS
         </a>
         <div className={styles.note}>
-          100% OF PROCEEDS SUPPORT THE 501(C)(3)
+          {/* Was "100% OF PROCEEDS SUPPORT THE 501(C)(3)". No source supports
+              that: the only 100% claim anywhere is Zeffy's, it is scoped to
+              donations (and to Zeffy taking no platform fee), and it says
+              nothing about how ticket revenue is allocated. Replaced with the
+              part that is verifiable from the footer. */}
+          HOSTED BY A REGISTERED 501(C)(3)
         </div>
       </div>
     </section>

@@ -84,7 +84,7 @@ export function Hero() {
             <div className={styles.statLabel}>TRACKS</div>
           </div>
           <div className={styles.stat}>
-            <div className={styles.statNum}>35+</div>
+            <div className={styles.statNum}>35</div>
             <div className={styles.statLabel}>SPEAKERS</div>
           </div>
         </div>

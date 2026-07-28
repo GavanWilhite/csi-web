@@ -42,6 +42,10 @@ def clean(text: str) -> str:
     text = LINK.sub(r"\1", text)
     text = text.replace("**", "")
     text = re.sub(r"(?<!\w)_([^_]+)_(?!\w)", r"\1", text)
+    # html2text escapes leading list dashes as "\-" and leaves stray
+    # zero-width spaces where the source had empty Wix text nodes.
+    text = re.sub(r"\\([-*_.])", r"\1", text)
+    text = text.replace("​", "").replace("﻿", "")
     return re.sub(r"[ \t]{2,}", " ", text).strip()
 
 
@@ -65,36 +69,44 @@ def fix_json() -> int:
     return changed
 
 
-def fix_ts() -> int:
+def fix_ts(path: pathlib.Path) -> int:
     """
-    The TS module stores each paragraph as a double-quoted string literal.
+    The TS modules store each paragraph as a double-quoted string literal.
     Operate on literal contents only, so surrounding code is untouched.
+
+    Deliberately does NOT pre-filter on which markers a literal contains —
+    an earlier version skipped anything without `](` or `**`, which let
+    `_emphasis_` and escaped `\\-` through to the rendered page.
     """
-    src = TS_PATH.read_text(encoding="utf-8")
+    src = path.read_text(encoding="utf-8")
     hits = 0
 
     def repl(m: re.Match) -> str:
         nonlocal hits
         body = m.group(1)
-        if "](" not in body and "**" not in body:
-            return m.group(0)
-        hits += 1
-        # Unescape only what we need to inspect, then re-escape.
         raw = body.replace('\\"', '"')
         if is_image_only(raw):
+            hits += 1
             return '""'  # emptied; pruned below
-        return '"' + clean(raw).replace('"', '\\"') + '"'
+        cleaned = clean(raw).replace('"', '\\"')
+        if cleaned != body:
+            hits += 1
+        return '"' + cleaned + '"'
 
     src = re.sub(r'"((?:[^"\\]|\\.)*)"', repl, src)
     # Drop the now-empty paragraph entries a pruned image left behind.
     src = re.sub(r"\n\s*\"\",(?=\n)", "", src)
     src = re.sub(r"\n\s*\"\"(?=\n\s*\])", "", src)
-    TS_PATH.write_text(src, encoding="utf-8")
+    path.write_text(src, encoding="utf-8")
     return hits
 
 
 if __name__ == "__main__":
-    if not JSON_PATH.exists() or not TS_PATH.exists():
-        sys.exit(f"missing input: {JSON_PATH} / {TS_PATH}")
+    if not JSON_PATH.exists():
+        sys.exit(f"missing input: {JSON_PATH}")
     print(f"speakers-full.json: {fix_json()} records cleaned")
-    print(f"lib/speakers.ts:    {fix_ts()} string literals rewritten")
+    # Every module carrying crawled prose, not just speakers.
+    for name in ("speakers.ts", "people.ts", "institute.ts"):
+        p = TS_PATH.parent / name
+        if p.exists():
+            print(f"lib/{name:<14} {fix_ts(p)} string literals rewritten")

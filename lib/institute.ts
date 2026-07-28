@@ -9,16 +9,16 @@
  *   source credits "Dr. Vindy Sawyer" while every other page says
  *   "Dr. Ben D. Sawyer" — unresolved, so no name ships (client decision).
  * - One SHIELD bullet is garbled at source ("Connect through our with a
- *   diverse, global community") and is repaired minimally.
+ * diverse, global community") and is repaired minimally.
  * - The about page's third "definition" paragraph (academic register, and
  *   grammatically broken: "The ability to project force ... are giving
- *   rise") is cut rather than reproduced. CLIENT TO CONFIRM the rewrite.
+ * rise") is cut rather than reproduced. CLIENT TO CONFIRM the rewrite.
  * - The membership section uses the application framing from /apply, not
  *   /join's "free / no dues / no gatekeeping" copy — the two source pages
  *   tell opposite stories and the client directed apply-framing.
  * - The mission one-liner exists in three conflicting versions on the
  *   source ("define and defend" / "defends" / "maps, defends, and
- *   advances"). The /about deck version ships; CLIENT TO CONFIRM.
+ * advances"). The /about deck version ships; CLIENT TO CONFIRM.
  */
 
 /** Menu for the institute scroller: 6 anchors + the DONATE button. */
@@ -316,8 +316,16 @@ export const events = {
       ],
     },
   ],
+  /**
+   * Deliberately narrower than the first draft, which claimed Cognitive
+   * Security Villages "across Hacker Summer Camp 2025 (BSides Las Vegas,
+   * Black Hat USA, DEF CON 33)". The source (hsc2025) supports a CSI
+   * Cognitive Security Village at BSides LV only; the DEF CON 33 slot was a
+   * workshop inside Adversary Village, which is not CSI's, and Black Hat
+   * lists no village at all. Do not re-broaden without a source.
+   */
   whereWeveBeen:
-    "CSI ran Cognitive Security Villages across Hacker Summer Camp 2025 (BSides Las Vegas, Black Hat USA, DEF CON 33) and at National Cyber Summit 2025.",
+    "CSI ran its Cognitive Security Village at BSides Las Vegas during Hacker Summer Camp 2025, presented at DEF CON 33 and Black Hat USA, and appeared at National Cyber Summit 2025.",
 } as const;
 
 /* ---- 08 / TEAM (prose — people data lives in lib/people.ts) ------------------------ */
