@@ -1,0 +1,77 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.deck {
+  margin: 28px 0 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(18px, 2.4vw, 22px);
+  line-height: 1.45;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 44px;
+  margin-top: 20px;
+}
+
+.body p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 6px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.ways {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 22px 24px;
+  align-self: start;
+}
+.waysHead {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+.waysList {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.waysList li {
+  position: relative;
+  padding: 9px 0 9px 18px;
+  border-top: 1px solid var(--hair);
+  font-size: 15px;
+}
+.waysList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 7px;
+  height: 7px;
+  background: var(--cyan);
+}
+
+@media (max-width: 860px) {
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}

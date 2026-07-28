@@ -5,7 +5,37 @@ import { Icon } from "./Icon";
 import { links, navLinks } from "@/lib/event";
 import styles from "./Nav.module.css";
 
-export function Nav() {
+export interface NavItem {
+  href: string;
+  label: string;
+}
+
+export interface NavCta {
+  href: string;
+  label: string;
+  /** Longer label used in the mobile drawer's full-width button. */
+  drawerLabel: string;
+  icon: string;
+}
+
+const conferenceCta: NavCta = {
+  href: links.tickets,
+  label: "TICKETS",
+  drawerLabel: "GET TICKETS",
+  icon: "confirmation_number",
+};
+
+/**
+ * Sticky site nav. Defaults render the conference menu; /institute passes
+ * its own items and a DONATE CTA — same shell, same drawer behaviour.
+ */
+export function Nav({
+  items = navLinks,
+  cta = conferenceCta,
+}: {
+  items?: readonly NavItem[];
+  cta?: NavCta;
+}) {
   const [open, setOpen] = useState(false);
 
   // Close the drawer if the viewport grows past the breakpoint while it's open,
@@ -43,14 +73,14 @@ export function Nav() {
         </a>
 
         <nav className={styles.links} aria-label="Main">
-          {navLinks.map((l) => (
+          {items.map((l) => (
             <a key={l.href} href={l.href} className={styles.link}>
               {l.label}
             </a>
           ))}
-          <a className={styles.cta} href={links.tickets}>
-            <Icon name="confirmation_number" size={17} />
-            TICKETS
+          <a className={styles.cta} href={cta.href}>
+            <Icon name={cta.icon} size={17} />
+            {cta.label}
           </a>
         </nav>
 
@@ -73,7 +103,7 @@ export function Nav() {
         aria-label="Main"
         hidden={!open}
       >
-        {navLinks.map((l) => (
+        {items.map((l) => (
           <a
             key={l.href}
             href={l.href}
@@ -83,9 +113,9 @@ export function Nav() {
             {l.label}
           </a>
         ))}
-        <a className={styles.drawerCta} href={links.tickets}>
-          <Icon name="confirmation_number" size={18} />
-          GET TICKETS
+        <a className={styles.drawerCta} href={cta.href}>
+          <Icon name={cta.icon} size={18} />
+          {cta.drawerLabel}
         </a>
       </nav>
     </header>

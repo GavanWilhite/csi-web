@@ -1,0 +1,125 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.deck {
+  margin: 28px 0 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(18px, 2.4vw, 22px);
+  line-height: 1.45;
+}
+
+.intro {
+  max-width: 760px;
+  margin-top: 16px;
+}
+.intro p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* ---- Journal plate ----------------------------------------------------------- */
+
+.journal {
+  margin-top: 32px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--magenta);
+  background: var(--surface);
+  padding: 26px 28px;
+}
+.journalHead {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(17px, 2.2vw, 21px);
+  letter-spacing: 0.02em;
+}
+.journalSub {
+  margin: 8px 0 0;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+}
+.journalBody {
+  margin: 14px 0 0;
+  max-width: 860px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.journalCta {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+/* ---- Latest posts -------------------------------------------------------------- */
+
+.latestHead {
+  margin: 40px 0 0;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post {
+  display: block;
+  height: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 18px 19px 20px;
+  color: var(--ink);
+  transition: border-color 120ms ease;
+}
+.post:hover {
+  border-color: var(--indigo-deep);
+  color: var(--ink);
+}
+
+.postMeta {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.postTitle {
+  display: block;
+  margin-top: 10px;
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.postCats {
+  display: block;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  color: var(--cyan);
+}
+
+@media (max-width: 860px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+}

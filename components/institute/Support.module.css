@@ -1,0 +1,61 @@
+.section {
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in oklab, var(--indigo) 7%, var(--bg));
+}
+
+.inner {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+  text-align: center;
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.heading {
+  margin: 16px 0 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(24px, 4.4vw, 38px);
+  text-transform: uppercase;
+}
+
+.copy {
+  margin: 18px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 15px 34px;
+  background: var(--indigo);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.cta:hover {
+  background: var(--indigo-deep);
+  color: var(--on-accent);
+}
+
+.note {
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}

@@ -1,0 +1,34 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 9px var(--gutter);
+  background: var(--indigo);
+  color: var(--on-accent);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.banner:hover {
+  background: var(--indigo-deep);
+  color: var(--on-accent);
+}
+
+.label {
+  opacity: 0.92;
+}
+
+.cta {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .banner {
+    gap: 8px;
+    font-size: 11.5px;
+  }
+}

@@ -1,7 +1,10 @@
 # CSC 2026 — Conference Site
 
 Next.js 16 (App Router) implementation of the Cognitive Security Conference 2026
-page, built from the design agent's export in `../resources/design-export/`.
+page, built from the design agent's export in `../resources/design-export/`,
+plus the content ported from the source Wix site
+(`../handoff/port-research/`): the full 35-speaker roster with per-speaker
+pages, and the `/institute` single-page scroller.
 
 ```bash
 pnpm install
@@ -43,8 +46,27 @@ three track columns. Below 860px the column headers drop away and each slot
 becomes stacked, track-labelled cards with an accent edge. The per-cell track
 label is in the DOM at every width — visually hidden on desktop where the column
 headers carry that information, visible on mobile where they don't. Both days
-render server-side with the inactive one `hidden`, so all 53 sessions are
-indexable; switching still requires JS.
+render server-side with the inactive one `hidden`, so all 53 agenda rows
+(45 sessions and plenaries + 8 breaks) are indexable; switching still requires
+JS.
+
+**Speakers: one roster, 35 static routes, no duplication of judgement.** The
+conference page carries the whole roster grouped by the source's five tracks;
+each speaker also gets `/csc-speakers/<slug>` — the same URL shape as the
+source Wix site, so already-shared links keep resolving. Bios are rendered as
+the verbatim, *unsplit* paragraph sequence from the source: every bio page ran
+the talk abstract straight into the biography with no reliable boundary, and
+splitting would be guessing (see `lib/speakers.ts`). Per-speaker OG images ship
+only where the headshot clears the 200×200 floor — 16 of 35 exist only at
+190×190. `SITE_URL` must be set in production for absolute OG URLs.
+
+**/institute is a snapshot port, not a live system.** All copy is verbatim from
+the 2026-07-27 crawl, typed into `lib/institute.ts` / `lib/people.ts`, with the
+deliberate exceptions documented in those modules' headers (the unresolved
+"Vindy vs. Ben Sawyer" credit, the apply-vs-free membership contradiction, the
+partners/supporters label swap — all client decisions, none guessed). The
+YouTube row is static committed data (`lib/videos.ts`) and **will go stale**;
+the intended follow-up is a build-time refresh script, not a runtime API call.
 
 **Fonts.** Orbitron / Space Grotesk / IBM Plex Mono are self-hosted via
 `next/font`. Material Symbols is the one external request, loaded with
@@ -93,19 +115,33 @@ tool (Biome, oxlint) over the eslint dependency tree.
 - **Sponsor logos are white-on-transparent** and legible only on the inverse
   band. Rendered as plain `<img>`; they are third-party trademarks and must not
   be recoloured or re-encoded.
-- **Early-bird flag.** `event.earlyBird` in `lib/event.ts` is `true` to match the
-  export, but the advertised deadline (July 16) has passed. Confirm with the
-  client and flip it — it drives both the hero flag and the registration copy.
-- **This is one page.** The other 130-odd URLs from the content audit are not
-  built.
+- **Early-bird flag.** `event.earlyBird` is now `false` — the advertised
+  July 16 deadline passed and the page was promoting an expired offer. If the
+  client sets a new deadline, update `earlyBirdEnds` and flip it back.
+- **No ticket price is published.** The only price artefact in the crawl is a
+  Zeffy widget screenshot ($500 GA); the client has not confirmed it, so the
+  page links out to Zeffy rather than stating a number.
+- **The video row goes stale by design.** `lib/videos.ts` is a point-in-time
+  capture of the channel's 8 most recent uploads. Build-time refresh is the
+  intended follow-up.
+- **Institute content carries unresolved client decisions**, flagged in the
+  module headers of `lib/institute.ts` and `lib/people.ts` rather than
+  guessed: the Evil Digital Twin presenter credit, partners/supporters swap,
+  three roster titles that contradict the person's own bio, the mission
+  one-liner, Focus 5 naming.
+- **Beyond `/`, `/institute` and the 35 speaker pages**, the remaining URLs
+  from the content audit (blog posts, forms, past-event hubs) are not built.
 
 ## Layout
 
 ```
-app/            layout (fonts, metadata), page (section composition), globals.css (tokens)
-components/     one .tsx + .module.css per section; Nav and Agenda are client components
-lib/            event.ts (facts, links), content.ts (speakers/tracks/sponsors), agenda.ts (53 sessions)
-public/assets/  logos, sponsor marks, keynote portraits
+app/            layout, page (conference), csc-speakers/[slug] (35 SSG pages), institute/
+components/     one .tsx + .module.css per section; institute/ holds the scroller's sections
+lib/            event.ts (facts, links) · content.ts (keynotes/tracks/sponsors)
+                agenda.ts (53 rows) · speakers.ts (35, generated from the crawl)
+                institute.ts (scroller copy) · people.ts (22 bios) · videos.ts (snapshot)
+public/assets/  logos, sponsor marks, 35 speaker headshots, people portraits,
+                institute imagery (re-encoded WebP — the source PNGs were 4–6 MB)
 ```
 
 Content is data, not markup — edit `lib/`, not the components.

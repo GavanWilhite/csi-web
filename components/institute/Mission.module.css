@@ -1,0 +1,82 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.lead {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 44px;
+  margin-top: 36px;
+}
+
+.deck {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(19px, 2.6vw, 24px);
+  line-height: 1.45;
+}
+
+.body p,
+.approachText p,
+.definition p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.body p:last-child,
+.approachText p:last-child,
+.definition p:last-child {
+  margin-bottom: 0;
+}
+
+/* The mission's two punch lines read as statements, not body copy. */
+.body p:nth-last-child(2),
+.body p:last-child {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.approach {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 44px;
+  margin-top: 44px;
+  padding-top: 36px;
+  border-top: 1px solid var(--hair);
+}
+
+.definition {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  background: var(--surface);
+  padding: 22px 24px;
+  /* Anchor target sits below the sticky nav. */
+  scroll-margin-top: calc(var(--nav-h) + 16px);
+}
+.definitionKicker {
+  margin-bottom: 12px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.definitionHead {
+  margin: 0 0 14px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 860px) {
+  .lead,
+  .approach {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}

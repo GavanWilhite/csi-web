@@ -1,0 +1,119 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.deck {
+  margin: 28px 0 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(18px, 2.4vw, 22px);
+  line-height: 1.45;
+}
+
+.intro {
+  max-width: 760px;
+  margin-top: 16px;
+}
+.intro p {
+  margin: 0 0 1em;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* ---- CAT lead card ---------------------------------------------------------- */
+
+.cat {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 40px;
+  margin-top: 36px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 28px;
+}
+
+.catArt img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--hair);
+}
+
+.catHead {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(18px, 2.4vw, 23px);
+  letter-spacing: 0.02em;
+}
+.catBody > p {
+  margin: 14px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.catCta {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 13px 22px;
+  background: var(--indigo);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+}
+.catCta:hover {
+  background: var(--indigo-deep);
+  color: var(--on-accent);
+}
+
+/* ---- Evil Digital Twin, demoted secondary ------------------------------------ */
+
+.edt {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hair);
+}
+.edtHead {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+.edtBlurb {
+  margin: 8px 0 0;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+.edtCta {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.closing {
+  max-width: 760px;
+  margin: 32px 0 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 860px) {
+  .cat {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px;
+  }
+  .catArt {
+    max-width: 420px;
+  }
+}

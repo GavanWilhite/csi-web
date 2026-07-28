@@ -1,0 +1,128 @@
+.wrap {
+  margin-top: 40px;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.channelLink {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+/* The track scrolls inside this container — the page never scrolls
+   sideways. Focusable so keyboard users can arrow through it. */
+.scroller {
+  margin-top: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 10px;
+  /* Subtle, token-coloured scrollbar where supported. */
+  scrollbar-color: var(--line) transparent;
+}
+
+.track {
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* Sized by content, wider than the viewport — that's the point. */
+  width: max-content;
+}
+
+.item {
+  scroll-snap-align: start;
+  flex: none;
+  width: 300px;
+}
+
+.card {
+  display: block;
+  height: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  transition: border-color 120ms ease;
+}
+.card:hover {
+  border-color: var(--indigo-deep);
+  color: var(--ink);
+}
+
+.thumbWrap {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.duration {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 3px 7px;
+  background: color-mix(in oklab, var(--bg) 82%, transparent);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+}
+
+.meta {
+  display: block;
+  padding: 12px 14px 15px;
+}
+.date {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 8px;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-top: 7px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .item {
+    width: 260px;
+  }
+}

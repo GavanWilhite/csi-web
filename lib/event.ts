@@ -54,4 +54,5 @@ export const navLinks = [
   { href: "/#agenda", label: "AGENDA" },
   { href: "/#venue", label: "VENUE" },
   { href: "/#sponsors", label: "SPONSORS" },
+  { href: "/institute", label: "INSTITUTE" },
 ] as const;
