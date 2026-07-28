@@ -1,12 +1,21 @@
 # ---------------------------------------------------------------------------
 # Supply-chain policy
 #
-# pnpm reads these from pnpm-workspace.yaml. `.npmrc` only supplies auth and
-# registry settings, so the global `minimum-release-age` in ~/.npmrc does NOT
-# govern pnpm installs — it has to be declared here.
+# Declared here so it travels with the repo — to CI, and to any machine that
+# lacks the developer's global config. pnpm 10.x also honours these in
+# .npmrc (kebab-case), but a global file protects one laptop; this protects
+# the build.
+#
+# Casing is format-specific and fails SILENTLY if wrong:
+#   pnpm-workspace.yaml -> camelCase   (minimumReleaseAge)
+#   .npmrc / pnpm rc    -> kebab-case  (minimum-release-age)
+# A mismatch is not warned about — it just resolves as if unset. pnpm also
+# does not validate trustPolicy's enum, so a typo there fails open too.
+# Verify behaviour, never assume: install a package with a release inside the
+# cooldown and confirm it resolves to the older version.
 # ---------------------------------------------------------------------------
 
-# 10080 minutes = 7 days, matching the `minimum-release-age` in ~/.npmrc.
+# 10080 minutes = 7 days, matching `minimum-release-age` in ~/.npmrc.
 # Most malicious publishes are caught and yanked within hours, so a 7-day
 # cooldown means we never install a version fresh enough to be in that window.
 minimumReleaseAge: 10080

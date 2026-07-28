@@ -53,9 +53,20 @@ indexable; switching still requires JS.
 
 ## Supply chain
 
-Policy lives in `pnpm-workspace.yaml`, **not** `.npmrc` — pnpm reads only auth
-and registry settings from npmrc, so a global `minimum-release-age` there does
-not govern pnpm installs.
+Policy lives in `pnpm-workspace.yaml` so it travels with the repo — to CI and to
+machines without the developer's global config.
+
+pnpm 10.x *does* also honour these settings in `.npmrc` (kebab-case), contrary
+to current pnpm.io docs, which describe the v11 direction. Verified empirically:
+in a bare directory with no `pnpm-workspace.yaml`, a global
+`minimum-release-age` still forced resolution away from a 1-day-old release.
+Don't take either the docs or a config echo as proof — `pnpm config get` will
+echo keys npm never applies. Test the behaviour.
+
+Casing is format-specific and **fails silently** when wrong:
+`pnpm-workspace.yaml` wants camelCase (`minimumReleaseAge`), `.npmrc` wants
+kebab-case (`minimum-release-age`). pnpm does not validate `trustPolicy`'s enum
+either, so a typo there also fails open with no warning.
 
 - `minimumReleaseAge: 10080` (7 days), matching `minimum-release-age` in
   `~/.npmrc`. This is why the lockfile holds React at 19.2.4 while 19.2.7 exists.
