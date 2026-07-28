@@ -1,0 +1,64 @@
+.footer {
+  background: var(--inv-bg);
+}
+
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 48px var(--gutter);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+.legal {
+  color: var(--inv-muted);
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin: 16px 0 0;
+  max-width: 44ch;
+}
+
+.copyright {
+  color: var(--inv-muted);
+  font-size: 13px;
+  margin: 14px 0 0;
+}
+
+.nav {
+  display: flex;
+  gap: 26px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  letter-spacing: 0.1em;
+  flex-wrap: wrap;
+}
+.link {
+  color: var(--inv-ink);
+}
+.link:hover {
+  color: var(--cyan);
+}
+.donate {
+  color: var(--amber);
+}
+.donate:hover {
+  color: var(--magenta);
+}
+
+@media (max-width: 560px) {
+  .inner {
+    gap: 24px;
+  }
+  .nav {
+    gap: 16px 20px;
+  }
+}

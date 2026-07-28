@@ -1,0 +1,111 @@
+.section {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  margin-top: 32px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+}
+
+/* Photo slot. The design export left this as an empty image drop-target and no
+   venue photograph shipped with it, so it renders as an explicit placeholder
+   plate rather than pretending to be a photo. Swap in <Image> when supplied. */
+.photo {
+  position: relative;
+  min-height: 340px;
+  border-right: 1px solid var(--hair);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.photoDots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 14px 14px;
+  opacity: 0.6;
+}
+.photoLabel {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  text-align: center;
+  padding: 0 24px;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+}
+.fact {
+  flex: 1;
+  padding: 24px 26px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid var(--hair);
+}
+.fact:last-child {
+  border-bottom: none;
+}
+.factTitle {
+  font-size: 17px;
+  font-weight: 700;
+}
+.factSub {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  padding: 13px 24px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+.button:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+
+@media (max-width: 860px) {
+  .panel {
+    grid-template-columns: 1fr;
+  }
+  .photo {
+    min-height: 200px;
+    border-right: none;
+    border-bottom: 1px solid var(--hair);
+  }
+  .fact {
+    padding: 20px;
+  }
+}

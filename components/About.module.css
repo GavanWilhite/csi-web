@@ -1,0 +1,49 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 56px;
+}
+
+.body {
+  font-size: 17px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.quote {
+  margin: 28px 0 0;
+  padding: 22px 26px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  background: var(--surface);
+}
+.quote p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--muted);
+}
+.attribution {
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .quote {
+    padding: 18px 20px;
+  }
+}

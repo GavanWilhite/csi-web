@@ -1,0 +1,96 @@
+.section {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+/* Tight dot field, masked open through the middle so the copy sits clean. */
+.dots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 14px 14px;
+  opacity: 0.55;
+  mask-image: linear-gradient(
+    to right,
+    black,
+    transparent 40%,
+    transparent 60%,
+    black
+  );
+}
+
+.inner {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 84px var(--gutter);
+  text-align: center;
+}
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.24em;
+  color: var(--muted);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(30px, 6vw, 56px);
+  margin: 18px 0 0;
+  text-transform: uppercase;
+  line-height: 1.08;
+}
+.soldOut {
+  color: var(--magenta);
+}
+
+.copy {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 52ch;
+  margin: 18px auto 0;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 30px;
+  background: var(--indigo);
+  color: var(--on-accent);
+  padding: 17px 44px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+.cta:hover {
+  background: var(--indigo-deep);
+  color: var(--inv-bg);
+}
+
+.note {
+  margin-top: 16px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--amber);
+}
+
+@media (max-width: 560px) {
+  .inner {
+    padding-block: 56px;
+  }
+  .cta {
+    display: block;
+    padding-inline: 20px;
+  }
+  .note {
+    letter-spacing: 0.08em;
+  }
+}

@@ -1,0 +1,18 @@
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(24px, 4.2vw, 32px);
+  line-height: 1.2;
+  margin: 14px 0 0;
+  text-transform: uppercase;
+}

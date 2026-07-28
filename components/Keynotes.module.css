@@ -1,0 +1,149 @@
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.rosterLink {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  transition: border-color 120ms ease;
+}
+.card:hover {
+  border-color: var(--indigo-deep);
+}
+
+.portraitWrap {
+  position: relative;
+  /* Reserves the square before the image decodes, so the grid never jumps. */
+  aspect-ratio: 1;
+}
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(0.35) contrast(1.05);
+}
+.rule {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--cyan), var(--indigo));
+}
+
+.meta {
+  padding: 16px 18px 18px;
+}
+.nameRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+}
+.epithet {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--amber);
+  letter-spacing: 0.06em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.li {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+}
+.li:hover {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.chip {
+  border: 1px dashed var(--line);
+  padding: 8px 13px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  /* Deliberately stays at two columns rather than dropping to one. Several
+     source headshots only exist at 190×190 (see the handoff asset guide); a
+     full-width card would upscale them to ~358px and visibly soften. Two
+     columns keeps the rendered portrait at roughly its native size. */
+  .grid {
+    gap: 12px;
+  }
+  .meta {
+    padding: 12px 13px 14px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  .epithet {
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+  }
+  .chips {
+    font-size: 12.5px;
+    gap: 8px;
+  }
+  .chip {
+    padding: 7px 10px;
+  }
+}

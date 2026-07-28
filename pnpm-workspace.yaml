@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# Supply-chain policy
+#
+# pnpm reads these from pnpm-workspace.yaml. `.npmrc` only supplies auth and
+# registry settings, so the global `minimum-release-age` in ~/.npmrc does NOT
+# govern pnpm installs — it has to be declared here.
+# ---------------------------------------------------------------------------
+
+# 10080 minutes = 7 days, matching the `minimum-release-age` in ~/.npmrc.
+# Most malicious publishes are caught and yanked within hours, so a 7-day
+# cooldown means we never install a version fresh enough to be in that window.
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude: []
+
+# Fail the install if a package's publish trust level drops below what earlier
+# versions had (a common signature of maintainer-account takeover).
+# This is pnpm's default; declared explicitly so it can't be lost silently.
+trustPolicy: no-downgrade
+
+# No exceptions. The eslint-config-next chain pulled several pre-provenance
+# transitive deps that tripped this check; rather than allowlist unaudited
+# packages, the optional lint toolchain was removed. Keep this list empty.
+trustPolicyExclude: []
+
+# pnpm 10+ does not run dependency lifecycle scripts unless allowlisted here.
+# Empty = nothing may run install/postinstall scripts.
+onlyBuiltDependencies: []

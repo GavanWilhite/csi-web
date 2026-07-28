@@ -1,0 +1,98 @@
+.section {
+  background: var(--inv-bg);
+  border-bottom: 1px solid var(--inv-line);
+}
+
+.inner {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 64px var(--gutter);
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--inv-muted);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(22px, 3.6vw, 28px);
+  margin: 12px 0 0;
+  text-transform: uppercase;
+  color: var(--inv-ink);
+}
+
+.prospectus {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+}
+.prospectus:hover {
+  color: var(--magenta);
+}
+
+/* Single 1px lattice: cells draw right+bottom, the container clips the outer
+   edge, so no doubled borders. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--inv-line);
+  border-left: 1px solid var(--inv-line);
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 24px;
+  border-right: 1px solid var(--inv-line);
+  border-bottom: 1px solid var(--inv-line);
+  min-height: 96px;
+}
+
+.logo {
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.open {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  color: var(--inv-muted);
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cell {
+    padding: 26px 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

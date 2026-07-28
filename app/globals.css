@@ -1,49 +1,190 @@
+/* ===========================================================================
+   CSI / CSC 2026 — token layer
+   ---------------------------------------------------------------------------
+   Dark-only. Values are lifted from the [data-theme="dark"] block of the
+   design export's CSC26 Conference page, which is the authoritative source
+   (the separate design-guide export is out of date where the two disagree).
+
+   Light mode is deliberately not shipped. Every colour goes through a token
+   here, so reintroducing it later means adding one [data-theme="light"] block
+   rather than touching components.
+   =========================================================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surfaces and text */
+  --bg: #0c0f18;
+  --surface: #12162355; /* translucent plate over --bg */
+  --surface-solid: #141828; /* opaque variant where translucency muddies text */
+  --ink: #e9ecf6;
+  --muted: #98a0b8;
+
+  /* Rules. --line is structural, --hair is the lighter internal divider. */
+  --line: #293049;
+  --hair: #1b2032;
+
+  /* Accents. --indigo-deep is LIGHTER than --indigo in dark mode; it is the
+     hover/active partner for indigo fills, not a darker shade. */
+  --indigo: oklch(0.62 0.15 275);
+  --indigo-deep: oklch(0.75 0.1 273);
+  --cyan: oklch(0.72 0.12 220); /* track A — Defending Humans */
+  --magenta: oklch(0.66 0.17 335); /* track B — Critical Cognitive Infrastructure */
+  --amber: oklch(0.78 0.13 80); /* track C — Applied Training */
+
+  /* Inverse band: nav, sponsor strip, footer. */
+  --inv-bg: #12162a;
+  --inv-ink: #edeff8;
+  --inv-muted: #9aa1ba;
+  --inv-line: #2a3048;
+
+  /* Text on an indigo fill. Fixed, not theme-derived. */
+  --on-accent: #ffffff;
+
+  /* Layout */
+  --wrap: 1200px;
+  --gutter: 24px;
+  --section-y: 72px;
+  --nav-h: 58px;
+
+  /* Type */
+  --font-display: var(--font-orbitron), system-ui, sans-serif;
+  --font-text: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (max-width: 768px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --gutter: 20px;
+    --section-y: 52px;
   }
-}
-
-html {
-  height: 100%;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
+}
+
+html {
+  background: var(--bg);
+  scroll-behavior: smooth;
+  /* Keep anchored section headings clear of the sticky nav. */
+  scroll-padding-top: calc(var(--nav-h) + 16px);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
   margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-text);
+  -webkit-font-smoothing: antialiased;
+  /* Guard against the failure mode of the site this replaces: a fixed canvas
+     that overflows horizontally instead of reflowing. */
+  overflow-x: hidden;
 }
 
 a {
-  color: inherit;
+  color: var(--indigo-deep);
   text-decoration: none;
 }
+a:hover {
+  color: var(--magenta);
+}
 
-@media (prefers-color-scheme: dark) {
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+
+/* ---- Material Symbols -----------------------------------------------------
+   Loaded in layout.tsx with display=block so the ligature text
+   ("calendar_month") is never painted before the glyphs arrive. */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  vertical-align: middle;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+/* ---- Shared primitives ---------------------------------------------------- */
+
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  border-bottom: 1px solid var(--line);
+}
+
+.sectionPad {
+  padding-block: var(--section-y);
+}
+
+.skipLink {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--indigo);
+  color: var(--on-accent);
+  padding: 12px 20px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+.skipLink:focus {
+  left: 0;
+}
+
+/* Present to assistive tech, invisible on screen. */
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
   html {
-    color-scheme: dark;
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
