@@ -98,11 +98,22 @@ and let loud sections earn it by being rare.
   image reads as thin. Either ship real art or ship no art area at all.
 - **Scrollers need a visible affordance** — a trailing fade plus an explicit
   hint. A hover-revealed scrollbar is not discoverable.
-- **Contact addresses are never literal.** Use `<MailLink subject={...}>`. The
-  address is ROT13'd in `lib/contact.ts` and assembled after hydration, so it
-  appears in neither the HTML nor the bundle as a plain string. Do not add a
-  `<noscript>` address: `[at]`/`[dot]` is the most-normalised obfuscation
-  pattern and `<noscript>` is read disproportionately by scrapers.
+- **Contact addresses are never literal.** The address is ROT13'd in
+  `lib/contact.ts` and assembled after hydration, so it appears in neither the
+  HTML nor the bundle as a plain string. Two components:
+  - `<MailLink subject={...}>` — an in-context ask with a fixed label
+    ("REQUEST THE PROSPECTUS"). The label is never the address.
+  - `<EmailPanel />` — the address shown in full, on `/contact` and `/apply`,
+    with a copy button.
+
+  Do not add a `<noscript>` address: `[at]`/`[dot]` is the most-normalised
+  obfuscation pattern and `<noscript>` is read disproportionately by scrapers.
+- **Do not split an address across elements** for extra obfuscation. It buys
+  nothing — the address is already absent from the HTML, so the only scrapers
+  left run JavaScript and read `textContent`, which concatenates the pieces.
+  And it breaks the clipboard: block children inject newlines, inline children
+  with whitespace between tags inject spaces. The result looks right and
+  pastes broken. One text node.
 
 ## Images and motion
 

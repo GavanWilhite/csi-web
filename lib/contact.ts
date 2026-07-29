@@ -29,56 +29,33 @@ const ENCODED = "vasb@pbtavgvirfrphevglvafgvghgr.bet";
 export const decodeAddress = () => rot13(ENCODED);
 
 /**
- * Pre-hydration label for call sites that show the address as their own link
- * text. Deliberately NOT an obfuscated rendering of the address: an
- * "info [at] domain [dot] org" string sitting in the static HTML is the most
- * widely recognised obfuscation pattern there is, so every harvester that
- * normalises it recovers the address without executing a line of JavaScript
- * — which would defeat the entire point of this module. The address must
- * appear only after hydration, so what ships in the HTML says nothing.
+ * What stands in for the address before hydration, in components/EmailPanel.tsx.
+ *
+ * Deliberately NOT an obfuscated rendering of it: an "info [at] domain [dot]
+ * org" string sitting in the static HTML is the most widely recognised
+ * obfuscation pattern there is, so every harvester that normalises it
+ * recovers the address without executing a line of JavaScript — which would
+ * defeat the entire point of this module. What ships in the HTML says nothing.
  */
 export const ADDRESS_PENDING = "Loading address…";
 
 /**
- * The first seven are the exact options the old site's Wix contact form
- * offered in its "What does your message relate to?" dropdown, in source
- * order. That form dies with the site; /contact reproduces the same choices
- * as pre-addressed mail. Keep the wording — people who wrote in before will
- * recognise it, and it is what CSI sorts inbound mail by.
+ * Subject lines for the pre-addressed asks that appear in context — the
+ * sponsors section, the get-involved routes, the SHIELD and CTX cards, the
+ * membership page. Each of these is offered where the reader is already
+ * thinking about that thing.
+ *
+ * Wording matters: "General Inquiry" and "Partnership Proposal" are the old
+ * Wix form's own option labels, and CSI sorts inbound mail by them.
+ *
+ * Only what is used. The source form offered seven options; /contact used to
+ * reproduce all seven and no longer does (see app/contact/page.tsx), so the
+ * unused four are gone rather than kept "just in case" — the full list is in
+ * docs/source-content/contact.md if a real form is ever built.
  */
 export const subjects = {
   general: "General Inquiry",
-  supporter: "Becoming a Supporter",
   partnership: "Partnership Proposal",
-  deck: "Deck Request",
-  collaboration: "Collaboration Opportunity",
-  volunteering: "Volunteering",
-  events: "Events or Program Proposal",
-  /** Not from the dropdown — the sponsors section's own ask. */
   prospectus: "CSC 2026 Sponsorship Prospectus",
-  /** Not from the dropdown — see app/apply/page.tsx. */
   membership: "Membership Application",
 } as const;
-
-/** The dropdown options, in the order the source form listed them. */
-export const contactReasons = [
-  { subject: subjects.general, blurb: "A question about CSI or its work." },
-  {
-    subject: subjects.supporter,
-    blurb: "Backing the institute as an organisation.",
-  },
-  {
-    subject: subjects.partnership,
-    blurb: "Working together as an institution or company.",
-  },
-  { subject: subjects.deck, blurb: "Our overview deck." },
-  {
-    subject: subjects.collaboration,
-    blurb: "Research, projects, or joint work.",
-  },
-  { subject: subjects.volunteering, blurb: "Giving time to the mission." },
-  {
-    subject: subjects.events,
-    blurb: "Proposing an event, village, or programme.",
-  },
-] as const;

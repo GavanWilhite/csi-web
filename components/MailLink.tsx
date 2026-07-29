@@ -1,18 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ADDRESS_PENDING, decodeAddress } from "@/lib/contact";
+import { decodeAddress } from "@/lib/contact";
 
 /**
  * A mailto link whose address is assembled after hydration, so the raw string
  * never appears in the server-rendered HTML.
  *
- * Two shapes:
- *   - With children ("GET IN TOUCH"), the label is fixed and only the href
- *     needs assembling. This is the common case.
- *   - Without children, the label IS the address — used where a visible,
- *     copyable address is the point (/apply). Nothing address-like ships in
- *     the HTML; the placeholder is swapped for the real thing on hydration.
+ * This is the in-context ask — "GET IN TOUCH", "REQUEST THE PROSPECTUS" —
+ * where the label is fixed and only the href needs assembling. For showing
+ * the address itself, use components/EmailPanel.tsx instead; that is a
+ * different affordance (selectable, copyable) and this component deliberately
+ * no longer does it.
  *
  * Before hydration it renders as a <span>, never a dead <a>, and carries
  * data-mail-pending so call sites can drop link affordances for that frame.
@@ -27,26 +26,18 @@ export function MailLink({
   className,
 }: {
   subject?: string;
-  children?: React.ReactNode;
+  /** Required: the label is never the address. See EmailPanel for that. */
+  children: React.ReactNode;
   className?: string;
 }) {
-  const [mail, setMail] = useState<{ href: string; address: string } | null>(
-    null,
-  );
+  const [href, setHref] = useState<string | null>(null);
 
   useEffect(() => {
-    const address = decodeAddress();
     // encodeURIComponent, not URLSearchParams: the latter form-encodes spaces
     // as "+", which mail clients paste into the subject line literally.
     const q = subject ? `?subject=${encodeURIComponent(subject)}` : "";
-    setMail({ href: `mailto:${address}${q}`, address });
+    setHref(`mailto:${decodeAddress()}${q}`);
   }, [subject]);
-
-  const href = mail?.href ?? null;
-  // With no children the link text IS the address, which cannot exist until
-  // after hydration — so the served HTML carries a placeholder that reveals
-  // nothing. See ADDRESS_PENDING for why it is not an obfuscated address.
-  const label = children ?? mail?.address ?? ADDRESS_PENDING;
 
   if (!href) {
     // No <noscript> address fallback on purpose. "[at]/[dot]" is the most
@@ -58,13 +49,13 @@ export function MailLink({
     // it should be a server-side form with a challenge, not a printed address.
     return (
       <span className={className} data-mail-pending="">
-        {label}
+        {children}
       </span>
     );
   }
   return (
     <a className={className} href={href}>
-      {label}
+      {children}
     </a>
   );
 }

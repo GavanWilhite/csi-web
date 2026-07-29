@@ -153,6 +153,8 @@ code that looks right but generates nothing. Run it alone with `pnpm check`.
 - **Nothing address-shaped in the HTML.** Not `info@…`, and not
   `info [at] … [dot] org` either — the second is the pattern harvesters
   normalise first, so shipping it in static HTML defeats the whole scheme.
-  `<MailLink>` handles this; do not hand-roll a mailto.
+  `<MailLink>` (in-context ask) and `<EmailPanel>` (visible address) handle
+  this; do not hand-roll a mailto, and do not split an address across elements
+  — see DESIGN.md for why that is worse, not better.
 - `TextPage`'s prose CSS is scoped to `:not([class])` on purpose. A bare
   `.body p` rule outranks a child page's own class and silently overrides it.

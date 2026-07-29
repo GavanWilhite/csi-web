@@ -21,7 +21,7 @@ pnpm check          # content consistency (also runs as part of build)
 | `/csc26-agenda` | Full two-day agenda, pinnable |
 | `/institute` | The Institute: mission, pillars, channel, projects, publications, events, people, get involved |
 | `/apply` | Membership application |
-| `/contact` | Contact, by pre-addressed mail |
+| `/contact` | Contact address and guidance |
 | `/disclaimer` | Legal notice, verbatim from the old site |
 | `/sitemap` | Human-readable index (`/sitemap.xml` is generated separately) |
 
@@ -44,7 +44,7 @@ after the domain moves. `pnpm build` then a run of the check in
 
 ```
 app/                 routes; globals.css holds the token layer
-components/          conference page + shared (Nav, Footer, MailLink, Icon)
+components/          conference page + shared (Nav, Footer, MailLink, EmailPanel, Icon)
 components/institute/ the /institute sections
 lib/                 all content, as typed data
 public/assets/       logos, portraits, project art, sponsor marks
@@ -93,11 +93,12 @@ the eight most recent uploads, taken 2026-07-27. A build-time refresh script is
 the intended follow-up; there is deliberately no runtime API call, because that
 would break the static prerender.
 
-**Contact addresses are never written literally.** Use `<MailLink>`; see
+**Contact addresses are never written literally.** Two components, two jobs:
+`<MailLink subject={...}>GET IN TOUCH</MailLink>` for an in-context ask, and
+`<EmailPanel />` where the address itself should be visible and copyable. See
 DESIGN.md. Nothing address-shaped may appear in the served HTML — not the raw
 address and not an `[at]`/`[dot]` rendering of it, which harvesters normalise
-as a matter of course. `<MailLink>` with no children renders a neutral
-placeholder until hydration.
+as a matter of course.
 
 **Adding a page? The build will fail until you index it.**
 `scripts/check-content.mjs` runs after `next build` and rejects a route that
