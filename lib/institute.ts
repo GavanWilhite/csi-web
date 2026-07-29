@@ -122,8 +122,6 @@ export interface Project {
   blurb: string;
   ctaLabel: string;
   href?: string;
-  /** Set instead of href when the CTA is a contact address. */
-  mailSubject?: string;
   image?: string;
   imageWidth?: number;
   imageHeight?: number;
@@ -191,7 +189,7 @@ export const projects: Project[] = [
     blurb:
       "Security & Human Insight for Educating Leaders on Defence. A free global community connecting academia and industry around a science-first approach to human risk. Lead: Holly-Jane Grayling.",
     ctaLabel: "LEARN MORE",
-    mailSubject: "General Inquiry",
+    href: "/contact/shield",
     /* No art: these are CSI's own programmes with no mark of their own, and a
        placeholder plate read as faked artwork. */
     noArt: true,
@@ -203,7 +201,7 @@ export const projects: Project[] = [
     blurb:
       "CTX bridges the disconnect between cyber professionals looking for work and organizations struggling to fill the roles that protect infrastructure, data, and trust.",
     ctaLabel: "LEARN MORE",
-    mailSubject: "General Inquiry",
+    href: "/contact/ctx",
     /* No art: these are CSI's own programmes with no mark of their own, and a
        placeholder plate read as faked artwork. */
     noArt: true,
@@ -286,9 +284,7 @@ export interface Route {
   blurb: string;
   ctaLabel: string;
   icon: string;
-  href?: string;
-  /** Set instead of href when the CTA is a contact address. */
-  mailSubject?: string;
+  href: string;
 }
 
 export const getInvolved: { deck: string; routes: Route[] } = {
@@ -307,7 +303,7 @@ export const getInvolved: { deck: string; routes: Route[] } = {
       blurb:
         "We work with companies, institutions, and non-profits who share our belief that cognitive security is critical infrastructure.",
       ctaLabel: "GET IN TOUCH",
-      mailSubject: "Partnership Proposal",
+      href: "/contact/partnership",
       icon: "handshake",
     },
     {

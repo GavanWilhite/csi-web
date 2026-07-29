@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { TextPage } from "@/components/TextPage";
-import { EmailPanel } from "@/components/EmailPanel";
+import { EmailAddress } from "@/components/EmailAddress";
 import { apply } from "@/lib/apply";
-import { subjects } from "@/lib/contact";
+import { MEMBERSHIP_SUBJECT } from "@/lib/contact";
 
 /**
  * Replaces the old site's /apply, at the same path.
  *
  * The original was a Wix Form and this site is static, so there is nothing
- * to post to. Applications come in by mail, through the same panel /contact
- * uses — address in full, selectable, with a copy button — carrying a
- * prefilled subject so these land separately from general mail.
+ * to post to. Applications come in by mail, to the same address the contact
+ * pages use, carrying a prefilled subject so these land separately from
+ * general mail.
  */
 export const metadata: Metadata = {
   title: "Membership application — Cognitive Security Institute",
@@ -26,7 +26,7 @@ export default function ApplyPage() {
     >
       <p>{apply.intro}</p>
 
-      <EmailPanel subject={subjects.membership} />
+      <EmailAddress subject={MEMBERSHIP_SUBJECT} />
 
       <h2>Please include</h2>
       <ul>

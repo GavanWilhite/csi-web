@@ -81,7 +81,7 @@ export function llmsIndex(base: string): string {
     "",
     l("/institute", "The Institute", "Mission, focus areas, projects, publications, events, people"),
     l("/apply", "Membership application", "How to apply"),
-    l("/contact", "Contact", "How to get in touch"),
+    l("/contact", "Contact", "The address, plus a page per reason to write in"),
     "",
     "## Optional",
     "",

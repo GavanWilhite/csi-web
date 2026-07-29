@@ -21,7 +21,8 @@ pnpm check          # content consistency (also runs as part of build)
 | `/csc26-agenda` | Full two-day agenda, pinnable |
 | `/institute` | The Institute: mission, pillars, channel, projects, publications, events, people, get involved |
 | `/apply` | Membership application |
-| `/contact` | Contact address and guidance |
+| `/contact` | The address, generic |
+| `/contact/[path]` | 10 pages, one per reason to get in touch |
 | `/disclaimer` | Legal notice, verbatim from the old site |
 | `/sitemap` | Human-readable index (`/sitemap.xml` is generated separately) |
 
@@ -44,7 +45,7 @@ after the domain moves. `pnpm build` then a run of the check in
 
 ```
 app/                 routes; globals.css holds the token layer
-components/          conference page + shared (Nav, Footer, MailLink, EmailPanel, Icon)
+components/          conference page + shared (Nav, Footer, EmailAddress, Icon)
 components/institute/ the /institute sections
 lib/                 all content, as typed data
 public/assets/       logos, portraits, project art, sponsor marks
@@ -62,7 +63,7 @@ sponsor, edit `lib/` — not a component:
 | `lib/institute.ts` | Institute copy, pillars, projects, publications, events |
 | `lib/people.ts` | 22 staff, board and council members |
 | `lib/videos.ts` | YouTube snapshot for the channel row |
-| `lib/contact.ts` | Encoded contact address, contact subjects |
+| `lib/contact.ts` | Encoded address + the 10 contact paths |
 | `lib/apply.ts` | Membership application copy |
 | `lib/legal.ts` | Disclaimer text — verbatim, do not edit |
 | `lib/sitemap.ts` | Site index, drives `/sitemap` and `/sitemap.xml` |
@@ -93,12 +94,17 @@ the eight most recent uploads, taken 2026-07-27. A build-time refresh script is
 the intended follow-up; there is deliberately no runtime API call, because that
 would break the static prerender.
 
-**Contact addresses are never written literally.** Two components, two jobs:
-`<MailLink subject={...}>GET IN TOUCH</MailLink>` for an in-context ask, and
-`<EmailPanel />` where the address itself should be visible and copyable. See
-DESIGN.md. Nothing address-shaped may appear in the served HTML — not the raw
-address and not an `[at]`/`[dot]` rendering of it, which harvesters normalise
-as a matter of course.
+**Contact addresses are never written literally.** Use `<EmailAddress />`,
+which renders the address as a mailto link with a copy button. See DESIGN.md.
+Nothing address-shaped may appear in the served HTML — not the raw address and
+not an `[at]`/`[dot]` rendering of it, which harvesters normalise as a matter
+of course.
+
+**Each reason to get in touch is a route.** `/contact/<path>`, generated from
+`contactPaths` in `lib/contact.ts` — ten of them, prerendered. They exist as
+endpoints so each can become a hosted form later without a single link
+changing. In-context CTAs link there rather than carrying a `mailto:`;
+`/contact` itself is just the address.
 
 **Adding a page? The build will fail until you index it.**
 `scripts/check-content.mjs` runs after `next build` and rejects a route that

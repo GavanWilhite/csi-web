@@ -151,3 +151,41 @@ deliberately breaking each one.
 
 Also removed one duplicated fact rather than checking it: `event.venueAddress`
 is now derived from `venueAddressParts` instead of being typed out twice.
+
+## Contact as endpoints, not a menu — shipped
+
+`/contact` reproduced the old Wix form's seven-option dropdown as seven mail
+rows and showed no address. Reworked twice on client feedback; where it landed:
+
+- **`/contact` is generic** — the address as a mailto link with a copy button
+  beside it (the ordinary copy-field affordance), and one line of guidance.
+  It does **not** list the reasons to get in touch: the CTA that raised the
+  subject is where the reader already is.
+- **Each reason is a route**: `/contact/<path>`, ten of them, prerendered from
+  `contactPaths` in `lib/contact.ts`. These are endpoints on purpose — each is
+  meant to **become a hosted form** later, at which point the page changes and
+  no link does. The first seven are the Wix dropdown's own options; the last
+  three (sponsorship, SHIELD, CTX) are asks the site makes that the form did
+  not cover.
+- **In-context CTAs link there** instead of carrying a `mailto:` —
+  Sponsors → `/contact/sponsorship`, get-involved → `/contact/partnership`,
+  the SHIELD and CTX cards → their own paths. That collapsed three components
+  to plain links and let `MailLink` be deleted entirely, along with
+  `mailSubject` on `Project` and `Route`.
+
+**The address is one text node**, not split across elements. Splitting buys
+nothing (it is already absent from the HTML, so the only scrapers left run JS
+and read `textContent`) and injects whitespace or newlines into the clipboard,
+producing an address that looks right and pastes broken.
+
+Verified in-browser: `writeText` resolves with the exact address and no
+whitespace; the confirmation label flips within 3ms and reverts after 2.1s; a
+drag-select across the address yields exactly the address; keyboard focus
+reaches the copy button and shows the cyan ring; 40/40 overflow checks clean
+across 10 routes; unknown slugs 404; nothing orphaned — every contact path has
+an inbound link, the four with CTAs have two.
+
+**Measurement note:** `getComputedStyle(el, ':focus-visible')` returns the base
+style, not the focused one — pseudo-*classes* are not readable that way. It
+looked like the focus ring was missing when it was not. Check focus with a real
+Tab and a screenshot.

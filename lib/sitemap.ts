@@ -13,6 +13,7 @@
 
 import { instituteLinks } from "./institute";
 import { links } from "./event";
+import { contactHref, contactPaths } from "./contact";
 
 export interface SitemapEntry {
   href: string;
@@ -89,9 +90,16 @@ export const sitemapGroups: SitemapGroup[] = [
     ],
   },
   {
+    heading: "Get in touch",
+    href: links.contact,
+    entries: contactPaths.map((p) => ({
+      href: contactHref(p.slug),
+      label: p.label,
+    })),
+  },
+  {
     heading: "About",
     entries: [
-      { href: links.contact, label: "Contact" },
       { href: links.disclaimer, label: "Disclaimer" },
       { href: links.donate, label: "Donate", external: true },
       /* Self-referential, but it belongs in the XML and costs one row here. */

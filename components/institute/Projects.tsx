@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Icon } from "../Icon";
 import { LoopVideo } from "./LoopVideo";
-import { MailLink } from "../MailLink";
 import { projects } from "@/lib/institute";
 import styles from "./Projects.module.css";
 
@@ -56,15 +55,9 @@ export function Projects() {
                 </h3>
                 <p className={styles.blurb}>{pr.blurb}</p>
 
-                {pr.mailSubject ? (
-                  <MailLink className={styles.cta} subject={pr.mailSubject}>
-                    {pr.ctaLabel}
-                  </MailLink>
-                ) : (
-                  <a className={styles.cta} href={pr.href}>
-                    {pr.ctaLabel}
-                  </a>
-                )}
+                <a className={styles.cta} href={pr.href}>
+                  {pr.ctaLabel}
+                </a>
               </div>
             </li>
           ))}

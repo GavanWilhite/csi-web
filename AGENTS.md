@@ -153,8 +153,12 @@ code that looks right but generates nothing. Run it alone with `pnpm check`.
 - **Nothing address-shaped in the HTML.** Not `info@…`, and not
   `info [at] … [dot] org` either — the second is the pattern harvesters
   normalise first, so shipping it in static HTML defeats the whole scheme.
-  `<MailLink>` (in-context ask) and `<EmailPanel>` (visible address) handle
-  this; do not hand-roll a mailto, and do not split an address across elements
-  — see DESIGN.md for why that is worse, not better.
+  `<EmailAddress />` handles this; do not hand-roll a mailto, and do not split
+  an address across elements — see DESIGN.md for why that is worse, not better.
+- **A reason to get in touch is a route, not a mailto.** Each lives at
+  `/contact/<path>`, generated from `contactPaths` in `lib/contact.ts`, so it
+  can become a hosted form later without any link changing. Link CTAs there.
+  `/contact` itself stays generic — it does not list them, because the CTA
+  that raised the subject is where the reader already is.
 - `TextPage`'s prose CSS is scoped to `:not([class])` on purpose. A bare
   `.body p` rule outranks a child page's own class and silently overrides it.

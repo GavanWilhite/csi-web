@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* No !important needed: TextPage's prose rules are scoped to
+     p:not([class]), so a classed paragraph keeps its own margin. */
+  margin: 0 0 26px;
+}
+
+.address {
+  font-family: var(--font-mono);
+  font-size: clamp(15px, 3.2vw, 18px);
+  color: var(--ink);
+  /* One long unbreakable token; without this it forces the page wide at
+     360px. */
+  overflow-wrap: anywhere;
+}
+.address:hover {
+  color: var(--indigo-deep);
+}
+
+.address[data-pending] {
+  color: var(--muted);
+}
+
+/* Icon-only ghost button, the usual copy-field affordance. */
+.copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex: none;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.copy:hover:not(:disabled) {
+  border-color: var(--indigo-deep);
+  color: var(--indigo-deep);
+}
+.copy:disabled {
+  cursor: default;
+  opacity: 0.5;
+}

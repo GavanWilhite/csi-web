@@ -1,26 +1,19 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { TextPage } from "@/components/TextPage";
-import { EmailPanel } from "@/components/EmailPanel";
-import { instituteLinks } from "@/lib/institute";
-import { links } from "@/lib/event";
+import { EmailAddress } from "@/components/EmailAddress";
 
 /**
  * Replaces the old site's /contact, at the same path.
  *
- * The original was a Wix Form posting to Wix; this site is static and has
- * nothing to accept a POST, so contact is an email address.
+ * Deliberately generic: the address, and one line about what to say. It does
+ * NOT enumerate the reasons to get in touch. Those live at /contact/<path>
+ * and are reached from the CTA that raised them — the sponsors section links
+ * to /contact/sponsorship, get-involved to /contact/partnership, the
+ * programme cards to /contact/shield and /contact/ctx. Listing them again
+ * here would make the reader choose twice for no gain.
  *
- * It used to reproduce that form's seven-item "what does your message relate
- * to?" dropdown as seven mail links. That was the wrong shape: the site
- * already asks in context — the sponsors section asks for the prospectus,
- * get-involved asks about partnership, the programme cards ask about SHIELD
- * and CTX — so a second, decontextualised list of the same asks just made
- * the reader choose twice. This page is now the fallback for everything
- * those in-context asks do not cover: the address, and what to say.
- *
- * The full original option list is preserved in
- * docs/source-content/contact.md if a real form is ever built.
+ * The full set is indexed on /sitemap, which is the right place for an
+ * exhaustive list.
  */
 export const metadata: Metadata = {
   title: "Contact — Cognitive Security Institute",
@@ -35,31 +28,12 @@ export default function ContactPage() {
       /* The source page's own subhead, verbatim. */
       deck="Whether looking to collaborate, ask a question, or share your story, we'd love to hear from you."
     >
-      <EmailPanel />
+      <EmailAddress />
 
-      <h2>What to include</h2>
       <p>
-        Tell us who you are and what the message is about — a partnership,
-        sponsorship, a collaboration or research proposal, volunteering, an
-        event or programme idea, or a general question. Naming it in the
+        Tell us who you are and what your message is about — naming it in the
         subject line gets it to the right person faster.
       </p>
-
-      <h2>Some things have their own route</h2>
-      <ul>
-        <li>
-          <Link href={instituteLinks.apply}>Applying for membership</Link> — what
-          to send is listed there.
-        </li>
-        <li>
-          <Link href="/#sponsors">Sponsoring CSC 2026</Link> — ask for the
-          prospectus.
-        </li>
-        <li>
-          <a href={links.donate}>Donating</a> — goes straight through Zeffy, no
-          need to email.
-        </li>
-      </ul>
     </TextPage>
   );
 }
