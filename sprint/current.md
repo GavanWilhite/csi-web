@@ -26,6 +26,18 @@ client answers.
   Reproduced verbatim rather than silently corrected — editing published
   legal wording is the client's call. See `lib/legal.ts`.
 
+## The cutover has not happened
+
+`cognitivesecurityinstitute.org` still resolves to the old Wix site (checked
+2026-07-29: `/contact/sponsorship` 404s, `/about` 200s instead of 308ing, and
+`/llms.txt` there is Wix's own auto-generated file). Pushes deploy to Vercel,
+but the public domain is untouched.
+
+**Nothing in `lib/redirects.ts` does anything until DNS moves**, so the ~50
+old URLs are not yet being caught in production. Pointing the domain at Vercel
+is the step that makes this site the real one — and the step after which the
+Wix site can safely be switched off.
+
 ## Deployment
 
 Connected to Vercel through the GitHub integration: **a push to `main` is a

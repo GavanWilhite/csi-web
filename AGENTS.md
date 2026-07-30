@@ -9,11 +9,18 @@ This version has breaking changes — APIs, conventions, and file structure may 
 ## ⚠️ This repo is live — pushing publishes
 
 It is connected to Vercel through the GitHub integration and **every push to
-`main` deploys straight to production**, at the Cognitive Security Institute's
-public domain. There is no staging step and no manual promote.
+`main` deploys straight to production**. There is no staging step and no
+manual promote.
 
-So `git push` here is not "saving work" — it is putting it in front of the
-public, a conference audience and the institute's own members. Treat it as an
+**One caveat, checked 2026-07-29:** `cognitivesecurityinstitute.org` still
+resolves to the **old Wix site**, not this one — `/contact/sponsorship` 404s
+there, `/about` returns 200 instead of our 308, and the `/llms.txt` it serves
+is Wix's own auto-generated file, not ours. So a push currently publishes to
+the Vercel production URL, and the public domain is unaffected until the DNS
+cutover happens. Re-check before assuming either way; do not treat this note
+as current.
+
+Either way `git push` here is not "saving work" — it publishes. Treat it as an
 outward-facing action:
 
 - **Do not push unless you were asked to.** Commit freely; pushing is a

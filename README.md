@@ -141,6 +141,11 @@ deploys to production.** No staging step, no manual promote — see the warning
 at the top of [AGENTS.md](./AGENTS.md) before pushing. Other branches get
 preview deployments.
 
+**The public domain has not been cut over yet.** As of 2026-07-29,
+`cognitivesecurityinstitute.org` still serves the old Wix site, so pushes land
+on the Vercel URL only. Nothing in `lib/redirects.ts` is in effect until DNS
+moves — that is the switch that makes this site the real one.
+
 No environment variables are required. There is no `.vercel/` directory in
 the repo and there does not need to be; the project link lives on Vercel's
 side.
